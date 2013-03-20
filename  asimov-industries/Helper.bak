@@ -1,0 +1,153 @@
+bool turn=false;
+bool fek=true;
+int power=60;
+bool seted=false;
+task MotorA()//---------------------------- M o t o r  A -----------------------
+  {
+  while(true)
+  {
+   until(ButtonPressed(BTN3,true)==1);
+      if(turn==false){OnFwd(OUT_A, power);}
+      else{OnRev(OUT_A, power);}
+   until(ButtonPressed(BTN3,true)==0);
+     Off(OUT_A);
+     if(fek==false){Coast(OUT_A);}
+   }
+
+  }
+  task MotorB()//------------------------Motor B--------------------------------
+  {
+  while(true)
+  {
+   until(ButtonPressed(BTN2,true)==1);
+       if(turn==false){OnFwd(OUT_B, power);}
+      else{OnRev(OUT_B, power);}
+
+   until(ButtonPressed(BTN2,true)==0);
+      Off(OUT_B);
+     if(fek==false){Coast(OUT_B);}
+   }
+  }
+  task MotorTurn()//-----------------------Motor Turn(UP/DOWN)------------------
+  {
+  while(true)
+  {
+   until(ButtonPressed(BTN4,true)==1);
+      if(turn==false){turn=true;
+      ClearLine(LCD_LINE2);
+      TextOut(0, LCD_LINE2, "Turn: DOWN");
+      }
+      else{turn=false;
+      ClearLine(LCD_LINE2);
+      TextOut(0, LCD_LINE2, "Turn: UP");}
+   until(ButtonPressed(BTN4,true)==0);
+
+   }
+  }
+  task MotorBreak()//---------------------Motor Break---------------------------
+  {
+  while(true)
+  {
+   SetSensor(IN_1, SENSOR_TOUCH);
+   until(SENSOR_1==1);
+      if(fek==false){fek=true;
+      Off(OUT_AB);
+      ClearLine(LCD_LINE3);
+      TextOut(0, LCD_LINE3, "Break: ON");
+      }
+      else{fek=false;
+      Coast(OUT_AB);
+      ClearLine(LCD_LINE3);
+      TextOut(0, LCD_LINE3, "Break: OFF");}
+   until(SENSOR_1==0);
+   }
+  }
+task MotorPosition()//----------------Motor Position----------------------------
+{
+int AP, AT;
+int BP, BT;
+while(true)
+{
+ if(AP!=MotorRotationCount(OUT_A)||BP!=MotorRotationCount(OUT_B)){
+     AP=MotorRotationCount(OUT_A);
+     BP=MotorRotationCount(OUT_B);
+     AT=AP/360;
+     BT=BP/360;
+     ClearLine(LCD_LINE4);
+     ClearLine(LCD_LINE5);
+     TextOut(0, LCD_LINE4,"A: "+ NumToStr(AP)+"");
+     TextOut(0, LCD_LINE5,"B: "+ NumToStr(BP)+"");
+     TextOut(60, LCD_LINE4,NumToStr(AT)+"");
+     TextOut(60, LCD_LINE5,NumToStr(BT)+"");}
+     Wait(100);
+}
+
+}
+task SetPowerPlus()//------------------------Set Power--------------------------
+{
+  while(true)
+ {
+
+  until(ButtonPressed(BTN2,true)==1||seted==true);
+  if(seted==true){break;}else{
+  if(power-10>=10){power=power+10;}}
+  until(ButtonPressed(BTN2,true)==0);
+  ClearLine(LCD_LINE2);
+ TextOut(0, LCD_LINE2,"Power: "+ NumToStr(power)+"%");
+ }
+}
+task SetPowerMinus()
+{
+
+ while(true)
+ {
+
+  until(ButtonPressed(BTN3,true)==1||seted==true);
+  if(seted==true){break;}else{
+  if(power-10>=10){power=power-10;}}
+  until(ButtonPressed(BTN3,true)==0);
+  ClearLine(LCD_LINE2);
+ TextOut(0, LCD_LINE2,"Power: "+ NumToStr(power)+"%");
+ }
+}
+task QuitSet()//----------------------------Exit Set----------------------------
+{
+
+ while(true)
+ {
+  until(ButtonPressed(BTN4,true)==1);
+  seted=true;
+  until(ButtonPressed(BTN4,true)==0);
+ }
+}
+//--------------------------------- M A I N ------------------------------------
+task main()
+{
+   TextOut(0, LCD_LINE1, "Set Power:");
+   TextOut(0, LCD_LINE2,"Power: "+ NumToStr(power)+"%");
+   TextOut(0, LCD_LINE3,"Press enter to");
+   TextOut(0, LCD_LINE4,"set!");
+   TextOut(42, LCD_LINE7,"- <  > +");
+   start QuitSet;
+   start SetPowerMinus;
+   start SetPowerPlus;
+   until(seted==true);
+   ClearScreen();
+   TextOut(0, LCD_LINE1,"Power: "+ NumToStr(power)+"%");
+   TextOut(0, LCD_LINE3, "Break: ON");
+   TextOut(0, LCD_LINE2, "Turn: UP");
+   TextOut(42, LCD_LINE7,"A < TURN > B");
+   TextOut(42, LCD_LINE7,"    EXIT");
+   Off(OUT_AB);
+   start MotorA;
+   start MotorB;
+   start MotorTurn;
+   start MotorBreak;
+   start MotorPosition;
+   until(false);
+  }
+
+
+
+}
+
