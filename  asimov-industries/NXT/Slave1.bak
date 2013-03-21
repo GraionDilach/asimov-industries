@@ -3,7 +3,7 @@
  //---------------- S l a v e  v1.0 -----------------------
  //-----------------------------------------------------------
 
- #define BTCONN 1
+ #define BTCONN 0
  #define INBOX 5
  #define OUTBOX 2
  #define 	BTN4 3
@@ -20,10 +20,10 @@
  int RB=0;
  int RC=0;
  int realTurn=0;
+ bool free=true;
 
  //----------------------- O p t i o n s --------
  int power=40;//%
- bool BreakSystem=true;//On-Off
  int ack=0xFF; //Message ACK
  int endProcess=0xFA; //Motor processing Done ACK
  int CheckTime=50; //Message checking intervallum
@@ -38,9 +38,17 @@
  }
  task LedGreen()
  {
- SetSensorColorGreen(IN_4);
- Wait(FlashTime);
- SetSensorColorNone(IN_4);
+  SetSensorColorBlue(IN_4);
+  Wait(FlashTime);
+  SetSensorColorNone(IN_4);
+  Wait(50);
+  while(free==true)
+  {
+             SetSensorColorGreen(IN_4);
+             Wait(500);
+             SetSensorColorNone(IN_4);
+             Wait(500);}
+
  }
  task LedBlue()
  {
@@ -118,15 +126,13 @@
       TextOut(30,LCD_LINE5,"A");
       return AP;
    }
+   else
+   {
+       TextOut(70,LCD_LINE5,"B");
+
+       return BP;
+   }
 }
- float Difference()
- {
-  float diff;
-  diff=RA-RB;
-  diff=diff/RA;
-  diff=diff*100;
-  return diff;
- }
  //-----------------Driving Task-----------------------------------------------
  task Drive()
  {
@@ -137,9 +143,9 @@
       TextOut(0,LCD_LINE2,"Break ON!");
       TextOut(0,LCD_LINE3,"Waiting...");
       Off(OUT_AB);
-      Wait(2000);
+      Wait(20);
       //Recieve Commands From PC in endless cycle
-
+      start LedGreen;
       while(true){
       A=0;
       B=0;
@@ -148,6 +154,7 @@
       //Message put to "in" variable
       if (ReceiveRemoteString(INBOX, true, in)!=STAT_MSG_EMPTY_MAILBOX){
       //if get RemoteMessage that do command
+      free=false;
       SendResponseNumber(OUTBOX, ack); //send ACK
       start LedBlue;
 
@@ -156,7 +163,7 @@
 
 
       //Separate arguments
-      RA=StrToNum(SubStr(in, 0, 4));
+      RA=StrToNum(SubStr(in, 0, 5));
       RB=StrToNum(SubStr(in, 6, 10));
       RC=StrToNum(SubStr(in, 12, 16));
 
@@ -201,7 +208,7 @@
       //------------Check motor process
       realTurn=MotorRealPosition("A");
       while((A_Memory-realTurn<-1*Tolerance)||(A_Memory-realTurn>Tolerance)){
-      RotateMotorPID(OUT_A, 15, A_Memory-realTurn, 90, 40, 50);
+      RotateMotorPID(OUT_A, 20, A_Memory-realTurn, 90, 40, 50);
       realTurn=MotorRealPosition("A");
       }
       realTurn=MotorRealPosition("B");
@@ -212,7 +219,8 @@
       //------------Check motor process
 
       SendResponseNumber(OUTBOX, endProcess);
-      start LedBlue;
+      free=true;
+      start LedGreen;
       Off(OUT_AB);
       TextOut(0,LCD_LINE8,"Done! Break ON!");
 
