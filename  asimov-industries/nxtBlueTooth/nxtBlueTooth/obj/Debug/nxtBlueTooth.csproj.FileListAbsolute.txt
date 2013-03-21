@@ -1,0 +1,7 @@
+g:\NXT\NXTBT\nxtBlueTooth\nxtBlueTooth\bin\Debug\nxtBlueTooth.exe
+g:\NXT\NXTBT\nxtBlueTooth\nxtBlueTooth\bin\Debug\nxtBlueTooth.pdb
+g:\NXT\NXTBT\nxtBlueTooth\nxtBlueTooth\obj\Debug\nxtBlueTooth.Form1.resources
+g:\NXT\NXTBT\nxtBlueTooth\nxtBlueTooth\obj\Debug\nxtBlueTooth.Properties.Resources.resources
+g:\NXT\NXTBT\nxtBlueTooth\nxtBlueTooth\obj\Debug\nxtBlueTooth.csproj.GenerateResource.Cache
+g:\NXT\NXTBT\nxtBlueTooth\nxtBlueTooth\obj\Debug\nxtBlueTooth.exe
+g:\NXT\NXTBT\nxtBlueTooth\nxtBlueTooth\obj\Debug\nxtBlueTooth.pdb
