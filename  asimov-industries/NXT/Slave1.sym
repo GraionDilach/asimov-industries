@@ -1,494 +1,492 @@
 #SYMBOLS
 Index	Identifier	Type	Flag	Data	Size	RefCount
-0	__Wait_7qG2_ms_7qG2_000_inline_LedRed	5	1	0	4	6
-1	__rotate_angle3	6	1	4	4	7
-2	__rotate_theAngle1	5	1	8	4	2
-3	__signed_stack_001LedGreen	6	1	12	4	2
-4	__signed_stack_007MotorAB	6	1	16	4	2
-5	__signed_stack_001MotorABInverse	6	1	20	4	8
-6	__SRNTmpVal	6	1	24	4	4
-7	__signed_stack_006MotorAB	6	1	28	4	2
-8	__Wait_7qG2_ms_7qG2_000_inline_LedGreen	5	1	32	4	8
-9	__signed_stack_004Drive	6	1	36	4	4
-10	__signed_stack_004MotorAB	6	1	40	4	2
-11	__signed_stack_003Drive	6	1	44	4	4
-12	__TextOutMutex	9	0	48	4	46
-13	__unsigned_stack_002Drive	5	1	52	4	2
-14	__unsigned_stack_001Drive	5	1	56	4	2
-15	__signed_stack_005MotorAB	6	1	60	4	2
-16	__ResetSensorMutex	9	0	64	4	18
-17	__MRMutex	9	0	68	4	2
-18	__rotate_theAngle3	5	1	72	4	2
-19	__signed_stack_002MotorB	6	1	76	4	2
-20	__signed_stack_003MotorB	6	1	80	4	2
-21	__signed_stack_001MotorRealPosition	6	1	84	4	12
-22	__signed_stack_004MotorB	6	1	88	4	2
-23	__signed_stack_001main	6	1	92	4	12
-24	__signed_stack_002MotorRealPosition	6	1	96	4	12
-25	__unsigned_stack_001LedGreen	5	1	100	4	2
-26	__signed_stack_004MotorABInverse	6	1	104	4	4
-27	__signed_stack_002MotorABInverse	6	1	108	4	6
-28	__signed_stack_003MotorABInverse	6	1	112	4	4
-29	__signed_stack_007MotorABInverse	6	1	116	4	4
+0	__signed_stack_001BTCheck	6	1	0	4	4
+1	__signed_stack_002BTCheck	6	1	4	4	2
+2	__signed_stack_001Drive	6	1	8	4	50
+3	__D0MotorRealPosition	6	1	12	4	21
+4	__D0MotorAB	6	1	16	4	2
+5	__D0MotorABInverse	6	1	20	4	12
+6	__D0MotorB	6	1	24	4	2
+7	__unsigned_stack_002Drive	5	1	28	4	2
+8	__signed_stack_001LedGreen	6	1	32	4	2
+9	__unsigned_stack_001LedGreen	5	1	36	4	2
+10	__unsigned_stack_001Drive	5	1	40	4	2
+11	__signed_stack_002Drive	6	1	44	4	32
+12	__signed_stack_003Drive	6	1	48	4	4
+13	__signed_stack_004Drive	6	1	52	4	4
+14	__D0MotorA	6	1	56	4	2
+15	__KeepAliveMutex	9	0	60	4	2
+16	__RBtnMutex	9	0	64	4	2
+17	__IOMWMutex	9	0	68	4	2
+18	__PointOutMutex	9	0	72	4	6
+19	__rotate_theAngle3	5	1	76	4	2
+20	__ResetSensorMutex	9	0	80	4	18
+21	__TextOutMutex	9	0	84	4	46
+22	__D0Drive	6	1	88	4	81
+23	__D0LedGreen	6	1	92	4	6
+24	__D0main	6	1	96	4	15
+25	__D0BTCheck	6	1	100	4	4
+26	__MWMutex	9	0	104	4	4
+27	__MRMutex	9	0	108	4	2
+28	__SRNTmpVal	6	1	112	4	4
+29	__signed_stack_001main	6	1	116	4	12
 30	__signed_stack_001MotorB	6	1	120	4	2
-31	__signed_stack_005MotorABInverse	6	1	124	4	4
-32	__signed_stack_006MotorABInverse	6	1	128	4	4
-33	__D0MotorB	6	1	132	4	2
-34	__D0MotorRealPosition	6	1	136	4	21
-35	__signed_stack_002main	6	1	140	4	6
-36	__D0LedGreen	6	1	144	4	6
-37	__signed_stack_001BTCheck	6	1	148	4	4
-38	__Wait_7qG2_ms_7qG2_000_inline_Drive	5	1	152	4	4
-39	__signed_stack_001MotorA	6	1	156	4	2
-40	__D0Drive	6	1	160	4	81
-41	__rotateMutex1	9	0	164	4	10
-42	__D0MotorA	6	1	168	4	2
-43	__MWMutex	9	0	172	4	4
-44	__rotateMutex0	9	0	176	4	10
-45	__D0MotorABInverse	6	1	180	4	12
-46	__D0main	6	1	184	4	15
-47	__rotate_angle0	6	1	188	4	6
-48	__D0MotorAB	6	1	192	4	2
-49	__IOMWMutex	9	0	196	4	2
-50	__signed_stack_001Drive	6	1	200	4	50
-51	__signed_stack_002Drive	6	1	204	4	32
-52	__signed_stack_001MotorAB	6	1	208	4	2
-53	__D0BTCheck	6	1	212	4	4
-54	__PointOutMutex	9	0	216	4	6
-55	__signed_stack_003MotorAB	6	1	220	4	2
-56	__Wait_7qG2_ms_7qG2_000_inline_BTCheck	5	1	224	4	2
-57	__signed_stack_002MotorAB	6	1	228	4	2
-58	__RBtnMutex	9	0	232	4	2
-59	__KeepAliveMutex	9	0	236	4	2
-60	__signed_stack_002MotorA	6	1	240	4	2
-61	__signed_stack_003MotorA	6	1	244	4	2
-62	__signed_stack_004MotorA	6	1	248	4	2
-63	__rotate_angle1	6	1	252	4	6
-64	__rotate_theAngle0	5	1	256	4	2
-65	__signed_stack_002BTCheck	6	1	260	4	2
-66	__BTCheck_7qG2_conn_7qG2_000	4	1	264	2	2
-67	__constVal200	4	0	266	2	6
-68	__MotorRealPosition_7qG2_AP_7qG2_000	4	1	268	2	4
-69	__rotate_OldRotCount1	4	1	270	2	2
+31	__signed_stack_002MotorB	6	1	124	4	2
+32	__signed_stack_003MotorB	6	1	128	4	2
+33	__signed_stack_007MotorABInverse	6	1	132	4	4
+34	__signed_stack_004MotorABInverse	6	1	136	4	4
+35	__signed_stack_005MotorABInverse	6	1	140	4	4
+36	__signed_stack_006MotorABInverse	6	1	144	4	4
+37	__Wait_7qG2_ms_7qG2_000_inline_LedGreen	5	1	148	4	8
+38	__Wait_7qG2_ms_7qG2_000_inline_BTCheck	5	1	152	4	2
+39	__Wait_7qG2_ms_7qG2_000_inline_Drive	5	1	156	4	4
+40	__Wait_7qG2_ms_7qG2_000_inline_LedRed	5	1	160	4	6
+41	__signed_stack_004MotorB	6	1	164	4	2
+42	__signed_stack_001MotorRealPosition	6	1	168	4	12
+43	__signed_stack_002MotorRealPosition	6	1	172	4	12
+44	__signed_stack_003MotorABInverse	6	1	176	4	4
+45	__signed_stack_004MotorA	6	1	180	4	2
+46	__signed_stack_001MotorAB	6	1	184	4	2
+47	__signed_stack_002MotorAB	6	1	188	4	2
+48	__signed_stack_003MotorA	6	1	192	4	2
+49	__signed_stack_002main	6	1	196	4	6
+50	__signed_stack_001MotorA	6	1	200	4	2
+51	__signed_stack_002MotorA	6	1	204	4	2
+52	__signed_stack_007MotorAB	6	1	208	4	2
+53	__signed_stack_001MotorABInverse	6	1	212	4	8
+54	__signed_stack_002MotorABInverse	6	1	216	4	6
+55	__signed_stack_006MotorAB	6	1	220	4	2
+56	__signed_stack_003MotorAB	6	1	224	4	2
+57	__signed_stack_004MotorAB	6	1	228	4	2
+58	__signed_stack_005MotorAB	6	1	232	4	2
+59	__rotate_theAngle1	5	1	236	4	2
+60	__rotateMutex1	9	0	240	4	10
+61	__rotate_angle0	6	1	244	4	6
+62	__rotate_angle3	6	1	248	4	7
+63	__rotate_theAngle0	5	1	252	4	2
+64	__rotate_angle1	6	1	256	4	6
+65	__rotateMutex0	9	0	260	4	10
+66	ack	4	0	264	2	1
+67	endProcess	4	0	266	2	1
+68	__constVal128	4	0	268	2	8
+69	power	4	0	270	2	5
 70	__LedGreen_7qG2_i_7qG2_000	4	1	272	2	4
-71	__constVal128	4	0	274	2	8
-72	__MotorRealPosition_7qG2_BP_7qG2_000	4	1	276	2	4
-73	__Drive_7qG2_B_7qG2_000	4	1	278	2	2
-74	__Drive_7qG2_C_7qG2_000	4	1	280	2	2
-75	__constVal23040	4	0	282	2	1
-76	__Drive_7qG2_A_7qG2_000	4	1	284	2	2
-77	__rotate_RotCount0	4	1	286	2	4
-78	__rotate_OldRotCount0	4	1	288	2	2
-79	__rotate_RotCount1	4	1	290	2	4
-80	B_Memory	4	1	292	2	6
-81	RA	4	1	294	2	11
-82	RB	4	1	296	2	8
-83	__rotate_RotCount3	4	1	298	2	4
-84	__rotate_OldRotCount3	4	1	300	2	2
-85	A_Memory	4	1	302	2	6
-86	realTurn	4	1	304	2	10
-87	CheckTime	4	0	306	2	1
-88	FlashTime	4	0	308	2	2
-89	Tolerance	4	0	310	2	4
-90	power	4	0	312	2	5
-91	ack	4	0	314	2	1
-92	endProcess	4	0	316	2	1
-93	__zfMotorABInverse	1	1	318	1	7
-94	__zfMotorRealPosition	1	1	319	1	3
-95	__LedRed_Spawner_return	1	1	320	1	1
-96	__MotorAB_Spawner_return	1	1	321	1	1
-97	__MotorABInverse_Spawner_return	1	1	322	1	1
-98	__MotorRealPosition_return	1	1	323	1	8
-99	__ClearLine_7qG2_line_7qG2_000_inline_MotorRealPosition	1	1	324	1	4
-100	__LedGreen_Spawner_return	1	1	325	1	2
-101	__MotorA_Spawner_return	1	1	326	1	1
-102	__Drive_Spawner_return	1	1	327	1	1
-103	__SetSensor_7qG2_port_7qG2_000_inline_main	1	1	328	1	4
-104	__constVal24	2	0	329	1	1
-105	__MotorB_Spawner_return	1	1	330	1	1
-106	__ClearLine_7qG2_line_7qG2_000_inline_Drive	1	1	331	1	4
-107	____initialize_global_data_return	1	1	332	1	3
-108	__SetSensorColorBlue_7qG2_port_7qG2_000_inline_LedRed	1	1	333	1	4
-109	__SetSensorColorNone_7qG2_port_7qG2_000_inline_LedRed	1	1	334	1	8
-110	__constVal17	2	0	335	1	4
-111	A_Done	1	1	336	1	5
-112	B_Done	1	1	337	1	5
-113	free	1	0	338	1	3
-114	__SetSensorColorRed_7qG2_port_7qG2_000_inline_LedRed	1	1	339	1	4
-115	__BTCheck_return	1	1	340	1	3
-116	__constVal96	2	0	341	1	3
-117	__constVal63	2	0	342	1	2
-118	__SetSensorColorBlue_7qG2_port_7qG2_000_inline_LedGreen	1	1	343	1	4
-119	__SetSensorColorNone_7qG2_port_7qG2_000_inline_LedGreen	1	1	344	1	8
-120	__SetSensorColorGreen_7qG2_port_7qG2_000_inline_LedGreen	1	1	345	1	4
-121	__rotate_power3	1	1	346	1	6
-122	__rotate_theTurnPct1	2	1	347	1	4
-123	__rotate_firstPort3	1	1	348	1	5
-124	__rotate_stop3	1	1	349	1	4
-125	__rotate_sync3	1	1	350	1	4
-126	__rotate_thePower1	2	1	351	1	4
-127	__rotate_theRVP1	1	1	352	1	3
-128	__rotate_theRS1	1	1	353	1	3
-129	__rotate_theRVI1	1	1	354	1	3
-130	__rotate_rs1	1	1	355	1	2
-131	__rotate_theRVD1	1	1	356	1	3
-132	__rotate_theRVD3	1	1	357	1	4
-133	__rotate_theRVI3	1	1	358	1	4
-134	__rotate_rs3	1	1	359	1	2
-135	__rotate_theTurnPct3	2	1	360	1	4
-136	__rotate_thePower3	2	1	361	1	4
-137	__rotate_theRVP3	1	1	362	1	4
-138	__rotate_theUF3	1	1	363	1	6
-139	__rotate_turnpct3	2	1	364	1	5
-140	__rotate_theOM3	1	1	365	1	7
-141	__rotate_theRS3	1	1	366	1	3
-142	__rotate_theRM3	1	1	367	1	4
-143	__rotate_theRM1	1	1	368	1	4
-144	__rotate_theRM0	1	1	369	1	4
-145	__rotate_theOM0	1	1	370	1	7
-146	__rotate_theRS0	1	1	371	1	3
-147	__rotate_theRVI0	1	1	372	1	3
-148	__rotate_theRVP0	1	1	373	1	3
-149	__rotate_theUF0	1	1	374	1	6
-150	__rotate_firstPort0	1	1	375	1	5
-151	__rotate_power0	1	1	376	1	5
-152	__rotate_sync0	1	1	377	1	3
-153	__rotate_turnpct0	2	1	378	1	4
-154	__rotate_stop0	1	1	379	1	3
-155	__rotate_stop1	1	1	380	1	3
-156	__rotate_sync1	1	1	381	1	3
-157	__rotate_turnpct1	2	1	382	1	4
-158	__rotate_theOM1	1	1	383	1	7
-159	__rotate_theUF1	1	1	384	1	6
-160	__rotate_firstPort1	1	1	385	1	5
-161	__rotate_rs0	1	1	386	1	2
-162	__rotate_theRVD0	1	1	387	1	3
-163	__rotate_thePower0	2	1	388	1	4
-164	__rotate_power1	1	1	389	1	5
-165	__rotate_theTurnPct0	2	1	390	1	4
-166	__constVal2	2	0	391	1	2
-167	__constVal10	2	0	392	1	2
-168	__constValNeg100	2	0	393	1	1
-169	__ResetSensorTmp	1	1	394	1	2
-170	____ResetSensorSubroutine_return	1	1	395	1	11
-171	__constVal15	2	0	396	1	1
-172	__PFTmp	1	1	397	1	1
-173	__zfDrive	1	1	398	1	39
-174	__zfLedGreen	1	1	399	1	6
-175	__zfmain	1	1	400	1	10
-176	__constVal16	2	0	401	1	2
-177	__constVal14	2	0	402	1	1
-178	__zfBTCheck	1	1	403	1	3
-179	____RotateMotor1_sign_tmp	2	1	404	1	4
-180	____RotateMotor1_return	1	1	405	1	4
-181	____RotateMotor3_return	1	1	406	1	5
-182	____RotateMotor0_return	1	1	407	1	4
-183	__constVal50	2	0	408	1	3
-184	__constVal1	2	0	409	1	21
-185	__constVal32	2	0	410	1	19
-186	____RotateMotor0_sign_tmp	2	1	411	1	4
-187	__constVal0	2	1	412	1	42
-188	__constVal3	2	0	413	1	3
-189	____RotateMotor3_sign_tmp	2	1	414	1	4
-190	__constVal5	2	0	415	1	1
-191	__ResetSensorPort	1	1	416	1	11
-192	__IOMWArgs	8	0	4	16	4
-193	__IOMWArgs.Result	2	1	420	1	4
-194	__IOMWArgs.ModuleName	7	0	422	4	4
-195	__IOMWArgs.ModuleName.ModuleName_type	1	0	0	1	0
-196	__IOMWArgs.Offset	3	1	424	2	4
-197	__IOMWArgs.Buffer	7	0	426	4	4
-198	__IOMWArgs.Buffer.Buffer_type	1	0	0	1	0
-199	__PointOutArgs	8	0	3	12	12
-200	__PointOutArgs.Result	2	1	428	1	12
-201	__PointOutArgs.Location	8	0	2	4	12
-202	__PointOutArgs.Location.X	4	1	432	2	12
-203	__PointOutArgs.Location.Y	4	1	434	2	12
-204	__PointOutArgs.Options	5	1	436	4	12
-205	__RBtnArgs	8	0	5	8	4
-206	__RBtnArgs.Result	2	1	440	1	4
-207	__RBtnArgs.Index	1	1	441	1	4
-208	__RBtnArgs.Pressed	1	1	442	1	4
-209	__RBtnArgs.Count	1	1	443	1	4
-210	__RBtnArgs.Reset	1	1	444	1	4
-211	__TextOutArgs	8	0	4	16	134
-212	__TextOutArgs.Result	2	1	448	1	134
-213	__TextOutArgs.Location	8	0	2	4	134
-214	__TextOutArgs.Location.X	4	1	452	2	134
-215	__TextOutArgs.Location.Y	4	1	454	2	134
-216	__TextOutArgs.Text	7	0	456	4	134
-217	__TextOutArgs.Text.Text_type	1	0	0	1	0
-218	__TextOutArgs.Options	5	1	460	4	134
-219	__KeepAliveArgs	8	0	1	4	2
-220	__KeepAliveArgs.Result	5	1	464	4	2
-221	__MRArgs	8	0	4	8	5
-222	__MRArgs.Result	2	1	468	1	5
-223	__MRArgs.QueueID	1	1	469	1	5
-224	__MRArgs.Remove	1	1	470	1	5
-225	__MRArgs.Message	7	0	472	4	5
-226	__MRArgs.Message.Message_type	1	0	0	1	0
-227	__MWArgs	8	0	3	8	8
-228	__MWArgs.Result	2	1	476	1	8
-229	__MWArgs.QueueID	1	1	477	1	8
-230	__MWArgs.Message	7	0	478	4	8
-231	__MWArgs.Message.Message_type	1	0	0	1	0
-232	__CBTCSArgs	8	0	2	4	4
-233	__CBTCSArgs.Result	2	1	480	1	4
-234	__CBTCSArgs.Connection	1	1	481	1	4
-235	__constStr0019	7	0	482	4	1
-236	__constStr0019.__constStr0019_type	1	1	0	1	0
-237	__strbufMotorRealPosition	7	0	484	4	16
-238	__strbufMotorRealPosition.__strbufMotorRealPosition_type	1	0	0	1	0
-239	__strretvalDrive	7	0	486	4	10
-240	__strretvalDrive.__strretvalDrive_type	1	0	0	1	0
-241	__strtmpbufMotorRealPosition	7	0	488	4	2
-242	__strtmpbufMotorRealPosition.__strtmpbufMotorRealPosition_type	1	0	0	1	0
-243	__constStr0018	7	0	490	4	1
-244	__constStr0018.__constStr0018_type	1	1	0	1	0
-245	__OUT_AB	7	0	492	4	6
-246	__OUT_AB.__OUT_AB_type	1	0	0	1	0
-247	__strbufDrive	7	0	494	4	43
-248	__strbufDrive.__strbufDrive_type	1	0	0	1	0
-249	__constStr0024	7	0	496	4	1
-250	__constStr0024.__constStr0024_type	1	1	0	1	0
+71	Tolerance	4	0	274	2	4
+72	CheckTime	4	0	276	2	1
+73	FlashTime	4	0	278	2	2
+74	__rotate_OldRotCount0	4	1	280	2	2
+75	A_Memory	4	1	282	2	6
+76	__rotate_RotCount0	4	1	284	2	4
+77	__rotate_OldRotCount1	4	1	286	2	2
+78	__rotate_RotCount1	4	1	288	2	4
+79	realTurn	4	1	290	2	10
+80	__constVal200	4	0	292	2	6
+81	RB	4	1	294	2	8
+82	B_Memory	4	1	296	2	6
+83	RA	4	1	298	2	11
+84	__BTCheck_7qG2_conn_7qG2_000	4	1	300	2	2
+85	__MotorRealPosition_7qG2_BP_7qG2_000	4	1	302	2	4
+86	__MotorRealPosition_7qG2_AP_7qG2_000	4	1	304	2	4
+87	__rotate_OldRotCount3	4	1	306	2	2
+88	__Drive_7qG2_B_7qG2_000	4	1	308	2	2
+89	__Drive_7qG2_C_7qG2_000	4	1	310	2	2
+90	__Drive_7qG2_A_7qG2_000	4	1	312	2	2
+91	__constVal23040	4	0	314	2	1
+92	__rotate_RotCount3	4	1	316	2	4
+93	__rotate_theRVI0	1	1	318	1	3
+94	__rotate_theUF0	1	1	319	1	6
+95	__rotate_stop0	1	1	320	1	3
+96	__rotate_turnpct0	2	1	321	1	4
+97	__rotate_theOM0	1	1	322	1	7
+98	__ClearLine_7qG2_line_7qG2_000_inline_Drive	1	1	323	1	4
+99	__rotate_theRM0	1	1	324	1	4
+100	__rotate_theRS0	1	1	325	1	3
+101	____initialize_global_data_return	1	1	326	1	3
+102	__rotate_theRVP0	1	1	327	1	3
+103	__rotate_power1	1	1	328	1	5
+104	__rotate_theTurnPct0	2	1	329	1	4
+105	__rotate_firstPort1	1	1	330	1	5
+106	__rotate_stop1	1	1	331	1	3
+107	__rotate_sync1	1	1	332	1	3
+108	__rotate_thePower0	2	1	333	1	4
+109	__rotate_rs0	1	1	334	1	2
+110	__rotate_theRVD0	1	1	335	1	3
+111	__Drive_Spawner_return	1	1	336	1	1
+112	__constVal24	2	0	337	1	1
+113	__SetSensor_7qG2_port_7qG2_000_inline_main	1	1	338	1	4
+114	__rotate_power0	1	1	339	1	5
+115	__SetSensorColorNone_7qG2_port_7qG2_000_inline_LedRed	1	1	340	1	8
+116	__constVal17	2	0	341	1	4
+117	__MotorRealPosition_return	1	1	342	1	8
+118	__constVal63	2	0	343	1	2
+119	__SetSensorColorBlue_7qG2_port_7qG2_000_inline_LedRed	1	1	344	1	4
+120	__SetSensorColorNone_7qG2_port_7qG2_000_inline_LedGreen	1	1	345	1	8
+121	__BTCheck_return	1	1	346	1	3
+122	__SetSensorColorGreen_7qG2_port_7qG2_000_inline_LedGreen	1	1	347	1	4
+123	__SetSensorColorRed_7qG2_port_7qG2_000_inline_LedRed	1	1	348	1	4
+124	__SetSensorColorBlue_7qG2_port_7qG2_000_inline_LedGreen	1	1	349	1	4
+125	__constVal96	2	0	350	1	3
+126	A_Done	1	1	351	1	5
+127	B_Done	1	1	352	1	5
+128	__MotorA_Spawner_return	1	1	353	1	1
+129	__rotate_sync0	1	1	354	1	3
+130	__rotate_firstPort0	1	1	355	1	5
+131	__MotorB_Spawner_return	1	1	356	1	1
+132	__LedGreen_Spawner_return	1	1	357	1	2
+133	free	1	0	358	1	3
+134	__ClearLine_7qG2_line_7qG2_000_inline_MotorRealPosition	1	1	359	1	4
+135	__MotorABInverse_Spawner_return	1	1	360	1	1
+136	__MotorAB_Spawner_return	1	1	361	1	1
+137	__LedRed_Spawner_return	1	1	362	1	1
+138	__rotate_turnpct1	2	1	363	1	4
+139	__PFTmp	1	1	364	1	1
+140	__constVal16	2	0	365	1	2
+141	__constVal14	2	0	366	1	1
+142	__rotate_turnpct3	2	1	367	1	5
+143	__constVal3	2	0	368	1	3
+144	__constValNeg100	2	0	369	1	1
+145	__zfBTCheck	1	1	370	1	3
+146	____RotateMotor1_sign_tmp	2	1	371	1	4
+147	__rotate_sync3	1	1	372	1	4
+148	____RotateMotor3_sign_tmp	2	1	373	1	4
+149	____RotateMotor3_return	1	1	374	1	5
+150	__rotate_stop3	1	1	375	1	4
+151	__rotate_rs3	1	1	376	1	2
+152	__rotate_theRS3	1	1	377	1	3
+153	__rotate_theRVD3	1	1	378	1	4
+154	____ResetSensorSubroutine_return	1	1	379	1	11
+155	__rotate_theRVI3	1	1	380	1	4
+156	__constVal15	2	0	381	1	1
+157	__rotate_theRVP3	1	1	382	1	4
+158	__rotate_theOM3	1	1	383	1	7
+159	__ResetSensorPort	1	1	384	1	11
+160	__rotate_theUF3	1	1	385	1	6
+161	__rotate_theRM3	1	1	386	1	4
+162	__ResetSensorTmp	1	1	387	1	2
+163	__constVal10	2	0	388	1	2
+164	__zfDrive	1	1	389	1	39
+165	__rotate_rs1	1	1	390	1	2
+166	__rotate_theRVD1	1	1	391	1	3
+167	__rotate_theRVI1	1	1	392	1	3
+168	____RotateMotor0_sign_tmp	2	1	393	1	4
+169	____RotateMotor0_return	1	1	394	1	4
+170	__rotate_theTurnPct3	2	1	395	1	4
+171	__rotate_theRM1	1	1	396	1	4
+172	__rotate_theOM1	1	1	397	1	7
+173	__rotate_theUF1	1	1	398	1	6
+174	__rotate_theRVP1	1	1	399	1	3
+175	__rotate_theRS1	1	1	400	1	3
+176	__rotate_thePower3	2	1	401	1	4
+177	__zfMotorRealPosition	1	1	402	1	3
+178	__rotate_firstPort3	1	1	403	1	5
+179	__zfLedGreen	1	1	404	1	6
+180	__constVal1	2	0	405	1	23
+181	____RotateMotor1_return	1	1	406	1	4
+182	__constVal50	2	0	407	1	3
+183	__constVal0	2	1	408	1	43
+184	__rotate_theTurnPct1	2	1	409	1	4
+185	__zfMotorABInverse	1	1	410	1	7
+186	__rotate_thePower1	2	1	411	1	4
+187	__constVal32	2	0	412	1	19
+188	__zfmain	1	1	413	1	10
+189	__rotate_power3	1	1	414	1	6
+190	__PointOutArgs	8	0	3	12	12
+191	__PointOutArgs.Result	2	1	416	1	12
+192	__PointOutArgs.Location	8	0	2	4	12
+193	__PointOutArgs.Location.X	4	1	420	2	12
+194	__PointOutArgs.Location.Y	4	1	422	2	12
+195	__PointOutArgs.Options	5	1	424	4	12
+196	__TextOutArgs	8	0	4	16	134
+197	__TextOutArgs.Result	2	1	428	1	134
+198	__TextOutArgs.Location	8	0	2	4	134
+199	__TextOutArgs.Location.X	4	1	432	2	134
+200	__TextOutArgs.Location.Y	4	1	434	2	134
+201	__TextOutArgs.Text	7	0	436	4	134
+202	__TextOutArgs.Text.Text_type	1	0	0	1	0
+203	__TextOutArgs.Options	5	1	440	4	134
+204	__MWArgs	8	0	3	8	8
+205	__MWArgs.Result	2	1	444	1	8
+206	__MWArgs.QueueID	1	1	445	1	8
+207	__MWArgs.Message	7	0	446	4	8
+208	__MWArgs.Message.Message_type	1	0	0	1	0
+209	__IOMWArgs	8	0	4	16	4
+210	__IOMWArgs.Result	2	1	448	1	4
+211	__IOMWArgs.ModuleName	7	0	450	4	4
+212	__IOMWArgs.ModuleName.ModuleName_type	1	0	0	1	0
+213	__IOMWArgs.Offset	3	1	452	2	4
+214	__IOMWArgs.Buffer	7	0	454	4	4
+215	__IOMWArgs.Buffer.Buffer_type	1	0	0	1	0
+216	__CBTCSArgs	8	0	2	4	4
+217	__CBTCSArgs.Result	2	1	456	1	4
+218	__CBTCSArgs.Connection	1	1	457	1	4
+219	__MRArgs	8	0	4	8	5
+220	__MRArgs.Result	2	1	460	1	5
+221	__MRArgs.QueueID	1	1	461	1	5
+222	__MRArgs.Remove	1	1	462	1	5
+223	__MRArgs.Message	7	0	464	4	5
+224	__MRArgs.Message.Message_type	1	0	0	1	0
+225	__RBtnArgs	8	0	5	8	4
+226	__RBtnArgs.Result	2	1	468	1	4
+227	__RBtnArgs.Index	1	1	469	1	4
+228	__RBtnArgs.Pressed	1	1	470	1	4
+229	__RBtnArgs.Count	1	1	471	1	4
+230	__RBtnArgs.Reset	1	1	472	1	4
+231	__KeepAliveArgs	8	0	1	4	2
+232	__KeepAliveArgs.Result	5	1	476	4	2
+233	__constStr0019	7	0	480	4	1
+234	__constStr0019.__constStr0019_type	1	1	0	1	0
+235	__rotate_ports3	7	0	482	4	8
+236	__rotate_ports3.__rotate_ports3_type	1	0	0	1	0
+237	__constStr0021	7	0	484	4	1
+238	__constStr0021.__constStr0021_type	1	1	0	1	0
+239	__constStr0020	7	0	486	4	1
+240	__constStr0020.__constStr0020_type	1	1	0	1	0
+241	__strbufDrive	7	0	488	4	43
+242	__strbufDrive.__strbufDrive_type	1	0	0	1	0
+243	__strbufBTCheck	7	0	490	4	2
+244	__strbufBTCheck.__strbufBTCheck_type	1	0	0	1	0
+245	__strretvalDrive	7	0	492	4	10
+246	__strretvalDrive.__strretvalDrive_type	1	0	0	1	0
+247	__rotate_ports0	7	0	494	4	7
+248	__rotate_ports0.__rotate_ports0_type	1	0	0	1	0
+249	__strbufmain	7	0	496	4	6
+250	__strbufmain.__strbufmain_type	1	0	0	1	0
 251	__constStr0025	7	0	498	4	1
 252	__constStr0025.__constStr0025_type	1	1	0	1	0
-253	__strbufmain	7	0	500	4	6
-254	__strbufmain.__strbufmain_type	1	0	0	1	0
-255	__rotate_ports0	7	0	502	4	7
-256	__rotate_ports0.__rotate_ports0_type	1	0	0	1	0
-257	__constStr0021	7	0	504	4	1
-258	__constStr0021.__constStr0021_type	1	1	0	1	0
-259	__constStr0020	7	0	506	4	1
-260	__constStr0020.__constStr0020_type	1	1	0	1	0
+253	__constStr0024	7	0	500	4	1
+254	__constStr0024.__constStr0024_type	1	1	0	1	0
+255	__strbufMotorRealPosition	7	0	502	4	16
+256	__strbufMotorRealPosition.__strbufMotorRealPosition_type	1	0	0	1	0
+257	__strtmpbufMotorRealPosition	7	0	504	4	2
+258	__strtmpbufMotorRealPosition.__strtmpbufMotorRealPosition_type	1	0	0	1	0
+259	__rotate_ports1	7	0	506	4	7
+260	__rotate_ports1.__rotate_ports1_type	1	0	0	1	0
 261	__constStr0023	7	0	508	4	1
 262	__constStr0023.__constStr0023_type	1	1	0	1	0
-263	__constStr0022	7	0	510	4	1
-264	__constStr0022.__constStr0022_type	1	1	0	1	0
-265	__constStr0017	7	0	512	4	1
-266	__constStr0017.__constStr0017_type	1	1	0	1	0
-267	__constStr0010	7	0	514	4	4
-268	__constStr0010.__constStr0010_type	1	1	0	1	0
-269	__rotate_ports1	7	0	516	4	7
-270	__rotate_ports1.__rotate_ports1_type	1	0	0	1	0
-271	__Drive_7qG2_in_7qG2_000	7	0	518	4	5
-272	__Drive_7qG2_in_7qG2_000.__Drive_7qG2_in_7qG2_000_type	1	0	0	1	0
-273	__constStr0011	7	0	520	4	3
-274	__constStr0011.__constStr0011_type	1	1	0	1	0
-275	__MotorRealPosition_7qG2_Port_7qG2_000	7	0	522	4	5
-276	__MotorRealPosition_7qG2_Port_7qG2_000.__MotorRealPosition_7qG2_Port_7qG2_000_type	1	0	0	1	0
-277	__BlankLine	7	0	524	4	4
-278	__BlankLine.__BlankLine_type	1	0	0	1	0
-279	__rotate_ports3	7	0	526	4	8
-280	__rotate_ports3.__rotate_ports3_type	1	0	0	1	0
-281	__constStr0009	7	0	528	4	1
-282	__constStr0009.__constStr0009_type	1	1	0	1	0
-283	__IOMWFlattenBuf	7	0	530	4	2
-284	__IOMWFlattenBuf.__IOMWFlattenBuf_type	1	0	0	1	0
-285	__constStr0014	7	0	532	4	1
-286	__constStr0014.__constStr0014_type	1	1	0	1	0
-287	__strretvalMotorRealPosition	7	0	534	4	8
-288	__strretvalMotorRealPosition.__strretvalMotorRealPosition_type	1	0	0	1	0
-289	__constStr0016	7	0	536	4	1
-290	__constStr0016.__constStr0016_type	1	1	0	1	0
-291	__constStr0015	7	0	538	4	1
-292	__constStr0015.__constStr0015_type	1	1	0	1	0
-293	__strbufBTCheck	7	0	540	4	2
-294	__strbufBTCheck.__strbufBTCheck_type	1	0	0	1	0
-295	__ArrHelper__Drive_244_1	7	0	542	4	4
-296	__ArrHelper__Drive_244_1.__ArrHelper__Drive_244_1_type	1	0	0	1	0
-297	__ArrHelper__Drive_244_0	7	0	544	4	4
-298	__ArrHelper__Drive_244_0.__ArrHelper__Drive_244_0_type	1	0	0	1	0
-299	__constStr0013	7	0	546	4	1
-300	__constStr0013.__constStr0013_type	1	1	0	1	0
-301	__constStr0012	7	0	548	4	1
-302	__constStr0012.__constStr0012_type	1	1	0	1	0
+263	__strretvalMotorRealPosition	7	0	510	4	8
+264	__strretvalMotorRealPosition.__strretvalMotorRealPosition_type	1	0	0	1	0
+265	__constStr0026	7	0	512	4	1
+266	__constStr0026.__constStr0026_type	1	1	0	1	0
+267	__constStr0011	7	0	514	4	3
+268	__constStr0011.__constStr0011_type	1	1	0	1	0
+269	__constStr0010	7	0	516	4	4
+270	__constStr0010.__constStr0010_type	1	1	0	1	0
+271	__constStr0012	7	0	518	4	1
+272	__constStr0012.__constStr0012_type	1	1	0	1	0
+273	__Drive_7qG2_in_7qG2_000	7	0	520	4	5
+274	__Drive_7qG2_in_7qG2_000.__Drive_7qG2_in_7qG2_000_type	1	0	0	1	0
+275	__BlankLine	7	0	522	4	4
+276	__BlankLine.__BlankLine_type	1	0	0	1	0
+277	__constStr0009	7	0	524	4	1
+278	__constStr0009.__constStr0009_type	1	1	0	1	0
+279	__IOMWFlattenBuf	7	0	526	4	2
+280	__IOMWFlattenBuf.__IOMWFlattenBuf_type	1	0	0	1	0
+281	__MotorRealPosition_7qG2_Port_7qG2_000	7	0	528	4	5
+282	__MotorRealPosition_7qG2_Port_7qG2_000.__MotorRealPosition_7qG2_Port_7qG2_000_type	1	0	0	1	0
+283	__constStr0013	7	0	530	4	1
+284	__constStr0013.__constStr0013_type	1	1	0	1	0
+285	__constStr0016	7	0	532	4	1
+286	__constStr0016.__constStr0016_type	1	1	0	1	0
+287	__constStr0015	7	0	534	4	1
+288	__constStr0015.__constStr0015_type	1	1	0	1	0
+289	__constStr0018	7	0	536	4	1
+290	__constStr0018.__constStr0018_type	1	1	0	1	0
+291	__constStr0017	7	0	538	4	1
+292	__constStr0017.__constStr0017_type	1	1	0	1	0
+293	__ArrHelper__Drive_244_0	7	0	540	4	4
+294	__ArrHelper__Drive_244_0.__ArrHelper__Drive_244_0_type	1	0	0	1	0
+295	__OUT_AB	7	0	542	4	6
+296	__OUT_AB.__OUT_AB_type	1	0	0	1	0
+297	__constStr0014	7	0	544	4	1
+298	__constStr0014.__constStr0014_type	1	1	0	1	0
+299	__ArrHelper__Drive_244_1	7	0	546	4	4
+300	__ArrHelper__Drive_244_1.__ArrHelper__Drive_244_1_type	1	0	0	1	0
 #SOURCES
 Clump	Line	PC	Source
-0	252	0	#line 252 "D:\NXT Programok\Slave1.nxc"
-0	253	0		subcall __initialize_global_data, ____initialize_global_data_return
-0	252	2	#line 252 "D:\NXT Programok\Slave1.nxc"
-0	252	2	#line 252 "D:\NXT Programok\Slave1.nxc"
-0	253	2		set __BTCheck_7qG2_conn_7qG2_000, 0
-0	252	5	#line 252 "D:\NXT Programok\Slave1.nxc"
-0	253	5	#line 253 "D:\NXT Programok\Slave1.nxc"
-0	254	5		subcall BTCheck, __BTCheck_return
-0	253	7	#line 253 "D:\NXT Programok\Slave1.nxc"
-0	253	7	#line 253 "D:\NXT Programok\Slave1.nxc"
-0	254	7		set __signed_stack_001main, 0
-0	253	10	#line 253 "D:\NXT Programok\Slave1.nxc"
-0	253	10	#line 253 "D:\NXT Programok\Slave1.nxc"
-0	254	10		set __signed_stack_002main, 56
-0	253	13	#line 253 "D:\NXT Programok\Slave1.nxc"
-0	253	13	#line 253 "D:\NXT Programok\Slave1.nxc"
-0	254	13		strcat __strbufmain, __constStr0022
-0	254	17	#line 254 "D:\NXT Programok\Slave1.nxc"
-0	255	17		acquire __TextOutMutex
-0	254	18	#line 254 "D:\NXT Programok\Slave1.nxc"
-0	255	18		mov __TextOutArgs.Location.X, __signed_stack_001main
-0	254	21	#line 254 "D:\NXT Programok\Slave1.nxc"
-0	255	21		mov __TextOutArgs.Location.Y, __signed_stack_002main
-0	254	24	#line 254 "D:\NXT Programok\Slave1.nxc"
-0	255	24		set __TextOutArgs.Options, 0
-0	254	27	#line 254 "D:\NXT Programok\Slave1.nxc"
-0	255	27		mov __TextOutArgs.Text, __strbufmain
-0	254	29	#line 254 "D:\NXT Programok\Slave1.nxc"
-0	255	29		syscall 13, __TextOutArgs
-0	254	32	#line 254 "D:\NXT Programok\Slave1.nxc"
-0	255	32		mov __D0main, __TextOutArgs.Result
-0	254	35	#line 254 "D:\NXT Programok\Slave1.nxc"
-0	255	35		release __TextOutMutex
-0	254	36	#line 254 "D:\NXT Programok\Slave1.nxc"
-0	254	36	#line 254 "D:\NXT Programok\Slave1.nxc"
-0	255	36		set __signed_stack_001main, 0
-0	254	39	#line 254 "D:\NXT Programok\Slave1.nxc"
-0	254	39	#line 254 "D:\NXT Programok\Slave1.nxc"
-0	255	39		set __signed_stack_002main, 48
-0	254	42	#line 254 "D:\NXT Programok\Slave1.nxc"
-0	254	42	#line 254 "D:\NXT Programok\Slave1.nxc"
-0	255	42		strcat __strbufmain, __constStr0023
-0	255	46	#line 255 "D:\NXT Programok\Slave1.nxc"
-0	256	46		acquire __TextOutMutex
-0	255	47	#line 255 "D:\NXT Programok\Slave1.nxc"
-0	256	47		mov __TextOutArgs.Location.X, __signed_stack_001main
-0	255	50	#line 255 "D:\NXT Programok\Slave1.nxc"
-0	256	50		mov __TextOutArgs.Location.Y, __signed_stack_002main
-0	255	53	#line 255 "D:\NXT Programok\Slave1.nxc"
-0	256	53		set __TextOutArgs.Options, 0
-0	255	56	#line 255 "D:\NXT Programok\Slave1.nxc"
-0	256	56		mov __TextOutArgs.Text, __strbufmain
-0	255	58	#line 255 "D:\NXT Programok\Slave1.nxc"
-0	256	58		syscall 13, __TextOutArgs
-0	255	61	#line 255 "D:\NXT Programok\Slave1.nxc"
-0	256	61		mov __D0main, __TextOutArgs.Result
-0	255	64	#line 255 "D:\NXT Programok\Slave1.nxc"
-0	256	64		release __TextOutMutex
-0	255	65	#line 255 "D:\NXT Programok\Slave1.nxc"
-0	255	65	#line 255 "D:\NXT Programok\Slave1.nxc"
-0	256	65		set __signed_stack_001main, 0
-0	255	68	#line 255 "D:\NXT Programok\Slave1.nxc"
-0	255	68	#line 255 "D:\NXT Programok\Slave1.nxc"
-0	256	68		set __signed_stack_002main, 40
-0	255	71	#line 255 "D:\NXT Programok\Slave1.nxc"
-0	255	71	#line 255 "D:\NXT Programok\Slave1.nxc"
-0	256	71		strcat __strbufmain, __constStr0024
-0	258	75	#line 258 "D:\NXT Programok\Slave1.nxc"
-0	259	75		acquire __TextOutMutex
-0	258	76	#line 258 "D:\NXT Programok\Slave1.nxc"
-0	259	76		mov __TextOutArgs.Location.X, __signed_stack_001main
-0	258	79	#line 258 "D:\NXT Programok\Slave1.nxc"
-0	259	79		mov __TextOutArgs.Location.Y, __signed_stack_002main
-0	258	82	#line 258 "D:\NXT Programok\Slave1.nxc"
-0	259	82		set __TextOutArgs.Options, 0
-0	258	85	#line 258 "D:\NXT Programok\Slave1.nxc"
-0	259	85		mov __TextOutArgs.Text, __strbufmain
-0	258	87	#line 258 "D:\NXT Programok\Slave1.nxc"
-0	259	87		syscall 13, __TextOutArgs
-0	258	90	#line 258 "D:\NXT Programok\Slave1.nxc"
-0	259	90		mov __D0main, __TextOutArgs.Result
-0	258	93	#line 258 "D:\NXT Programok\Slave1.nxc"
-0	259	93		release __TextOutMutex
-0	258	94	#line 258 "D:\NXT Programok\Slave1.nxc"
-0	258	94	#line 258 "D:\NXT Programok\Slave1.nxc"
-0	259	94		set __signed_stack_001main, 3
-0	258	97	#line 258 "D:\NXT Programok\Slave1.nxc"
-0	258	97	#line 258 "D:\NXT Programok\Slave1.nxc"
-0	259	97		set __D0main, 1
-0	258	100	#line 258 "D:\NXT Programok\Slave1.nxc"
-0	259	100		acquire __RBtnMutex
-0	258	101	#line 258 "D:\NXT Programok\Slave1.nxc"
-0	259	101		mov __RBtnArgs.Index, __signed_stack_001main
-0	258	104	#line 258 "D:\NXT Programok\Slave1.nxc"
-0	259	104		mov __RBtnArgs.Reset, __D0main
-0	258	107	#line 258 "D:\NXT Programok\Slave1.nxc"
-0	259	107		syscall 20, __RBtnArgs
-0	258	110	#line 258 "D:\NXT Programok\Slave1.nxc"
-0	259	110		mov __D0main, __RBtnArgs.Pressed
-0	258	113	#line 258 "D:\NXT Programok\Slave1.nxc"
-0	259	113		release __RBtnMutex
-0	258	114	#line 258 "D:\NXT Programok\Slave1.nxc"
-0	259	114		mov __signed_stack_001main, __D0main
-0	258	116	#line 258 "D:\NXT Programok\Slave1.nxc"
-0	259	116		set __D0main, 1
-0	258	119	#line 258 "D:\NXT Programok\Slave1.nxc"
-0	259	119		cmp 4, __zfmain, __signed_stack_001main, __D0main
-0	258	123	#line 258 "D:\NXT Programok\Slave1.nxc"
-0	258	123	#line 258 "D:\NXT Programok\Slave1.nxc"
-0	259	123		not __D0main, __zfmain
-0	259	126	#line 259 "D:\NXT Programok\Slave1.nxc"
-0	260	126		tst 5, __zfmain, __D0main
-0	259	129	#line 259 "D:\NXT Programok\Slave1.nxc"
-0	260	129		brtst 4, __NXC_Label_880, __zfmain
-0	259	132	#line 259 "D:\NXT Programok\Slave1.nxc"
-0	259	132	#line 259 "D:\NXT Programok\Slave1.nxc"
-0	260	132		jmp __NXC_Label_879
-0	259	134	#line 259 "D:\NXT Programok\Slave1.nxc"
+0	266	0	#line 266 "D:\NXT Programok\Slave1.nxc"
+0	267	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	266	2	#line 266 "D:\NXT Programok\Slave1.nxc"
+0	266	2	#line 266 "D:\NXT Programok\Slave1.nxc"
+0	267	2		set __BTCheck_7qG2_conn_7qG2_000, 0
+0	266	5	#line 266 "D:\NXT Programok\Slave1.nxc"
+0	267	5	#line 267 "D:\NXT Programok\Slave1.nxc"
+0	268	5		subcall BTCheck, __BTCheck_return
+0	267	7	#line 267 "D:\NXT Programok\Slave1.nxc"
+0	267	7	#line 267 "D:\NXT Programok\Slave1.nxc"
+0	268	7		set __signed_stack_001main, 0
+0	267	10	#line 267 "D:\NXT Programok\Slave1.nxc"
+0	267	10	#line 267 "D:\NXT Programok\Slave1.nxc"
+0	268	10		set __signed_stack_002main, 56
+0	267	13	#line 267 "D:\NXT Programok\Slave1.nxc"
+0	267	13	#line 267 "D:\NXT Programok\Slave1.nxc"
+0	268	13		strcat __strbufmain, __constStr0023
+0	268	17	#line 268 "D:\NXT Programok\Slave1.nxc"
+0	269	17		acquire __TextOutMutex
+0	268	18	#line 268 "D:\NXT Programok\Slave1.nxc"
+0	269	18		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	268	21	#line 268 "D:\NXT Programok\Slave1.nxc"
+0	269	21		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	268	24	#line 268 "D:\NXT Programok\Slave1.nxc"
+0	269	24		set __TextOutArgs.Options, 0
+0	268	27	#line 268 "D:\NXT Programok\Slave1.nxc"
+0	269	27		mov __TextOutArgs.Text, __strbufmain
+0	268	29	#line 268 "D:\NXT Programok\Slave1.nxc"
+0	269	29		syscall 13, __TextOutArgs
+0	268	32	#line 268 "D:\NXT Programok\Slave1.nxc"
+0	269	32		mov __D0main, __TextOutArgs.Result
+0	268	35	#line 268 "D:\NXT Programok\Slave1.nxc"
+0	269	35		release __TextOutMutex
+0	268	36	#line 268 "D:\NXT Programok\Slave1.nxc"
+0	268	36	#line 268 "D:\NXT Programok\Slave1.nxc"
+0	269	36		set __signed_stack_001main, 0
+0	268	39	#line 268 "D:\NXT Programok\Slave1.nxc"
+0	268	39	#line 268 "D:\NXT Programok\Slave1.nxc"
+0	269	39		set __signed_stack_002main, 48
+0	268	42	#line 268 "D:\NXT Programok\Slave1.nxc"
+0	268	42	#line 268 "D:\NXT Programok\Slave1.nxc"
+0	269	42		strcat __strbufmain, __constStr0024
+0	269	46	#line 269 "D:\NXT Programok\Slave1.nxc"
+0	270	46		acquire __TextOutMutex
+0	269	47	#line 269 "D:\NXT Programok\Slave1.nxc"
+0	270	47		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	269	50	#line 269 "D:\NXT Programok\Slave1.nxc"
+0	270	50		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	269	53	#line 269 "D:\NXT Programok\Slave1.nxc"
+0	270	53		set __TextOutArgs.Options, 0
+0	269	56	#line 269 "D:\NXT Programok\Slave1.nxc"
+0	270	56		mov __TextOutArgs.Text, __strbufmain
+0	269	58	#line 269 "D:\NXT Programok\Slave1.nxc"
+0	270	58		syscall 13, __TextOutArgs
+0	269	61	#line 269 "D:\NXT Programok\Slave1.nxc"
+0	270	61		mov __D0main, __TextOutArgs.Result
+0	269	64	#line 269 "D:\NXT Programok\Slave1.nxc"
+0	270	64		release __TextOutMutex
+0	269	65	#line 269 "D:\NXT Programok\Slave1.nxc"
+0	269	65	#line 269 "D:\NXT Programok\Slave1.nxc"
+0	270	65		set __signed_stack_001main, 0
+0	269	68	#line 269 "D:\NXT Programok\Slave1.nxc"
+0	269	68	#line 269 "D:\NXT Programok\Slave1.nxc"
+0	270	68		set __signed_stack_002main, 40
+0	269	71	#line 269 "D:\NXT Programok\Slave1.nxc"
+0	269	71	#line 269 "D:\NXT Programok\Slave1.nxc"
+0	270	71		strcat __strbufmain, __constStr0025
+0	272	75	#line 272 "D:\NXT Programok\Slave1.nxc"
+0	273	75		acquire __TextOutMutex
+0	272	76	#line 272 "D:\NXT Programok\Slave1.nxc"
+0	273	76		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	272	79	#line 272 "D:\NXT Programok\Slave1.nxc"
+0	273	79		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	272	82	#line 272 "D:\NXT Programok\Slave1.nxc"
+0	273	82		set __TextOutArgs.Options, 0
+0	272	85	#line 272 "D:\NXT Programok\Slave1.nxc"
+0	273	85		mov __TextOutArgs.Text, __strbufmain
+0	272	87	#line 272 "D:\NXT Programok\Slave1.nxc"
+0	273	87		syscall 13, __TextOutArgs
+0	272	90	#line 272 "D:\NXT Programok\Slave1.nxc"
+0	273	90		mov __D0main, __TextOutArgs.Result
+0	272	93	#line 272 "D:\NXT Programok\Slave1.nxc"
+0	273	93		release __TextOutMutex
+0	272	94	#line 272 "D:\NXT Programok\Slave1.nxc"
+0	272	94	#line 272 "D:\NXT Programok\Slave1.nxc"
+0	273	94		set __signed_stack_001main, 3
+0	272	97	#line 272 "D:\NXT Programok\Slave1.nxc"
+0	272	97	#line 272 "D:\NXT Programok\Slave1.nxc"
+0	273	97		set __D0main, 1
+0	272	100	#line 272 "D:\NXT Programok\Slave1.nxc"
+0	273	100		acquire __RBtnMutex
+0	272	101	#line 272 "D:\NXT Programok\Slave1.nxc"
+0	273	101		mov __RBtnArgs.Index, __signed_stack_001main
+0	272	104	#line 272 "D:\NXT Programok\Slave1.nxc"
+0	273	104		mov __RBtnArgs.Reset, __D0main
+0	272	107	#line 272 "D:\NXT Programok\Slave1.nxc"
+0	273	107		syscall 20, __RBtnArgs
+0	272	110	#line 272 "D:\NXT Programok\Slave1.nxc"
+0	273	110		mov __D0main, __RBtnArgs.Pressed
+0	272	113	#line 272 "D:\NXT Programok\Slave1.nxc"
+0	273	113		release __RBtnMutex
+0	272	114	#line 272 "D:\NXT Programok\Slave1.nxc"
+0	273	114		mov __signed_stack_001main, __D0main
+0	272	116	#line 272 "D:\NXT Programok\Slave1.nxc"
+0	273	116		set __D0main, 1
+0	272	119	#line 272 "D:\NXT Programok\Slave1.nxc"
+0	273	119		cmp 4, __zfmain, __signed_stack_001main, __D0main
+0	272	123	#line 272 "D:\NXT Programok\Slave1.nxc"
+0	272	123	#line 272 "D:\NXT Programok\Slave1.nxc"
+0	273	123		not __D0main, __zfmain
+0	273	126	#line 273 "D:\NXT Programok\Slave1.nxc"
+0	274	126		tst 5, __zfmain, __D0main
+0	273	129	#line 273 "D:\NXT Programok\Slave1.nxc"
+0	274	129		brtst 4, __NXC_Label_888, __zfmain
+0	273	132	#line 273 "D:\NXT Programok\Slave1.nxc"
+0	273	132	#line 273 "D:\NXT Programok\Slave1.nxc"
+0	274	132		jmp __NXC_Label_887
+0	273	134	#line 273 "D:\NXT Programok\Slave1.nxc"
 0	6069	134	#line 6069 "NXCDefs.h"
 0	6070	134	#pragma macro 6
 0	6070	134		acquire __PointOutMutex
 0	6070	135		mov __PointOutArgs.Location.X, __constVal200
-0	6070	138		mov __PointOutArgs.Location.Y, __constVal200
-0	6070	141		mov __PointOutArgs.Options, __constVal1
-0	6070	143		syscall 14, __PointOutArgs
-0	6070	146		release __PointOutMutex
-0	9025	147	#line 9025 "NXCDefs.h"
-0	6069	147	#line 6069 "NXCDefs.h"
-0	260	147	#line 260 "D:\NXT Programok\Slave1.nxc"
-0	263	147	#line 263 "D:\NXT Programok\Slave1.nxc"
-0	264	147		subcall __Drive_Spawner, __Drive_Spawner_return
-0	263	149	#line 263 "D:\NXT Programok\Slave1.nxc"
-0	263	149	#line 263 "D:\NXT Programok\Slave1.nxc"
-0	264	149		set __SetSensor_7qG2_port_7qG2_000_inline_main, 0
-0	263	152	#line 263 "D:\NXT Programok\Slave1.nxc"
-0	263	152	#line 263 "D:\NXT Programok\Slave1.nxc"
-0	3707	152	#line 3707 "NXCDefs.h"
-0	3708	152		setin __constVal1, __SetSensor_7qG2_port_7qG2_000_inline_main, 0
-0	3709	156		setin __constVal32, __SetSensor_7qG2_port_7qG2_000_inline_main, 1
-0	3710	160	#pragma macro 4
-0	3710	160		acquire __ResetSensorMutex
-0	3710	161		mov __ResetSensorPort, __SetSensor_7qG2_port_7qG2_000_inline_main
-0	3710	163		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
-0	3710	166		release __ResetSensorMutex
-0	9050	167	#line 9050 "NXCDefs.h"
-0	3711	167	#line 3711 "NXCDefs.h"
-0	264	167	#line 264 "D:\NXT Programok\Slave1.nxc"
-0	264	167	#line 264 "D:\NXT Programok\Slave1.nxc"
-0	265	167		getin __signed_stack_001main, __constVal0, 4
-0	264	171	#line 264 "D:\NXT Programok\Slave1.nxc"
-0	264	171	#line 264 "D:\NXT Programok\Slave1.nxc"
-0	265	171		set __D0main, 1
-0	264	174	#line 264 "D:\NXT Programok\Slave1.nxc"
-0	265	174		cmp 4, __zfmain, __signed_stack_001main, __D0main
-0	264	178	#line 264 "D:\NXT Programok\Slave1.nxc"
-0	264	178	#line 264 "D:\NXT Programok\Slave1.nxc"
-0	265	178		not __D0main, __zfmain
-0	265	181	#line 265 "D:\NXT Programok\Slave1.nxc"
-0	266	181		tst 5, __zfmain, __D0main
-0	265	184	#line 265 "D:\NXT Programok\Slave1.nxc"
-0	266	184		brtst 4, __NXC_Label_892, __zfmain
-0	265	187	#line 265 "D:\NXT Programok\Slave1.nxc"
-0	265	187	#line 265 "D:\NXT Programok\Slave1.nxc"
-0	266	187		jmp __NXC_Label_891
-0	265	189	#line 265 "D:\NXT Programok\Slave1.nxc"
-0	266	189	#line 266 "D:\NXT Programok\Slave1.nxc"
-0	267	189	#pragma macro 7
-0	267	189		setout __OUT_AB, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal24
-0	9080	212	#line 9080 "D:\NXT Programok\Slave1.nxc"
-0	266	212	#line 266 "D:\NXT Programok\Slave1.nxc"
-0	8851	212	#line 8851 "NXCDefs.h"
-0	8852	212	#pragma macro 7
-0	8852	212		acquire __IOMWMutex
-0	8852	213		mov __IOMWArgs.ModuleName, __constStr0025
-0	8852	215		mov __IOMWArgs.Offset, __constVal0
-0	8852	217		flatten __IOMWFlattenBuf, __constVal23040
-0	8852	220		strtoarr __IOMWArgs.Buffer, __IOMWFlattenBuf
-0	8852	223		syscall 33, __IOMWArgs
-0	8852	226		release __IOMWMutex
-0	9083	227	#line 9083 "NXCDefs.h"
-0	8851	227	#line 8851 "NXCDefs.h"
-0	8851	227	#line 8851 "NXCDefs.h"
-0	268	227	#line 268 "D:\NXT Programok\Slave1.nxc"
-0	269	227		exit -1, -1
+0	6070	137		mov __PointOutArgs.Location.Y, __constVal200
+0	6070	139		mov __PointOutArgs.Options, __constVal1
+0	6070	141		syscall 14, __PointOutArgs
+0	6070	144		release __PointOutMutex
+0	9149	145	#line 9149 "NXCDefs.h"
+0	6069	145	#line 6069 "NXCDefs.h"
+0	274	145	#line 274 "D:\NXT Programok\Slave1.nxc"
+0	277	145	#line 277 "D:\NXT Programok\Slave1.nxc"
+0	278	145		subcall __Drive_Spawner, __Drive_Spawner_return
+0	277	147	#line 277 "D:\NXT Programok\Slave1.nxc"
+0	277	147	#line 277 "D:\NXT Programok\Slave1.nxc"
+0	278	147		set __SetSensor_7qG2_port_7qG2_000_inline_main, 0
+0	277	150	#line 277 "D:\NXT Programok\Slave1.nxc"
+0	277	150	#line 277 "D:\NXT Programok\Slave1.nxc"
+0	3707	150	#line 3707 "NXCDefs.h"
+0	3708	150		setin __constVal1, __SetSensor_7qG2_port_7qG2_000_inline_main, 0
+0	3709	154		setin __constVal32, __SetSensor_7qG2_port_7qG2_000_inline_main, 1
+0	3710	158	#pragma macro 4
+0	3710	158		acquire __ResetSensorMutex
+0	3710	159		mov __ResetSensorPort, __SetSensor_7qG2_port_7qG2_000_inline_main
+0	3710	161		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	3710	164		release __ResetSensorMutex
+0	9174	165	#line 9174 "NXCDefs.h"
+0	3711	165	#line 3711 "NXCDefs.h"
+0	278	165	#line 278 "D:\NXT Programok\Slave1.nxc"
+0	278	165	#line 278 "D:\NXT Programok\Slave1.nxc"
+0	279	165		getin __signed_stack_001main, __constVal0, 4
+0	278	169	#line 278 "D:\NXT Programok\Slave1.nxc"
+0	278	169	#line 278 "D:\NXT Programok\Slave1.nxc"
+0	279	169		set __D0main, 1
+0	278	172	#line 278 "D:\NXT Programok\Slave1.nxc"
+0	279	172		cmp 4, __zfmain, __signed_stack_001main, __D0main
+0	278	176	#line 278 "D:\NXT Programok\Slave1.nxc"
+0	278	176	#line 278 "D:\NXT Programok\Slave1.nxc"
+0	279	176		not __D0main, __zfmain
+0	279	179	#line 279 "D:\NXT Programok\Slave1.nxc"
+0	280	179		tst 5, __zfmain, __D0main
+0	279	182	#line 279 "D:\NXT Programok\Slave1.nxc"
+0	280	182		brtst 4, __NXC_Label_900, __zfmain
+0	279	185	#line 279 "D:\NXT Programok\Slave1.nxc"
+0	279	185	#line 279 "D:\NXT Programok\Slave1.nxc"
+0	280	185		jmp __NXC_Label_899
+0	279	187	#line 279 "D:\NXT Programok\Slave1.nxc"
+0	280	187	#line 280 "D:\NXT Programok\Slave1.nxc"
+0	281	187	#pragma macro 7
+0	281	187		setout __OUT_AB, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal24
+0	9204	210	#line 9204 "D:\NXT Programok\Slave1.nxc"
+0	280	210	#line 280 "D:\NXT Programok\Slave1.nxc"
+0	8851	210	#line 8851 "NXCDefs.h"
+0	8852	210	#pragma macro 7
+0	8852	210		acquire __IOMWMutex
+0	8852	211		mov __IOMWArgs.ModuleName, __constStr0026
+0	8852	213		mov __IOMWArgs.Offset, __constVal0
+0	8852	215		flatten __IOMWFlattenBuf, __constVal23040
+0	8852	218		strtoarr __IOMWArgs.Buffer, __IOMWFlattenBuf
+0	8852	221		syscall 33, __IOMWArgs
+0	8852	224		release __IOMWMutex
+0	9207	225	#line 9207 "NXCDefs.h"
+0	8851	225	#line 8851 "NXCDefs.h"
+0	8851	225	#line 8851 "NXCDefs.h"
+0	282	225	#line 282 "D:\NXT Programok\Slave1.nxc"
+0	283	225		exit -1, -1
 1	4476	0		brtst 4, __rotate_Done0, __rotate_angle0
 1	4477	3		set ____RotateMotor0_sign_tmp, 0
 1	4477	6		brtst EQ, __sign_0, __rotate_angle0
@@ -616,9 +614,9 @@ Clump	Line	PC	Source
 4	4887	4		getin __ResetSensorTmp, __ResetSensorPort, 5
 4	4888	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
 4	4889	11		subret ____ResetSensorSubroutine_return
-5	34	0	#line 34 "D:\NXT Programok\Slave1.nxc"
-5	35	0		set __SetSensorColorBlue_7qG2_port_7qG2_000_inline_LedRed, 3
-5	34	3	#line 34 "D:\NXT Programok\Slave1.nxc"
+5	37	0	#line 37 "D:\NXT Programok\Slave1.nxc"
+5	38	0		set __SetSensorColorBlue_7qG2_port_7qG2_000_inline_LedRed, 3
+5	37	3	#line 37 "D:\NXT Programok\Slave1.nxc"
 5	3832	3	#line 3832 "NXCDefs.h"
 5	3833	3	#pragma macro 6
 5	3833	3		setin __constVal16, __SetSensorColorBlue_7qG2_port_7qG2_000_inline_LedRed, 0
@@ -627,19 +625,19 @@ Clump	Line	PC	Source
 5	3833	12		mov __ResetSensorPort, __SetSensorColorBlue_7qG2_port_7qG2_000_inline_LedRed
 5	3833	14		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
 5	3833	17		release __ResetSensorMutex
-5	6803	18	#line 6803 "NXCDefs.h"
+5	6869	18	#line 6869 "NXCDefs.h"
 5	3832	18	#line 3832 "NXCDefs.h"
-5	35	18	#line 35 "D:\NXT Programok\Slave1.nxc"
-5	35	18	#line 35 "D:\NXT Programok\Slave1.nxc"
-5	36	18		mov __Wait_7qG2_ms_7qG2_000_inline_LedRed, FlashTime
-5	35	20	#line 35 "D:\NXT Programok\Slave1.nxc"
+5	38	18	#line 38 "D:\NXT Programok\Slave1.nxc"
+5	38	18	#line 38 "D:\NXT Programok\Slave1.nxc"
+5	39	18		mov __Wait_7qG2_ms_7qG2_000_inline_LedRed, FlashTime
+5	38	20	#line 38 "D:\NXT Programok\Slave1.nxc"
 5	7921	20	#line 7921 "NXCDefs.h"
 5	7922	20		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_LedRed
 5	7921	23	#line 7921 "NXCDefs.h"
-5	36	23	#line 36 "D:\NXT Programok\Slave1.nxc"
-5	36	23	#line 36 "D:\NXT Programok\Slave1.nxc"
-5	37	23		set __SetSensorColorNone_7qG2_port_7qG2_000_inline_LedRed, 3
-5	36	26	#line 36 "D:\NXT Programok\Slave1.nxc"
+5	39	23	#line 39 "D:\NXT Programok\Slave1.nxc"
+5	39	23	#line 39 "D:\NXT Programok\Slave1.nxc"
+5	40	23		set __SetSensorColorNone_7qG2_port_7qG2_000_inline_LedRed, 3
+5	39	26	#line 39 "D:\NXT Programok\Slave1.nxc"
 5	3842	26	#line 3842 "NXCDefs.h"
 5	3843	26	#pragma macro 6
 5	3843	26		setin __constVal17, __SetSensorColorNone_7qG2_port_7qG2_000_inline_LedRed, 0
@@ -648,19 +646,19 @@ Clump	Line	PC	Source
 5	3843	35		mov __ResetSensorPort, __SetSensorColorNone_7qG2_port_7qG2_000_inline_LedRed
 5	3843	37		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
 5	3843	40		release __ResetSensorMutex
-5	6831	41	#line 6831 "NXCDefs.h"
+5	6897	41	#line 6897 "NXCDefs.h"
 5	3842	41	#line 3842 "NXCDefs.h"
-5	37	41	#line 37 "D:\NXT Programok\Slave1.nxc"
-5	37	41	#line 37 "D:\NXT Programok\Slave1.nxc"
-5	38	41		set __Wait_7qG2_ms_7qG2_000_inline_LedRed, 50
-5	37	44	#line 37 "D:\NXT Programok\Slave1.nxc"
+5	40	41	#line 40 "D:\NXT Programok\Slave1.nxc"
+5	40	41	#line 40 "D:\NXT Programok\Slave1.nxc"
+5	41	41		set __Wait_7qG2_ms_7qG2_000_inline_LedRed, 50
+5	40	44	#line 40 "D:\NXT Programok\Slave1.nxc"
 5	7921	44	#line 7921 "NXCDefs.h"
 5	7922	44		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_LedRed
 5	7921	47	#line 7921 "NXCDefs.h"
-5	38	47	#line 38 "D:\NXT Programok\Slave1.nxc"
-5	38	47	#line 38 "D:\NXT Programok\Slave1.nxc"
-5	39	47		set __SetSensorColorRed_7qG2_port_7qG2_000_inline_LedRed, 3
-5	38	50	#line 38 "D:\NXT Programok\Slave1.nxc"
+5	41	47	#line 41 "D:\NXT Programok\Slave1.nxc"
+5	41	47	#line 41 "D:\NXT Programok\Slave1.nxc"
+5	42	47		set __SetSensorColorRed_7qG2_port_7qG2_000_inline_LedRed, 3
+5	41	50	#line 41 "D:\NXT Programok\Slave1.nxc"
 5	3812	50	#line 3812 "NXCDefs.h"
 5	3813	50	#pragma macro 6
 5	3813	50		setin __constVal14, __SetSensorColorRed_7qG2_port_7qG2_000_inline_LedRed, 0
@@ -669,19 +667,19 @@ Clump	Line	PC	Source
 5	3813	59		mov __ResetSensorPort, __SetSensorColorRed_7qG2_port_7qG2_000_inline_LedRed
 5	3813	61		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
 5	3813	64		release __ResetSensorMutex
-5	6855	65	#line 6855 "NXCDefs.h"
+5	6921	65	#line 6921 "NXCDefs.h"
 5	3812	65	#line 3812 "NXCDefs.h"
-5	39	65	#line 39 "D:\NXT Programok\Slave1.nxc"
-5	39	65	#line 39 "D:\NXT Programok\Slave1.nxc"
-5	40	65		set __Wait_7qG2_ms_7qG2_000_inline_LedRed, 1000
-5	39	68	#line 39 "D:\NXT Programok\Slave1.nxc"
+5	42	65	#line 42 "D:\NXT Programok\Slave1.nxc"
+5	42	65	#line 42 "D:\NXT Programok\Slave1.nxc"
+5	43	65		set __Wait_7qG2_ms_7qG2_000_inline_LedRed, 1000
+5	42	68	#line 42 "D:\NXT Programok\Slave1.nxc"
 5	7921	68	#line 7921 "NXCDefs.h"
 5	7922	68		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_LedRed
 5	7921	71	#line 7921 "NXCDefs.h"
-5	40	71	#line 40 "D:\NXT Programok\Slave1.nxc"
-5	40	71	#line 40 "D:\NXT Programok\Slave1.nxc"
-5	41	71		set __SetSensorColorNone_7qG2_port_7qG2_000_inline_LedRed, 3
-5	40	74	#line 40 "D:\NXT Programok\Slave1.nxc"
+5	43	71	#line 43 "D:\NXT Programok\Slave1.nxc"
+5	43	71	#line 43 "D:\NXT Programok\Slave1.nxc"
+5	44	71		set __SetSensorColorNone_7qG2_port_7qG2_000_inline_LedRed, 3
+5	43	74	#line 43 "D:\NXT Programok\Slave1.nxc"
 5	3842	74	#line 3842 "NXCDefs.h"
 5	3843	74	#pragma macro 6
 5	3843	74		setin __constVal17, __SetSensorColorNone_7qG2_port_7qG2_000_inline_LedRed, 0
@@ -690,13 +688,13 @@ Clump	Line	PC	Source
 5	3843	83		mov __ResetSensorPort, __SetSensorColorNone_7qG2_port_7qG2_000_inline_LedRed
 5	3843	85		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
 5	3843	88		release __ResetSensorMutex
-5	6875	89	#line 6875 "NXCDefs.h"
+5	6941	89	#line 6941 "NXCDefs.h"
 5	3842	89	#line 3842 "NXCDefs.h"
-5	42	89	#line 42 "D:\NXT Programok\Slave1.nxc"
-5	43	89		exit -1, -1
-6	45	0	#line 45 "D:\NXT Programok\Slave1.nxc"
-6	46	0		set __SetSensorColorBlue_7qG2_port_7qG2_000_inline_LedGreen, 3
-6	45	3	#line 45 "D:\NXT Programok\Slave1.nxc"
+5	45	89	#line 45 "D:\NXT Programok\Slave1.nxc"
+5	46	89		exit -1, -1
+6	48	0	#line 48 "D:\NXT Programok\Slave1.nxc"
+6	49	0		set __SetSensorColorBlue_7qG2_port_7qG2_000_inline_LedGreen, 3
+6	48	3	#line 48 "D:\NXT Programok\Slave1.nxc"
 6	3832	3	#line 3832 "NXCDefs.h"
 6	3833	3	#pragma macro 6
 6	3833	3		setin __constVal16, __SetSensorColorBlue_7qG2_port_7qG2_000_inline_LedGreen, 0
@@ -705,19 +703,19 @@ Clump	Line	PC	Source
 6	3833	12		mov __ResetSensorPort, __SetSensorColorBlue_7qG2_port_7qG2_000_inline_LedGreen
 6	3833	14		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
 6	3833	17		release __ResetSensorMutex
-6	6892	18	#line 6892 "NXCDefs.h"
+6	6958	18	#line 6958 "NXCDefs.h"
 6	3832	18	#line 3832 "NXCDefs.h"
-6	46	18	#line 46 "D:\NXT Programok\Slave1.nxc"
-6	46	18	#line 46 "D:\NXT Programok\Slave1.nxc"
-6	47	18		mov __Wait_7qG2_ms_7qG2_000_inline_LedGreen, FlashTime
-6	46	20	#line 46 "D:\NXT Programok\Slave1.nxc"
+6	49	18	#line 49 "D:\NXT Programok\Slave1.nxc"
+6	49	18	#line 49 "D:\NXT Programok\Slave1.nxc"
+6	50	18		mov __Wait_7qG2_ms_7qG2_000_inline_LedGreen, FlashTime
+6	49	20	#line 49 "D:\NXT Programok\Slave1.nxc"
 6	7921	20	#line 7921 "NXCDefs.h"
 6	7922	20		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_LedGreen
 6	7921	23	#line 7921 "NXCDefs.h"
-6	47	23	#line 47 "D:\NXT Programok\Slave1.nxc"
-6	47	23	#line 47 "D:\NXT Programok\Slave1.nxc"
-6	48	23		set __SetSensorColorNone_7qG2_port_7qG2_000_inline_LedGreen, 3
-6	47	26	#line 47 "D:\NXT Programok\Slave1.nxc"
+6	50	23	#line 50 "D:\NXT Programok\Slave1.nxc"
+6	50	23	#line 50 "D:\NXT Programok\Slave1.nxc"
+6	51	23		set __SetSensorColorNone_7qG2_port_7qG2_000_inline_LedGreen, 3
+6	50	26	#line 50 "D:\NXT Programok\Slave1.nxc"
 6	3842	26	#line 3842 "NXCDefs.h"
 6	3843	26	#pragma macro 6
 6	3843	26		setin __constVal17, __SetSensorColorNone_7qG2_port_7qG2_000_inline_LedGreen, 0
@@ -726,44 +724,44 @@ Clump	Line	PC	Source
 6	3843	35		mov __ResetSensorPort, __SetSensorColorNone_7qG2_port_7qG2_000_inline_LedGreen
 6	3843	37		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
 6	3843	40		release __ResetSensorMutex
-6	6920	41	#line 6920 "NXCDefs.h"
+6	6986	41	#line 6986 "NXCDefs.h"
 6	3842	41	#line 3842 "NXCDefs.h"
-6	48	41	#line 48 "D:\NXT Programok\Slave1.nxc"
-6	48	41	#line 48 "D:\NXT Programok\Slave1.nxc"
-6	49	41		set __Wait_7qG2_ms_7qG2_000_inline_LedGreen, 50
-6	48	44	#line 48 "D:\NXT Programok\Slave1.nxc"
+6	51	41	#line 51 "D:\NXT Programok\Slave1.nxc"
+6	51	41	#line 51 "D:\NXT Programok\Slave1.nxc"
+6	52	41		set __Wait_7qG2_ms_7qG2_000_inline_LedGreen, 50
+6	51	44	#line 51 "D:\NXT Programok\Slave1.nxc"
 6	7921	44	#line 7921 "NXCDefs.h"
 6	7922	44		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_LedGreen
 6	7921	47	#line 7921 "NXCDefs.h"
-6	49	47	#line 49 "D:\NXT Programok\Slave1.nxc"
-6	50	47	#line 50 "D:\NXT Programok\Slave1.nxc"
-6	51	47		set __LedGreen_7qG2_i_7qG2_000, 0
-6	50	50	#line 50 "D:\NXT Programok\Slave1.nxc"
-6	50	50	#line 50 "D:\NXT Programok\Slave1.nxc"
-6	51	50		mov __unsigned_stack_001LedGreen, free
-6	50	52	#line 50 "D:\NXT Programok\Slave1.nxc"
-6	51	52	#line 51 "D:\NXT Programok\Slave1.nxc"
-6	52	52		set __D0LedGreen, 1
-6	51	55	#line 51 "D:\NXT Programok\Slave1.nxc"
-6	52	55		cmp 4, __zfLedGreen, __unsigned_stack_001LedGreen, __D0LedGreen
-6	51	59	#line 51 "D:\NXT Programok\Slave1.nxc"
-6	52	59		mov __D0LedGreen, __zfLedGreen
-6	53	62	#line 53 "D:\NXT Programok\Slave1.nxc"
-6	54	62		brtst 4, __NXC_Label_514, __zfLedGreen
-6	53	65	#line 53 "D:\NXT Programok\Slave1.nxc"
-6	54	65		mov __signed_stack_001LedGreen, __LedGreen_7qG2_i_7qG2_000
-6	53	67	#line 53 "D:\NXT Programok\Slave1.nxc"
-6	53	67	#line 53 "D:\NXT Programok\Slave1.nxc"
-6	54	67		set __D0LedGreen, 0
-6	53	70	#line 53 "D:\NXT Programok\Slave1.nxc"
-6	54	70		cmp 4, __zfLedGreen, __signed_stack_001LedGreen, __D0LedGreen
-6	53	74	#line 53 "D:\NXT Programok\Slave1.nxc"
-6	54	74		mov __D0LedGreen, __zfLedGreen
-6	54	77	#line 54 "D:\NXT Programok\Slave1.nxc"
-6	55	77		brtst 4, __NXC_Label_519, __zfLedGreen
-6	54	80	#line 54 "D:\NXT Programok\Slave1.nxc"
-6	55	80		set __SetSensorColorGreen_7qG2_port_7qG2_000_inline_LedGreen, 3
-6	54	83	#line 54 "D:\NXT Programok\Slave1.nxc"
+6	52	47	#line 52 "D:\NXT Programok\Slave1.nxc"
+6	53	47	#line 53 "D:\NXT Programok\Slave1.nxc"
+6	54	47		set __LedGreen_7qG2_i_7qG2_000, 0
+6	53	50	#line 53 "D:\NXT Programok\Slave1.nxc"
+6	53	50	#line 53 "D:\NXT Programok\Slave1.nxc"
+6	54	50		mov __unsigned_stack_001LedGreen, free
+6	53	52	#line 53 "D:\NXT Programok\Slave1.nxc"
+6	54	52	#line 54 "D:\NXT Programok\Slave1.nxc"
+6	55	52		set __D0LedGreen, 1
+6	54	55	#line 54 "D:\NXT Programok\Slave1.nxc"
+6	55	55		cmp 4, __zfLedGreen, __unsigned_stack_001LedGreen, __D0LedGreen
+6	54	59	#line 54 "D:\NXT Programok\Slave1.nxc"
+6	55	59		mov __D0LedGreen, __zfLedGreen
+6	56	62	#line 56 "D:\NXT Programok\Slave1.nxc"
+6	57	62		brtst 4, __NXC_Label_514, __zfLedGreen
+6	56	65	#line 56 "D:\NXT Programok\Slave1.nxc"
+6	57	65		mov __signed_stack_001LedGreen, __LedGreen_7qG2_i_7qG2_000
+6	56	67	#line 56 "D:\NXT Programok\Slave1.nxc"
+6	56	67	#line 56 "D:\NXT Programok\Slave1.nxc"
+6	57	67		set __D0LedGreen, 0
+6	56	70	#line 56 "D:\NXT Programok\Slave1.nxc"
+6	57	70		cmp 4, __zfLedGreen, __signed_stack_001LedGreen, __D0LedGreen
+6	56	74	#line 56 "D:\NXT Programok\Slave1.nxc"
+6	57	74		mov __D0LedGreen, __zfLedGreen
+6	57	77	#line 57 "D:\NXT Programok\Slave1.nxc"
+6	58	77		brtst 4, __NXC_Label_519, __zfLedGreen
+6	57	80	#line 57 "D:\NXT Programok\Slave1.nxc"
+6	58	80		set __SetSensorColorGreen_7qG2_port_7qG2_000_inline_LedGreen, 3
+6	57	83	#line 57 "D:\NXT Programok\Slave1.nxc"
 6	3822	83	#line 3822 "NXCDefs.h"
 6	3823	83	#pragma macro 6
 6	3823	83		setin __constVal15, __SetSensorColorGreen_7qG2_port_7qG2_000_inline_LedGreen, 0
@@ -772,25 +770,25 @@ Clump	Line	PC	Source
 6	3823	92		mov __ResetSensorPort, __SetSensorColorGreen_7qG2_port_7qG2_000_inline_LedGreen
 6	3823	94		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
 6	3823	97		release __ResetSensorMutex
-6	6983	98	#line 6983 "NXCDefs.h"
+6	7049	98	#line 7049 "NXCDefs.h"
 6	3822	98	#line 3822 "NXCDefs.h"
-6	55	98	#line 55 "D:\NXT Programok\Slave1.nxc"
-6	55	98	#line 55 "D:\NXT Programok\Slave1.nxc"
-6	56	98		set __Wait_7qG2_ms_7qG2_000_inline_LedGreen, 100
-6	55	101	#line 55 "D:\NXT Programok\Slave1.nxc"
+6	58	98	#line 58 "D:\NXT Programok\Slave1.nxc"
+6	58	98	#line 58 "D:\NXT Programok\Slave1.nxc"
+6	59	98		set __Wait_7qG2_ms_7qG2_000_inline_LedGreen, 100
+6	58	101	#line 58 "D:\NXT Programok\Slave1.nxc"
 6	7921	101	#line 7921 "NXCDefs.h"
 6	7922	101		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_LedGreen
 6	7921	104	#line 7921 "NXCDefs.h"
-6	56	104	#line 56 "D:\NXT Programok\Slave1.nxc"
-6	56	104	#line 56 "D:\NXT Programok\Slave1.nxc"
-6	57	104		set __LedGreen_7qG2_i_7qG2_000, 1
-6	56	107	#line 56 "D:\NXT Programok\Slave1.nxc"
-6	56	107	#line 56 "D:\NXT Programok\Slave1.nxc"
-6	58	107	#line 58 "D:\NXT Programok\Slave1.nxc"
-6	59	107		jmp __NXC_Label_526
-6	58	109	#line 58 "D:\NXT Programok\Slave1.nxc"
-6	59	109		set __SetSensorColorNone_7qG2_port_7qG2_000_inline_LedGreen, 3
-6	58	112	#line 58 "D:\NXT Programok\Slave1.nxc"
+6	59	104	#line 59 "D:\NXT Programok\Slave1.nxc"
+6	59	104	#line 59 "D:\NXT Programok\Slave1.nxc"
+6	60	104		set __LedGreen_7qG2_i_7qG2_000, 1
+6	59	107	#line 59 "D:\NXT Programok\Slave1.nxc"
+6	59	107	#line 59 "D:\NXT Programok\Slave1.nxc"
+6	61	107	#line 61 "D:\NXT Programok\Slave1.nxc"
+6	62	107		jmp __NXC_Label_526
+6	61	109	#line 61 "D:\NXT Programok\Slave1.nxc"
+6	62	109		set __SetSensorColorNone_7qG2_port_7qG2_000_inline_LedGreen, 3
+6	61	112	#line 61 "D:\NXT Programok\Slave1.nxc"
 6	3842	112	#line 3842 "NXCDefs.h"
 6	3843	112	#pragma macro 6
 6	3843	112		setin __constVal17, __SetSensorColorNone_7qG2_port_7qG2_000_inline_LedGreen, 0
@@ -799,339 +797,339 @@ Clump	Line	PC	Source
 6	3843	121		mov __ResetSensorPort, __SetSensorColorNone_7qG2_port_7qG2_000_inline_LedGreen
 6	3843	123		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
 6	3843	126		release __ResetSensorMutex
-6	7013	127	#line 7013 "NXCDefs.h"
+6	7079	127	#line 7079 "NXCDefs.h"
 6	3842	127	#line 3842 "NXCDefs.h"
-6	59	127	#line 59 "D:\NXT Programok\Slave1.nxc"
-6	59	127	#line 59 "D:\NXT Programok\Slave1.nxc"
-6	60	127		set __Wait_7qG2_ms_7qG2_000_inline_LedGreen, 1000
-6	59	130	#line 59 "D:\NXT Programok\Slave1.nxc"
+6	62	127	#line 62 "D:\NXT Programok\Slave1.nxc"
+6	62	127	#line 62 "D:\NXT Programok\Slave1.nxc"
+6	63	127		set __Wait_7qG2_ms_7qG2_000_inline_LedGreen, 1000
+6	62	130	#line 62 "D:\NXT Programok\Slave1.nxc"
 6	7921	130	#line 7921 "NXCDefs.h"
 6	7922	130		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_LedGreen
 6	7921	133	#line 7921 "NXCDefs.h"
-6	60	133	#line 60 "D:\NXT Programok\Slave1.nxc"
-6	60	133	#line 60 "D:\NXT Programok\Slave1.nxc"
-6	61	133		set __LedGreen_7qG2_i_7qG2_000, 0
-6	60	136	#line 60 "D:\NXT Programok\Slave1.nxc"
-6	60	136	#line 60 "D:\NXT Programok\Slave1.nxc"
-6	64	136	#line 64 "D:\NXT Programok\Slave1.nxc"
-6	65	136	#line 65 "D:\NXT Programok\Slave1.nxc"
-6	66	136		jmp __NXC_Label_513
-6	65	138	#line 65 "D:\NXT Programok\Slave1.nxc"
-6	66	138		exit -1, -1
-7	74	0	#line 74 "D:\NXT Programok\Slave1.nxc"
-7	75	0	#pragma macro 5
-7	75	0		mov __CBTCSArgs.Connection, __BTCheck_7qG2_conn_7qG2_000
-7	75	3		syscall 28, __CBTCSArgs
-7	7093	6	#line 7093 "D:\NXT Programok\Slave1.nxc"
-7	74	6	#line 74 "D:\NXT Programok\Slave1.nxc"
-7	75	6		not __signed_stack_001BTCheck, __CBTCSArgs.Result
-7	74	9	#line 74 "D:\NXT Programok\Slave1.nxc"
-7	74	9	#line 74 "D:\NXT Programok\Slave1.nxc"
-7	75	9		set __D0BTCheck, 0
-7	74	12	#line 74 "D:\NXT Programok\Slave1.nxc"
-7	75	12		cmp 4, __zfBTCheck, __signed_stack_001BTCheck, __D0BTCheck
-7	74	16	#line 74 "D:\NXT Programok\Slave1.nxc"
-7	75	16		mov __D0BTCheck, __zfBTCheck
-7	75	18	#line 75 "D:\NXT Programok\Slave1.nxc"
-7	76	18		brtst 4, __NXC_Label_540, __zfBTCheck
-7	75	21	#line 75 "D:\NXT Programok\Slave1.nxc"
-7	76	21		set __signed_stack_001BTCheck, 0
-7	75	24	#line 75 "D:\NXT Programok\Slave1.nxc"
-7	75	24	#line 75 "D:\NXT Programok\Slave1.nxc"
-7	76	24		set __signed_stack_002BTCheck, 56
-7	75	27	#line 75 "D:\NXT Programok\Slave1.nxc"
-7	75	27	#line 75 "D:\NXT Programok\Slave1.nxc"
-7	76	27		strcat __strbufBTCheck, __constStr0009
-7	76	31	#line 76 "D:\NXT Programok\Slave1.nxc"
-7	77	31		acquire __TextOutMutex
-7	76	32	#line 76 "D:\NXT Programok\Slave1.nxc"
-7	77	32		mov __TextOutArgs.Location.X, __signed_stack_001BTCheck
-7	76	35	#line 76 "D:\NXT Programok\Slave1.nxc"
-7	77	35		mov __TextOutArgs.Location.Y, __signed_stack_002BTCheck
-7	76	38	#line 76 "D:\NXT Programok\Slave1.nxc"
-7	77	38		set __TextOutArgs.Options, 0
-7	76	41	#line 76 "D:\NXT Programok\Slave1.nxc"
-7	77	41		mov __TextOutArgs.Text, __strbufBTCheck
-7	76	43	#line 76 "D:\NXT Programok\Slave1.nxc"
-7	77	43		syscall 13, __TextOutArgs
-7	76	46	#line 76 "D:\NXT Programok\Slave1.nxc"
-7	77	46		mov __D0BTCheck, __TextOutArgs.Result
-7	76	49	#line 76 "D:\NXT Programok\Slave1.nxc"
-7	77	49		release __TextOutMutex
-7	76	50	#line 76 "D:\NXT Programok\Slave1.nxc"
-7	76	50	#line 76 "D:\NXT Programok\Slave1.nxc"
-7	77	50		set __Wait_7qG2_ms_7qG2_000_inline_BTCheck, 2000
-7	76	53	#line 76 "D:\NXT Programok\Slave1.nxc"
+6	63	133	#line 63 "D:\NXT Programok\Slave1.nxc"
+6	63	133	#line 63 "D:\NXT Programok\Slave1.nxc"
+6	64	133		set __LedGreen_7qG2_i_7qG2_000, 0
+6	63	136	#line 63 "D:\NXT Programok\Slave1.nxc"
+6	63	136	#line 63 "D:\NXT Programok\Slave1.nxc"
+6	67	136	#line 67 "D:\NXT Programok\Slave1.nxc"
+6	68	136	#line 68 "D:\NXT Programok\Slave1.nxc"
+6	69	136		jmp __NXC_Label_513
+6	68	138	#line 68 "D:\NXT Programok\Slave1.nxc"
+6	69	138		exit -1, -1
+7	77	0	#line 77 "D:\NXT Programok\Slave1.nxc"
+7	78	0	#pragma macro 5
+7	78	0		mov __CBTCSArgs.Connection, __BTCheck_7qG2_conn_7qG2_000
+7	78	3		syscall 28, __CBTCSArgs
+7	7159	6	#line 7159 "D:\NXT Programok\Slave1.nxc"
+7	77	6	#line 77 "D:\NXT Programok\Slave1.nxc"
+7	78	6		not __signed_stack_001BTCheck, __CBTCSArgs.Result
+7	77	9	#line 77 "D:\NXT Programok\Slave1.nxc"
+7	77	9	#line 77 "D:\NXT Programok\Slave1.nxc"
+7	78	9		set __D0BTCheck, 0
+7	77	12	#line 77 "D:\NXT Programok\Slave1.nxc"
+7	78	12		cmp 4, __zfBTCheck, __signed_stack_001BTCheck, __D0BTCheck
+7	77	16	#line 77 "D:\NXT Programok\Slave1.nxc"
+7	78	16		mov __D0BTCheck, __zfBTCheck
+7	78	18	#line 78 "D:\NXT Programok\Slave1.nxc"
+7	79	18		brtst 4, __NXC_Label_540, __zfBTCheck
+7	78	21	#line 78 "D:\NXT Programok\Slave1.nxc"
+7	79	21		set __signed_stack_001BTCheck, 0
+7	78	24	#line 78 "D:\NXT Programok\Slave1.nxc"
+7	78	24	#line 78 "D:\NXT Programok\Slave1.nxc"
+7	79	24		set __signed_stack_002BTCheck, 56
+7	78	27	#line 78 "D:\NXT Programok\Slave1.nxc"
+7	78	27	#line 78 "D:\NXT Programok\Slave1.nxc"
+7	79	27		strcat __strbufBTCheck, __constStr0009
+7	79	31	#line 79 "D:\NXT Programok\Slave1.nxc"
+7	80	31		acquire __TextOutMutex
+7	79	32	#line 79 "D:\NXT Programok\Slave1.nxc"
+7	80	32		mov __TextOutArgs.Location.X, __signed_stack_001BTCheck
+7	79	35	#line 79 "D:\NXT Programok\Slave1.nxc"
+7	80	35		mov __TextOutArgs.Location.Y, __signed_stack_002BTCheck
+7	79	38	#line 79 "D:\NXT Programok\Slave1.nxc"
+7	80	38		set __TextOutArgs.Options, 0
+7	79	41	#line 79 "D:\NXT Programok\Slave1.nxc"
+7	80	41		mov __TextOutArgs.Text, __strbufBTCheck
+7	79	43	#line 79 "D:\NXT Programok\Slave1.nxc"
+7	80	43		syscall 13, __TextOutArgs
+7	79	46	#line 79 "D:\NXT Programok\Slave1.nxc"
+7	80	46		mov __D0BTCheck, __TextOutArgs.Result
+7	79	49	#line 79 "D:\NXT Programok\Slave1.nxc"
+7	80	49		release __TextOutMutex
+7	79	50	#line 79 "D:\NXT Programok\Slave1.nxc"
+7	79	50	#line 79 "D:\NXT Programok\Slave1.nxc"
+7	80	50		set __Wait_7qG2_ms_7qG2_000_inline_BTCheck, 2000
+7	79	53	#line 79 "D:\NXT Programok\Slave1.nxc"
 7	7921	53	#line 7921 "NXCDefs.h"
 7	7922	53		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_BTCheck
 7	7921	56	#line 7921 "NXCDefs.h"
-7	78	56	#line 78 "D:\NXT Programok\Slave1.nxc"
-7	79	56	#line 79 "D:\NXT Programok\Slave1.nxc"
-7	80	56		jmp __NXC_Label_539
-7	79	58	#line 79 "D:\NXT Programok\Slave1.nxc"
+7	81	56	#line 81 "D:\NXT Programok\Slave1.nxc"
+7	82	56	#line 82 "D:\NXT Programok\Slave1.nxc"
+7	83	56		jmp __NXC_Label_539
+7	82	58	#line 82 "D:\NXT Programok\Slave1.nxc"
 7	6069	58	#line 6069 "NXCDefs.h"
 7	6070	58	#pragma macro 6
 7	6070	58		acquire __PointOutMutex
 7	6070	59		mov __PointOutArgs.Location.X, __constVal200
-7	6070	62		mov __PointOutArgs.Location.Y, __constVal200
-7	6070	65		mov __PointOutArgs.Options, __constVal1
-7	6070	67		syscall 14, __PointOutArgs
-7	6070	70		release __PointOutMutex
-7	7158	71	#line 7158 "NXCDefs.h"
-7	6069	71	#line 6069 "NXCDefs.h"
-7	80	71	#line 80 "D:\NXT Programok\Slave1.nxc"
-7	82	71	#line 82 "D:\NXT Programok\Slave1.nxc"
-7	83	71		subret __BTCheck_return
-8	84	0	#line 84 "D:\NXT Programok\Slave1.nxc"
-8	85	0		mov __signed_stack_001MotorAB, power
-8	84	2	#line 84 "D:\NXT Programok\Slave1.nxc"
-8	84	2	#line 84 "D:\NXT Programok\Slave1.nxc"
-8	85	2		mov __signed_stack_002MotorAB, RA
-8	84	4	#line 84 "D:\NXT Programok\Slave1.nxc"
-8	84	4	#line 84 "D:\NXT Programok\Slave1.nxc"
-8	85	4		set __signed_stack_003MotorAB, 0
-8	84	7	#line 84 "D:\NXT Programok\Slave1.nxc"
-8	84	7	#line 84 "D:\NXT Programok\Slave1.nxc"
-8	85	7		set __signed_stack_004MotorAB, 1
-8	84	10	#line 84 "D:\NXT Programok\Slave1.nxc"
-8	84	10	#line 84 "D:\NXT Programok\Slave1.nxc"
-8	85	10		set __signed_stack_005MotorAB, 1
-8	84	13	#line 84 "D:\NXT Programok\Slave1.nxc"
-8	84	13	#line 84 "D:\NXT Programok\Slave1.nxc"
-8	85	13		set __signed_stack_006MotorAB, 50
-8	84	16	#line 84 "D:\NXT Programok\Slave1.nxc"
-8	84	16	#line 84 "D:\NXT Programok\Slave1.nxc"
-8	85	16		set __signed_stack_007MotorAB, 50
-8	84	19	#line 84 "D:\NXT Programok\Slave1.nxc"
-8	84	19	#line 84 "D:\NXT Programok\Slave1.nxc"
-8	85	19		set __D0MotorAB, 50
-8	85	22	#line 85 "D:\NXT Programok\Slave1.nxc"
-8	86	22	#pragma macro 35
-8	86	22		acquire __rotateMutex0
-8	86	23		acquire __rotateMutex1
-8	86	24		mov __rotate_ports3, __OUT_AB
-8	86	26		mov __rotate_power3, __signed_stack_001MotorAB
-8	86	28		mov __rotate_angle3, __signed_stack_002MotorAB
-8	86	30		mov __rotate_turnpct3, __signed_stack_003MotorAB
-8	86	32		mov __rotate_sync3, __signed_stack_004MotorAB
-8	86	34		mov __rotate_stop3, __signed_stack_005MotorAB
-8	86	36		mov __rotate_theRVP3, __signed_stack_006MotorAB
-8	86	39		mov __rotate_theRVI3, __signed_stack_007MotorAB
-8	86	42		mov __rotate_theRVD3, __D0MotorAB
-8	86	44		subcall __RotateMotor3, ____RotateMotor3_return
-8	86	47		release __rotateMutex1
-8	86	48		release __rotateMutex0
-8	7213	49	#line 7213 "D:\NXT Programok\Slave1.nxc"
-8	85	49	#line 85 "D:\NXT Programok\Slave1.nxc"
-8	86	49	#line 86 "D:\NXT Programok\Slave1.nxc"
-8	87	49		set A_Done, 1
-8	86	52	#line 86 "D:\NXT Programok\Slave1.nxc"
-8	86	52	#line 86 "D:\NXT Programok\Slave1.nxc"
-8	87	52	#line 87 "D:\NXT Programok\Slave1.nxc"
-8	88	52		set B_Done, 1
-8	87	55	#line 87 "D:\NXT Programok\Slave1.nxc"
-8	87	55	#line 87 "D:\NXT Programok\Slave1.nxc"
-8	88	55		exit -1, -1
-9	91	0	#line 91 "D:\NXT Programok\Slave1.nxc"
-9	92	0		mov __signed_stack_001MotorABInverse, RA
-9	91	2	#line 91 "D:\NXT Programok\Slave1.nxc"
-9	91	2	#line 91 "D:\NXT Programok\Slave1.nxc"
-9	92	2		set __D0MotorABInverse, 0
-9	91	5	#line 91 "D:\NXT Programok\Slave1.nxc"
-9	92	5		cmp 1, __zfMotorABInverse, __signed_stack_001MotorABInverse, __D0MotorABInverse
-9	91	9	#line 91 "D:\NXT Programok\Slave1.nxc"
-9	92	9		mov __D0MotorABInverse, __zfMotorABInverse
-9	91	11	#line 91 "D:\NXT Programok\Slave1.nxc"
-9	92	11		brtst 4, __NXC_Label_570, __zfMotorABInverse
-9	91	14	#line 91 "D:\NXT Programok\Slave1.nxc"
-9	92	14		mov __signed_stack_001MotorABInverse, __D0MotorABInverse
-9	91	16	#line 91 "D:\NXT Programok\Slave1.nxc"
-9	92	16		mov __signed_stack_002MotorABInverse, RB
-9	91	18	#line 91 "D:\NXT Programok\Slave1.nxc"
-9	91	18	#line 91 "D:\NXT Programok\Slave1.nxc"
-9	92	18		set __D0MotorABInverse, 0
-9	91	21	#line 91 "D:\NXT Programok\Slave1.nxc"
-9	92	21		cmp 0, __zfMotorABInverse, __signed_stack_002MotorABInverse, __D0MotorABInverse
-9	91	25	#line 91 "D:\NXT Programok\Slave1.nxc"
-9	91	25	#line 91 "D:\NXT Programok\Slave1.nxc"
-9	92	25		and __D0MotorABInverse, __signed_stack_001MotorABInverse, __zfMotorABInverse
-9	92	29	#line 92 "D:\NXT Programok\Slave1.nxc"
-9	93	29		tst 5, __zfMotorABInverse, __D0MotorABInverse
-9	92	32	#line 92 "D:\NXT Programok\Slave1.nxc"
-9	93	32		brtst 4, __NXC_Label_571, __zfMotorABInverse
-9	92	35	#line 92 "D:\NXT Programok\Slave1.nxc"
-9	93	35		mov __signed_stack_001MotorABInverse, power
-9	92	37	#line 92 "D:\NXT Programok\Slave1.nxc"
-9	92	37	#line 92 "D:\NXT Programok\Slave1.nxc"
-9	93	37		mov __signed_stack_002MotorABInverse, RA
-9	92	39	#line 92 "D:\NXT Programok\Slave1.nxc"
-9	92	39	#line 92 "D:\NXT Programok\Slave1.nxc"
-9	93	39		mov __signed_stack_003MotorABInverse, __constValNeg100
-9	92	42	#line 92 "D:\NXT Programok\Slave1.nxc"
-9	92	42	#line 92 "D:\NXT Programok\Slave1.nxc"
-9	93	42		set __signed_stack_004MotorABInverse, 1
-9	92	45	#line 92 "D:\NXT Programok\Slave1.nxc"
-9	92	45	#line 92 "D:\NXT Programok\Slave1.nxc"
-9	93	45		set __signed_stack_005MotorABInverse, 1
-9	92	48	#line 92 "D:\NXT Programok\Slave1.nxc"
-9	92	48	#line 92 "D:\NXT Programok\Slave1.nxc"
-9	93	48		set __signed_stack_006MotorABInverse, 90
-9	92	51	#line 92 "D:\NXT Programok\Slave1.nxc"
-9	92	51	#line 92 "D:\NXT Programok\Slave1.nxc"
-9	93	51		set __signed_stack_007MotorABInverse, 40
-9	92	54	#line 92 "D:\NXT Programok\Slave1.nxc"
-9	92	54	#line 92 "D:\NXT Programok\Slave1.nxc"
-9	93	54		set __D0MotorABInverse, 50
-9	93	57	#line 93 "D:\NXT Programok\Slave1.nxc"
-9	94	57	#pragma macro 35
-9	94	57		acquire __rotateMutex0
-9	94	58		acquire __rotateMutex1
-9	94	59		mov __rotate_ports3, __OUT_AB
-9	94	61		mov __rotate_power3, __signed_stack_001MotorABInverse
-9	94	63		mov __rotate_angle3, __signed_stack_002MotorABInverse
-9	94	65		mov __rotate_turnpct3, __signed_stack_003MotorABInverse
-9	94	67		mov __rotate_sync3, __signed_stack_004MotorABInverse
-9	94	69		mov __rotate_stop3, __signed_stack_005MotorABInverse
-9	94	71		mov __rotate_theRVP3, __signed_stack_006MotorABInverse
-9	94	73		mov __rotate_theRVI3, __signed_stack_007MotorABInverse
-9	94	75		mov __rotate_theRVD3, __D0MotorABInverse
-9	94	77		subcall __RotateMotor3, ____RotateMotor3_return
-9	94	80		release __rotateMutex1
-9	94	81		release __rotateMutex0
-9	7311	82	#line 7311 "D:\NXT Programok\Slave1.nxc"
-9	93	82	#line 93 "D:\NXT Programok\Slave1.nxc"
-9	95	82	#line 95 "D:\NXT Programok\Slave1.nxc"
-9	96	82		jmp __NXC_Label_588
-9	95	84	#line 95 "D:\NXT Programok\Slave1.nxc"
-9	96	84		mov __signed_stack_001MotorABInverse, power
-9	95	86	#line 95 "D:\NXT Programok\Slave1.nxc"
-9	95	86	#line 95 "D:\NXT Programok\Slave1.nxc"
-9	96	86		mov __signed_stack_002MotorABInverse, RA
-9	95	88	#line 95 "D:\NXT Programok\Slave1.nxc"
-9	95	88	#line 95 "D:\NXT Programok\Slave1.nxc"
-9	96	88		set __signed_stack_003MotorABInverse, 100
-9	95	91	#line 95 "D:\NXT Programok\Slave1.nxc"
-9	95	91	#line 95 "D:\NXT Programok\Slave1.nxc"
-9	96	91		set __signed_stack_004MotorABInverse, 1
-9	95	94	#line 95 "D:\NXT Programok\Slave1.nxc"
-9	95	94	#line 95 "D:\NXT Programok\Slave1.nxc"
-9	96	94		set __signed_stack_005MotorABInverse, 1
-9	95	97	#line 95 "D:\NXT Programok\Slave1.nxc"
-9	95	97	#line 95 "D:\NXT Programok\Slave1.nxc"
-9	96	97		set __signed_stack_006MotorABInverse, 90
-9	95	100	#line 95 "D:\NXT Programok\Slave1.nxc"
-9	95	100	#line 95 "D:\NXT Programok\Slave1.nxc"
-9	96	100		set __signed_stack_007MotorABInverse, 40
-9	95	103	#line 95 "D:\NXT Programok\Slave1.nxc"
-9	95	103	#line 95 "D:\NXT Programok\Slave1.nxc"
-9	96	103		set __D0MotorABInverse, 50
-9	96	106	#line 96 "D:\NXT Programok\Slave1.nxc"
-9	97	106	#pragma macro 35
-9	97	106		acquire __rotateMutex0
-9	97	107		acquire __rotateMutex1
-9	97	108		mov __rotate_ports3, __OUT_AB
-9	97	110		mov __rotate_power3, __signed_stack_001MotorABInverse
-9	97	112		mov __rotate_angle3, __signed_stack_002MotorABInverse
-9	97	114		mov __rotate_turnpct3, __signed_stack_003MotorABInverse
-9	97	116		mov __rotate_sync3, __signed_stack_004MotorABInverse
-9	97	118		mov __rotate_stop3, __signed_stack_005MotorABInverse
-9	97	120		mov __rotate_theRVP3, __signed_stack_006MotorABInverse
-9	97	122		mov __rotate_theRVI3, __signed_stack_007MotorABInverse
-9	97	124		mov __rotate_theRVD3, __D0MotorABInverse
-9	97	126		subcall __RotateMotor3, ____RotateMotor3_return
-9	97	129		release __rotateMutex1
-9	97	130		release __rotateMutex0
-9	7363	131	#line 7363 "D:\NXT Programok\Slave1.nxc"
-9	96	131	#line 96 "D:\NXT Programok\Slave1.nxc"
-9	98	131	#line 98 "D:\NXT Programok\Slave1.nxc"
-9	99	131	#line 99 "D:\NXT Programok\Slave1.nxc"
-9	100	131		set A_Done, 1
-9	99	134	#line 99 "D:\NXT Programok\Slave1.nxc"
-9	99	134	#line 99 "D:\NXT Programok\Slave1.nxc"
-9	100	134	#line 100 "D:\NXT Programok\Slave1.nxc"
-9	101	134		set B_Done, 1
-9	100	137	#line 100 "D:\NXT Programok\Slave1.nxc"
-9	100	137	#line 100 "D:\NXT Programok\Slave1.nxc"
-9	101	137		exit -1, -1
-10	104	0	#line 104 "D:\NXT Programok\Slave1.nxc"
-10	105	0		mov __signed_stack_001MotorA, power
-10	104	2	#line 104 "D:\NXT Programok\Slave1.nxc"
-10	104	2	#line 104 "D:\NXT Programok\Slave1.nxc"
-10	105	2		mov __signed_stack_002MotorA, RA
-10	104	4	#line 104 "D:\NXT Programok\Slave1.nxc"
-10	104	4	#line 104 "D:\NXT Programok\Slave1.nxc"
-10	105	4		set __signed_stack_003MotorA, 40
-10	104	7	#line 104 "D:\NXT Programok\Slave1.nxc"
-10	104	7	#line 104 "D:\NXT Programok\Slave1.nxc"
-10	105	7		set __signed_stack_004MotorA, 40
-10	104	10	#line 104 "D:\NXT Programok\Slave1.nxc"
-10	104	10	#line 104 "D:\NXT Programok\Slave1.nxc"
-10	105	10		set __D0MotorA, 40
-10	105	13	#line 105 "D:\NXT Programok\Slave1.nxc"
-10	106	13	#pragma macro 33
-10	106	13		acquire __rotateMutex0
-10	106	14		arrbuild __rotate_ports0, __constVal0
-10	106	18		mov __rotate_power0, __signed_stack_001MotorA
-10	106	20		mov __rotate_angle0, __signed_stack_002MotorA
-10	106	22		mov __rotate_turnpct0, __constVal0
-10	106	24		mov __rotate_sync0, __constVal0
-10	106	26		mov __rotate_stop0, __constVal1
-10	106	28		mov __rotate_theRVP0, __signed_stack_003MotorA
-10	106	30		mov __rotate_theRVI0, __signed_stack_004MotorA
-10	106	32		mov __rotate_theRVD0, __D0MotorA
-10	106	34		subcall __RotateMotor0, ____RotateMotor0_return
-10	106	37		release __rotateMutex0
-10	7413	38	#line 7413 "D:\NXT Programok\Slave1.nxc"
-10	105	38	#line 105 "D:\NXT Programok\Slave1.nxc"
-10	106	38	#line 106 "D:\NXT Programok\Slave1.nxc"
-10	107	38		set A_Done, 1
-10	106	41	#line 106 "D:\NXT Programok\Slave1.nxc"
-10	106	41	#line 106 "D:\NXT Programok\Slave1.nxc"
-10	107	41		exit -1, -1
-11	111	0	#line 111 "D:\NXT Programok\Slave1.nxc"
-11	112	0		mov __signed_stack_001MotorB, power
-11	111	2	#line 111 "D:\NXT Programok\Slave1.nxc"
-11	111	2	#line 111 "D:\NXT Programok\Slave1.nxc"
-11	112	2		mov __signed_stack_002MotorB, RB
-11	111	4	#line 111 "D:\NXT Programok\Slave1.nxc"
-11	111	4	#line 111 "D:\NXT Programok\Slave1.nxc"
-11	112	4		set __signed_stack_003MotorB, 40
-11	111	7	#line 111 "D:\NXT Programok\Slave1.nxc"
-11	111	7	#line 111 "D:\NXT Programok\Slave1.nxc"
-11	112	7		set __signed_stack_004MotorB, 40
-11	111	10	#line 111 "D:\NXT Programok\Slave1.nxc"
-11	111	10	#line 111 "D:\NXT Programok\Slave1.nxc"
-11	112	10		set __D0MotorB, 40
-11	112	13	#line 112 "D:\NXT Programok\Slave1.nxc"
-11	113	13	#pragma macro 33
-11	113	13		acquire __rotateMutex1
-11	113	14		arrbuild __rotate_ports1, __constVal1
-11	113	18		mov __rotate_power1, __signed_stack_001MotorB
-11	113	21		mov __rotate_angle1, __signed_stack_002MotorB
-11	113	23		mov __rotate_turnpct1, __constVal0
-11	113	25		mov __rotate_sync1, __constVal0
-11	113	27		mov __rotate_stop1, __constVal1
-11	113	29		mov __rotate_theRVP1, __signed_stack_003MotorB
-11	113	31		mov __rotate_theRVI1, __signed_stack_004MotorB
-11	113	33		mov __rotate_theRVD1, __D0MotorB
-11	113	35		subcall __RotateMotor1, ____RotateMotor1_return
-11	113	38		release __rotateMutex1
-11	7454	39	#line 7454 "D:\NXT Programok\Slave1.nxc"
-11	112	39	#line 112 "D:\NXT Programok\Slave1.nxc"
-11	113	39	#line 113 "D:\NXT Programok\Slave1.nxc"
-11	114	39		set B_Done, 1
-11	113	42	#line 113 "D:\NXT Programok\Slave1.nxc"
-11	113	42	#line 113 "D:\NXT Programok\Slave1.nxc"
-11	114	42		exit -1, -1
-12	128	0	#line 128 "D:\NXT Programok\Slave1.nxc"
-12	129	0		getout __MotorRealPosition_7qG2_AP_7qG2_000, __constVal0, 14
-12	128	4	#line 128 "D:\NXT Programok\Slave1.nxc"
-12	129	4	#line 129 "D:\NXT Programok\Slave1.nxc"
-12	130	4		getout __MotorRealPosition_7qG2_BP_7qG2_000, __constVal1, 14
-12	129	8	#line 129 "D:\NXT Programok\Slave1.nxc"
-12	129	8	#line 129 "D:\NXT Programok\Slave1.nxc"
-12	130	8		set __ClearLine_7qG2_line_7qG2_000_inline_MotorRealPosition, 16
-12	129	11	#line 129 "D:\NXT Programok\Slave1.nxc"
+7	6070	61		mov __PointOutArgs.Location.Y, __constVal200
+7	6070	63		mov __PointOutArgs.Options, __constVal1
+7	6070	65		syscall 14, __PointOutArgs
+7	6070	68		release __PointOutMutex
+7	7224	69	#line 7224 "NXCDefs.h"
+7	6069	69	#line 6069 "NXCDefs.h"
+7	83	69	#line 83 "D:\NXT Programok\Slave1.nxc"
+7	85	69	#line 85 "D:\NXT Programok\Slave1.nxc"
+7	86	69		subret __BTCheck_return
+8	87	0	#line 87 "D:\NXT Programok\Slave1.nxc"
+8	88	0		mov __signed_stack_001MotorAB, power
+8	87	2	#line 87 "D:\NXT Programok\Slave1.nxc"
+8	87	2	#line 87 "D:\NXT Programok\Slave1.nxc"
+8	88	2		mov __signed_stack_002MotorAB, RA
+8	87	4	#line 87 "D:\NXT Programok\Slave1.nxc"
+8	87	4	#line 87 "D:\NXT Programok\Slave1.nxc"
+8	88	4		set __signed_stack_003MotorAB, 0
+8	87	7	#line 87 "D:\NXT Programok\Slave1.nxc"
+8	87	7	#line 87 "D:\NXT Programok\Slave1.nxc"
+8	88	7		set __signed_stack_004MotorAB, 1
+8	87	10	#line 87 "D:\NXT Programok\Slave1.nxc"
+8	87	10	#line 87 "D:\NXT Programok\Slave1.nxc"
+8	88	10		set __signed_stack_005MotorAB, 1
+8	87	13	#line 87 "D:\NXT Programok\Slave1.nxc"
+8	87	13	#line 87 "D:\NXT Programok\Slave1.nxc"
+8	88	13		set __signed_stack_006MotorAB, 50
+8	87	16	#line 87 "D:\NXT Programok\Slave1.nxc"
+8	87	16	#line 87 "D:\NXT Programok\Slave1.nxc"
+8	88	16		set __signed_stack_007MotorAB, 50
+8	87	19	#line 87 "D:\NXT Programok\Slave1.nxc"
+8	87	19	#line 87 "D:\NXT Programok\Slave1.nxc"
+8	88	19		set __D0MotorAB, 50
+8	88	22	#line 88 "D:\NXT Programok\Slave1.nxc"
+8	89	22	#pragma macro 35
+8	89	22		acquire __rotateMutex0
+8	89	23		acquire __rotateMutex1
+8	89	24		mov __rotate_ports3, __OUT_AB
+8	89	26		mov __rotate_power3, __signed_stack_001MotorAB
+8	89	29		mov __rotate_angle3, __signed_stack_002MotorAB
+8	89	31		mov __rotate_turnpct3, __signed_stack_003MotorAB
+8	89	33		mov __rotate_sync3, __signed_stack_004MotorAB
+8	89	35		mov __rotate_stop3, __signed_stack_005MotorAB
+8	89	37		mov __rotate_theRVP3, __signed_stack_006MotorAB
+8	89	39		mov __rotate_theRVI3, __signed_stack_007MotorAB
+8	89	41		mov __rotate_theRVD3, __D0MotorAB
+8	89	44		subcall __RotateMotor3, ____RotateMotor3_return
+8	89	47		release __rotateMutex1
+8	89	48		release __rotateMutex0
+8	7279	49	#line 7279 "D:\NXT Programok\Slave1.nxc"
+8	88	49	#line 88 "D:\NXT Programok\Slave1.nxc"
+8	89	49	#line 89 "D:\NXT Programok\Slave1.nxc"
+8	90	49		set A_Done, 1
+8	89	52	#line 89 "D:\NXT Programok\Slave1.nxc"
+8	89	52	#line 89 "D:\NXT Programok\Slave1.nxc"
+8	90	52	#line 90 "D:\NXT Programok\Slave1.nxc"
+8	91	52		set B_Done, 1
+8	90	55	#line 90 "D:\NXT Programok\Slave1.nxc"
+8	90	55	#line 90 "D:\NXT Programok\Slave1.nxc"
+8	91	55		exit -1, -1
+9	94	0	#line 94 "D:\NXT Programok\Slave1.nxc"
+9	95	0		mov __signed_stack_001MotorABInverse, RA
+9	94	2	#line 94 "D:\NXT Programok\Slave1.nxc"
+9	94	2	#line 94 "D:\NXT Programok\Slave1.nxc"
+9	95	2		set __D0MotorABInverse, 0
+9	94	5	#line 94 "D:\NXT Programok\Slave1.nxc"
+9	95	5		cmp 1, __zfMotorABInverse, __signed_stack_001MotorABInverse, __D0MotorABInverse
+9	94	9	#line 94 "D:\NXT Programok\Slave1.nxc"
+9	95	9		mov __D0MotorABInverse, __zfMotorABInverse
+9	94	12	#line 94 "D:\NXT Programok\Slave1.nxc"
+9	95	12		brtst 4, __NXC_Label_570, __zfMotorABInverse
+9	94	15	#line 94 "D:\NXT Programok\Slave1.nxc"
+9	95	15		mov __signed_stack_001MotorABInverse, __D0MotorABInverse
+9	94	17	#line 94 "D:\NXT Programok\Slave1.nxc"
+9	95	17		mov __signed_stack_002MotorABInverse, RB
+9	94	19	#line 94 "D:\NXT Programok\Slave1.nxc"
+9	94	19	#line 94 "D:\NXT Programok\Slave1.nxc"
+9	95	19		set __D0MotorABInverse, 0
+9	94	22	#line 94 "D:\NXT Programok\Slave1.nxc"
+9	95	22		cmp 0, __zfMotorABInverse, __signed_stack_002MotorABInverse, __D0MotorABInverse
+9	94	26	#line 94 "D:\NXT Programok\Slave1.nxc"
+9	94	26	#line 94 "D:\NXT Programok\Slave1.nxc"
+9	95	26		and __D0MotorABInverse, __signed_stack_001MotorABInverse, __zfMotorABInverse
+9	95	30	#line 95 "D:\NXT Programok\Slave1.nxc"
+9	96	30		tst 5, __zfMotorABInverse, __D0MotorABInverse
+9	95	33	#line 95 "D:\NXT Programok\Slave1.nxc"
+9	96	33		brtst 4, __NXC_Label_571, __zfMotorABInverse
+9	95	36	#line 95 "D:\NXT Programok\Slave1.nxc"
+9	96	36		mov __signed_stack_001MotorABInverse, power
+9	95	38	#line 95 "D:\NXT Programok\Slave1.nxc"
+9	95	38	#line 95 "D:\NXT Programok\Slave1.nxc"
+9	96	38		mov __signed_stack_002MotorABInverse, RA
+9	95	40	#line 95 "D:\NXT Programok\Slave1.nxc"
+9	95	40	#line 95 "D:\NXT Programok\Slave1.nxc"
+9	96	40		mov __signed_stack_003MotorABInverse, __constValNeg100
+9	95	42	#line 95 "D:\NXT Programok\Slave1.nxc"
+9	95	42	#line 95 "D:\NXT Programok\Slave1.nxc"
+9	96	42		set __signed_stack_004MotorABInverse, 1
+9	95	45	#line 95 "D:\NXT Programok\Slave1.nxc"
+9	95	45	#line 95 "D:\NXT Programok\Slave1.nxc"
+9	96	45		set __signed_stack_005MotorABInverse, 1
+9	95	48	#line 95 "D:\NXT Programok\Slave1.nxc"
+9	95	48	#line 95 "D:\NXT Programok\Slave1.nxc"
+9	96	48		set __signed_stack_006MotorABInverse, 90
+9	95	51	#line 95 "D:\NXT Programok\Slave1.nxc"
+9	95	51	#line 95 "D:\NXT Programok\Slave1.nxc"
+9	96	51		set __signed_stack_007MotorABInverse, 40
+9	95	54	#line 95 "D:\NXT Programok\Slave1.nxc"
+9	95	54	#line 95 "D:\NXT Programok\Slave1.nxc"
+9	96	54		set __D0MotorABInverse, 50
+9	96	57	#line 96 "D:\NXT Programok\Slave1.nxc"
+9	97	57	#pragma macro 35
+9	97	57		acquire __rotateMutex0
+9	97	58		acquire __rotateMutex1
+9	97	59		mov __rotate_ports3, __OUT_AB
+9	97	61		mov __rotate_power3, __signed_stack_001MotorABInverse
+9	97	64		mov __rotate_angle3, __signed_stack_002MotorABInverse
+9	97	66		mov __rotate_turnpct3, __signed_stack_003MotorABInverse
+9	97	68		mov __rotate_sync3, __signed_stack_004MotorABInverse
+9	97	70		mov __rotate_stop3, __signed_stack_005MotorABInverse
+9	97	72		mov __rotate_theRVP3, __signed_stack_006MotorABInverse
+9	97	74		mov __rotate_theRVI3, __signed_stack_007MotorABInverse
+9	97	76		mov __rotate_theRVD3, __D0MotorABInverse
+9	97	79		subcall __RotateMotor3, ____RotateMotor3_return
+9	97	82		release __rotateMutex1
+9	97	83		release __rotateMutex0
+9	7377	84	#line 7377 "D:\NXT Programok\Slave1.nxc"
+9	96	84	#line 96 "D:\NXT Programok\Slave1.nxc"
+9	98	84	#line 98 "D:\NXT Programok\Slave1.nxc"
+9	99	84		jmp __NXC_Label_588
+9	98	86	#line 98 "D:\NXT Programok\Slave1.nxc"
+9	99	86		mov __signed_stack_001MotorABInverse, power
+9	98	88	#line 98 "D:\NXT Programok\Slave1.nxc"
+9	98	88	#line 98 "D:\NXT Programok\Slave1.nxc"
+9	99	88		mov __signed_stack_002MotorABInverse, RA
+9	98	90	#line 98 "D:\NXT Programok\Slave1.nxc"
+9	98	90	#line 98 "D:\NXT Programok\Slave1.nxc"
+9	99	90		set __signed_stack_003MotorABInverse, 100
+9	98	93	#line 98 "D:\NXT Programok\Slave1.nxc"
+9	98	93	#line 98 "D:\NXT Programok\Slave1.nxc"
+9	99	93		set __signed_stack_004MotorABInverse, 1
+9	98	96	#line 98 "D:\NXT Programok\Slave1.nxc"
+9	98	96	#line 98 "D:\NXT Programok\Slave1.nxc"
+9	99	96		set __signed_stack_005MotorABInverse, 1
+9	98	99	#line 98 "D:\NXT Programok\Slave1.nxc"
+9	98	99	#line 98 "D:\NXT Programok\Slave1.nxc"
+9	99	99		set __signed_stack_006MotorABInverse, 90
+9	98	102	#line 98 "D:\NXT Programok\Slave1.nxc"
+9	98	102	#line 98 "D:\NXT Programok\Slave1.nxc"
+9	99	102		set __signed_stack_007MotorABInverse, 40
+9	98	105	#line 98 "D:\NXT Programok\Slave1.nxc"
+9	98	105	#line 98 "D:\NXT Programok\Slave1.nxc"
+9	99	105		set __D0MotorABInverse, 50
+9	99	108	#line 99 "D:\NXT Programok\Slave1.nxc"
+9	100	108	#pragma macro 35
+9	100	108		acquire __rotateMutex0
+9	100	109		acquire __rotateMutex1
+9	100	110		mov __rotate_ports3, __OUT_AB
+9	100	112		mov __rotate_power3, __signed_stack_001MotorABInverse
+9	100	115		mov __rotate_angle3, __signed_stack_002MotorABInverse
+9	100	117		mov __rotate_turnpct3, __signed_stack_003MotorABInverse
+9	100	119		mov __rotate_sync3, __signed_stack_004MotorABInverse
+9	100	121		mov __rotate_stop3, __signed_stack_005MotorABInverse
+9	100	123		mov __rotate_theRVP3, __signed_stack_006MotorABInverse
+9	100	125		mov __rotate_theRVI3, __signed_stack_007MotorABInverse
+9	100	127		mov __rotate_theRVD3, __D0MotorABInverse
+9	100	130		subcall __RotateMotor3, ____RotateMotor3_return
+9	100	133		release __rotateMutex1
+9	100	134		release __rotateMutex0
+9	7429	135	#line 7429 "D:\NXT Programok\Slave1.nxc"
+9	99	135	#line 99 "D:\NXT Programok\Slave1.nxc"
+9	101	135	#line 101 "D:\NXT Programok\Slave1.nxc"
+9	102	135	#line 102 "D:\NXT Programok\Slave1.nxc"
+9	103	135		set A_Done, 1
+9	102	138	#line 102 "D:\NXT Programok\Slave1.nxc"
+9	102	138	#line 102 "D:\NXT Programok\Slave1.nxc"
+9	103	138	#line 103 "D:\NXT Programok\Slave1.nxc"
+9	104	138		set B_Done, 1
+9	103	141	#line 103 "D:\NXT Programok\Slave1.nxc"
+9	103	141	#line 103 "D:\NXT Programok\Slave1.nxc"
+9	104	141		exit -1, -1
+10	107	0	#line 107 "D:\NXT Programok\Slave1.nxc"
+10	108	0		mov __signed_stack_001MotorA, power
+10	107	2	#line 107 "D:\NXT Programok\Slave1.nxc"
+10	107	2	#line 107 "D:\NXT Programok\Slave1.nxc"
+10	108	2		mov __signed_stack_002MotorA, RA
+10	107	4	#line 107 "D:\NXT Programok\Slave1.nxc"
+10	107	4	#line 107 "D:\NXT Programok\Slave1.nxc"
+10	108	4		set __signed_stack_003MotorA, 40
+10	107	7	#line 107 "D:\NXT Programok\Slave1.nxc"
+10	107	7	#line 107 "D:\NXT Programok\Slave1.nxc"
+10	108	7		set __signed_stack_004MotorA, 40
+10	107	10	#line 107 "D:\NXT Programok\Slave1.nxc"
+10	107	10	#line 107 "D:\NXT Programok\Slave1.nxc"
+10	108	10		set __D0MotorA, 40
+10	108	13	#line 108 "D:\NXT Programok\Slave1.nxc"
+10	109	13	#pragma macro 33
+10	109	13		acquire __rotateMutex0
+10	109	14		arrbuild __rotate_ports0, __constVal0
+10	109	18		mov __rotate_power0, __signed_stack_001MotorA
+10	109	20		mov __rotate_angle0, __signed_stack_002MotorA
+10	109	22		mov __rotate_turnpct0, __constVal0
+10	109	24		mov __rotate_sync0, __constVal0
+10	109	26		mov __rotate_stop0, __constVal1
+10	109	28		mov __rotate_theRVP0, __signed_stack_003MotorA
+10	109	30		mov __rotate_theRVI0, __signed_stack_004MotorA
+10	109	32		mov __rotate_theRVD0, __D0MotorA
+10	109	34		subcall __RotateMotor0, ____RotateMotor0_return
+10	109	37		release __rotateMutex0
+10	7479	38	#line 7479 "D:\NXT Programok\Slave1.nxc"
+10	108	38	#line 108 "D:\NXT Programok\Slave1.nxc"
+10	109	38	#line 109 "D:\NXT Programok\Slave1.nxc"
+10	110	38		set A_Done, 1
+10	109	41	#line 109 "D:\NXT Programok\Slave1.nxc"
+10	109	41	#line 109 "D:\NXT Programok\Slave1.nxc"
+10	110	41		exit -1, -1
+11	114	0	#line 114 "D:\NXT Programok\Slave1.nxc"
+11	115	0		mov __signed_stack_001MotorB, power
+11	114	2	#line 114 "D:\NXT Programok\Slave1.nxc"
+11	114	2	#line 114 "D:\NXT Programok\Slave1.nxc"
+11	115	2		mov __signed_stack_002MotorB, RB
+11	114	4	#line 114 "D:\NXT Programok\Slave1.nxc"
+11	114	4	#line 114 "D:\NXT Programok\Slave1.nxc"
+11	115	4		set __signed_stack_003MotorB, 40
+11	114	7	#line 114 "D:\NXT Programok\Slave1.nxc"
+11	114	7	#line 114 "D:\NXT Programok\Slave1.nxc"
+11	115	7		set __signed_stack_004MotorB, 40
+11	114	10	#line 114 "D:\NXT Programok\Slave1.nxc"
+11	114	10	#line 114 "D:\NXT Programok\Slave1.nxc"
+11	115	10		set __D0MotorB, 40
+11	115	13	#line 115 "D:\NXT Programok\Slave1.nxc"
+11	116	13	#pragma macro 33
+11	116	13		acquire __rotateMutex1
+11	116	14		arrbuild __rotate_ports1, __constVal1
+11	116	18		mov __rotate_power1, __signed_stack_001MotorB
+11	116	20		mov __rotate_angle1, __signed_stack_002MotorB
+11	116	22		mov __rotate_turnpct1, __constVal0
+11	116	24		mov __rotate_sync1, __constVal0
+11	116	26		mov __rotate_stop1, __constVal1
+11	116	28		mov __rotate_theRVP1, __signed_stack_003MotorB
+11	116	31		mov __rotate_theRVI1, __signed_stack_004MotorB
+11	116	33		mov __rotate_theRVD1, __D0MotorB
+11	116	36		subcall __RotateMotor1, ____RotateMotor1_return
+11	116	39		release __rotateMutex1
+11	7520	40	#line 7520 "D:\NXT Programok\Slave1.nxc"
+11	115	40	#line 115 "D:\NXT Programok\Slave1.nxc"
+11	116	40	#line 116 "D:\NXT Programok\Slave1.nxc"
+11	117	40		set B_Done, 1
+11	116	43	#line 116 "D:\NXT Programok\Slave1.nxc"
+11	116	43	#line 116 "D:\NXT Programok\Slave1.nxc"
+11	117	43		exit -1, -1
+12	131	0	#line 131 "D:\NXT Programok\Slave1.nxc"
+12	132	0		getout __MotorRealPosition_7qG2_AP_7qG2_000, __constVal0, 14
+12	131	4	#line 131 "D:\NXT Programok\Slave1.nxc"
+12	132	4	#line 132 "D:\NXT Programok\Slave1.nxc"
+12	133	4		getout __MotorRealPosition_7qG2_BP_7qG2_000, __constVal1, 14
+12	132	8	#line 132 "D:\NXT Programok\Slave1.nxc"
+12	132	8	#line 132 "D:\NXT Programok\Slave1.nxc"
+12	133	8		set __ClearLine_7qG2_line_7qG2_000_inline_MotorRealPosition, 16
+12	132	11	#line 132 "D:\NXT Programok\Slave1.nxc"
 12	6076	11	#line 6076 "NXCDefs.h"
 12	6077	11	#pragma macro 7
 12	6077	11		acquire __TextOutMutex
@@ -1141,12 +1139,12 @@ Clump	Line	PC	Source
 12	6077	18		mov __TextOutArgs.Text, __BlankLine
 12	6077	20		syscall 13, __TextOutArgs
 12	6077	23		release __TextOutMutex
-12	7584	24	#line 7584 "NXCDefs.h"
+12	7650	24	#line 7650 "NXCDefs.h"
 12	6076	24	#line 6076 "NXCDefs.h"
-12	130	24	#line 130 "D:\NXT Programok\Slave1.nxc"
-12	130	24	#line 130 "D:\NXT Programok\Slave1.nxc"
-12	131	24		set __ClearLine_7qG2_line_7qG2_000_inline_MotorRealPosition, 8
-12	130	27	#line 130 "D:\NXT Programok\Slave1.nxc"
+12	133	24	#line 133 "D:\NXT Programok\Slave1.nxc"
+12	133	24	#line 133 "D:\NXT Programok\Slave1.nxc"
+12	134	24		set __ClearLine_7qG2_line_7qG2_000_inline_MotorRealPosition, 8
+12	133	27	#line 133 "D:\NXT Programok\Slave1.nxc"
 12	6076	27	#line 6076 "NXCDefs.h"
 12	6077	27	#pragma macro 7
 12	6077	27		acquire __TextOutMutex
@@ -1156,1002 +1154,1002 @@ Clump	Line	PC	Source
 12	6077	34		mov __TextOutArgs.Text, __BlankLine
 12	6077	36		syscall 13, __TextOutArgs
 12	6077	39		release __TextOutMutex
-12	7594	40	#line 7594 "NXCDefs.h"
+12	7660	40	#line 7660 "NXCDefs.h"
 12	6076	40	#line 6076 "NXCDefs.h"
-12	132	40	#line 132 "D:\NXT Programok\Slave1.nxc"
-12	132	40	#line 132 "D:\NXT Programok\Slave1.nxc"
-12	133	40		set __signed_stack_001MotorRealPosition, 10
-12	132	43	#line 132 "D:\NXT Programok\Slave1.nxc"
-12	132	43	#line 132 "D:\NXT Programok\Slave1.nxc"
-12	133	43		set __signed_stack_002MotorRealPosition, 16
-12	132	46	#line 132 "D:\NXT Programok\Slave1.nxc"
-12	132	46	#line 132 "D:\NXT Programok\Slave1.nxc"
-12	133	46		mov __D0MotorRealPosition, __MotorRealPosition_7qG2_AP_7qG2_000
-12	132	48	#line 132 "D:\NXT Programok\Slave1.nxc"
-12	133	48		numtostr __strretvalMotorRealPosition, __D0MotorRealPosition
-12	132	51	#line 132 "D:\NXT Programok\Slave1.nxc"
-12	133	51		strcat __strbufMotorRealPosition, __strretvalMotorRealPosition
-12	133	55	#line 133 "D:\NXT Programok\Slave1.nxc"
-12	134	55		acquire __TextOutMutex
-12	133	56	#line 133 "D:\NXT Programok\Slave1.nxc"
-12	134	56		mov __TextOutArgs.Location.X, __signed_stack_001MotorRealPosition
-12	133	59	#line 133 "D:\NXT Programok\Slave1.nxc"
-12	134	59		mov __TextOutArgs.Location.Y, __signed_stack_002MotorRealPosition
-12	133	62	#line 133 "D:\NXT Programok\Slave1.nxc"
-12	134	62		set __TextOutArgs.Options, 0
-12	133	65	#line 133 "D:\NXT Programok\Slave1.nxc"
-12	134	65		mov __TextOutArgs.Text, __strbufMotorRealPosition
-12	133	67	#line 133 "D:\NXT Programok\Slave1.nxc"
-12	134	67		syscall 13, __TextOutArgs
-12	133	70	#line 133 "D:\NXT Programok\Slave1.nxc"
-12	134	70		mov __D0MotorRealPosition, __TextOutArgs.Result
-12	133	73	#line 133 "D:\NXT Programok\Slave1.nxc"
-12	134	73		release __TextOutMutex
-12	133	74	#line 133 "D:\NXT Programok\Slave1.nxc"
-12	133	74	#line 133 "D:\NXT Programok\Slave1.nxc"
-12	134	74		set __signed_stack_001MotorRealPosition, 60
-12	133	77	#line 133 "D:\NXT Programok\Slave1.nxc"
-12	133	77	#line 133 "D:\NXT Programok\Slave1.nxc"
-12	134	77		set __signed_stack_002MotorRealPosition, 16
-12	133	80	#line 133 "D:\NXT Programok\Slave1.nxc"
-12	133	80	#line 133 "D:\NXT Programok\Slave1.nxc"
-12	134	80		mov __D0MotorRealPosition, __MotorRealPosition_7qG2_BP_7qG2_000
-12	133	82	#line 133 "D:\NXT Programok\Slave1.nxc"
-12	134	82		numtostr __strretvalMotorRealPosition, __D0MotorRealPosition
-12	133	85	#line 133 "D:\NXT Programok\Slave1.nxc"
-12	134	85		strcat __strbufMotorRealPosition, __strretvalMotorRealPosition
-12	135	89	#line 135 "D:\NXT Programok\Slave1.nxc"
-12	136	89		acquire __TextOutMutex
-12	135	90	#line 135 "D:\NXT Programok\Slave1.nxc"
-12	136	90		mov __TextOutArgs.Location.X, __signed_stack_001MotorRealPosition
-12	135	93	#line 135 "D:\NXT Programok\Slave1.nxc"
-12	136	93		mov __TextOutArgs.Location.Y, __signed_stack_002MotorRealPosition
-12	135	96	#line 135 "D:\NXT Programok\Slave1.nxc"
-12	136	96		set __TextOutArgs.Options, 0
-12	135	99	#line 135 "D:\NXT Programok\Slave1.nxc"
-12	136	99		mov __TextOutArgs.Text, __strbufMotorRealPosition
-12	135	101	#line 135 "D:\NXT Programok\Slave1.nxc"
-12	136	101		syscall 13, __TextOutArgs
-12	135	104	#line 135 "D:\NXT Programok\Slave1.nxc"
-12	136	104		mov __D0MotorRealPosition, __TextOutArgs.Result
-12	135	107	#line 135 "D:\NXT Programok\Slave1.nxc"
-12	136	107		release __TextOutMutex
-12	135	108	#line 135 "D:\NXT Programok\Slave1.nxc"
-12	135	108	#line 135 "D:\NXT Programok\Slave1.nxc"
-12	136	108		set __signed_stack_001MotorRealPosition, 10
-12	135	111	#line 135 "D:\NXT Programok\Slave1.nxc"
-12	135	111	#line 135 "D:\NXT Programok\Slave1.nxc"
-12	136	111		set __signed_stack_002MotorRealPosition, 8
-12	135	114	#line 135 "D:\NXT Programok\Slave1.nxc"
-12	135	114	#line 135 "D:\NXT Programok\Slave1.nxc"
-12	135	114	#line 135 "D:\NXT Programok\Slave1.nxc"
-12	135	114	#line 135 "D:\NXT Programok\Slave1.nxc"
-12	135	114	#line 135 "D:\NXT Programok\Slave1.nxc"
-12	136	114		sub __D0MotorRealPosition, A_Memory, __MotorRealPosition_7qG2_AP_7qG2_000
-12	135	118	#line 135 "D:\NXT Programok\Slave1.nxc"
-12	136	118		numtostr __strretvalMotorRealPosition, __D0MotorRealPosition
-12	135	121	#line 135 "D:\NXT Programok\Slave1.nxc"
-12	136	121		strcat __strbufMotorRealPosition, __strretvalMotorRealPosition
-12	136	125	#line 136 "D:\NXT Programok\Slave1.nxc"
-12	137	125		acquire __TextOutMutex
-12	136	126	#line 136 "D:\NXT Programok\Slave1.nxc"
-12	137	126		mov __TextOutArgs.Location.X, __signed_stack_001MotorRealPosition
-12	136	129	#line 136 "D:\NXT Programok\Slave1.nxc"
-12	137	129		mov __TextOutArgs.Location.Y, __signed_stack_002MotorRealPosition
-12	136	132	#line 136 "D:\NXT Programok\Slave1.nxc"
-12	137	132		set __TextOutArgs.Options, 0
-12	136	135	#line 136 "D:\NXT Programok\Slave1.nxc"
-12	137	135		mov __TextOutArgs.Text, __strbufMotorRealPosition
-12	136	137	#line 136 "D:\NXT Programok\Slave1.nxc"
-12	137	137		syscall 13, __TextOutArgs
-12	136	140	#line 136 "D:\NXT Programok\Slave1.nxc"
-12	137	140		mov __D0MotorRealPosition, __TextOutArgs.Result
-12	136	143	#line 136 "D:\NXT Programok\Slave1.nxc"
-12	137	143		release __TextOutMutex
-12	136	144	#line 136 "D:\NXT Programok\Slave1.nxc"
-12	136	144	#line 136 "D:\NXT Programok\Slave1.nxc"
-12	137	144		set __signed_stack_001MotorRealPosition, 60
-12	136	147	#line 136 "D:\NXT Programok\Slave1.nxc"
-12	136	147	#line 136 "D:\NXT Programok\Slave1.nxc"
-12	137	147		set __signed_stack_002MotorRealPosition, 8
-12	136	150	#line 136 "D:\NXT Programok\Slave1.nxc"
-12	136	150	#line 136 "D:\NXT Programok\Slave1.nxc"
-12	136	150	#line 136 "D:\NXT Programok\Slave1.nxc"
-12	136	150	#line 136 "D:\NXT Programok\Slave1.nxc"
-12	136	150	#line 136 "D:\NXT Programok\Slave1.nxc"
-12	137	150		sub __D0MotorRealPosition, B_Memory, __MotorRealPosition_7qG2_BP_7qG2_000
-12	136	154	#line 136 "D:\NXT Programok\Slave1.nxc"
-12	137	154		numtostr __strretvalMotorRealPosition, __D0MotorRealPosition
-12	136	157	#line 136 "D:\NXT Programok\Slave1.nxc"
-12	137	157		strcat __strbufMotorRealPosition, __strretvalMotorRealPosition
-12	137	161	#line 137 "D:\NXT Programok\Slave1.nxc"
-12	138	161		acquire __TextOutMutex
-12	137	162	#line 137 "D:\NXT Programok\Slave1.nxc"
-12	138	162		mov __TextOutArgs.Location.X, __signed_stack_001MotorRealPosition
-12	137	165	#line 137 "D:\NXT Programok\Slave1.nxc"
-12	138	165		mov __TextOutArgs.Location.Y, __signed_stack_002MotorRealPosition
-12	137	168	#line 137 "D:\NXT Programok\Slave1.nxc"
-12	138	168		set __TextOutArgs.Options, 0
-12	137	171	#line 137 "D:\NXT Programok\Slave1.nxc"
-12	138	171		mov __TextOutArgs.Text, __strbufMotorRealPosition
-12	137	173	#line 137 "D:\NXT Programok\Slave1.nxc"
-12	138	173		syscall 13, __TextOutArgs
-12	137	176	#line 137 "D:\NXT Programok\Slave1.nxc"
-12	138	176		mov __D0MotorRealPosition, __TextOutArgs.Result
-12	137	179	#line 137 "D:\NXT Programok\Slave1.nxc"
-12	138	179		release __TextOutMutex
-12	137	180	#line 137 "D:\NXT Programok\Slave1.nxc"
-12	137	180	#line 137 "D:\NXT Programok\Slave1.nxc"
-12	138	180		strcat __strbufMotorRealPosition, __MotorRealPosition_7qG2_Port_7qG2_000
-12	137	184	#line 137 "D:\NXT Programok\Slave1.nxc"
-12	138	184		mov __strtmpbufMotorRealPosition, __strbufMotorRealPosition
-12	138	186	#line 138 "D:\NXT Programok\Slave1.nxc"
-12	139	186		strcat __strbufMotorRealPosition, __constStr0010
-12	138	190	#line 138 "D:\NXT Programok\Slave1.nxc"
-12	139	190		cmp 4, __zfMotorRealPosition, __strtmpbufMotorRealPosition, __strbufMotorRealPosition
-12	138	194	#line 138 "D:\NXT Programok\Slave1.nxc"
-12	139	194		mov __D0MotorRealPosition, __zfMotorRealPosition
-12	139	196	#line 139 "D:\NXT Programok\Slave1.nxc"
-12	140	196		brtst 4, __NXC_Label_683, __zfMotorRealPosition
-12	139	199	#line 139 "D:\NXT Programok\Slave1.nxc"
-12	140	199		set __signed_stack_001MotorRealPosition, 30
-12	139	202	#line 139 "D:\NXT Programok\Slave1.nxc"
-12	139	202	#line 139 "D:\NXT Programok\Slave1.nxc"
-12	140	202		set __signed_stack_002MotorRealPosition, 24
-12	139	205	#line 139 "D:\NXT Programok\Slave1.nxc"
-12	139	205	#line 139 "D:\NXT Programok\Slave1.nxc"
-12	140	205		strcat __strbufMotorRealPosition, __constStr0010
-12	140	209	#line 140 "D:\NXT Programok\Slave1.nxc"
-12	141	209		acquire __TextOutMutex
-12	140	210	#line 140 "D:\NXT Programok\Slave1.nxc"
-12	141	210		mov __TextOutArgs.Location.X, __signed_stack_001MotorRealPosition
-12	140	213	#line 140 "D:\NXT Programok\Slave1.nxc"
-12	141	213		mov __TextOutArgs.Location.Y, __signed_stack_002MotorRealPosition
-12	140	216	#line 140 "D:\NXT Programok\Slave1.nxc"
-12	141	216		set __TextOutArgs.Options, 0
-12	140	219	#line 140 "D:\NXT Programok\Slave1.nxc"
-12	141	219		mov __TextOutArgs.Text, __strbufMotorRealPosition
-12	140	221	#line 140 "D:\NXT Programok\Slave1.nxc"
-12	141	221		syscall 13, __TextOutArgs
-12	140	224	#line 140 "D:\NXT Programok\Slave1.nxc"
-12	141	224		mov __D0MotorRealPosition, __TextOutArgs.Result
-12	140	227	#line 140 "D:\NXT Programok\Slave1.nxc"
-12	141	227		release __TextOutMutex
-12	140	228	#line 140 "D:\NXT Programok\Slave1.nxc"
-12	141	228	#line 141 "D:\NXT Programok\Slave1.nxc"
-12	142	228		mov __D0MotorRealPosition, __MotorRealPosition_7qG2_AP_7qG2_000
-12	141	230	#line 141 "D:\NXT Programok\Slave1.nxc"
-12	142	230		subret __MotorRealPosition_return
-12	141	232	#line 141 "D:\NXT Programok\Slave1.nxc"
-12	144	232	#line 144 "D:\NXT Programok\Slave1.nxc"
-12	145	232		jmp __NXC_Label_690
-12	144	234	#line 144 "D:\NXT Programok\Slave1.nxc"
-12	145	234		set __signed_stack_001MotorRealPosition, 70
-12	144	237	#line 144 "D:\NXT Programok\Slave1.nxc"
-12	144	237	#line 144 "D:\NXT Programok\Slave1.nxc"
-12	145	237		set __signed_stack_002MotorRealPosition, 24
-12	144	240	#line 144 "D:\NXT Programok\Slave1.nxc"
-12	144	240	#line 144 "D:\NXT Programok\Slave1.nxc"
-12	145	240		strcat __strbufMotorRealPosition, __constStr0011
-12	146	244	#line 146 "D:\NXT Programok\Slave1.nxc"
-12	147	244		acquire __TextOutMutex
-12	146	245	#line 146 "D:\NXT Programok\Slave1.nxc"
-12	147	245		mov __TextOutArgs.Location.X, __signed_stack_001MotorRealPosition
-12	146	248	#line 146 "D:\NXT Programok\Slave1.nxc"
-12	147	248		mov __TextOutArgs.Location.Y, __signed_stack_002MotorRealPosition
-12	146	251	#line 146 "D:\NXT Programok\Slave1.nxc"
-12	147	251		set __TextOutArgs.Options, 0
-12	146	254	#line 146 "D:\NXT Programok\Slave1.nxc"
-12	147	254		mov __TextOutArgs.Text, __strbufMotorRealPosition
-12	146	256	#line 146 "D:\NXT Programok\Slave1.nxc"
-12	147	256		syscall 13, __TextOutArgs
-12	146	259	#line 146 "D:\NXT Programok\Slave1.nxc"
-12	147	259		mov __D0MotorRealPosition, __TextOutArgs.Result
-12	146	262	#line 146 "D:\NXT Programok\Slave1.nxc"
-12	147	262		release __TextOutMutex
-12	146	263	#line 146 "D:\NXT Programok\Slave1.nxc"
-12	147	263	#line 147 "D:\NXT Programok\Slave1.nxc"
-12	148	263		mov __D0MotorRealPosition, __MotorRealPosition_7qG2_BP_7qG2_000
-12	147	265	#line 147 "D:\NXT Programok\Slave1.nxc"
-12	148	265		subret __MotorRealPosition_return
-12	147	267	#line 147 "D:\NXT Programok\Slave1.nxc"
-12	150	267	#line 150 "D:\NXT Programok\Slave1.nxc"
-12	150	267	#line 150 "D:\NXT Programok\Slave1.nxc"
-12	151	267		subret __MotorRealPosition_return
-13	154	0	#line 154 "D:\NXT Programok\Slave1.nxc"
-13	155	0		set __Drive_7qG2_A_7qG2_000, 0
-13	154	3	#line 154 "D:\NXT Programok\Slave1.nxc"
-13	155	3	#line 155 "D:\NXT Programok\Slave1.nxc"
-13	156	3		set __Drive_7qG2_B_7qG2_000, 0
-13	155	6	#line 155 "D:\NXT Programok\Slave1.nxc"
-13	156	6	#line 156 "D:\NXT Programok\Slave1.nxc"
-13	157	6		set __Drive_7qG2_C_7qG2_000, 0
-13	156	9	#line 156 "D:\NXT Programok\Slave1.nxc"
-13	156	9	#line 156 "D:\NXT Programok\Slave1.nxc"
-13	157	9		set __signed_stack_001Drive, 0
-13	156	12	#line 156 "D:\NXT Programok\Slave1.nxc"
-13	156	12	#line 156 "D:\NXT Programok\Slave1.nxc"
-13	157	12		set __signed_stack_002Drive, 48
-13	156	15	#line 156 "D:\NXT Programok\Slave1.nxc"
-13	156	15	#line 156 "D:\NXT Programok\Slave1.nxc"
-13	157	15		strcat __strbufDrive, __constStr0012
-13	157	19	#line 157 "D:\NXT Programok\Slave1.nxc"
-13	158	19		acquire __TextOutMutex
-13	157	20	#line 157 "D:\NXT Programok\Slave1.nxc"
-13	158	20		mov __TextOutArgs.Location.X, __signed_stack_001Drive
-13	157	23	#line 157 "D:\NXT Programok\Slave1.nxc"
-13	158	23		mov __TextOutArgs.Location.Y, __signed_stack_002Drive
-13	157	26	#line 157 "D:\NXT Programok\Slave1.nxc"
-13	158	26		set __TextOutArgs.Options, 0
-13	157	29	#line 157 "D:\NXT Programok\Slave1.nxc"
-13	158	29		mov __TextOutArgs.Text, __strbufDrive
-13	157	31	#line 157 "D:\NXT Programok\Slave1.nxc"
-13	158	31		syscall 13, __TextOutArgs
-13	157	34	#line 157 "D:\NXT Programok\Slave1.nxc"
-13	158	34		mov __D0Drive, __TextOutArgs.Result
-13	157	37	#line 157 "D:\NXT Programok\Slave1.nxc"
-13	158	37		release __TextOutMutex
-13	157	38	#line 157 "D:\NXT Programok\Slave1.nxc"
-13	157	38	#line 157 "D:\NXT Programok\Slave1.nxc"
-13	158	38		set __signed_stack_001Drive, 0
-13	157	41	#line 157 "D:\NXT Programok\Slave1.nxc"
-13	157	41	#line 157 "D:\NXT Programok\Slave1.nxc"
-13	158	41		set __signed_stack_002Drive, 40
-13	157	44	#line 157 "D:\NXT Programok\Slave1.nxc"
-13	157	44	#line 157 "D:\NXT Programok\Slave1.nxc"
-13	158	44		strcat __strbufDrive, __constStr0013
-13	158	48	#line 158 "D:\NXT Programok\Slave1.nxc"
-13	159	48		acquire __TextOutMutex
-13	158	49	#line 158 "D:\NXT Programok\Slave1.nxc"
-13	159	49		mov __TextOutArgs.Location.X, __signed_stack_001Drive
-13	158	52	#line 158 "D:\NXT Programok\Slave1.nxc"
-13	159	52		mov __TextOutArgs.Location.Y, __signed_stack_002Drive
-13	158	55	#line 158 "D:\NXT Programok\Slave1.nxc"
-13	159	55		set __TextOutArgs.Options, 0
-13	158	58	#line 158 "D:\NXT Programok\Slave1.nxc"
-13	159	58		mov __TextOutArgs.Text, __strbufDrive
-13	158	60	#line 158 "D:\NXT Programok\Slave1.nxc"
-13	159	60		syscall 13, __TextOutArgs
-13	158	63	#line 158 "D:\NXT Programok\Slave1.nxc"
-13	159	63		mov __D0Drive, __TextOutArgs.Result
-13	158	66	#line 158 "D:\NXT Programok\Slave1.nxc"
-13	159	66		release __TextOutMutex
-13	158	67	#line 158 "D:\NXT Programok\Slave1.nxc"
-13	159	67	#line 159 "D:\NXT Programok\Slave1.nxc"
-13	160	67	#pragma macro 7
-13	160	67		setout __OUT_AB, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-13	7954	90	#line 7954 "D:\NXT Programok\Slave1.nxc"
-13	159	90	#line 159 "D:\NXT Programok\Slave1.nxc"
-13	159	90	#line 159 "D:\NXT Programok\Slave1.nxc"
-13	160	90		set __Wait_7qG2_ms_7qG2_000_inline_Drive, 20
-13	159	93	#line 159 "D:\NXT Programok\Slave1.nxc"
+12	135	40	#line 135 "D:\NXT Programok\Slave1.nxc"
+12	135	40	#line 135 "D:\NXT Programok\Slave1.nxc"
+12	136	40		set __signed_stack_001MotorRealPosition, 10
+12	135	43	#line 135 "D:\NXT Programok\Slave1.nxc"
+12	135	43	#line 135 "D:\NXT Programok\Slave1.nxc"
+12	136	43		set __signed_stack_002MotorRealPosition, 16
+12	135	46	#line 135 "D:\NXT Programok\Slave1.nxc"
+12	135	46	#line 135 "D:\NXT Programok\Slave1.nxc"
+12	136	46		mov __D0MotorRealPosition, __MotorRealPosition_7qG2_AP_7qG2_000
+12	135	48	#line 135 "D:\NXT Programok\Slave1.nxc"
+12	136	48		numtostr __strretvalMotorRealPosition, __D0MotorRealPosition
+12	135	51	#line 135 "D:\NXT Programok\Slave1.nxc"
+12	136	51		strcat __strbufMotorRealPosition, __strretvalMotorRealPosition
+12	136	55	#line 136 "D:\NXT Programok\Slave1.nxc"
+12	137	55		acquire __TextOutMutex
+12	136	56	#line 136 "D:\NXT Programok\Slave1.nxc"
+12	137	56		mov __TextOutArgs.Location.X, __signed_stack_001MotorRealPosition
+12	136	59	#line 136 "D:\NXT Programok\Slave1.nxc"
+12	137	59		mov __TextOutArgs.Location.Y, __signed_stack_002MotorRealPosition
+12	136	62	#line 136 "D:\NXT Programok\Slave1.nxc"
+12	137	62		set __TextOutArgs.Options, 0
+12	136	65	#line 136 "D:\NXT Programok\Slave1.nxc"
+12	137	65		mov __TextOutArgs.Text, __strbufMotorRealPosition
+12	136	67	#line 136 "D:\NXT Programok\Slave1.nxc"
+12	137	67		syscall 13, __TextOutArgs
+12	136	70	#line 136 "D:\NXT Programok\Slave1.nxc"
+12	137	70		mov __D0MotorRealPosition, __TextOutArgs.Result
+12	136	73	#line 136 "D:\NXT Programok\Slave1.nxc"
+12	137	73		release __TextOutMutex
+12	136	74	#line 136 "D:\NXT Programok\Slave1.nxc"
+12	136	74	#line 136 "D:\NXT Programok\Slave1.nxc"
+12	137	74		set __signed_stack_001MotorRealPosition, 60
+12	136	77	#line 136 "D:\NXT Programok\Slave1.nxc"
+12	136	77	#line 136 "D:\NXT Programok\Slave1.nxc"
+12	137	77		set __signed_stack_002MotorRealPosition, 16
+12	136	80	#line 136 "D:\NXT Programok\Slave1.nxc"
+12	136	80	#line 136 "D:\NXT Programok\Slave1.nxc"
+12	137	80		mov __D0MotorRealPosition, __MotorRealPosition_7qG2_BP_7qG2_000
+12	136	82	#line 136 "D:\NXT Programok\Slave1.nxc"
+12	137	82		numtostr __strretvalMotorRealPosition, __D0MotorRealPosition
+12	136	85	#line 136 "D:\NXT Programok\Slave1.nxc"
+12	137	85		strcat __strbufMotorRealPosition, __strretvalMotorRealPosition
+12	138	89	#line 138 "D:\NXT Programok\Slave1.nxc"
+12	139	89		acquire __TextOutMutex
+12	138	90	#line 138 "D:\NXT Programok\Slave1.nxc"
+12	139	90		mov __TextOutArgs.Location.X, __signed_stack_001MotorRealPosition
+12	138	93	#line 138 "D:\NXT Programok\Slave1.nxc"
+12	139	93		mov __TextOutArgs.Location.Y, __signed_stack_002MotorRealPosition
+12	138	96	#line 138 "D:\NXT Programok\Slave1.nxc"
+12	139	96		set __TextOutArgs.Options, 0
+12	138	99	#line 138 "D:\NXT Programok\Slave1.nxc"
+12	139	99		mov __TextOutArgs.Text, __strbufMotorRealPosition
+12	138	101	#line 138 "D:\NXT Programok\Slave1.nxc"
+12	139	101		syscall 13, __TextOutArgs
+12	138	104	#line 138 "D:\NXT Programok\Slave1.nxc"
+12	139	104		mov __D0MotorRealPosition, __TextOutArgs.Result
+12	138	107	#line 138 "D:\NXT Programok\Slave1.nxc"
+12	139	107		release __TextOutMutex
+12	138	108	#line 138 "D:\NXT Programok\Slave1.nxc"
+12	138	108	#line 138 "D:\NXT Programok\Slave1.nxc"
+12	139	108		set __signed_stack_001MotorRealPosition, 10
+12	138	111	#line 138 "D:\NXT Programok\Slave1.nxc"
+12	138	111	#line 138 "D:\NXT Programok\Slave1.nxc"
+12	139	111		set __signed_stack_002MotorRealPosition, 8
+12	138	114	#line 138 "D:\NXT Programok\Slave1.nxc"
+12	138	114	#line 138 "D:\NXT Programok\Slave1.nxc"
+12	138	114	#line 138 "D:\NXT Programok\Slave1.nxc"
+12	138	114	#line 138 "D:\NXT Programok\Slave1.nxc"
+12	138	114	#line 138 "D:\NXT Programok\Slave1.nxc"
+12	139	114		sub __D0MotorRealPosition, A_Memory, __MotorRealPosition_7qG2_AP_7qG2_000
+12	138	118	#line 138 "D:\NXT Programok\Slave1.nxc"
+12	139	118		numtostr __strretvalMotorRealPosition, __D0MotorRealPosition
+12	138	121	#line 138 "D:\NXT Programok\Slave1.nxc"
+12	139	121		strcat __strbufMotorRealPosition, __strretvalMotorRealPosition
+12	139	125	#line 139 "D:\NXT Programok\Slave1.nxc"
+12	140	125		acquire __TextOutMutex
+12	139	126	#line 139 "D:\NXT Programok\Slave1.nxc"
+12	140	126		mov __TextOutArgs.Location.X, __signed_stack_001MotorRealPosition
+12	139	129	#line 139 "D:\NXT Programok\Slave1.nxc"
+12	140	129		mov __TextOutArgs.Location.Y, __signed_stack_002MotorRealPosition
+12	139	132	#line 139 "D:\NXT Programok\Slave1.nxc"
+12	140	132		set __TextOutArgs.Options, 0
+12	139	135	#line 139 "D:\NXT Programok\Slave1.nxc"
+12	140	135		mov __TextOutArgs.Text, __strbufMotorRealPosition
+12	139	137	#line 139 "D:\NXT Programok\Slave1.nxc"
+12	140	137		syscall 13, __TextOutArgs
+12	139	140	#line 139 "D:\NXT Programok\Slave1.nxc"
+12	140	140		mov __D0MotorRealPosition, __TextOutArgs.Result
+12	139	143	#line 139 "D:\NXT Programok\Slave1.nxc"
+12	140	143		release __TextOutMutex
+12	139	144	#line 139 "D:\NXT Programok\Slave1.nxc"
+12	139	144	#line 139 "D:\NXT Programok\Slave1.nxc"
+12	140	144		set __signed_stack_001MotorRealPosition, 60
+12	139	147	#line 139 "D:\NXT Programok\Slave1.nxc"
+12	139	147	#line 139 "D:\NXT Programok\Slave1.nxc"
+12	140	147		set __signed_stack_002MotorRealPosition, 8
+12	139	150	#line 139 "D:\NXT Programok\Slave1.nxc"
+12	139	150	#line 139 "D:\NXT Programok\Slave1.nxc"
+12	139	150	#line 139 "D:\NXT Programok\Slave1.nxc"
+12	139	150	#line 139 "D:\NXT Programok\Slave1.nxc"
+12	139	150	#line 139 "D:\NXT Programok\Slave1.nxc"
+12	140	150		sub __D0MotorRealPosition, B_Memory, __MotorRealPosition_7qG2_BP_7qG2_000
+12	139	154	#line 139 "D:\NXT Programok\Slave1.nxc"
+12	140	154		numtostr __strretvalMotorRealPosition, __D0MotorRealPosition
+12	139	157	#line 139 "D:\NXT Programok\Slave1.nxc"
+12	140	157		strcat __strbufMotorRealPosition, __strretvalMotorRealPosition
+12	140	161	#line 140 "D:\NXT Programok\Slave1.nxc"
+12	141	161		acquire __TextOutMutex
+12	140	162	#line 140 "D:\NXT Programok\Slave1.nxc"
+12	141	162		mov __TextOutArgs.Location.X, __signed_stack_001MotorRealPosition
+12	140	165	#line 140 "D:\NXT Programok\Slave1.nxc"
+12	141	165		mov __TextOutArgs.Location.Y, __signed_stack_002MotorRealPosition
+12	140	168	#line 140 "D:\NXT Programok\Slave1.nxc"
+12	141	168		set __TextOutArgs.Options, 0
+12	140	171	#line 140 "D:\NXT Programok\Slave1.nxc"
+12	141	171		mov __TextOutArgs.Text, __strbufMotorRealPosition
+12	140	173	#line 140 "D:\NXT Programok\Slave1.nxc"
+12	141	173		syscall 13, __TextOutArgs
+12	140	176	#line 140 "D:\NXT Programok\Slave1.nxc"
+12	141	176		mov __D0MotorRealPosition, __TextOutArgs.Result
+12	140	179	#line 140 "D:\NXT Programok\Slave1.nxc"
+12	141	179		release __TextOutMutex
+12	140	180	#line 140 "D:\NXT Programok\Slave1.nxc"
+12	140	180	#line 140 "D:\NXT Programok\Slave1.nxc"
+12	141	180		strcat __strbufMotorRealPosition, __MotorRealPosition_7qG2_Port_7qG2_000
+12	140	184	#line 140 "D:\NXT Programok\Slave1.nxc"
+12	141	184		mov __strtmpbufMotorRealPosition, __strbufMotorRealPosition
+12	141	186	#line 141 "D:\NXT Programok\Slave1.nxc"
+12	142	186		strcat __strbufMotorRealPosition, __constStr0010
+12	141	190	#line 141 "D:\NXT Programok\Slave1.nxc"
+12	142	190		cmp 4, __zfMotorRealPosition, __strtmpbufMotorRealPosition, __strbufMotorRealPosition
+12	141	194	#line 141 "D:\NXT Programok\Slave1.nxc"
+12	142	194		mov __D0MotorRealPosition, __zfMotorRealPosition
+12	142	197	#line 142 "D:\NXT Programok\Slave1.nxc"
+12	143	197		brtst 4, __NXC_Label_683, __zfMotorRealPosition
+12	142	200	#line 142 "D:\NXT Programok\Slave1.nxc"
+12	143	200		set __signed_stack_001MotorRealPosition, 30
+12	142	203	#line 142 "D:\NXT Programok\Slave1.nxc"
+12	142	203	#line 142 "D:\NXT Programok\Slave1.nxc"
+12	143	203		set __signed_stack_002MotorRealPosition, 24
+12	142	206	#line 142 "D:\NXT Programok\Slave1.nxc"
+12	142	206	#line 142 "D:\NXT Programok\Slave1.nxc"
+12	143	206		strcat __strbufMotorRealPosition, __constStr0010
+12	143	210	#line 143 "D:\NXT Programok\Slave1.nxc"
+12	144	210		acquire __TextOutMutex
+12	143	211	#line 143 "D:\NXT Programok\Slave1.nxc"
+12	144	211		mov __TextOutArgs.Location.X, __signed_stack_001MotorRealPosition
+12	143	214	#line 143 "D:\NXT Programok\Slave1.nxc"
+12	144	214		mov __TextOutArgs.Location.Y, __signed_stack_002MotorRealPosition
+12	143	217	#line 143 "D:\NXT Programok\Slave1.nxc"
+12	144	217		set __TextOutArgs.Options, 0
+12	143	220	#line 143 "D:\NXT Programok\Slave1.nxc"
+12	144	220		mov __TextOutArgs.Text, __strbufMotorRealPosition
+12	143	222	#line 143 "D:\NXT Programok\Slave1.nxc"
+12	144	222		syscall 13, __TextOutArgs
+12	143	225	#line 143 "D:\NXT Programok\Slave1.nxc"
+12	144	225		mov __D0MotorRealPosition, __TextOutArgs.Result
+12	143	228	#line 143 "D:\NXT Programok\Slave1.nxc"
+12	144	228		release __TextOutMutex
+12	143	229	#line 143 "D:\NXT Programok\Slave1.nxc"
+12	144	229	#line 144 "D:\NXT Programok\Slave1.nxc"
+12	145	229		mov __D0MotorRealPosition, __MotorRealPosition_7qG2_AP_7qG2_000
+12	144	231	#line 144 "D:\NXT Programok\Slave1.nxc"
+12	145	231		subret __MotorRealPosition_return
+12	144	233	#line 144 "D:\NXT Programok\Slave1.nxc"
+12	147	233	#line 147 "D:\NXT Programok\Slave1.nxc"
+12	148	233		jmp __NXC_Label_690
+12	147	235	#line 147 "D:\NXT Programok\Slave1.nxc"
+12	148	235		set __signed_stack_001MotorRealPosition, 70
+12	147	238	#line 147 "D:\NXT Programok\Slave1.nxc"
+12	147	238	#line 147 "D:\NXT Programok\Slave1.nxc"
+12	148	238		set __signed_stack_002MotorRealPosition, 24
+12	147	241	#line 147 "D:\NXT Programok\Slave1.nxc"
+12	147	241	#line 147 "D:\NXT Programok\Slave1.nxc"
+12	148	241		strcat __strbufMotorRealPosition, __constStr0011
+12	149	245	#line 149 "D:\NXT Programok\Slave1.nxc"
+12	150	245		acquire __TextOutMutex
+12	149	246	#line 149 "D:\NXT Programok\Slave1.nxc"
+12	150	246		mov __TextOutArgs.Location.X, __signed_stack_001MotorRealPosition
+12	149	249	#line 149 "D:\NXT Programok\Slave1.nxc"
+12	150	249		mov __TextOutArgs.Location.Y, __signed_stack_002MotorRealPosition
+12	149	252	#line 149 "D:\NXT Programok\Slave1.nxc"
+12	150	252		set __TextOutArgs.Options, 0
+12	149	255	#line 149 "D:\NXT Programok\Slave1.nxc"
+12	150	255		mov __TextOutArgs.Text, __strbufMotorRealPosition
+12	149	257	#line 149 "D:\NXT Programok\Slave1.nxc"
+12	150	257		syscall 13, __TextOutArgs
+12	149	260	#line 149 "D:\NXT Programok\Slave1.nxc"
+12	150	260		mov __D0MotorRealPosition, __TextOutArgs.Result
+12	149	263	#line 149 "D:\NXT Programok\Slave1.nxc"
+12	150	263		release __TextOutMutex
+12	149	264	#line 149 "D:\NXT Programok\Slave1.nxc"
+12	150	264	#line 150 "D:\NXT Programok\Slave1.nxc"
+12	151	264		mov __D0MotorRealPosition, __MotorRealPosition_7qG2_BP_7qG2_000
+12	150	266	#line 150 "D:\NXT Programok\Slave1.nxc"
+12	151	266		subret __MotorRealPosition_return
+12	150	268	#line 150 "D:\NXT Programok\Slave1.nxc"
+12	153	268	#line 153 "D:\NXT Programok\Slave1.nxc"
+12	153	268	#line 153 "D:\NXT Programok\Slave1.nxc"
+12	154	268		subret __MotorRealPosition_return
+13	157	0	#line 157 "D:\NXT Programok\Slave1.nxc"
+13	158	0		set __Drive_7qG2_A_7qG2_000, 0
+13	157	3	#line 157 "D:\NXT Programok\Slave1.nxc"
+13	158	3	#line 158 "D:\NXT Programok\Slave1.nxc"
+13	159	3		set __Drive_7qG2_B_7qG2_000, 0
+13	158	6	#line 158 "D:\NXT Programok\Slave1.nxc"
+13	159	6	#line 159 "D:\NXT Programok\Slave1.nxc"
+13	160	6		set __Drive_7qG2_C_7qG2_000, 0
+13	159	9	#line 159 "D:\NXT Programok\Slave1.nxc"
+13	159	9	#line 159 "D:\NXT Programok\Slave1.nxc"
+13	160	9		set __signed_stack_001Drive, 0
+13	159	12	#line 159 "D:\NXT Programok\Slave1.nxc"
+13	159	12	#line 159 "D:\NXT Programok\Slave1.nxc"
+13	160	12		set __signed_stack_002Drive, 48
+13	159	15	#line 159 "D:\NXT Programok\Slave1.nxc"
+13	159	15	#line 159 "D:\NXT Programok\Slave1.nxc"
+13	160	15		strcat __strbufDrive, __constStr0012
+13	160	19	#line 160 "D:\NXT Programok\Slave1.nxc"
+13	161	19		acquire __TextOutMutex
+13	160	20	#line 160 "D:\NXT Programok\Slave1.nxc"
+13	161	20		mov __TextOutArgs.Location.X, __signed_stack_001Drive
+13	160	23	#line 160 "D:\NXT Programok\Slave1.nxc"
+13	161	23		mov __TextOutArgs.Location.Y, __signed_stack_002Drive
+13	160	26	#line 160 "D:\NXT Programok\Slave1.nxc"
+13	161	26		set __TextOutArgs.Options, 0
+13	160	29	#line 160 "D:\NXT Programok\Slave1.nxc"
+13	161	29		mov __TextOutArgs.Text, __strbufDrive
+13	160	31	#line 160 "D:\NXT Programok\Slave1.nxc"
+13	161	31		syscall 13, __TextOutArgs
+13	160	34	#line 160 "D:\NXT Programok\Slave1.nxc"
+13	161	34		mov __D0Drive, __TextOutArgs.Result
+13	160	37	#line 160 "D:\NXT Programok\Slave1.nxc"
+13	161	37		release __TextOutMutex
+13	160	38	#line 160 "D:\NXT Programok\Slave1.nxc"
+13	160	38	#line 160 "D:\NXT Programok\Slave1.nxc"
+13	161	38		set __signed_stack_001Drive, 0
+13	160	41	#line 160 "D:\NXT Programok\Slave1.nxc"
+13	160	41	#line 160 "D:\NXT Programok\Slave1.nxc"
+13	161	41		set __signed_stack_002Drive, 40
+13	160	44	#line 160 "D:\NXT Programok\Slave1.nxc"
+13	160	44	#line 160 "D:\NXT Programok\Slave1.nxc"
+13	161	44		strcat __strbufDrive, __constStr0013
+13	161	48	#line 161 "D:\NXT Programok\Slave1.nxc"
+13	162	48		acquire __TextOutMutex
+13	161	49	#line 161 "D:\NXT Programok\Slave1.nxc"
+13	162	49		mov __TextOutArgs.Location.X, __signed_stack_001Drive
+13	161	52	#line 161 "D:\NXT Programok\Slave1.nxc"
+13	162	52		mov __TextOutArgs.Location.Y, __signed_stack_002Drive
+13	161	55	#line 161 "D:\NXT Programok\Slave1.nxc"
+13	162	55		set __TextOutArgs.Options, 0
+13	161	58	#line 161 "D:\NXT Programok\Slave1.nxc"
+13	162	58		mov __TextOutArgs.Text, __strbufDrive
+13	161	60	#line 161 "D:\NXT Programok\Slave1.nxc"
+13	162	60		syscall 13, __TextOutArgs
+13	161	63	#line 161 "D:\NXT Programok\Slave1.nxc"
+13	162	63		mov __D0Drive, __TextOutArgs.Result
+13	161	66	#line 161 "D:\NXT Programok\Slave1.nxc"
+13	162	66		release __TextOutMutex
+13	161	67	#line 161 "D:\NXT Programok\Slave1.nxc"
+13	162	67	#line 162 "D:\NXT Programok\Slave1.nxc"
+13	163	67	#pragma macro 7
+13	163	67		setout __OUT_AB, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+13	8020	90	#line 8020 "D:\NXT Programok\Slave1.nxc"
+13	162	90	#line 162 "D:\NXT Programok\Slave1.nxc"
+13	162	90	#line 162 "D:\NXT Programok\Slave1.nxc"
+13	163	90		set __Wait_7qG2_ms_7qG2_000_inline_Drive, 20
+13	162	93	#line 162 "D:\NXT Programok\Slave1.nxc"
 13	7921	93	#line 7921 "NXCDefs.h"
 13	7922	93		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_Drive
 13	7921	96	#line 7921 "NXCDefs.h"
-13	161	96	#line 161 "D:\NXT Programok\Slave1.nxc"
-13	162	96	#line 162 "D:\NXT Programok\Slave1.nxc"
-13	163	96		subcall __LedGreen_Spawner, __LedGreen_Spawner_return
-13	162	98	#line 162 "D:\NXT Programok\Slave1.nxc"
-13	162	98	#line 162 "D:\NXT Programok\Slave1.nxc"
-13	163	98		set __D0Drive, 1
-13	163	101	#line 163 "D:\NXT Programok\Slave1.nxc"
-13	164	101		tst 5, __zfDrive, __D0Drive
-13	163	104	#line 163 "D:\NXT Programok\Slave1.nxc"
-13	164	104		brtst 4, __NXC_Label_714, __zfDrive
-13	164	107	#line 164 "D:\NXT Programok\Slave1.nxc"
-13	165	107		set __Drive_7qG2_A_7qG2_000, 0
-13	164	110	#line 164 "D:\NXT Programok\Slave1.nxc"
-13	164	110	#line 164 "D:\NXT Programok\Slave1.nxc"
-13	165	110	#line 165 "D:\NXT Programok\Slave1.nxc"
-13	166	110		set __Drive_7qG2_B_7qG2_000, 0
-13	165	113	#line 165 "D:\NXT Programok\Slave1.nxc"
-13	165	113	#line 165 "D:\NXT Programok\Slave1.nxc"
+13	164	96	#line 164 "D:\NXT Programok\Slave1.nxc"
+13	165	96	#line 165 "D:\NXT Programok\Slave1.nxc"
+13	166	96		subcall __LedGreen_Spawner, __LedGreen_Spawner_return
+13	165	98	#line 165 "D:\NXT Programok\Slave1.nxc"
+13	165	98	#line 165 "D:\NXT Programok\Slave1.nxc"
+13	166	98		set __D0Drive, 1
+13	166	101	#line 166 "D:\NXT Programok\Slave1.nxc"
+13	167	101		tst 5, __zfDrive, __D0Drive
+13	166	104	#line 166 "D:\NXT Programok\Slave1.nxc"
+13	167	104		brtst 4, __NXC_Label_714, __zfDrive
+13	167	107	#line 167 "D:\NXT Programok\Slave1.nxc"
+13	168	107		set __Drive_7qG2_A_7qG2_000, 0
+13	167	110	#line 167 "D:\NXT Programok\Slave1.nxc"
+13	167	110	#line 167 "D:\NXT Programok\Slave1.nxc"
+13	168	110	#line 168 "D:\NXT Programok\Slave1.nxc"
+13	169	110		set __Drive_7qG2_B_7qG2_000, 0
 13	168	113	#line 168 "D:\NXT Programok\Slave1.nxc"
-13	169	113		set __Drive_7qG2_C_7qG2_000, 0
-13	168	116	#line 168 "D:\NXT Programok\Slave1.nxc"
-13	168	116	#line 168 "D:\NXT Programok\Slave1.nxc"
-13	168	116	#line 168 "D:\NXT Programok\Slave1.nxc"
-13	169	116	#pragma macro 7
-13	169	116		acquire __MRMutex
-13	169	117		mov __MRArgs.QueueID, __constVal5
-13	169	119		mov __MRArgs.Remove, __constVal1
-13	169	121		syscall 27, __MRArgs
-13	169	124		mov __Drive_7qG2_in_7qG2_000, __MRArgs.Message
-13	169	126		mov __D0Drive, __MRArgs.Result
-13	169	129		release __MRMutex
-13	8004	130	#line 8004 "D:\NXT Programok\Slave1.nxc"
-13	168	130	#line 168 "D:\NXT Programok\Slave1.nxc"
-13	169	130		mov __signed_stack_001Drive, __D0Drive
-13	168	132	#line 168 "D:\NXT Programok\Slave1.nxc"
-13	169	132		set __D0Drive, 64
-13	168	135	#line 168 "D:\NXT Programok\Slave1.nxc"
-13	169	135		cmp 5, __zfDrive, __signed_stack_001Drive, __D0Drive
-13	168	139	#line 168 "D:\NXT Programok\Slave1.nxc"
-13	169	139		mov __D0Drive, __zfDrive
-13	170	142	#line 170 "D:\NXT Programok\Slave1.nxc"
-13	171	142		brtst 4, __NXC_Label_725, __zfDrive
-13	171	145	#line 171 "D:\NXT Programok\Slave1.nxc"
-13	172	145		set free, 0
-13	171	148	#line 171 "D:\NXT Programok\Slave1.nxc"
-13	171	148	#line 171 "D:\NXT Programok\Slave1.nxc"
-13	171	148	#line 171 "D:\NXT Programok\Slave1.nxc"
-13	172	148	#pragma macro 7
-13	172	148		acquire __MWMutex
-13	172	149		add __MWArgs.QueueID, __constVal2, __constVal10
-13	172	153		mov __SRNTmpVal, ack
-13	172	155		flatten __MWArgs.Message, __SRNTmpVal
-13	172	158		syscall 26, __MWArgs
-13	172	161		mov __D0Drive, __MWArgs.Result
-13	172	164		release __MWMutex
-13	8025	165	#line 8025 "D:\NXT Programok\Slave1.nxc"
-13	171	165	#line 171 "D:\NXT Programok\Slave1.nxc"
-13	171	165	#line 171 "D:\NXT Programok\Slave1.nxc"
+13	168	113	#line 168 "D:\NXT Programok\Slave1.nxc"
+13	171	113	#line 171 "D:\NXT Programok\Slave1.nxc"
+13	172	113		set __Drive_7qG2_C_7qG2_000, 0
+13	171	116	#line 171 "D:\NXT Programok\Slave1.nxc"
+13	171	116	#line 171 "D:\NXT Programok\Slave1.nxc"
+13	171	116	#line 171 "D:\NXT Programok\Slave1.nxc"
+13	172	116	#pragma macro 7
+13	172	116		acquire __MRMutex
+13	172	117		mov __MRArgs.QueueID, __constVal0
+13	172	119		mov __MRArgs.Remove, __constVal1
+13	172	121		syscall 27, __MRArgs
+13	172	124		mov __Drive_7qG2_in_7qG2_000, __MRArgs.Message
+13	172	126		mov __D0Drive, __MRArgs.Result
+13	172	129		release __MRMutex
+13	8070	130	#line 8070 "D:\NXT Programok\Slave1.nxc"
+13	171	130	#line 171 "D:\NXT Programok\Slave1.nxc"
+13	172	130		mov __signed_stack_001Drive, __D0Drive
+13	171	132	#line 171 "D:\NXT Programok\Slave1.nxc"
+13	172	132		set __D0Drive, 64
+13	171	135	#line 171 "D:\NXT Programok\Slave1.nxc"
+13	172	135		cmp 5, __zfDrive, __signed_stack_001Drive, __D0Drive
+13	171	139	#line 171 "D:\NXT Programok\Slave1.nxc"
+13	172	139		mov __D0Drive, __zfDrive
+13	173	142	#line 173 "D:\NXT Programok\Slave1.nxc"
+13	174	142		brtst 4, __NXC_Label_725, __zfDrive
+13	174	145	#line 174 "D:\NXT Programok\Slave1.nxc"
+13	175	145		set free, 0
+13	174	148	#line 174 "D:\NXT Programok\Slave1.nxc"
+13	174	148	#line 174 "D:\NXT Programok\Slave1.nxc"
+13	174	148	#line 174 "D:\NXT Programok\Slave1.nxc"
+13	175	148	#pragma macro 7
+13	175	148		acquire __MWMutex
+13	175	149		add __MWArgs.QueueID, __constVal1, __constVal10
+13	175	153		mov __SRNTmpVal, ack
+13	175	155		flatten __MWArgs.Message, __SRNTmpVal
+13	175	158		syscall 26, __MWArgs
+13	175	161		mov __D0Drive, __MWArgs.Result
+13	175	164		release __MWMutex
+13	8091	165	#line 8091 "D:\NXT Programok\Slave1.nxc"
 13	174	165	#line 174 "D:\NXT Programok\Slave1.nxc"
-13	175	165		subcall __LedRed_Spawner, __LedRed_Spawner_return
-13	174	167	#line 174 "D:\NXT Programok\Slave1.nxc"
+13	174	165	#line 174 "D:\NXT Programok\Slave1.nxc"
+13	177	165	#line 177 "D:\NXT Programok\Slave1.nxc"
+13	178	165		subcall __LedRed_Spawner, __LedRed_Spawner_return
+13	177	167	#line 177 "D:\NXT Programok\Slave1.nxc"
 13	6069	167	#line 6069 "NXCDefs.h"
 13	6070	167	#pragma macro 6
 13	6070	167		acquire __PointOutMutex
 13	6070	168		mov __PointOutArgs.Location.X, __constVal200
-13	6070	171		mov __PointOutArgs.Location.Y, __constVal200
-13	6070	174		mov __PointOutArgs.Options, __constVal1
-13	6070	176		syscall 14, __PointOutArgs
-13	6070	179		release __PointOutMutex
-13	8032	180	#line 8032 "NXCDefs.h"
-13	6069	180	#line 6069 "NXCDefs.h"
-13	175	180	#line 175 "D:\NXT Programok\Slave1.nxc"
-13	175	180	#line 175 "D:\NXT Programok\Slave1.nxc"
-13	176	180		set __signed_stack_001Drive, 0
-13	175	183	#line 175 "D:\NXT Programok\Slave1.nxc"
-13	175	183	#line 175 "D:\NXT Programok\Slave1.nxc"
-13	176	183		set __signed_stack_002Drive, 56
-13	175	186	#line 175 "D:\NXT Programok\Slave1.nxc"
-13	175	186	#line 175 "D:\NXT Programok\Slave1.nxc"
-13	176	186		strcat __strbufDrive, __constStr0014
-13	179	190	#line 179 "D:\NXT Programok\Slave1.nxc"
-13	180	190		acquire __TextOutMutex
-13	179	191	#line 179 "D:\NXT Programok\Slave1.nxc"
-13	180	191		mov __TextOutArgs.Location.X, __signed_stack_001Drive
-13	179	194	#line 179 "D:\NXT Programok\Slave1.nxc"
-13	180	194		mov __TextOutArgs.Location.Y, __signed_stack_002Drive
-13	179	197	#line 179 "D:\NXT Programok\Slave1.nxc"
-13	180	197		set __TextOutArgs.Options, 0
-13	179	200	#line 179 "D:\NXT Programok\Slave1.nxc"
-13	180	200		mov __TextOutArgs.Text, __strbufDrive
-13	179	202	#line 179 "D:\NXT Programok\Slave1.nxc"
-13	180	202		syscall 13, __TextOutArgs
-13	179	205	#line 179 "D:\NXT Programok\Slave1.nxc"
-13	180	205		mov __D0Drive, __TextOutArgs.Result
-13	179	208	#line 179 "D:\NXT Programok\Slave1.nxc"
-13	180	208		release __TextOutMutex
-13	179	209	#line 179 "D:\NXT Programok\Slave1.nxc"
-13	179	209	#line 179 "D:\NXT Programok\Slave1.nxc"
-13	180	209		strcat __strbufDrive, __Drive_7qG2_in_7qG2_000
-13	179	213	#line 179 "D:\NXT Programok\Slave1.nxc"
-13	180	213		set __signed_stack_001Drive, 0
-13	179	216	#line 179 "D:\NXT Programok\Slave1.nxc"
-13	179	216	#line 179 "D:\NXT Programok\Slave1.nxc"
-13	180	216		set __D0Drive, 5
-13	179	219	#line 179 "D:\NXT Programok\Slave1.nxc"
-13	180	219		strsubset __strretvalDrive, __strbufDrive, __signed_stack_001Drive, __D0Drive
-13	179	224	#line 179 "D:\NXT Programok\Slave1.nxc"
-13	180	224		strcat __strbufDrive, __strretvalDrive
-13	180	228	#line 180 "D:\NXT Programok\Slave1.nxc"
-13	181	228		strtonum RA, __signed_stack_001Drive, __strbufDrive, 65535, 65535
-13	180	234	#line 180 "D:\NXT Programok\Slave1.nxc"
-13	180	234	#line 180 "D:\NXT Programok\Slave1.nxc"
-13	180	234	#line 180 "D:\NXT Programok\Slave1.nxc"
-13	181	234		strcat __strbufDrive, __Drive_7qG2_in_7qG2_000
-13	180	238	#line 180 "D:\NXT Programok\Slave1.nxc"
-13	181	238		set __signed_stack_001Drive, 6
-13	180	241	#line 180 "D:\NXT Programok\Slave1.nxc"
-13	180	241	#line 180 "D:\NXT Programok\Slave1.nxc"
-13	181	241		set __D0Drive, 10
-13	180	244	#line 180 "D:\NXT Programok\Slave1.nxc"
-13	181	244		strsubset __strretvalDrive, __strbufDrive, __signed_stack_001Drive, __D0Drive
-13	180	249	#line 180 "D:\NXT Programok\Slave1.nxc"
-13	181	249		strcat __strbufDrive, __strretvalDrive
-13	181	253	#line 181 "D:\NXT Programok\Slave1.nxc"
-13	182	253		strtonum RB, __signed_stack_001Drive, __strbufDrive, 65535, 65535
-13	181	259	#line 181 "D:\NXT Programok\Slave1.nxc"
-13	181	259	#line 181 "D:\NXT Programok\Slave1.nxc"
-13	181	259	#line 181 "D:\NXT Programok\Slave1.nxc"
-13	182	259		strcat __strbufDrive, __Drive_7qG2_in_7qG2_000
-13	181	263	#line 181 "D:\NXT Programok\Slave1.nxc"
-13	182	263		set __signed_stack_001Drive, 12
-13	181	266	#line 181 "D:\NXT Programok\Slave1.nxc"
-13	181	266	#line 181 "D:\NXT Programok\Slave1.nxc"
-13	182	266		set __D0Drive, 16
-13	181	269	#line 181 "D:\NXT Programok\Slave1.nxc"
-13	182	269		strsubset __strretvalDrive, __strbufDrive, __signed_stack_001Drive, __D0Drive
-13	181	274	#line 181 "D:\NXT Programok\Slave1.nxc"
-13	182	274		strcat __strbufDrive, __strretvalDrive
-13	183	278	#line 183 "D:\NXT Programok\Slave1.nxc"
-13	183	278	#line 183 "D:\NXT Programok\Slave1.nxc"
-13	183	278	#line 183 "D:\NXT Programok\Slave1.nxc"
-13	183	278	#line 183 "D:\NXT Programok\Slave1.nxc"
-13	184	278		set __signed_stack_001Drive, 0
-13	183	281	#line 183 "D:\NXT Programok\Slave1.nxc"
-13	183	281	#line 183 "D:\NXT Programok\Slave1.nxc"
-13	184	281		set __signed_stack_002Drive, 48
-13	183	284	#line 183 "D:\NXT Programok\Slave1.nxc"
-13	183	284	#line 183 "D:\NXT Programok\Slave1.nxc"
-13	184	284		mov __ArrHelper__Drive_244_0, __constStr0015
-13	183	286	#line 183 "D:\NXT Programok\Slave1.nxc"
-13	184	286		mov __D0Drive, RA
-13	183	288	#line 183 "D:\NXT Programok\Slave1.nxc"
-13	184	288		numtostr __strretvalDrive, __D0Drive
-13	183	291	#line 183 "D:\NXT Programok\Slave1.nxc"
-13	184	291		strcat __strbufDrive, __strretvalDrive
-13	183	295	#line 183 "D:\NXT Programok\Slave1.nxc"
-13	184	295		mov __ArrHelper__Drive_244_1, __strbufDrive
-13	183	297	#line 183 "D:\NXT Programok\Slave1.nxc"
-13	184	297		strcat __strbufDrive, __ArrHelper__Drive_244_0, __ArrHelper__Drive_244_1
-13	184	302	#line 184 "D:\NXT Programok\Slave1.nxc"
-13	185	302		acquire __TextOutMutex
-13	184	303	#line 184 "D:\NXT Programok\Slave1.nxc"
-13	185	303		mov __TextOutArgs.Location.X, __signed_stack_001Drive
-13	184	306	#line 184 "D:\NXT Programok\Slave1.nxc"
-13	185	306		mov __TextOutArgs.Location.Y, __signed_stack_002Drive
-13	184	309	#line 184 "D:\NXT Programok\Slave1.nxc"
-13	185	309		set __TextOutArgs.Options, 0
-13	184	312	#line 184 "D:\NXT Programok\Slave1.nxc"
-13	185	312		mov __TextOutArgs.Text, __strbufDrive
-13	184	314	#line 184 "D:\NXT Programok\Slave1.nxc"
-13	185	314		syscall 13, __TextOutArgs
-13	184	317	#line 184 "D:\NXT Programok\Slave1.nxc"
-13	185	317		mov __D0Drive, __TextOutArgs.Result
-13	184	320	#line 184 "D:\NXT Programok\Slave1.nxc"
-13	185	320		release __TextOutMutex
-13	184	321	#line 184 "D:\NXT Programok\Slave1.nxc"
-13	184	321	#line 184 "D:\NXT Programok\Slave1.nxc"
-13	185	321		set __signed_stack_001Drive, 0
-13	184	324	#line 184 "D:\NXT Programok\Slave1.nxc"
-13	184	324	#line 184 "D:\NXT Programok\Slave1.nxc"
-13	185	324		set __signed_stack_002Drive, 40
-13	184	327	#line 184 "D:\NXT Programok\Slave1.nxc"
-13	184	327	#line 184 "D:\NXT Programok\Slave1.nxc"
-13	185	327		mov __ArrHelper__Drive_244_0, __constStr0016
-13	184	329	#line 184 "D:\NXT Programok\Slave1.nxc"
-13	185	329		mov __D0Drive, RB
-13	184	331	#line 184 "D:\NXT Programok\Slave1.nxc"
-13	185	331		numtostr __strretvalDrive, __D0Drive
-13	184	334	#line 184 "D:\NXT Programok\Slave1.nxc"
-13	185	334		strcat __strbufDrive, __strretvalDrive
-13	184	338	#line 184 "D:\NXT Programok\Slave1.nxc"
-13	185	338		mov __ArrHelper__Drive_244_1, __strbufDrive
-13	184	340	#line 184 "D:\NXT Programok\Slave1.nxc"
-13	185	340		strcat __strbufDrive, __ArrHelper__Drive_244_0, __ArrHelper__Drive_244_1
-13	185	345	#line 185 "D:\NXT Programok\Slave1.nxc"
-13	186	345		acquire __TextOutMutex
-13	185	346	#line 185 "D:\NXT Programok\Slave1.nxc"
-13	186	346		mov __TextOutArgs.Location.X, __signed_stack_001Drive
-13	185	349	#line 185 "D:\NXT Programok\Slave1.nxc"
-13	186	349		mov __TextOutArgs.Location.Y, __signed_stack_002Drive
-13	185	352	#line 185 "D:\NXT Programok\Slave1.nxc"
-13	186	352		set __TextOutArgs.Options, 0
-13	185	355	#line 185 "D:\NXT Programok\Slave1.nxc"
-13	186	355		mov __TextOutArgs.Text, __strbufDrive
-13	185	357	#line 185 "D:\NXT Programok\Slave1.nxc"
-13	186	357		syscall 13, __TextOutArgs
-13	185	360	#line 185 "D:\NXT Programok\Slave1.nxc"
-13	186	360		mov __D0Drive, __TextOutArgs.Result
-13	185	363	#line 185 "D:\NXT Programok\Slave1.nxc"
-13	186	363		release __TextOutMutex
-13	185	364	#line 185 "D:\NXT Programok\Slave1.nxc"
-13	188	364	#line 188 "D:\NXT Programok\Slave1.nxc"
-13	189	364		strcat __strbufDrive, __constStr0017
-13	188	368	#line 188 "D:\NXT Programok\Slave1.nxc"
-13	189	368		mov __Drive_7qG2_in_7qG2_000, __strbufDrive
-13	188	370	#line 188 "D:\NXT Programok\Slave1.nxc"
-13	188	370	#line 188 "D:\NXT Programok\Slave1.nxc"
-13	188	370	#line 188 "D:\NXT Programok\Slave1.nxc"
-13	189	370	#line 189 "D:\NXT Programok\Slave1.nxc"
-13	189	370	#line 189 "D:\NXT Programok\Slave1.nxc"
-13	190	370		add A_Memory, A_Memory, RA
-13	189	374	#line 189 "D:\NXT Programok\Slave1.nxc"
-13	189	374	#line 189 "D:\NXT Programok\Slave1.nxc"
-13	189	374	#line 189 "D:\NXT Programok\Slave1.nxc"
-13	189	374	#line 189 "D:\NXT Programok\Slave1.nxc"
-13	190	374	#line 190 "D:\NXT Programok\Slave1.nxc"
-13	190	374	#line 190 "D:\NXT Programok\Slave1.nxc"
-13	191	374		add B_Memory, B_Memory, RB
-13	190	378	#line 190 "D:\NXT Programok\Slave1.nxc"
-13	190	378	#line 190 "D:\NXT Programok\Slave1.nxc"
-13	190	378	#line 190 "D:\NXT Programok\Slave1.nxc"
-13	190	378	#line 190 "D:\NXT Programok\Slave1.nxc"
-13	193	378	#line 193 "D:\NXT Programok\Slave1.nxc"
-13	193	378	#line 193 "D:\NXT Programok\Slave1.nxc"
-13	193	378	#line 193 "D:\NXT Programok\Slave1.nxc"
-13	193	378	#line 193 "D:\NXT Programok\Slave1.nxc"
-13	193	378	#line 193 "D:\NXT Programok\Slave1.nxc"
-13	194	378		mov __signed_stack_001Drive, RA
-13	193	380	#line 193 "D:\NXT Programok\Slave1.nxc"
-13	193	380	#line 193 "D:\NXT Programok\Slave1.nxc"
-13	194	380		set __D0Drive, 0
-13	193	383	#line 193 "D:\NXT Programok\Slave1.nxc"
-13	194	383		cmp 5, __zfDrive, __signed_stack_001Drive, __D0Drive
-13	193	387	#line 193 "D:\NXT Programok\Slave1.nxc"
-13	194	387		mov __D0Drive, __zfDrive
-13	193	390	#line 193 "D:\NXT Programok\Slave1.nxc"
-13	194	390		brtst 5, __NXC_Label_768, __zfDrive
-13	193	393	#line 193 "D:\NXT Programok\Slave1.nxc"
-13	194	393		mov __signed_stack_001Drive, __D0Drive
-13	193	395	#line 193 "D:\NXT Programok\Slave1.nxc"
-13	194	395		mov __signed_stack_002Drive, RB
-13	193	397	#line 193 "D:\NXT Programok\Slave1.nxc"
-13	194	397	#line 194 "D:\NXT Programok\Slave1.nxc"
-13	195	397		set __D0Drive, 0
-13	194	400	#line 194 "D:\NXT Programok\Slave1.nxc"
-13	195	400		cmp 5, __zfDrive, __signed_stack_002Drive, __D0Drive
-13	194	404	#line 194 "D:\NXT Programok\Slave1.nxc"
-13	194	404	#line 194 "D:\NXT Programok\Slave1.nxc"
-13	195	404		or __D0Drive, __signed_stack_001Drive, __zfDrive
-13	194	408	#line 194 "D:\NXT Programok\Slave1.nxc"
-13	195	408		tst 5, __zfDrive, __D0Drive
-13	194	411	#line 194 "D:\NXT Programok\Slave1.nxc"
-13	195	411		brtst 4, __NXC_Label_771, __zfDrive
-13	194	414	#line 194 "D:\NXT Programok\Slave1.nxc"
-13	195	414		set __signed_stack_001Drive, 0
-13	194	417	#line 194 "D:\NXT Programok\Slave1.nxc"
-13	194	417	#line 194 "D:\NXT Programok\Slave1.nxc"
-13	195	417		set __signed_stack_002Drive, 32
-13	194	420	#line 194 "D:\NXT Programok\Slave1.nxc"
-13	194	420	#line 194 "D:\NXT Programok\Slave1.nxc"
-13	195	420		strcat __strbufDrive, __constStr0018
-13	195	424	#line 195 "D:\NXT Programok\Slave1.nxc"
-13	196	424		acquire __TextOutMutex
-13	195	425	#line 195 "D:\NXT Programok\Slave1.nxc"
-13	196	425		mov __TextOutArgs.Location.X, __signed_stack_001Drive
-13	195	428	#line 195 "D:\NXT Programok\Slave1.nxc"
-13	196	428		mov __TextOutArgs.Location.Y, __signed_stack_002Drive
-13	195	431	#line 195 "D:\NXT Programok\Slave1.nxc"
-13	196	431		set __TextOutArgs.Options, 0
-13	195	434	#line 195 "D:\NXT Programok\Slave1.nxc"
-13	196	434		mov __TextOutArgs.Text, __strbufDrive
-13	195	436	#line 195 "D:\NXT Programok\Slave1.nxc"
-13	196	436		syscall 13, __TextOutArgs
-13	195	439	#line 195 "D:\NXT Programok\Slave1.nxc"
-13	196	439		mov __D0Drive, __TextOutArgs.Result
-13	195	442	#line 195 "D:\NXT Programok\Slave1.nxc"
-13	196	442		release __TextOutMutex
-13	195	443	#line 195 "D:\NXT Programok\Slave1.nxc"
-13	195	443	#line 195 "D:\NXT Programok\Slave1.nxc"
-13	196	443		mov __signed_stack_001Drive, RA
-13	195	445	#line 195 "D:\NXT Programok\Slave1.nxc"
-13	196	445	#line 196 "D:\NXT Programok\Slave1.nxc"
-13	197	445		mov __D0Drive, RB
-13	196	447	#line 196 "D:\NXT Programok\Slave1.nxc"
-13	197	447		cmp 4, __zfDrive, __signed_stack_001Drive, __D0Drive
-13	196	451	#line 196 "D:\NXT Programok\Slave1.nxc"
-13	197	451		mov __D0Drive, __zfDrive
-13	198	454	#line 198 "D:\NXT Programok\Slave1.nxc"
-13	199	454		brtst 4, __NXC_Label_778, __zfDrive
-13	199	457	#line 199 "D:\NXT Programok\Slave1.nxc"
-13	200	457		subcall __MotorAB_Spawner, __MotorAB_Spawner_return
-13	199	459	#line 199 "D:\NXT Programok\Slave1.nxc"
-13	201	459	#line 201 "D:\NXT Programok\Slave1.nxc"
-13	202	459		jmp __NXC_Label_779
-13	201	461	#line 201 "D:\NXT Programok\Slave1.nxc"
-13	202	461		mov __D0Drive, RA
-13	201	463	#line 201 "D:\NXT Programok\Slave1.nxc"
-13	202	463		abs __signed_stack_001Drive, __D0Drive
-13	201	466	#line 201 "D:\NXT Programok\Slave1.nxc"
-13	201	466	#line 201 "D:\NXT Programok\Slave1.nxc"
-13	202	466		mov __D0Drive, RB
-13	201	468	#line 201 "D:\NXT Programok\Slave1.nxc"
-13	202	468		abs __D0Drive, __D0Drive
-13	201	471	#line 201 "D:\NXT Programok\Slave1.nxc"
-13	202	471		cmp 4, __zfDrive, __signed_stack_001Drive, __D0Drive
-13	201	475	#line 201 "D:\NXT Programok\Slave1.nxc"
-13	202	475		mov __D0Drive, __zfDrive
-13	202	478	#line 202 "D:\NXT Programok\Slave1.nxc"
-13	203	478		brtst 4, __NXC_Label_786, __zfDrive
-13	203	481	#line 203 "D:\NXT Programok\Slave1.nxc"
-13	204	481		subcall __MotorABInverse_Spawner, __MotorABInverse_Spawner_return
-13	203	483	#line 203 "D:\NXT Programok\Slave1.nxc"
-13	205	483	#line 205 "D:\NXT Programok\Slave1.nxc"
-13	206	483		jmp __NXC_Label_787
-13	206	485	#line 206 "D:\NXT Programok\Slave1.nxc"
-13	207	485		subcall __MotorA_Spawner, __MotorA_Spawner_return
-13	206	487	#line 206 "D:\NXT Programok\Slave1.nxc"
-13	207	487	#line 207 "D:\NXT Programok\Slave1.nxc"
-13	208	487		subcall __MotorB_Spawner, __MotorB_Spawner_return
-13	207	489	#line 207 "D:\NXT Programok\Slave1.nxc"
-13	209	489	#line 209 "D:\NXT Programok\Slave1.nxc"
-13	216	489	#line 216 "D:\NXT Programok\Slave1.nxc"
-13	216	489	#line 216 "D:\NXT Programok\Slave1.nxc"
-13	216	489	#line 216 "D:\NXT Programok\Slave1.nxc"
-13	217	489		mov __unsigned_stack_001Drive, A_Done
-13	216	491	#line 216 "D:\NXT Programok\Slave1.nxc"
-13	216	491	#line 216 "D:\NXT Programok\Slave1.nxc"
-13	217	491		set __D0Drive, 1
-13	216	494	#line 216 "D:\NXT Programok\Slave1.nxc"
-13	217	494		cmp 4, __zfDrive, __unsigned_stack_001Drive, __D0Drive
-13	216	498	#line 216 "D:\NXT Programok\Slave1.nxc"
-13	217	498		mov __D0Drive, __zfDrive
-13	216	501	#line 216 "D:\NXT Programok\Slave1.nxc"
-13	217	501		brtst 4, __NXC_Label_793, __zfDrive
-13	216	504	#line 216 "D:\NXT Programok\Slave1.nxc"
-13	217	504		mov __signed_stack_001Drive, __D0Drive
-13	216	506	#line 216 "D:\NXT Programok\Slave1.nxc"
-13	217	506		mov __unsigned_stack_002Drive, B_Done
-13	216	508	#line 216 "D:\NXT Programok\Slave1.nxc"
-13	216	508	#line 216 "D:\NXT Programok\Slave1.nxc"
-13	217	508		set __D0Drive, 1
-13	216	511	#line 216 "D:\NXT Programok\Slave1.nxc"
-13	217	511		cmp 4, __zfDrive, __unsigned_stack_002Drive, __D0Drive
-13	216	515	#line 216 "D:\NXT Programok\Slave1.nxc"
-13	216	515	#line 216 "D:\NXT Programok\Slave1.nxc"
-13	217	515		and __D0Drive, __signed_stack_001Drive, __zfDrive
-13	216	519	#line 216 "D:\NXT Programok\Slave1.nxc"
-13	217	519		not __D0Drive, __D0Drive
-13	217	522	#line 217 "D:\NXT Programok\Slave1.nxc"
-13	218	522		tst 5, __zfDrive, __D0Drive
-13	217	525	#line 217 "D:\NXT Programok\Slave1.nxc"
-13	218	525		brtst 4, __NXC_Label_789, __zfDrive
-13	217	528	#line 217 "D:\NXT Programok\Slave1.nxc"
-13	217	528	#line 217 "D:\NXT Programok\Slave1.nxc"
-13	218	528		jmp __NXC_Label_788
-13	217	530	#line 217 "D:\NXT Programok\Slave1.nxc"
-13	218	530	#line 218 "D:\NXT Programok\Slave1.nxc"
-13	219	530		set A_Done, 0
-13	218	533	#line 218 "D:\NXT Programok\Slave1.nxc"
-13	218	533	#line 218 "D:\NXT Programok\Slave1.nxc"
-13	219	533	#line 219 "D:\NXT Programok\Slave1.nxc"
-13	220	533		set B_Done, 0
-13	219	536	#line 219 "D:\NXT Programok\Slave1.nxc"
-13	219	536	#line 219 "D:\NXT Programok\Slave1.nxc"
-13	219	536	#line 219 "D:\NXT Programok\Slave1.nxc"
-13	220	536		set __ClearLine_7qG2_line_7qG2_000_inline_Drive, 32
-13	219	539	#line 219 "D:\NXT Programok\Slave1.nxc"
-13	6076	539	#line 6076 "NXCDefs.h"
-13	6077	539	#pragma macro 7
-13	6077	539		acquire __TextOutMutex
-13	6077	540		mov __TextOutArgs.Location.X, __constVal0
-13	6077	542		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_Drive
-13	6077	544		mov __TextOutArgs.Options, __constVal0
-13	6077	546		mov __TextOutArgs.Text, __BlankLine
-13	6077	548		syscall 13, __TextOutArgs
-13	6077	551		release __TextOutMutex
-13	8456	552	#line 8456 "NXCDefs.h"
-13	6076	552	#line 6076 "NXCDefs.h"
-13	220	552	#line 220 "D:\NXT Programok\Slave1.nxc"
-13	220	552	#line 220 "D:\NXT Programok\Slave1.nxc"
-13	221	552		set __signed_stack_001Drive, 0
-13	220	555	#line 220 "D:\NXT Programok\Slave1.nxc"
-13	220	555	#line 220 "D:\NXT Programok\Slave1.nxc"
-13	221	555		set __signed_stack_002Drive, 32
-13	220	558	#line 220 "D:\NXT Programok\Slave1.nxc"
-13	220	558	#line 220 "D:\NXT Programok\Slave1.nxc"
-13	221	558		strcat __strbufDrive, __constStr0019
-13	223	562	#line 223 "D:\NXT Programok\Slave1.nxc"
-13	224	562		acquire __TextOutMutex
-13	223	563	#line 223 "D:\NXT Programok\Slave1.nxc"
-13	224	563		mov __TextOutArgs.Location.X, __signed_stack_001Drive
-13	223	566	#line 223 "D:\NXT Programok\Slave1.nxc"
-13	224	566		mov __TextOutArgs.Location.Y, __signed_stack_002Drive
-13	223	569	#line 223 "D:\NXT Programok\Slave1.nxc"
-13	224	569		set __TextOutArgs.Options, 0
-13	223	572	#line 223 "D:\NXT Programok\Slave1.nxc"
-13	224	572		mov __TextOutArgs.Text, __strbufDrive
-13	223	574	#line 223 "D:\NXT Programok\Slave1.nxc"
-13	224	574		syscall 13, __TextOutArgs
-13	223	577	#line 223 "D:\NXT Programok\Slave1.nxc"
-13	224	577		mov __D0Drive, __TextOutArgs.Result
-13	223	580	#line 223 "D:\NXT Programok\Slave1.nxc"
-13	224	580		release __TextOutMutex
-13	223	581	#line 223 "D:\NXT Programok\Slave1.nxc"
-13	223	581	#line 223 "D:\NXT Programok\Slave1.nxc"
-13	224	581		strcat __strbufDrive, __constStr0010
-13	223	585	#line 223 "D:\NXT Programok\Slave1.nxc"
-13	224	585		mov __MotorRealPosition_7qG2_Port_7qG2_000, __strbufDrive
-13	224	587	#line 224 "D:\NXT Programok\Slave1.nxc"
-13	225	587		subcall MotorRealPosition, __MotorRealPosition_return
-13	224	589	#line 224 "D:\NXT Programok\Slave1.nxc"
-13	225	589		mov realTurn, __D0MotorRealPosition
-13	224	591	#line 224 "D:\NXT Programok\Slave1.nxc"
-13	224	591	#line 224 "D:\NXT Programok\Slave1.nxc"
-13	224	591	#line 224 "D:\NXT Programok\Slave1.nxc"
-13	224	591	#line 224 "D:\NXT Programok\Slave1.nxc"
-13	224	591	#line 224 "D:\NXT Programok\Slave1.nxc"
-13	224	591	#line 224 "D:\NXT Programok\Slave1.nxc"
-13	225	591		sub __signed_stack_001Drive, A_Memory, realTurn
-13	224	595	#line 224 "D:\NXT Programok\Slave1.nxc"
-13	224	595	#line 224 "D:\NXT Programok\Slave1.nxc"
-13	225	595		set __signed_stack_002Drive, 0
-13	224	598	#line 224 "D:\NXT Programok\Slave1.nxc"
-13	224	598	#line 224 "D:\NXT Programok\Slave1.nxc"
-13	224	598	#line 224 "D:\NXT Programok\Slave1.nxc"
-13	224	598	#line 224 "D:\NXT Programok\Slave1.nxc"
-13	224	598	#line 224 "D:\NXT Programok\Slave1.nxc"
-13	225	598		mul __D0Drive, __constVal1, Tolerance
-13	224	602	#line 224 "D:\NXT Programok\Slave1.nxc"
-13	225	602		sub __D0Drive, __signed_stack_002Drive, __D0Drive
-13	224	606	#line 224 "D:\NXT Programok\Slave1.nxc"
-13	225	606		cmp 0, __zfDrive, __signed_stack_001Drive, __D0Drive
-13	224	610	#line 224 "D:\NXT Programok\Slave1.nxc"
-13	225	610		mov __D0Drive, __zfDrive
-13	224	613	#line 224 "D:\NXT Programok\Slave1.nxc"
-13	225	613		brtst 5, __NXC_Label_808, __zfDrive
-13	224	616	#line 224 "D:\NXT Programok\Slave1.nxc"
-13	225	616		mov __signed_stack_001Drive, __D0Drive
-13	224	618	#line 224 "D:\NXT Programok\Slave1.nxc"
-13	224	618	#line 224 "D:\NXT Programok\Slave1.nxc"
-13	224	618	#line 224 "D:\NXT Programok\Slave1.nxc"
-13	224	618	#line 224 "D:\NXT Programok\Slave1.nxc"
-13	225	618		sub __signed_stack_002Drive, A_Memory, realTurn
-13	224	622	#line 224 "D:\NXT Programok\Slave1.nxc"
-13	224	622	#line 224 "D:\NXT Programok\Slave1.nxc"
-13	225	622		mov __D0Drive, Tolerance
-13	224	624	#line 224 "D:\NXT Programok\Slave1.nxc"
-13	225	624		cmp 1, __zfDrive, __signed_stack_002Drive, __D0Drive
-13	224	628	#line 224 "D:\NXT Programok\Slave1.nxc"
-13	224	628	#line 224 "D:\NXT Programok\Slave1.nxc"
-13	225	628		or __D0Drive, __signed_stack_001Drive, __zfDrive
-13	225	632	#line 225 "D:\NXT Programok\Slave1.nxc"
-13	226	632		tst 5, __zfDrive, __D0Drive
-13	225	635	#line 225 "D:\NXT Programok\Slave1.nxc"
-13	226	635		brtst 4, __NXC_Label_807, __zfDrive
-13	225	638	#line 225 "D:\NXT Programok\Slave1.nxc"
-13	226	638		set __signed_stack_001Drive, 20
-13	225	641	#line 225 "D:\NXT Programok\Slave1.nxc"
-13	225	641	#line 225 "D:\NXT Programok\Slave1.nxc"
-13	225	641	#line 225 "D:\NXT Programok\Slave1.nxc"
-13	225	641	#line 225 "D:\NXT Programok\Slave1.nxc"
-13	225	641	#line 225 "D:\NXT Programok\Slave1.nxc"
-13	226	641		sub __signed_stack_002Drive, A_Memory, realTurn
-13	225	645	#line 225 "D:\NXT Programok\Slave1.nxc"
-13	225	645	#line 225 "D:\NXT Programok\Slave1.nxc"
-13	226	645		set __signed_stack_003Drive, 90
-13	225	648	#line 225 "D:\NXT Programok\Slave1.nxc"
-13	225	648	#line 225 "D:\NXT Programok\Slave1.nxc"
-13	226	648		set __signed_stack_004Drive, 40
-13	225	651	#line 225 "D:\NXT Programok\Slave1.nxc"
-13	225	651	#line 225 "D:\NXT Programok\Slave1.nxc"
-13	226	651		set __D0Drive, 50
-13	226	654	#line 226 "D:\NXT Programok\Slave1.nxc"
-13	227	654	#pragma macro 33
-13	227	654		acquire __rotateMutex0
-13	227	655		arrbuild __rotate_ports0, __constVal0
-13	227	659		mov __rotate_power0, __signed_stack_001Drive
-13	227	661		mov __rotate_angle0, __signed_stack_002Drive
-13	227	663		mov __rotate_turnpct0, __constVal0
-13	227	665		mov __rotate_sync0, __constVal0
-13	227	667		mov __rotate_stop0, __constVal1
-13	227	669		mov __rotate_theRVP0, __signed_stack_003Drive
-13	227	672		mov __rotate_theRVI0, __signed_stack_004Drive
-13	227	675		mov __rotate_theRVD0, __D0Drive
-13	227	677		subcall __RotateMotor0, ____RotateMotor0_return
-13	227	680		release __rotateMutex0
-13	8600	681	#line 8600 "D:\NXT Programok\Slave1.nxc"
-13	226	681	#line 226 "D:\NXT Programok\Slave1.nxc"
-13	226	681	#line 226 "D:\NXT Programok\Slave1.nxc"
-13	227	681		strcat __strbufDrive, __constStr0010
-13	226	685	#line 226 "D:\NXT Programok\Slave1.nxc"
-13	227	685		mov __MotorRealPosition_7qG2_Port_7qG2_000, __strbufDrive
-13	227	687	#line 227 "D:\NXT Programok\Slave1.nxc"
-13	228	687		subcall MotorRealPosition, __MotorRealPosition_return
-13	227	689	#line 227 "D:\NXT Programok\Slave1.nxc"
-13	228	689		mov realTurn, __D0MotorRealPosition
-13	227	691	#line 227 "D:\NXT Programok\Slave1.nxc"
-13	227	691	#line 227 "D:\NXT Programok\Slave1.nxc"
-13	228	691	#line 228 "D:\NXT Programok\Slave1.nxc"
-13	229	691		jmp __NXC_Label_806
-13	228	693	#line 228 "D:\NXT Programok\Slave1.nxc"
-13	228	693	#line 228 "D:\NXT Programok\Slave1.nxc"
-13	229	693		strcat __strbufDrive, __constStr0011
-13	228	697	#line 228 "D:\NXT Programok\Slave1.nxc"
-13	229	697		mov __MotorRealPosition_7qG2_Port_7qG2_000, __strbufDrive
-13	229	699	#line 229 "D:\NXT Programok\Slave1.nxc"
-13	230	699		subcall MotorRealPosition, __MotorRealPosition_return
-13	229	701	#line 229 "D:\NXT Programok\Slave1.nxc"
-13	230	701		mov realTurn, __D0MotorRealPosition
-13	229	703	#line 229 "D:\NXT Programok\Slave1.nxc"
-13	229	703	#line 229 "D:\NXT Programok\Slave1.nxc"
-13	229	703	#line 229 "D:\NXT Programok\Slave1.nxc"
-13	229	703	#line 229 "D:\NXT Programok\Slave1.nxc"
-13	229	703	#line 229 "D:\NXT Programok\Slave1.nxc"
-13	229	703	#line 229 "D:\NXT Programok\Slave1.nxc"
-13	230	703		sub __signed_stack_001Drive, B_Memory, realTurn
-13	229	707	#line 229 "D:\NXT Programok\Slave1.nxc"
-13	229	707	#line 229 "D:\NXT Programok\Slave1.nxc"
-13	230	707		set __signed_stack_002Drive, 0
-13	229	710	#line 229 "D:\NXT Programok\Slave1.nxc"
-13	229	710	#line 229 "D:\NXT Programok\Slave1.nxc"
-13	229	710	#line 229 "D:\NXT Programok\Slave1.nxc"
-13	229	710	#line 229 "D:\NXT Programok\Slave1.nxc"
-13	229	710	#line 229 "D:\NXT Programok\Slave1.nxc"
-13	230	710		mul __D0Drive, __constVal1, Tolerance
-13	229	714	#line 229 "D:\NXT Programok\Slave1.nxc"
-13	230	714		sub __D0Drive, __signed_stack_002Drive, __D0Drive
-13	229	718	#line 229 "D:\NXT Programok\Slave1.nxc"
-13	230	718		cmp 0, __zfDrive, __signed_stack_001Drive, __D0Drive
-13	229	722	#line 229 "D:\NXT Programok\Slave1.nxc"
-13	230	722		mov __D0Drive, __zfDrive
-13	229	725	#line 229 "D:\NXT Programok\Slave1.nxc"
-13	230	725		brtst 5, __NXC_Label_831, __zfDrive
-13	229	728	#line 229 "D:\NXT Programok\Slave1.nxc"
-13	230	728		mov __signed_stack_001Drive, __D0Drive
-13	229	730	#line 229 "D:\NXT Programok\Slave1.nxc"
-13	229	730	#line 229 "D:\NXT Programok\Slave1.nxc"
-13	229	730	#line 229 "D:\NXT Programok\Slave1.nxc"
-13	229	730	#line 229 "D:\NXT Programok\Slave1.nxc"
-13	230	730		sub __signed_stack_002Drive, B_Memory, realTurn
-13	229	734	#line 229 "D:\NXT Programok\Slave1.nxc"
-13	229	734	#line 229 "D:\NXT Programok\Slave1.nxc"
-13	230	734		mov __D0Drive, Tolerance
-13	229	736	#line 229 "D:\NXT Programok\Slave1.nxc"
-13	230	736		cmp 1, __zfDrive, __signed_stack_002Drive, __D0Drive
-13	229	740	#line 229 "D:\NXT Programok\Slave1.nxc"
-13	229	740	#line 229 "D:\NXT Programok\Slave1.nxc"
-13	230	740		or __D0Drive, __signed_stack_001Drive, __zfDrive
-13	230	744	#line 230 "D:\NXT Programok\Slave1.nxc"
-13	231	744		tst 5, __zfDrive, __D0Drive
-13	230	747	#line 230 "D:\NXT Programok\Slave1.nxc"
-13	231	747		brtst 4, __NXC_Label_830, __zfDrive
-13	230	750	#line 230 "D:\NXT Programok\Slave1.nxc"
-13	231	750		set __signed_stack_001Drive, 15
-13	230	753	#line 230 "D:\NXT Programok\Slave1.nxc"
-13	230	753	#line 230 "D:\NXT Programok\Slave1.nxc"
-13	230	753	#line 230 "D:\NXT Programok\Slave1.nxc"
-13	230	753	#line 230 "D:\NXT Programok\Slave1.nxc"
-13	230	753	#line 230 "D:\NXT Programok\Slave1.nxc"
-13	231	753		sub __signed_stack_002Drive, B_Memory, realTurn
-13	230	757	#line 230 "D:\NXT Programok\Slave1.nxc"
-13	230	757	#line 230 "D:\NXT Programok\Slave1.nxc"
-13	231	757		set __signed_stack_003Drive, 90
-13	230	760	#line 230 "D:\NXT Programok\Slave1.nxc"
-13	230	760	#line 230 "D:\NXT Programok\Slave1.nxc"
-13	231	760		set __signed_stack_004Drive, 40
-13	230	763	#line 230 "D:\NXT Programok\Slave1.nxc"
-13	230	763	#line 230 "D:\NXT Programok\Slave1.nxc"
-13	231	763		set __D0Drive, 50
-13	231	766	#line 231 "D:\NXT Programok\Slave1.nxc"
-13	232	766	#pragma macro 33
-13	232	766		acquire __rotateMutex1
-13	232	767		arrbuild __rotate_ports1, __constVal1
-13	232	771		mov __rotate_power1, __signed_stack_001Drive
-13	232	773		mov __rotate_angle1, __signed_stack_002Drive
-13	232	775		mov __rotate_turnpct1, __constVal0
-13	232	777		mov __rotate_sync1, __constVal0
-13	232	779		mov __rotate_stop1, __constVal1
-13	232	781		mov __rotate_theRVP1, __signed_stack_003Drive
-13	232	783		mov __rotate_theRVI1, __signed_stack_004Drive
-13	232	785		mov __rotate_theRVD1, __D0Drive
-13	232	787		subcall __RotateMotor1, ____RotateMotor1_return
-13	232	790		release __rotateMutex1
-13	8729	791	#line 8729 "D:\NXT Programok\Slave1.nxc"
-13	231	791	#line 231 "D:\NXT Programok\Slave1.nxc"
-13	231	791	#line 231 "D:\NXT Programok\Slave1.nxc"
-13	232	791		strcat __strbufDrive, __constStr0011
-13	231	795	#line 231 "D:\NXT Programok\Slave1.nxc"
-13	232	795		mov __MotorRealPosition_7qG2_Port_7qG2_000, __strbufDrive
-13	232	797	#line 232 "D:\NXT Programok\Slave1.nxc"
-13	233	797		subcall MotorRealPosition, __MotorRealPosition_return
-13	232	799	#line 232 "D:\NXT Programok\Slave1.nxc"
-13	233	799		mov realTurn, __D0MotorRealPosition
-13	232	801	#line 232 "D:\NXT Programok\Slave1.nxc"
-13	232	801	#line 232 "D:\NXT Programok\Slave1.nxc"
-13	235	801	#line 235 "D:\NXT Programok\Slave1.nxc"
-13	236	801		jmp __NXC_Label_829
-13	235	803	#line 235 "D:\NXT Programok\Slave1.nxc"
-13	235	803	#line 235 "D:\NXT Programok\Slave1.nxc"
-13	236	803	#pragma macro 7
-13	236	803		acquire __MWMutex
-13	236	804		add __MWArgs.QueueID, __constVal2, __constVal10
-13	236	808		mov __SRNTmpVal, endProcess
-13	236	810		flatten __MWArgs.Message, __SRNTmpVal
-13	236	813		syscall 26, __MWArgs
-13	236	816		mov __D0Drive, __MWArgs.Result
-13	236	819		release __MWMutex
-13	8749	820	#line 8749 "D:\NXT Programok\Slave1.nxc"
-13	235	820	#line 235 "D:\NXT Programok\Slave1.nxc"
-13	235	820	#line 235 "D:\NXT Programok\Slave1.nxc"
-13	237	820	#line 237 "D:\NXT Programok\Slave1.nxc"
-13	238	820		set free, 1
-13	237	823	#line 237 "D:\NXT Programok\Slave1.nxc"
-13	237	823	#line 237 "D:\NXT Programok\Slave1.nxc"
-13	238	823	#line 238 "D:\NXT Programok\Slave1.nxc"
-13	239	823		subcall __LedGreen_Spawner, __LedGreen_Spawner_return
-13	238	825	#line 238 "D:\NXT Programok\Slave1.nxc"
-13	238	825	#line 238 "D:\NXT Programok\Slave1.nxc"
-13	239	825		set __ClearLine_7qG2_line_7qG2_000_inline_Drive, 32
-13	238	828	#line 238 "D:\NXT Programok\Slave1.nxc"
-13	6076	828	#line 6076 "NXCDefs.h"
-13	6077	828	#pragma macro 7
-13	6077	828		acquire __TextOutMutex
-13	6077	829		mov __TextOutArgs.Location.X, __constVal0
-13	6077	831		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_Drive
-13	6077	833		mov __TextOutArgs.Options, __constVal0
-13	6077	835		mov __TextOutArgs.Text, __BlankLine
-13	6077	837		syscall 13, __TextOutArgs
-13	6077	840		release __TextOutMutex
-13	8769	841	#line 8769 "NXCDefs.h"
-13	6076	841	#line 6076 "NXCDefs.h"
-13	239	841	#line 239 "D:\NXT Programok\Slave1.nxc"
-13	239	841	#line 239 "D:\NXT Programok\Slave1.nxc"
-13	240	841		set __signed_stack_001Drive, 0
-13	239	844	#line 239 "D:\NXT Programok\Slave1.nxc"
-13	239	844	#line 239 "D:\NXT Programok\Slave1.nxc"
-13	240	844		set __signed_stack_002Drive, 32
-13	239	847	#line 239 "D:\NXT Programok\Slave1.nxc"
-13	239	847	#line 239 "D:\NXT Programok\Slave1.nxc"
-13	240	847		strcat __strbufDrive, __constStr0020
-13	240	851	#line 240 "D:\NXT Programok\Slave1.nxc"
-13	241	851		acquire __TextOutMutex
-13	240	852	#line 240 "D:\NXT Programok\Slave1.nxc"
-13	241	852		mov __TextOutArgs.Location.X, __signed_stack_001Drive
-13	240	855	#line 240 "D:\NXT Programok\Slave1.nxc"
-13	241	855		mov __TextOutArgs.Location.Y, __signed_stack_002Drive
-13	240	858	#line 240 "D:\NXT Programok\Slave1.nxc"
-13	241	858		set __TextOutArgs.Options, 0
-13	240	861	#line 240 "D:\NXT Programok\Slave1.nxc"
-13	241	861		mov __TextOutArgs.Text, __strbufDrive
-13	240	863	#line 240 "D:\NXT Programok\Slave1.nxc"
-13	241	863		syscall 13, __TextOutArgs
-13	240	866	#line 240 "D:\NXT Programok\Slave1.nxc"
-13	241	866		mov __D0Drive, __TextOutArgs.Result
-13	240	869	#line 240 "D:\NXT Programok\Slave1.nxc"
-13	241	869		release __TextOutMutex
-13	240	870	#line 240 "D:\NXT Programok\Slave1.nxc"
-13	241	870	#line 241 "D:\NXT Programok\Slave1.nxc"
-13	242	870	#pragma macro 7
-13	242	870		setout __OUT_AB, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-13	8804	893	#line 8804 "D:\NXT Programok\Slave1.nxc"
-13	241	893	#line 241 "D:\NXT Programok\Slave1.nxc"
-13	241	893	#line 241 "D:\NXT Programok\Slave1.nxc"
-13	242	893		set __signed_stack_001Drive, 0
-13	241	896	#line 241 "D:\NXT Programok\Slave1.nxc"
-13	241	896	#line 241 "D:\NXT Programok\Slave1.nxc"
-13	242	896		set __signed_stack_002Drive, 0
-13	241	899	#line 241 "D:\NXT Programok\Slave1.nxc"
-13	241	899	#line 241 "D:\NXT Programok\Slave1.nxc"
-13	242	899		strcat __strbufDrive, __constStr0021
-13	244	903	#line 244 "D:\NXT Programok\Slave1.nxc"
-13	245	903		acquire __TextOutMutex
-13	244	904	#line 244 "D:\NXT Programok\Slave1.nxc"
-13	245	904		mov __TextOutArgs.Location.X, __signed_stack_001Drive
-13	244	907	#line 244 "D:\NXT Programok\Slave1.nxc"
-13	245	907		mov __TextOutArgs.Location.Y, __signed_stack_002Drive
-13	244	910	#line 244 "D:\NXT Programok\Slave1.nxc"
-13	245	910		set __TextOutArgs.Options, 0
-13	244	913	#line 244 "D:\NXT Programok\Slave1.nxc"
-13	245	913		mov __TextOutArgs.Text, __strbufDrive
-13	244	915	#line 244 "D:\NXT Programok\Slave1.nxc"
-13	245	915		syscall 13, __TextOutArgs
-13	244	918	#line 244 "D:\NXT Programok\Slave1.nxc"
-13	245	918		mov __D0Drive, __TextOutArgs.Result
-13	244	921	#line 244 "D:\NXT Programok\Slave1.nxc"
-13	245	921		release __TextOutMutex
-13	244	922	#line 244 "D:\NXT Programok\Slave1.nxc"
-13	245	922	#line 245 "D:\NXT Programok\Slave1.nxc"
-13	246	922		jmp __NXC_Label_862
-13	247	924	#line 247 "D:\NXT Programok\Slave1.nxc"
-13	248	924	#pragma macro 4
-13	247	924	#line 247 "D:\NXT Programok\Slave1.nxc"
-13	247	924	#line 247 "D:\NXT Programok\Slave1.nxc"
-13	247	924		acquire __KeepAliveMutex
-13	248	925		syscall 31, __KeepAliveArgs
-13	249	928		mov __D0Drive, __KeepAliveArgs.Result
-13	250	931		release __KeepAliveMutex
-13	246	932	#line 246 "D:\NXT Programok\Slave1.nxc"
-13	246	932	#line 246 "D:\NXT Programok\Slave1.nxc"
-13	246	932	#line 246 "D:\NXT Programok\Slave1.nxc"
-13	246	932	#line 246 "D:\NXT Programok\Slave1.nxc"
-13	247	932	#line 247 "D:\NXT Programok\Slave1.nxc"
-13	247	932	#line 247 "D:\NXT Programok\Slave1.nxc"
-13	247	932	#line 247 "D:\NXT Programok\Slave1.nxc"
-13	248	932		mov __Wait_7qG2_ms_7qG2_000_inline_Drive, CheckTime
-13	247	934	#line 247 "D:\NXT Programok\Slave1.nxc"
-13	7921	934	#line 7921 "NXCDefs.h"
-13	7922	934		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_Drive
-13	7921	937	#line 7921 "NXCDefs.h"
-13	248	937	#line 248 "D:\NXT Programok\Slave1.nxc"
-13	251	937	#line 251 "D:\NXT Programok\Slave1.nxc"
-13	252	937		jmp __NXC_Label_713
-13	251	939	#line 251 "D:\NXT Programok\Slave1.nxc"
-13	252	939		exit -1, -1
+13	6070	170		mov __PointOutArgs.Location.Y, __constVal200
+13	6070	172		mov __PointOutArgs.Options, __constVal1
+13	6070	174		syscall 14, __PointOutArgs
+13	6070	177		release __PointOutMutex
+13	8098	178	#line 8098 "NXCDefs.h"
+13	6069	178	#line 6069 "NXCDefs.h"
+13	178	178	#line 178 "D:\NXT Programok\Slave1.nxc"
+13	178	178	#line 178 "D:\NXT Programok\Slave1.nxc"
+13	179	178		set __signed_stack_001Drive, 0
+13	178	181	#line 178 "D:\NXT Programok\Slave1.nxc"
+13	178	181	#line 178 "D:\NXT Programok\Slave1.nxc"
+13	179	181		set __signed_stack_002Drive, 56
+13	178	184	#line 178 "D:\NXT Programok\Slave1.nxc"
+13	178	184	#line 178 "D:\NXT Programok\Slave1.nxc"
+13	179	184		strcat __strbufDrive, __constStr0014
+13	182	188	#line 182 "D:\NXT Programok\Slave1.nxc"
+13	183	188		acquire __TextOutMutex
+13	182	189	#line 182 "D:\NXT Programok\Slave1.nxc"
+13	183	189		mov __TextOutArgs.Location.X, __signed_stack_001Drive
+13	182	192	#line 182 "D:\NXT Programok\Slave1.nxc"
+13	183	192		mov __TextOutArgs.Location.Y, __signed_stack_002Drive
+13	182	195	#line 182 "D:\NXT Programok\Slave1.nxc"
+13	183	195		set __TextOutArgs.Options, 0
+13	182	198	#line 182 "D:\NXT Programok\Slave1.nxc"
+13	183	198		mov __TextOutArgs.Text, __strbufDrive
+13	182	200	#line 182 "D:\NXT Programok\Slave1.nxc"
+13	183	200		syscall 13, __TextOutArgs
+13	182	203	#line 182 "D:\NXT Programok\Slave1.nxc"
+13	183	203		mov __D0Drive, __TextOutArgs.Result
+13	182	206	#line 182 "D:\NXT Programok\Slave1.nxc"
+13	183	206		release __TextOutMutex
+13	182	207	#line 182 "D:\NXT Programok\Slave1.nxc"
+13	182	207	#line 182 "D:\NXT Programok\Slave1.nxc"
+13	183	207		strcat __strbufDrive, __Drive_7qG2_in_7qG2_000
+13	182	211	#line 182 "D:\NXT Programok\Slave1.nxc"
+13	183	211		set __signed_stack_001Drive, 0
+13	182	214	#line 182 "D:\NXT Programok\Slave1.nxc"
+13	182	214	#line 182 "D:\NXT Programok\Slave1.nxc"
+13	183	214		set __D0Drive, 5
+13	182	217	#line 182 "D:\NXT Programok\Slave1.nxc"
+13	183	217		strsubset __strretvalDrive, __strbufDrive, __signed_stack_001Drive, __D0Drive
+13	182	222	#line 182 "D:\NXT Programok\Slave1.nxc"
+13	183	222		strcat __strbufDrive, __strretvalDrive
+13	183	226	#line 183 "D:\NXT Programok\Slave1.nxc"
+13	184	226		strtonum RA, __signed_stack_001Drive, __strbufDrive, 65535, 65535
+13	183	232	#line 183 "D:\NXT Programok\Slave1.nxc"
+13	183	232	#line 183 "D:\NXT Programok\Slave1.nxc"
+13	183	232	#line 183 "D:\NXT Programok\Slave1.nxc"
+13	184	232		strcat __strbufDrive, __Drive_7qG2_in_7qG2_000
+13	183	236	#line 183 "D:\NXT Programok\Slave1.nxc"
+13	184	236		set __signed_stack_001Drive, 6
+13	183	239	#line 183 "D:\NXT Programok\Slave1.nxc"
+13	183	239	#line 183 "D:\NXT Programok\Slave1.nxc"
+13	184	239		set __D0Drive, 10
+13	183	242	#line 183 "D:\NXT Programok\Slave1.nxc"
+13	184	242		strsubset __strretvalDrive, __strbufDrive, __signed_stack_001Drive, __D0Drive
+13	183	247	#line 183 "D:\NXT Programok\Slave1.nxc"
+13	184	247		strcat __strbufDrive, __strretvalDrive
+13	184	251	#line 184 "D:\NXT Programok\Slave1.nxc"
+13	185	251		strtonum RB, __signed_stack_001Drive, __strbufDrive, 65535, 65535
+13	184	257	#line 184 "D:\NXT Programok\Slave1.nxc"
+13	184	257	#line 184 "D:\NXT Programok\Slave1.nxc"
+13	184	257	#line 184 "D:\NXT Programok\Slave1.nxc"
+13	185	257		strcat __strbufDrive, __Drive_7qG2_in_7qG2_000
+13	184	261	#line 184 "D:\NXT Programok\Slave1.nxc"
+13	185	261		set __signed_stack_001Drive, 12
+13	184	264	#line 184 "D:\NXT Programok\Slave1.nxc"
+13	184	264	#line 184 "D:\NXT Programok\Slave1.nxc"
+13	185	264		set __D0Drive, 16
+13	184	267	#line 184 "D:\NXT Programok\Slave1.nxc"
+13	185	267		strsubset __strretvalDrive, __strbufDrive, __signed_stack_001Drive, __D0Drive
+13	184	272	#line 184 "D:\NXT Programok\Slave1.nxc"
+13	185	272		strcat __strbufDrive, __strretvalDrive
+13	186	276	#line 186 "D:\NXT Programok\Slave1.nxc"
+13	186	276	#line 186 "D:\NXT Programok\Slave1.nxc"
+13	186	276	#line 186 "D:\NXT Programok\Slave1.nxc"
+13	186	276	#line 186 "D:\NXT Programok\Slave1.nxc"
+13	187	276		set __signed_stack_001Drive, 0
+13	186	279	#line 186 "D:\NXT Programok\Slave1.nxc"
+13	186	279	#line 186 "D:\NXT Programok\Slave1.nxc"
+13	187	279		set __signed_stack_002Drive, 48
+13	186	282	#line 186 "D:\NXT Programok\Slave1.nxc"
+13	186	282	#line 186 "D:\NXT Programok\Slave1.nxc"
+13	187	282		mov __ArrHelper__Drive_244_0, __constStr0015
+13	186	284	#line 186 "D:\NXT Programok\Slave1.nxc"
+13	187	284		mov __D0Drive, RA
+13	186	286	#line 186 "D:\NXT Programok\Slave1.nxc"
+13	187	286		numtostr __strretvalDrive, __D0Drive
+13	186	289	#line 186 "D:\NXT Programok\Slave1.nxc"
+13	187	289		strcat __strbufDrive, __strretvalDrive
+13	186	293	#line 186 "D:\NXT Programok\Slave1.nxc"
+13	187	293		mov __ArrHelper__Drive_244_1, __strbufDrive
+13	186	295	#line 186 "D:\NXT Programok\Slave1.nxc"
+13	187	295		strcat __strbufDrive, __ArrHelper__Drive_244_0, __ArrHelper__Drive_244_1
+13	187	300	#line 187 "D:\NXT Programok\Slave1.nxc"
+13	188	300		acquire __TextOutMutex
+13	187	301	#line 187 "D:\NXT Programok\Slave1.nxc"
+13	188	301		mov __TextOutArgs.Location.X, __signed_stack_001Drive
+13	187	304	#line 187 "D:\NXT Programok\Slave1.nxc"
+13	188	304		mov __TextOutArgs.Location.Y, __signed_stack_002Drive
+13	187	307	#line 187 "D:\NXT Programok\Slave1.nxc"
+13	188	307		set __TextOutArgs.Options, 0
+13	187	310	#line 187 "D:\NXT Programok\Slave1.nxc"
+13	188	310		mov __TextOutArgs.Text, __strbufDrive
+13	187	312	#line 187 "D:\NXT Programok\Slave1.nxc"
+13	188	312		syscall 13, __TextOutArgs
+13	187	315	#line 187 "D:\NXT Programok\Slave1.nxc"
+13	188	315		mov __D0Drive, __TextOutArgs.Result
+13	187	318	#line 187 "D:\NXT Programok\Slave1.nxc"
+13	188	318		release __TextOutMutex
+13	187	319	#line 187 "D:\NXT Programok\Slave1.nxc"
+13	187	319	#line 187 "D:\NXT Programok\Slave1.nxc"
+13	188	319		set __signed_stack_001Drive, 0
+13	187	322	#line 187 "D:\NXT Programok\Slave1.nxc"
+13	187	322	#line 187 "D:\NXT Programok\Slave1.nxc"
+13	188	322		set __signed_stack_002Drive, 40
+13	187	325	#line 187 "D:\NXT Programok\Slave1.nxc"
+13	187	325	#line 187 "D:\NXT Programok\Slave1.nxc"
+13	188	325		mov __ArrHelper__Drive_244_0, __constStr0016
+13	187	327	#line 187 "D:\NXT Programok\Slave1.nxc"
+13	188	327		mov __D0Drive, RB
+13	187	329	#line 187 "D:\NXT Programok\Slave1.nxc"
+13	188	329		numtostr __strretvalDrive, __D0Drive
+13	187	332	#line 187 "D:\NXT Programok\Slave1.nxc"
+13	188	332		strcat __strbufDrive, __strretvalDrive
+13	187	336	#line 187 "D:\NXT Programok\Slave1.nxc"
+13	188	336		mov __ArrHelper__Drive_244_1, __strbufDrive
+13	187	338	#line 187 "D:\NXT Programok\Slave1.nxc"
+13	188	338		strcat __strbufDrive, __ArrHelper__Drive_244_0, __ArrHelper__Drive_244_1
+13	188	343	#line 188 "D:\NXT Programok\Slave1.nxc"
+13	189	343		acquire __TextOutMutex
+13	188	344	#line 188 "D:\NXT Programok\Slave1.nxc"
+13	189	344		mov __TextOutArgs.Location.X, __signed_stack_001Drive
+13	188	347	#line 188 "D:\NXT Programok\Slave1.nxc"
+13	189	347		mov __TextOutArgs.Location.Y, __signed_stack_002Drive
+13	188	350	#line 188 "D:\NXT Programok\Slave1.nxc"
+13	189	350		set __TextOutArgs.Options, 0
+13	188	353	#line 188 "D:\NXT Programok\Slave1.nxc"
+13	189	353		mov __TextOutArgs.Text, __strbufDrive
+13	188	355	#line 188 "D:\NXT Programok\Slave1.nxc"
+13	189	355		syscall 13, __TextOutArgs
+13	188	358	#line 188 "D:\NXT Programok\Slave1.nxc"
+13	189	358		mov __D0Drive, __TextOutArgs.Result
+13	188	361	#line 188 "D:\NXT Programok\Slave1.nxc"
+13	189	361		release __TextOutMutex
+13	188	362	#line 188 "D:\NXT Programok\Slave1.nxc"
+13	191	362	#line 191 "D:\NXT Programok\Slave1.nxc"
+13	192	362		strcat __strbufDrive, __constStr0017
+13	191	366	#line 191 "D:\NXT Programok\Slave1.nxc"
+13	192	366		mov __Drive_7qG2_in_7qG2_000, __strbufDrive
+13	191	368	#line 191 "D:\NXT Programok\Slave1.nxc"
+13	191	368	#line 191 "D:\NXT Programok\Slave1.nxc"
+13	191	368	#line 191 "D:\NXT Programok\Slave1.nxc"
+13	192	368	#line 192 "D:\NXT Programok\Slave1.nxc"
+13	192	368	#line 192 "D:\NXT Programok\Slave1.nxc"
+13	193	368		add A_Memory, A_Memory, RA
+13	192	372	#line 192 "D:\NXT Programok\Slave1.nxc"
+13	192	372	#line 192 "D:\NXT Programok\Slave1.nxc"
+13	192	372	#line 192 "D:\NXT Programok\Slave1.nxc"
+13	192	372	#line 192 "D:\NXT Programok\Slave1.nxc"
+13	193	372	#line 193 "D:\NXT Programok\Slave1.nxc"
+13	193	372	#line 193 "D:\NXT Programok\Slave1.nxc"
+13	194	372		add B_Memory, B_Memory, RB
+13	193	376	#line 193 "D:\NXT Programok\Slave1.nxc"
+13	193	376	#line 193 "D:\NXT Programok\Slave1.nxc"
+13	193	376	#line 193 "D:\NXT Programok\Slave1.nxc"
+13	193	376	#line 193 "D:\NXT Programok\Slave1.nxc"
+13	196	376	#line 196 "D:\NXT Programok\Slave1.nxc"
+13	196	376	#line 196 "D:\NXT Programok\Slave1.nxc"
+13	196	376	#line 196 "D:\NXT Programok\Slave1.nxc"
+13	196	376	#line 196 "D:\NXT Programok\Slave1.nxc"
+13	196	376	#line 196 "D:\NXT Programok\Slave1.nxc"
+13	197	376		mov __signed_stack_001Drive, RA
+13	196	378	#line 196 "D:\NXT Programok\Slave1.nxc"
+13	196	378	#line 196 "D:\NXT Programok\Slave1.nxc"
+13	197	378		set __D0Drive, 0
+13	196	381	#line 196 "D:\NXT Programok\Slave1.nxc"
+13	197	381		cmp 5, __zfDrive, __signed_stack_001Drive, __D0Drive
+13	196	385	#line 196 "D:\NXT Programok\Slave1.nxc"
+13	197	385		mov __D0Drive, __zfDrive
+13	196	388	#line 196 "D:\NXT Programok\Slave1.nxc"
+13	197	388		brtst 5, __NXC_Label_768, __zfDrive
+13	196	391	#line 196 "D:\NXT Programok\Slave1.nxc"
+13	197	391		mov __signed_stack_001Drive, __D0Drive
+13	196	393	#line 196 "D:\NXT Programok\Slave1.nxc"
+13	197	393		mov __signed_stack_002Drive, RB
+13	196	395	#line 196 "D:\NXT Programok\Slave1.nxc"
+13	197	395	#line 197 "D:\NXT Programok\Slave1.nxc"
+13	198	395		set __D0Drive, 0
+13	197	398	#line 197 "D:\NXT Programok\Slave1.nxc"
+13	198	398		cmp 5, __zfDrive, __signed_stack_002Drive, __D0Drive
+13	197	402	#line 197 "D:\NXT Programok\Slave1.nxc"
+13	197	402	#line 197 "D:\NXT Programok\Slave1.nxc"
+13	198	402		or __D0Drive, __signed_stack_001Drive, __zfDrive
+13	197	406	#line 197 "D:\NXT Programok\Slave1.nxc"
+13	198	406		tst 5, __zfDrive, __D0Drive
+13	197	409	#line 197 "D:\NXT Programok\Slave1.nxc"
+13	198	409		brtst 4, __NXC_Label_771, __zfDrive
+13	197	412	#line 197 "D:\NXT Programok\Slave1.nxc"
+13	198	412		set __signed_stack_001Drive, 0
+13	197	415	#line 197 "D:\NXT Programok\Slave1.nxc"
+13	197	415	#line 197 "D:\NXT Programok\Slave1.nxc"
+13	198	415		set __signed_stack_002Drive, 32
+13	197	418	#line 197 "D:\NXT Programok\Slave1.nxc"
+13	197	418	#line 197 "D:\NXT Programok\Slave1.nxc"
+13	198	418		strcat __strbufDrive, __constStr0018
+13	198	422	#line 198 "D:\NXT Programok\Slave1.nxc"
+13	199	422		acquire __TextOutMutex
+13	198	423	#line 198 "D:\NXT Programok\Slave1.nxc"
+13	199	423		mov __TextOutArgs.Location.X, __signed_stack_001Drive
+13	198	426	#line 198 "D:\NXT Programok\Slave1.nxc"
+13	199	426		mov __TextOutArgs.Location.Y, __signed_stack_002Drive
+13	198	429	#line 198 "D:\NXT Programok\Slave1.nxc"
+13	199	429		set __TextOutArgs.Options, 0
+13	198	432	#line 198 "D:\NXT Programok\Slave1.nxc"
+13	199	432		mov __TextOutArgs.Text, __strbufDrive
+13	198	434	#line 198 "D:\NXT Programok\Slave1.nxc"
+13	199	434		syscall 13, __TextOutArgs
+13	198	437	#line 198 "D:\NXT Programok\Slave1.nxc"
+13	199	437		mov __D0Drive, __TextOutArgs.Result
+13	198	440	#line 198 "D:\NXT Programok\Slave1.nxc"
+13	199	440		release __TextOutMutex
+13	198	441	#line 198 "D:\NXT Programok\Slave1.nxc"
+13	198	441	#line 198 "D:\NXT Programok\Slave1.nxc"
+13	199	441		mov __signed_stack_001Drive, RA
+13	198	443	#line 198 "D:\NXT Programok\Slave1.nxc"
+13	199	443	#line 199 "D:\NXT Programok\Slave1.nxc"
+13	200	443		mov __D0Drive, RB
+13	199	445	#line 199 "D:\NXT Programok\Slave1.nxc"
+13	200	445		cmp 4, __zfDrive, __signed_stack_001Drive, __D0Drive
+13	199	449	#line 199 "D:\NXT Programok\Slave1.nxc"
+13	200	449		mov __D0Drive, __zfDrive
+13	201	452	#line 201 "D:\NXT Programok\Slave1.nxc"
+13	202	452		brtst 4, __NXC_Label_778, __zfDrive
+13	202	455	#line 202 "D:\NXT Programok\Slave1.nxc"
+13	203	455		subcall __MotorAB_Spawner, __MotorAB_Spawner_return
+13	202	457	#line 202 "D:\NXT Programok\Slave1.nxc"
+13	204	457	#line 204 "D:\NXT Programok\Slave1.nxc"
+13	205	457		jmp __NXC_Label_779
+13	204	459	#line 204 "D:\NXT Programok\Slave1.nxc"
+13	205	459		mov __D0Drive, RA
+13	204	461	#line 204 "D:\NXT Programok\Slave1.nxc"
+13	205	461		abs __signed_stack_001Drive, __D0Drive
+13	204	464	#line 204 "D:\NXT Programok\Slave1.nxc"
+13	204	464	#line 204 "D:\NXT Programok\Slave1.nxc"
+13	205	464		mov __D0Drive, RB
+13	204	466	#line 204 "D:\NXT Programok\Slave1.nxc"
+13	205	466		abs __D0Drive, __D0Drive
+13	204	469	#line 204 "D:\NXT Programok\Slave1.nxc"
+13	205	469		cmp 4, __zfDrive, __signed_stack_001Drive, __D0Drive
+13	204	473	#line 204 "D:\NXT Programok\Slave1.nxc"
+13	205	473		mov __D0Drive, __zfDrive
+13	205	476	#line 205 "D:\NXT Programok\Slave1.nxc"
+13	206	476		brtst 4, __NXC_Label_786, __zfDrive
+13	206	479	#line 206 "D:\NXT Programok\Slave1.nxc"
+13	207	479		subcall __MotorABInverse_Spawner, __MotorABInverse_Spawner_return
+13	206	481	#line 206 "D:\NXT Programok\Slave1.nxc"
+13	208	481	#line 208 "D:\NXT Programok\Slave1.nxc"
+13	209	481		jmp __NXC_Label_787
+13	209	483	#line 209 "D:\NXT Programok\Slave1.nxc"
+13	210	483		subcall __MotorA_Spawner, __MotorA_Spawner_return
+13	209	485	#line 209 "D:\NXT Programok\Slave1.nxc"
+13	210	485	#line 210 "D:\NXT Programok\Slave1.nxc"
+13	211	485		subcall __MotorB_Spawner, __MotorB_Spawner_return
+13	210	487	#line 210 "D:\NXT Programok\Slave1.nxc"
+13	212	487	#line 212 "D:\NXT Programok\Slave1.nxc"
+13	219	487	#line 219 "D:\NXT Programok\Slave1.nxc"
+13	219	487	#line 219 "D:\NXT Programok\Slave1.nxc"
+13	219	487	#line 219 "D:\NXT Programok\Slave1.nxc"
+13	220	487		mov __unsigned_stack_001Drive, A_Done
+13	219	489	#line 219 "D:\NXT Programok\Slave1.nxc"
+13	219	489	#line 219 "D:\NXT Programok\Slave1.nxc"
+13	220	489		set __D0Drive, 1
+13	219	492	#line 219 "D:\NXT Programok\Slave1.nxc"
+13	220	492		cmp 4, __zfDrive, __unsigned_stack_001Drive, __D0Drive
+13	219	496	#line 219 "D:\NXT Programok\Slave1.nxc"
+13	220	496		mov __D0Drive, __zfDrive
+13	219	499	#line 219 "D:\NXT Programok\Slave1.nxc"
+13	220	499		brtst 4, __NXC_Label_793, __zfDrive
+13	219	502	#line 219 "D:\NXT Programok\Slave1.nxc"
+13	220	502		mov __signed_stack_001Drive, __D0Drive
+13	219	504	#line 219 "D:\NXT Programok\Slave1.nxc"
+13	220	504		mov __unsigned_stack_002Drive, B_Done
+13	219	506	#line 219 "D:\NXT Programok\Slave1.nxc"
+13	219	506	#line 219 "D:\NXT Programok\Slave1.nxc"
+13	220	506		set __D0Drive, 1
+13	219	509	#line 219 "D:\NXT Programok\Slave1.nxc"
+13	220	509		cmp 4, __zfDrive, __unsigned_stack_002Drive, __D0Drive
+13	219	513	#line 219 "D:\NXT Programok\Slave1.nxc"
+13	219	513	#line 219 "D:\NXT Programok\Slave1.nxc"
+13	220	513		and __D0Drive, __signed_stack_001Drive, __zfDrive
+13	219	517	#line 219 "D:\NXT Programok\Slave1.nxc"
+13	220	517		not __D0Drive, __D0Drive
+13	220	520	#line 220 "D:\NXT Programok\Slave1.nxc"
+13	221	520		tst 5, __zfDrive, __D0Drive
+13	220	523	#line 220 "D:\NXT Programok\Slave1.nxc"
+13	221	523		brtst 4, __NXC_Label_789, __zfDrive
+13	220	526	#line 220 "D:\NXT Programok\Slave1.nxc"
+13	220	526	#line 220 "D:\NXT Programok\Slave1.nxc"
+13	221	526		jmp __NXC_Label_788
+13	220	528	#line 220 "D:\NXT Programok\Slave1.nxc"
+13	221	528	#line 221 "D:\NXT Programok\Slave1.nxc"
+13	222	528		set A_Done, 0
+13	221	531	#line 221 "D:\NXT Programok\Slave1.nxc"
+13	221	531	#line 221 "D:\NXT Programok\Slave1.nxc"
+13	222	531	#line 222 "D:\NXT Programok\Slave1.nxc"
+13	223	531		set B_Done, 0
+13	222	534	#line 222 "D:\NXT Programok\Slave1.nxc"
+13	222	534	#line 222 "D:\NXT Programok\Slave1.nxc"
+13	222	534	#line 222 "D:\NXT Programok\Slave1.nxc"
+13	223	534		set __ClearLine_7qG2_line_7qG2_000_inline_Drive, 32
+13	222	537	#line 222 "D:\NXT Programok\Slave1.nxc"
+13	6076	537	#line 6076 "NXCDefs.h"
+13	6077	537	#pragma macro 7
+13	6077	537		acquire __TextOutMutex
+13	6077	538		mov __TextOutArgs.Location.X, __constVal0
+13	6077	540		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_Drive
+13	6077	542		mov __TextOutArgs.Options, __constVal0
+13	6077	544		mov __TextOutArgs.Text, __BlankLine
+13	6077	546		syscall 13, __TextOutArgs
+13	6077	549		release __TextOutMutex
+13	8522	550	#line 8522 "NXCDefs.h"
+13	6076	550	#line 6076 "NXCDefs.h"
+13	223	550	#line 223 "D:\NXT Programok\Slave1.nxc"
+13	223	550	#line 223 "D:\NXT Programok\Slave1.nxc"
+13	224	550		set __signed_stack_001Drive, 0
+13	223	553	#line 223 "D:\NXT Programok\Slave1.nxc"
+13	223	553	#line 223 "D:\NXT Programok\Slave1.nxc"
+13	224	553		set __signed_stack_002Drive, 32
+13	223	556	#line 223 "D:\NXT Programok\Slave1.nxc"
+13	223	556	#line 223 "D:\NXT Programok\Slave1.nxc"
+13	224	556		strcat __strbufDrive, __constStr0019
+13	226	560	#line 226 "D:\NXT Programok\Slave1.nxc"
+13	227	560		acquire __TextOutMutex
+13	226	561	#line 226 "D:\NXT Programok\Slave1.nxc"
+13	227	561		mov __TextOutArgs.Location.X, __signed_stack_001Drive
+13	226	564	#line 226 "D:\NXT Programok\Slave1.nxc"
+13	227	564		mov __TextOutArgs.Location.Y, __signed_stack_002Drive
+13	226	567	#line 226 "D:\NXT Programok\Slave1.nxc"
+13	227	567		set __TextOutArgs.Options, 0
+13	226	570	#line 226 "D:\NXT Programok\Slave1.nxc"
+13	227	570		mov __TextOutArgs.Text, __strbufDrive
+13	226	572	#line 226 "D:\NXT Programok\Slave1.nxc"
+13	227	572		syscall 13, __TextOutArgs
+13	226	575	#line 226 "D:\NXT Programok\Slave1.nxc"
+13	227	575		mov __D0Drive, __TextOutArgs.Result
+13	226	578	#line 226 "D:\NXT Programok\Slave1.nxc"
+13	227	578		release __TextOutMutex
+13	226	579	#line 226 "D:\NXT Programok\Slave1.nxc"
+13	226	579	#line 226 "D:\NXT Programok\Slave1.nxc"
+13	227	579		strcat __strbufDrive, __constStr0010
+13	226	583	#line 226 "D:\NXT Programok\Slave1.nxc"
+13	227	583		mov __MotorRealPosition_7qG2_Port_7qG2_000, __strbufDrive
+13	227	585	#line 227 "D:\NXT Programok\Slave1.nxc"
+13	228	585		subcall MotorRealPosition, __MotorRealPosition_return
+13	227	587	#line 227 "D:\NXT Programok\Slave1.nxc"
+13	228	587		mov realTurn, __D0MotorRealPosition
+13	227	589	#line 227 "D:\NXT Programok\Slave1.nxc"
+13	227	589	#line 227 "D:\NXT Programok\Slave1.nxc"
+13	227	589	#line 227 "D:\NXT Programok\Slave1.nxc"
+13	227	589	#line 227 "D:\NXT Programok\Slave1.nxc"
+13	227	589	#line 227 "D:\NXT Programok\Slave1.nxc"
+13	227	589	#line 227 "D:\NXT Programok\Slave1.nxc"
+13	228	589		sub __signed_stack_001Drive, A_Memory, realTurn
+13	227	593	#line 227 "D:\NXT Programok\Slave1.nxc"
+13	227	593	#line 227 "D:\NXT Programok\Slave1.nxc"
+13	228	593		set __signed_stack_002Drive, 0
+13	227	596	#line 227 "D:\NXT Programok\Slave1.nxc"
+13	227	596	#line 227 "D:\NXT Programok\Slave1.nxc"
+13	227	596	#line 227 "D:\NXT Programok\Slave1.nxc"
+13	227	596	#line 227 "D:\NXT Programok\Slave1.nxc"
+13	227	596	#line 227 "D:\NXT Programok\Slave1.nxc"
+13	228	596		mul __D0Drive, __constVal1, Tolerance
+13	227	600	#line 227 "D:\NXT Programok\Slave1.nxc"
+13	228	600		sub __D0Drive, __signed_stack_002Drive, __D0Drive
+13	227	604	#line 227 "D:\NXT Programok\Slave1.nxc"
+13	228	604		cmp 0, __zfDrive, __signed_stack_001Drive, __D0Drive
+13	227	608	#line 227 "D:\NXT Programok\Slave1.nxc"
+13	228	608		mov __D0Drive, __zfDrive
+13	227	611	#line 227 "D:\NXT Programok\Slave1.nxc"
+13	228	611		brtst 5, __NXC_Label_808, __zfDrive
+13	227	614	#line 227 "D:\NXT Programok\Slave1.nxc"
+13	228	614		mov __signed_stack_001Drive, __D0Drive
+13	227	616	#line 227 "D:\NXT Programok\Slave1.nxc"
+13	227	616	#line 227 "D:\NXT Programok\Slave1.nxc"
+13	227	616	#line 227 "D:\NXT Programok\Slave1.nxc"
+13	227	616	#line 227 "D:\NXT Programok\Slave1.nxc"
+13	228	616		sub __signed_stack_002Drive, A_Memory, realTurn
+13	227	620	#line 227 "D:\NXT Programok\Slave1.nxc"
+13	227	620	#line 227 "D:\NXT Programok\Slave1.nxc"
+13	228	620		mov __D0Drive, Tolerance
+13	227	622	#line 227 "D:\NXT Programok\Slave1.nxc"
+13	228	622		cmp 1, __zfDrive, __signed_stack_002Drive, __D0Drive
+13	227	626	#line 227 "D:\NXT Programok\Slave1.nxc"
+13	227	626	#line 227 "D:\NXT Programok\Slave1.nxc"
+13	228	626		or __D0Drive, __signed_stack_001Drive, __zfDrive
+13	228	630	#line 228 "D:\NXT Programok\Slave1.nxc"
+13	229	630		tst 5, __zfDrive, __D0Drive
+13	228	633	#line 228 "D:\NXT Programok\Slave1.nxc"
+13	229	633		brtst 4, __NXC_Label_807, __zfDrive
+13	228	636	#line 228 "D:\NXT Programok\Slave1.nxc"
+13	229	636		set __signed_stack_001Drive, 20
+13	228	639	#line 228 "D:\NXT Programok\Slave1.nxc"
+13	228	639	#line 228 "D:\NXT Programok\Slave1.nxc"
+13	228	639	#line 228 "D:\NXT Programok\Slave1.nxc"
+13	228	639	#line 228 "D:\NXT Programok\Slave1.nxc"
+13	228	639	#line 228 "D:\NXT Programok\Slave1.nxc"
+13	229	639		sub __signed_stack_002Drive, A_Memory, realTurn
+13	228	643	#line 228 "D:\NXT Programok\Slave1.nxc"
+13	228	643	#line 228 "D:\NXT Programok\Slave1.nxc"
+13	229	643		set __signed_stack_003Drive, 90
+13	228	646	#line 228 "D:\NXT Programok\Slave1.nxc"
+13	228	646	#line 228 "D:\NXT Programok\Slave1.nxc"
+13	229	646		set __signed_stack_004Drive, 40
+13	228	649	#line 228 "D:\NXT Programok\Slave1.nxc"
+13	228	649	#line 228 "D:\NXT Programok\Slave1.nxc"
+13	229	649		set __D0Drive, 50
+13	229	652	#line 229 "D:\NXT Programok\Slave1.nxc"
+13	230	652	#pragma macro 33
+13	230	652		acquire __rotateMutex0
+13	230	653		arrbuild __rotate_ports0, __constVal0
+13	230	657		mov __rotate_power0, __signed_stack_001Drive
+13	230	659		mov __rotate_angle0, __signed_stack_002Drive
+13	230	661		mov __rotate_turnpct0, __constVal0
+13	230	663		mov __rotate_sync0, __constVal0
+13	230	665		mov __rotate_stop0, __constVal1
+13	230	667		mov __rotate_theRVP0, __signed_stack_003Drive
+13	230	669		mov __rotate_theRVI0, __signed_stack_004Drive
+13	230	671		mov __rotate_theRVD0, __D0Drive
+13	230	673		subcall __RotateMotor0, ____RotateMotor0_return
+13	230	676		release __rotateMutex0
+13	8666	677	#line 8666 "D:\NXT Programok\Slave1.nxc"
+13	229	677	#line 229 "D:\NXT Programok\Slave1.nxc"
+13	229	677	#line 229 "D:\NXT Programok\Slave1.nxc"
+13	230	677		strcat __strbufDrive, __constStr0010
+13	229	681	#line 229 "D:\NXT Programok\Slave1.nxc"
+13	230	681		mov __MotorRealPosition_7qG2_Port_7qG2_000, __strbufDrive
+13	230	683	#line 230 "D:\NXT Programok\Slave1.nxc"
+13	231	683		subcall MotorRealPosition, __MotorRealPosition_return
+13	230	685	#line 230 "D:\NXT Programok\Slave1.nxc"
+13	231	685		mov realTurn, __D0MotorRealPosition
+13	230	687	#line 230 "D:\NXT Programok\Slave1.nxc"
+13	230	687	#line 230 "D:\NXT Programok\Slave1.nxc"
+13	231	687	#line 231 "D:\NXT Programok\Slave1.nxc"
+13	232	687		jmp __NXC_Label_806
+13	231	689	#line 231 "D:\NXT Programok\Slave1.nxc"
+13	231	689	#line 231 "D:\NXT Programok\Slave1.nxc"
+13	232	689		strcat __strbufDrive, __constStr0011
+13	231	693	#line 231 "D:\NXT Programok\Slave1.nxc"
+13	232	693		mov __MotorRealPosition_7qG2_Port_7qG2_000, __strbufDrive
+13	232	695	#line 232 "D:\NXT Programok\Slave1.nxc"
+13	233	695		subcall MotorRealPosition, __MotorRealPosition_return
+13	232	697	#line 232 "D:\NXT Programok\Slave1.nxc"
+13	233	697		mov realTurn, __D0MotorRealPosition
+13	232	699	#line 232 "D:\NXT Programok\Slave1.nxc"
+13	232	699	#line 232 "D:\NXT Programok\Slave1.nxc"
+13	232	699	#line 232 "D:\NXT Programok\Slave1.nxc"
+13	232	699	#line 232 "D:\NXT Programok\Slave1.nxc"
+13	232	699	#line 232 "D:\NXT Programok\Slave1.nxc"
+13	232	699	#line 232 "D:\NXT Programok\Slave1.nxc"
+13	233	699		sub __signed_stack_001Drive, B_Memory, realTurn
+13	232	703	#line 232 "D:\NXT Programok\Slave1.nxc"
+13	232	703	#line 232 "D:\NXT Programok\Slave1.nxc"
+13	233	703		set __signed_stack_002Drive, 0
+13	232	706	#line 232 "D:\NXT Programok\Slave1.nxc"
+13	232	706	#line 232 "D:\NXT Programok\Slave1.nxc"
+13	232	706	#line 232 "D:\NXT Programok\Slave1.nxc"
+13	232	706	#line 232 "D:\NXT Programok\Slave1.nxc"
+13	232	706	#line 232 "D:\NXT Programok\Slave1.nxc"
+13	233	706		mul __D0Drive, __constVal1, Tolerance
+13	232	710	#line 232 "D:\NXT Programok\Slave1.nxc"
+13	233	710		sub __D0Drive, __signed_stack_002Drive, __D0Drive
+13	232	714	#line 232 "D:\NXT Programok\Slave1.nxc"
+13	233	714		cmp 0, __zfDrive, __signed_stack_001Drive, __D0Drive
+13	232	718	#line 232 "D:\NXT Programok\Slave1.nxc"
+13	233	718		mov __D0Drive, __zfDrive
+13	232	721	#line 232 "D:\NXT Programok\Slave1.nxc"
+13	233	721		brtst 5, __NXC_Label_831, __zfDrive
+13	232	724	#line 232 "D:\NXT Programok\Slave1.nxc"
+13	233	724		mov __signed_stack_001Drive, __D0Drive
+13	232	726	#line 232 "D:\NXT Programok\Slave1.nxc"
+13	232	726	#line 232 "D:\NXT Programok\Slave1.nxc"
+13	232	726	#line 232 "D:\NXT Programok\Slave1.nxc"
+13	232	726	#line 232 "D:\NXT Programok\Slave1.nxc"
+13	233	726		sub __signed_stack_002Drive, B_Memory, realTurn
+13	232	730	#line 232 "D:\NXT Programok\Slave1.nxc"
+13	232	730	#line 232 "D:\NXT Programok\Slave1.nxc"
+13	233	730		mov __D0Drive, Tolerance
+13	232	732	#line 232 "D:\NXT Programok\Slave1.nxc"
+13	233	732		cmp 1, __zfDrive, __signed_stack_002Drive, __D0Drive
+13	232	736	#line 232 "D:\NXT Programok\Slave1.nxc"
+13	232	736	#line 232 "D:\NXT Programok\Slave1.nxc"
+13	233	736		or __D0Drive, __signed_stack_001Drive, __zfDrive
+13	233	740	#line 233 "D:\NXT Programok\Slave1.nxc"
+13	234	740		tst 5, __zfDrive, __D0Drive
+13	233	743	#line 233 "D:\NXT Programok\Slave1.nxc"
+13	234	743		brtst 4, __NXC_Label_830, __zfDrive
+13	233	746	#line 233 "D:\NXT Programok\Slave1.nxc"
+13	234	746		set __signed_stack_001Drive, 15
+13	233	749	#line 233 "D:\NXT Programok\Slave1.nxc"
+13	233	749	#line 233 "D:\NXT Programok\Slave1.nxc"
+13	233	749	#line 233 "D:\NXT Programok\Slave1.nxc"
+13	233	749	#line 233 "D:\NXT Programok\Slave1.nxc"
+13	233	749	#line 233 "D:\NXT Programok\Slave1.nxc"
+13	234	749		sub __signed_stack_002Drive, B_Memory, realTurn
+13	233	753	#line 233 "D:\NXT Programok\Slave1.nxc"
+13	233	753	#line 233 "D:\NXT Programok\Slave1.nxc"
+13	234	753		set __signed_stack_003Drive, 90
+13	233	756	#line 233 "D:\NXT Programok\Slave1.nxc"
+13	233	756	#line 233 "D:\NXT Programok\Slave1.nxc"
+13	234	756		set __signed_stack_004Drive, 40
+13	233	759	#line 233 "D:\NXT Programok\Slave1.nxc"
+13	233	759	#line 233 "D:\NXT Programok\Slave1.nxc"
+13	234	759		set __D0Drive, 50
+13	234	762	#line 234 "D:\NXT Programok\Slave1.nxc"
+13	235	762	#pragma macro 33
+13	235	762		acquire __rotateMutex1
+13	235	763		arrbuild __rotate_ports1, __constVal1
+13	235	767		mov __rotate_power1, __signed_stack_001Drive
+13	235	769		mov __rotate_angle1, __signed_stack_002Drive
+13	235	771		mov __rotate_turnpct1, __constVal0
+13	235	773		mov __rotate_sync1, __constVal0
+13	235	775		mov __rotate_stop1, __constVal1
+13	235	777		mov __rotate_theRVP1, __signed_stack_003Drive
+13	235	780		mov __rotate_theRVI1, __signed_stack_004Drive
+13	235	783		mov __rotate_theRVD1, __D0Drive
+13	235	786		subcall __RotateMotor1, ____RotateMotor1_return
+13	235	789		release __rotateMutex1
+13	8795	790	#line 8795 "D:\NXT Programok\Slave1.nxc"
+13	234	790	#line 234 "D:\NXT Programok\Slave1.nxc"
+13	234	790	#line 234 "D:\NXT Programok\Slave1.nxc"
+13	235	790		strcat __strbufDrive, __constStr0011
+13	234	794	#line 234 "D:\NXT Programok\Slave1.nxc"
+13	235	794		mov __MotorRealPosition_7qG2_Port_7qG2_000, __strbufDrive
+13	235	796	#line 235 "D:\NXT Programok\Slave1.nxc"
+13	236	796		subcall MotorRealPosition, __MotorRealPosition_return
+13	235	798	#line 235 "D:\NXT Programok\Slave1.nxc"
+13	236	798		mov realTurn, __D0MotorRealPosition
+13	235	800	#line 235 "D:\NXT Programok\Slave1.nxc"
+13	235	800	#line 235 "D:\NXT Programok\Slave1.nxc"
+13	238	800	#line 238 "D:\NXT Programok\Slave1.nxc"
+13	239	800		jmp __NXC_Label_829
+13	238	802	#line 238 "D:\NXT Programok\Slave1.nxc"
+13	238	802	#line 238 "D:\NXT Programok\Slave1.nxc"
+13	239	802	#pragma macro 7
+13	239	802		acquire __MWMutex
+13	239	803		add __MWArgs.QueueID, __constVal1, __constVal10
+13	239	807		mov __SRNTmpVal, endProcess
+13	239	809		flatten __MWArgs.Message, __SRNTmpVal
+13	239	812		syscall 26, __MWArgs
+13	239	815		mov __D0Drive, __MWArgs.Result
+13	239	818		release __MWMutex
+13	8815	819	#line 8815 "D:\NXT Programok\Slave1.nxc"
+13	238	819	#line 238 "D:\NXT Programok\Slave1.nxc"
+13	238	819	#line 238 "D:\NXT Programok\Slave1.nxc"
+13	240	819	#line 240 "D:\NXT Programok\Slave1.nxc"
+13	241	819		set free, 1
+13	240	822	#line 240 "D:\NXT Programok\Slave1.nxc"
+13	240	822	#line 240 "D:\NXT Programok\Slave1.nxc"
+13	241	822	#line 241 "D:\NXT Programok\Slave1.nxc"
+13	242	822		subcall __LedGreen_Spawner, __LedGreen_Spawner_return
+13	241	824	#line 241 "D:\NXT Programok\Slave1.nxc"
+13	241	824	#line 241 "D:\NXT Programok\Slave1.nxc"
+13	242	824		set __ClearLine_7qG2_line_7qG2_000_inline_Drive, 32
+13	241	827	#line 241 "D:\NXT Programok\Slave1.nxc"
+13	6076	827	#line 6076 "NXCDefs.h"
+13	6077	827	#pragma macro 7
+13	6077	827		acquire __TextOutMutex
+13	6077	828		mov __TextOutArgs.Location.X, __constVal0
+13	6077	830		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_Drive
+13	6077	832		mov __TextOutArgs.Options, __constVal0
+13	6077	834		mov __TextOutArgs.Text, __BlankLine
+13	6077	836		syscall 13, __TextOutArgs
+13	6077	839		release __TextOutMutex
+13	8835	840	#line 8835 "NXCDefs.h"
+13	6076	840	#line 6076 "NXCDefs.h"
+13	242	840	#line 242 "D:\NXT Programok\Slave1.nxc"
+13	242	840	#line 242 "D:\NXT Programok\Slave1.nxc"
+13	243	840		set __signed_stack_001Drive, 0
+13	242	843	#line 242 "D:\NXT Programok\Slave1.nxc"
+13	242	843	#line 242 "D:\NXT Programok\Slave1.nxc"
+13	243	843		set __signed_stack_002Drive, 32
+13	242	846	#line 242 "D:\NXT Programok\Slave1.nxc"
+13	242	846	#line 242 "D:\NXT Programok\Slave1.nxc"
+13	243	846		strcat __strbufDrive, __constStr0020
+13	243	850	#line 243 "D:\NXT Programok\Slave1.nxc"
+13	244	850		acquire __TextOutMutex
+13	243	851	#line 243 "D:\NXT Programok\Slave1.nxc"
+13	244	851		mov __TextOutArgs.Location.X, __signed_stack_001Drive
+13	243	854	#line 243 "D:\NXT Programok\Slave1.nxc"
+13	244	854		mov __TextOutArgs.Location.Y, __signed_stack_002Drive
+13	243	857	#line 243 "D:\NXT Programok\Slave1.nxc"
+13	244	857		set __TextOutArgs.Options, 0
+13	243	860	#line 243 "D:\NXT Programok\Slave1.nxc"
+13	244	860		mov __TextOutArgs.Text, __strbufDrive
+13	243	862	#line 243 "D:\NXT Programok\Slave1.nxc"
+13	244	862		syscall 13, __TextOutArgs
+13	243	865	#line 243 "D:\NXT Programok\Slave1.nxc"
+13	244	865		mov __D0Drive, __TextOutArgs.Result
+13	243	868	#line 243 "D:\NXT Programok\Slave1.nxc"
+13	244	868		release __TextOutMutex
+13	243	869	#line 243 "D:\NXT Programok\Slave1.nxc"
+13	244	869	#line 244 "D:\NXT Programok\Slave1.nxc"
+13	245	869	#pragma macro 7
+13	245	869		setout __OUT_AB, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+13	8870	892	#line 8870 "D:\NXT Programok\Slave1.nxc"
+13	244	892	#line 244 "D:\NXT Programok\Slave1.nxc"
+13	244	892	#line 244 "D:\NXT Programok\Slave1.nxc"
+13	245	892		set __signed_stack_001Drive, 0
+13	244	895	#line 244 "D:\NXT Programok\Slave1.nxc"
+13	244	895	#line 244 "D:\NXT Programok\Slave1.nxc"
+13	245	895		set __signed_stack_002Drive, 0
+13	244	898	#line 244 "D:\NXT Programok\Slave1.nxc"
+13	244	898	#line 244 "D:\NXT Programok\Slave1.nxc"
+13	245	898		strcat __strbufDrive, __constStr0021
+13	247	902	#line 247 "D:\NXT Programok\Slave1.nxc"
+13	248	902		acquire __TextOutMutex
+13	247	903	#line 247 "D:\NXT Programok\Slave1.nxc"
+13	248	903		mov __TextOutArgs.Location.X, __signed_stack_001Drive
+13	247	906	#line 247 "D:\NXT Programok\Slave1.nxc"
+13	248	906		mov __TextOutArgs.Location.Y, __signed_stack_002Drive
+13	247	909	#line 247 "D:\NXT Programok\Slave1.nxc"
+13	248	909		set __TextOutArgs.Options, 0
+13	247	912	#line 247 "D:\NXT Programok\Slave1.nxc"
+13	248	912		mov __TextOutArgs.Text, __strbufDrive
+13	247	914	#line 247 "D:\NXT Programok\Slave1.nxc"
+13	248	914		syscall 13, __TextOutArgs
+13	247	917	#line 247 "D:\NXT Programok\Slave1.nxc"
+13	248	917		mov __D0Drive, __TextOutArgs.Result
+13	247	920	#line 247 "D:\NXT Programok\Slave1.nxc"
+13	248	920		release __TextOutMutex
+13	247	921	#line 247 "D:\NXT Programok\Slave1.nxc"
+13	248	921	#line 248 "D:\NXT Programok\Slave1.nxc"
+13	249	921		jmp __NXC_Label_862
+13	250	923	#line 250 "D:\NXT Programok\Slave1.nxc"
+13	251	923	#pragma macro 4
+13	250	923	#line 250 "D:\NXT Programok\Slave1.nxc"
+13	250	923	#line 250 "D:\NXT Programok\Slave1.nxc"
+13	250	923		acquire __KeepAliveMutex
+13	251	924		syscall 31, __KeepAliveArgs
+13	252	927		mov __D0Drive, __KeepAliveArgs.Result
+13	253	930		release __KeepAliveMutex
+13	249	931	#line 249 "D:\NXT Programok\Slave1.nxc"
+13	249	931	#line 249 "D:\NXT Programok\Slave1.nxc"
+13	249	931	#line 249 "D:\NXT Programok\Slave1.nxc"
+13	249	931	#line 249 "D:\NXT Programok\Slave1.nxc"
+13	250	931	#line 250 "D:\NXT Programok\Slave1.nxc"
+13	250	931	#line 250 "D:\NXT Programok\Slave1.nxc"
+13	250	931	#line 250 "D:\NXT Programok\Slave1.nxc"
+13	251	931		mov __Wait_7qG2_ms_7qG2_000_inline_Drive, CheckTime
+13	250	933	#line 250 "D:\NXT Programok\Slave1.nxc"
+13	7921	933	#line 7921 "NXCDefs.h"
+13	7922	933		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_Drive
+13	7921	936	#line 7921 "NXCDefs.h"
+13	251	936	#line 251 "D:\NXT Programok\Slave1.nxc"
+13	253	936	#line 253 "D:\NXT Programok\Slave1.nxc"
+13	254	936		jmp __NXC_Label_713
+13	253	938	#line 253 "D:\NXT Programok\Slave1.nxc"
+13	254	938		exit -1, -1
 14	0	0		subret __LedGreen_Spawner_return
 15	0	0		exit 0, 1
 16	0	0		subret __LedRed_Spawner_return
@@ -2166,36 +2164,36 @@ Clump	Line	PC	Source
 25	0	0		exit 0, 1
 26	0	0		subret __Drive_Spawner_return
 27	0	0		exit 0, 1
-28	275	0	#line 275 "D:\NXT Programok\Slave1.nxc"
-28	276	0		subret ____initialize_global_data_return
+28	289	0	#line 289 "D:\NXT Programok\Slave1.nxc"
+28	290	0		subret ____initialize_global_data_return
 #CLUMPS
 Clump	Name	Offset	File
 0	main	0	D:\NXT Programok\Slave1.nxc
-1	__RotateMotor0	230	NXTDefs.h
-2	__RotateMotor1	399	NXTDefs.h
-3	__RotateMotor3	568	NXTDefs.h
-4	__ResetSensorSubroutine	737	NXTDefs.h
-5	LedRed	750	D:\NXT Programok\Slave1.nxc
-6	LedGreen	842	D:\NXT Programok\Slave1.nxc
-7	BTCheck	983	D:\NXT Programok\Slave1.nxc
-8	MotorAB	1056	D:\NXT Programok\Slave1.nxc
-9	MotorABInverse	1114	D:\NXT Programok\Slave1.nxc
+1	__RotateMotor0	228	NXTDefs.h
+2	__RotateMotor1	397	NXTDefs.h
+3	__RotateMotor3	566	NXTDefs.h
+4	__ResetSensorSubroutine	735	NXTDefs.h
+5	LedRed	748	D:\NXT Programok\Slave1.nxc
+6	LedGreen	840	D:\NXT Programok\Slave1.nxc
+7	BTCheck	981	D:\NXT Programok\Slave1.nxc
+8	MotorAB	1052	D:\NXT Programok\Slave1.nxc
+9	MotorABInverse	1110	D:\NXT Programok\Slave1.nxc
 10	MotorA	1254	D:\NXT Programok\Slave1.nxc
 11	MotorB	1298	D:\NXT Programok\Slave1.nxc
-12	MotorRealPosition	1343	D:\NXT Programok\Slave1.nxc
-13	Drive	1612	D:\NXT Programok\Slave1.nxc
-14	__LedGreen_Returner	2554	D:\NXT Programok\Slave1.nxc
-15	__LedGreen_Spawner	2556	D:\NXT Programok\Slave1.nxc
-16	__LedRed_Returner	2559	D:\NXT Programok\Slave1.nxc
-17	__LedRed_Spawner	2561	D:\NXT Programok\Slave1.nxc
-18	__MotorAB_Returner	2564	D:\NXT Programok\Slave1.nxc
-19	__MotorAB_Spawner	2566	D:\NXT Programok\Slave1.nxc
-20	__MotorABInverse_Returner	2569	D:\NXT Programok\Slave1.nxc
-21	__MotorABInverse_Spawner	2571	D:\NXT Programok\Slave1.nxc
-22	__MotorA_Returner	2574	D:\NXT Programok\Slave1.nxc
-23	__MotorA_Spawner	2576	D:\NXT Programok\Slave1.nxc
-24	__MotorB_Returner	2579	D:\NXT Programok\Slave1.nxc
-25	__MotorB_Spawner	2581	D:\NXT Programok\Slave1.nxc
-26	__Drive_Returner	2584	D:\NXT Programok\Slave1.nxc
-27	__Drive_Spawner	2586	D:\NXT Programok\Slave1.nxc
-28	__initialize_global_data	2589	D:\NXT Programok\Slave1.nxc
+12	MotorRealPosition	1344	D:\NXT Programok\Slave1.nxc
+13	Drive	1614	D:\NXT Programok\Slave1.nxc
+14	__LedGreen_Returner	2555	D:\NXT Programok\Slave1.nxc
+15	__LedGreen_Spawner	2557	D:\NXT Programok\Slave1.nxc
+16	__LedRed_Returner	2560	D:\NXT Programok\Slave1.nxc
+17	__LedRed_Spawner	2562	D:\NXT Programok\Slave1.nxc
+18	__MotorAB_Returner	2565	D:\NXT Programok\Slave1.nxc
+19	__MotorAB_Spawner	2567	D:\NXT Programok\Slave1.nxc
+20	__MotorABInverse_Returner	2570	D:\NXT Programok\Slave1.nxc
+21	__MotorABInverse_Spawner	2572	D:\NXT Programok\Slave1.nxc
+22	__MotorA_Returner	2575	D:\NXT Programok\Slave1.nxc
+23	__MotorA_Spawner	2577	D:\NXT Programok\Slave1.nxc
+24	__MotorB_Returner	2580	D:\NXT Programok\Slave1.nxc
+25	__MotorB_Spawner	2582	D:\NXT Programok\Slave1.nxc
+26	__Drive_Returner	2585	D:\NXT Programok\Slave1.nxc
+27	__Drive_Spawner	2587	D:\NXT Programok\Slave1.nxc
+28	__initialize_global_data	2590	D:\NXT Programok\Slave1.nxc

@@ -4,9 +4,12 @@
  //-----------------------------------------------------------
 
  #define BTCONN 0
- #define INBOX 5
- #define OUTBOX 2
- #define 	BTN4 3
+ #define MAILBOX1 0
+ #define MAILBOX2 1
+ #define MAILBOX3 2
+ #define MAILBOX4 3
+
+
 
  //----Program use these variables----
  bool A_Done=false;
@@ -166,10 +169,10 @@
       C=0;
 
       //Message put to "in" variable
-      if (ReceiveRemoteString(INBOX, true, in)!=STAT_MSG_EMPTY_MAILBOX){
+      if (ReceiveRemoteString(MAILBOX1, true, in)!=STAT_MSG_EMPTY_MAILBOX){
       //if get RemoteMessage that do command
       free=false;
-      SendResponseNumber(OUTBOX, ack); //send ACK
+      SendResponseNumber(MAILBOX2, ack); //send ACK
       start LedRed;
 
       ClearScreen();
@@ -192,10 +195,10 @@
 
       //---------------------Drive Motor
       if (RA!=0||RB!=0)
-      {
+      {          TextOut(0,LCD_LINE4,"Status: Run!");
                  if(RA==RB)
                  {
-                     TextOut(0,LCD_LINE4,"Run A&B Syncron!");
+
                      start MotorAB;
                  }
                  else{
@@ -217,7 +220,8 @@
       until(A_Done==true&&B_Done==true);
       A_Done=false;
       B_Done=false;
-
+      ClearLine(LCD_LINE4);
+      TextOut(0,LCD_LINE4,"Correction!");
 
       //------------Check motor process
       realTurn=MotorRealPosition("A");
@@ -232,10 +236,11 @@
       }
       //------------Check motor process
 
-      SendResponseNumber(OUTBOX, endProcess);
+      SendResponseNumber(MAILBOX2, endProcess);
       free=true;
       start LedGreen;
-      TextOut(0,LCD_LINE3,"Waiting...");
+      ClearLine(LCD_LINE4);
+      TextOut(0,LCD_LINE4,"Status: Wait!");
       Off(OUT_AB);
       TextOut(0,LCD_LINE8,"Done! Break ON!");
 
@@ -246,14 +251,27 @@
        Wait(CheckTime);
       }//while
  }
+ task PositionToPC()
+ {   string options;
+     if (ReceiveRemoteString(MAILBOX3, true, options)!=STAT_MSG_EMPTY_MAILBOX)
+     {
+        if(options=="1")
+        {
+        string out;
+        out=NumToStr(RA);
+        SendResponseNumber(MAILBOX4, out);}
+     }
+ }
  //--------------------------Main-----------------------------------------------
  task main(){
       BTCheck(BTCONN);//Check Master Connection
       TextOut(0,LCD_LINE1,"Connection OK");
-      TextOut(0,LCD_LINE2,"Press Enter to Start");
+      TextOut(0,LCD_LINE2,"Press Enter ");
+      TextOut(0,LCD_LINE3,"to Start");
 
       //Waiting for Press Enter
       until(ButtonPressed(BTN4,true)==1);
+      ClearScreen();
       start Drive;
 
       //Waiting for Press Exit
