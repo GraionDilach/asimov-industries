@@ -1,0 +1,2187 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__signed_stack_001main	6	1	0	4	26
+1	__signed_stack_002main	6	1	4	4	26
+2	__signed_stack_001Battery	6	1	8	4	4
+3	__signed_stack_002Battery	6	1	12	4	2
+4	__unsigned_stack_001main	5	1	16	4	2
+5	__signed_stack_001MotorB	6	1	20	4	8
+6	__unsigned_stack_001MotorB	5	1	24	4	4
+7	__signed_stack_001MotorA	6	1	28	4	8
+8	__unsigned_stack_001MotorA	5	1	32	4	4
+9	__D0SetPowerPlus	6	1	36	4	33
+10	__D0MotorA	6	1	40	4	28
+11	__D0MotorB	6	1	44	4	28
+12	__D0Battery	6	1	48	4	8
+13	__D0main	6	1	52	4	23
+14	__D0MotorBreak	6	1	56	4	15
+15	__D0QuitSet	6	1	60	4	18
+16	__D0SetPowerMinus	6	1	64	4	33
+17	__D0MotorPosition	6	1	68	4	22
+18	__D0MotorTurn	6	1	72	4	23
+19	__signed_stack_001MotorBreak	6	1	76	4	8
+20	__signed_stack_001SetPowerPlus	6	1	80	4	14
+21	__signed_stack_002SetPowerPlus	6	1	84	4	2
+22	__unsigned_stack_001SetPowerMinus	5	1	88	4	2
+23	__unsigned_stack_002SetPowerMinus	5	1	92	4	2
+24	__unsigned_stack_001SetPowerPlus	5	1	96	4	2
+25	__Wait_7qG2_ms_7qG2_000_inline_Battery	5	1	100	4	2
+26	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	104	4	2
+27	__unsigned_stack_002SetPowerPlus	5	1	108	4	2
+28	__Wait_7qG2_ms_7qG2_000_inline_MotorPosition	5	1	112	4	2
+29	__signed_stack_002SetPowerMinus	6	1	116	4	2
+30	__signed_stack_001MotorPosition	6	1	120	4	12
+31	__signed_stack_002MotorPosition	6	1	124	4	10
+32	__signed_stack_002MotorBreak	6	1	128	4	4
+33	__unsigned_stack_001MotorBreak	5	1	132	4	2
+34	__signed_stack_001MotorTurn	6	1	136	4	12
+35	__signed_stack_001QuitSet	6	1	140	4	8
+36	__signed_stack_001SetPowerMinus	6	1	144	4	14
+37	__signed_stack_002MotorTurn	6	1	148	4	4
+38	__unsigned_stack_001MotorTurn	5	1	152	4	2
+39	__PointOutMutex	9	0	156	4	2
+40	__RBtnMutex	9	0	160	4	24
+41	__IOMRMutex	9	0	164	4	4
+42	__OnRevMutex	9	0	168	4	4
+43	__ResetSensorMutex	9	0	172	4	2
+44	__TextOutMutex	9	0	176	4	66
+45	__constVal200	4	0	180	2	2
+46	__MotorPosition_7qG2_BP_7qG2_000	4	1	182	2	5
+47	__constVal360	4	0	184	2	2
+48	__Battery_7qG2_batt_7qG2_000	4	1	186	2	4
+49	power	4	0	188	2	14
+50	__MotorPosition_7qG2_BT_7qG2_000	4	1	190	2	2
+51	__tmpswordBattery	4	1	192	2	6
+52	__MotorPosition_7qG2_AP_7qG2_000	4	1	194	2	5
+53	__MotorPosition_7qG2_AT_7qG2_000	4	1	196	2	2
+54	fek	1	0	198	1	5
+55	__constVal63	2	0	199	1	11
+56	seted	1	1	200	1	6
+57	__constVal96	2	0	201	1	11
+58	turn	1	1	202	1	5
+59	__ResetSensorTmp	1	1	203	1	2
+60	__ResetSensorPort	1	1	204	1	3
+61	__constVal2	2	0	205	1	3
+62	____ResetSensorSubroutine_return	1	1	206	1	3
+63	__constVal4	2	0	207	1	2
+64	__constVal1	2	0	208	1	9
+65	__constVal32	2	0	209	1	31
+66	__constVal3	2	0	210	1	8
+67	__constVal0	2	1	211	1	69
+68	__ClearLine_7qG2_line_7qG2_000_inline_main	1	1	212	1	2
+69	__MotorA_Spawner_return	1	1	213	1	1
+70	__SetPowerMinus_Spawner_return	1	1	214	1	1
+71	__SetPowerPlus_Spawner_return	1	1	215	1	1
+72	__MotorB_Spawner_return	1	1	216	1	1
+73	__MotorPosition_Spawner_return	1	1	217	1	1
+74	__Battery_Spawner_return	1	1	218	1	1
+75	__MotorTurn_Spawner_return	1	1	219	1	1
+76	__MotorBreak_Spawner_return	1	1	220	1	1
+77	__ClearLine_7qG2_line_7qG2_000_inline_MotorBreak	1	1	221	1	4
+78	__ClearLine_7qG2_line_7qG2_000_inline_MotorPosition	1	1	222	1	4
+79	__ClearLine_7qG2_line_7qG2_000_inline_MotorTurn	1	1	223	1	4
+80	__SetSensor_7qG2_port_7qG2_000_inline_MotorBreak	1	1	224	1	4
+81	__ClearLine_7qG2_line_7qG2_000_inline_SetPowerPlus	1	1	225	1	2
+82	____initialize_global_data_return	1	1	226	1	3
+83	__QuitSet_Spawner_return	1	1	227	1	1
+84	__ClearLine_7qG2_line_7qG2_000_inline_SetPowerMinus	1	1	228	1	2
+85	__OnRev_Tmp	2	1	229	1	4
+86	__zfMotorPosition	1	1	230	1	9
+87	__zfSetPowerPlus	1	1	231	1	20
+88	__constVal10	2	0	232	1	4
+89	__PFTmp	1	1	233	1	1
+90	__zfMotorB	1	1	234	1	18
+91	__zfQuitSet	1	1	235	1	12
+92	__zfMotorA	1	1	236	1	18
+93	__zfSetPowerMinus	1	1	237	1	20
+94	__zfMotorTurn	1	1	238	1	15
+95	__zfmain	1	1	239	1	7
+96	__zfMotorBreak	1	1	240	1	15
+97	__IOMRUnflattenErr	1	1	241	1	2
+98	__zfBattery	1	1	242	1	5
+99	__TextOutArgs	8	0	4	16	189
+100	__TextOutArgs.Result	2	1	244	1	189
+101	__TextOutArgs.Location	8	0	2	4	189
+102	__TextOutArgs.Location.X	4	1	248	2	189
+103	__TextOutArgs.Location.Y	4	1	250	2	189
+104	__TextOutArgs.Text	7	0	252	4	189
+105	__TextOutArgs.Text.Text_type	1	0	0	1	0
+106	__TextOutArgs.Options	5	1	256	4	189
+107	__IOMRArgs	8	0	5	16	10
+108	__IOMRArgs.Result	2	1	260	1	10
+109	__IOMRArgs.ModuleName	7	0	262	4	10
+110	__IOMRArgs.ModuleName.ModuleName_type	1	0	0	1	0
+111	__IOMRArgs.Offset	3	1	264	2	10
+112	__IOMRArgs.Count	3	1	266	2	10
+113	__IOMRArgs.Buffer	7	0	268	4	10
+114	__IOMRArgs.Buffer.Buffer_type	1	0	0	1	0
+115	__PointOutArgs	8	0	3	12	4
+116	__PointOutArgs.Result	2	1	272	1	4
+117	__PointOutArgs.Location	8	0	2	4	4
+118	__PointOutArgs.Location.X	4	1	276	2	4
+119	__PointOutArgs.Location.Y	4	1	278	2	4
+120	__PointOutArgs.Options	5	1	280	4	4
+121	__RBtnArgs	8	0	5	8	48
+122	__RBtnArgs.Result	2	1	284	1	48
+123	__RBtnArgs.Index	1	1	285	1	48
+124	__RBtnArgs.Pressed	1	1	286	1	48
+125	__RBtnArgs.Count	1	1	287	1	48
+126	__RBtnArgs.Reset	1	1	288	1	48
+127	__constStr0018	7	0	290	4	4
+128	__constStr0018.__constStr0018_type	1	1	0	1	0
+129	__constStr0024	7	0	292	4	1
+130	__constStr0024.__constStr0024_type	1	1	0	1	0
+131	__constStr0023	7	0	294	4	1
+132	__constStr0023.__constStr0023_type	1	1	0	1	0
+133	__ArrHelper__SetPowerMinus_244_0	7	0	296	4	2
+134	__ArrHelper__SetPowerMinus_244_0.__ArrHelper__SetPowerMinus_244_0_type	1	0	0	1	0
+135	__constStr0020	7	0	298	4	1
+136	__constStr0020.__constStr0020_type	1	1	0	1	0
+137	__constStr0019	7	0	300	4	2
+138	__constStr0019.__constStr0019_type	1	1	0	1	0
+139	__constStr0022	7	0	302	4	1
+140	__constStr0022.__constStr0022_type	1	1	0	1	0
+141	__constStr0021	7	0	304	4	1
+142	__constStr0021.__constStr0021_type	1	1	0	1	0
+143	__strbufMotorBreak	7	0	306	4	4
+144	__strbufMotorBreak.__strbufMotorBreak_type	1	0	0	1	0
+145	__constStr0025	7	0	308	4	1
+146	__constStr0025.__constStr0025_type	1	1	0	1	0
+147	__strbufmain	7	0	310	4	34
+148	__strbufmain.__strbufmain_type	1	0	0	1	0
+149	__constStr0030	7	0	312	4	1
+150	__constStr0030.__constStr0030_type	1	1	0	1	0
+151	__constStr0029	7	0	314	4	1
+152	__constStr0029.__constStr0029_type	1	1	0	1	0
+153	__strbufBattery	7	0	316	4	6
+154	__strbufBattery.__strbufBattery_type	1	0	0	1	0
+155	__strretvalBattery	7	0	318	4	2
+156	__strretvalBattery.__strretvalBattery_type	1	0	0	1	0
+157	__ArrHelper__Battery_244_0	7	0	320	4	2
+158	__ArrHelper__Battery_244_0.__ArrHelper__Battery_244_0_type	1	0	0	1	0
+159	__constStr0028	7	0	322	4	1
+160	__constStr0028.__constStr0028_type	1	1	0	1	0
+161	__strretvalmain	7	0	324	4	4
+162	__strretvalmain.__strretvalmain_type	1	0	0	1	0
+163	__ArrHelper__SetPowerMinus_244_2	7	0	326	4	2
+164	__ArrHelper__SetPowerMinus_244_2.__ArrHelper__SetPowerMinus_244_2_type	1	0	0	1	0
+165	__ArrHelper__SetPowerMinus_244_1	7	0	328	4	4
+166	__ArrHelper__SetPowerMinus_244_1.__ArrHelper__SetPowerMinus_244_1_type	1	0	0	1	0
+167	__constStr0027	7	0	330	4	1
+168	__constStr0027.__constStr0027_type	1	1	0	1	0
+169	__OUT_AB	7	0	332	4	3
+170	__OUT_AB.__OUT_AB_type	1	0	0	1	0
+171	__constStr0026	7	0	334	4	1
+172	__constStr0026.__constStr0026_type	1	1	0	1	0
+173	__constStr0017	7	0	336	4	3
+174	__constStr0017.__constStr0017_type	1	1	0	1	0
+175	__ArrHelper__MotorPosition_244_1	7	0	338	4	16
+176	__ArrHelper__MotorPosition_244_1.__ArrHelper__MotorPosition_244_1_type	1	0	0	1	0
+177	__strbufSetPowerPlus	7	0	340	4	6
+178	__strbufSetPowerPlus.__strbufSetPowerPlus_type	1	0	0	1	0
+179	__strretvalSetPowerPlus	7	0	342	4	2
+180	__strretvalSetPowerPlus.__strretvalSetPowerPlus_type	1	0	0	1	0
+181	__strretvalSetPowerMinus	7	0	344	4	2
+182	__strretvalSetPowerMinus.__strretvalSetPowerMinus_type	1	0	0	1	0
+183	__constStr0009	7	0	346	4	1
+184	__constStr0009.__constStr0009_type	1	1	0	1	0
+185	__ArrHelper__MotorPosition_244_2	7	0	348	4	8
+186	__ArrHelper__MotorPosition_244_2.__ArrHelper__MotorPosition_244_2_type	1	0	0	1	0
+187	__strbufSetPowerMinus	7	0	350	4	6
+188	__strbufSetPowerMinus.__strbufSetPowerMinus_type	1	0	0	1	0
+189	__BlankLine	7	0	352	4	9
+190	__BlankLine.__BlankLine_type	1	0	0	1	0
+191	__ArrHelper__main_244_2	7	0	354	4	4
+192	__ArrHelper__main_244_2.__ArrHelper__main_244_2_type	1	0	0	1	0
+193	__ArrHelper__Battery_244_1	7	0	356	4	4
+194	__ArrHelper__Battery_244_1.__ArrHelper__Battery_244_1_type	1	0	0	1	0
+195	__ArrHelper__main_244_1	7	0	358	4	8
+196	__ArrHelper__main_244_1.__ArrHelper__main_244_1_type	1	0	0	1	0
+197	__ArrHelper__MotorPosition_244_0	7	0	360	4	8
+198	__ArrHelper__MotorPosition_244_0.__ArrHelper__MotorPosition_244_0_type	1	0	0	1	0
+199	__ArrHelper__main_244_0	7	0	362	4	4
+200	__ArrHelper__main_244_0.__ArrHelper__main_244_0_type	1	0	0	1	0
+201	__IOMRUnflattenBuf	7	0	364	4	4
+202	__IOMRUnflattenBuf.__IOMRUnflattenBuf_type	1	0	0	1	0
+203	__constStr0014	7	0	366	4	5
+204	__constStr0014.__constStr0014_type	1	1	0	1	0
+205	__constStr0013	7	0	368	4	1
+206	__constStr0013.__constStr0013_type	1	1	0	1	0
+207	__strbufMotorPosition	7	0	370	4	24
+208	__strbufMotorPosition.__strbufMotorPosition_type	1	0	0	1	0
+209	__constStr0015	7	0	372	4	1
+210	__constStr0015.__constStr0015_type	1	1	0	1	0
+211	__ArrHelper__SetPowerPlus_244_2	7	0	374	4	2
+212	__ArrHelper__SetPowerPlus_244_2.__ArrHelper__SetPowerPlus_244_2_type	1	0	0	1	0
+213	__ArrHelper__Battery_244_2	7	0	376	4	2
+214	__ArrHelper__Battery_244_2.__ArrHelper__Battery_244_2_type	1	0	0	1	0
+215	__constStr0016	7	0	378	4	2
+216	__constStr0016.__constStr0016_type	1	1	0	1	0
+217	__strbufMotorTurn	7	0	380	4	4
+218	__strbufMotorTurn.__strbufMotorTurn_type	1	0	0	1	0
+219	__ArrHelper__SetPowerPlus_244_0	7	0	382	4	2
+220	__ArrHelper__SetPowerPlus_244_0.__ArrHelper__SetPowerPlus_244_0_type	1	0	0	1	0
+221	__constStr0010	7	0	384	4	2
+222	__constStr0010.__constStr0010_type	1	1	0	1	0
+223	__constStr0011	7	0	386	4	2
+224	__constStr0011.__constStr0011_type	1	1	0	1	0
+225	__strretvalMotorPosition	7	0	388	4	8
+226	__strretvalMotorPosition.__strretvalMotorPosition_type	1	0	0	1	0
+227	__ArrHelper__SetPowerPlus_244_1	7	0	390	4	4
+228	__ArrHelper__SetPowerPlus_244_1.__ArrHelper__SetPowerPlus_244_1_type	1	0	0	1	0
+229	__constStr0012	7	0	392	4	1
+230	__constStr0012.__constStr0012_type	1	1	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	136	0	#line 136 "D:\NXT Programok\Helper.nxc"
+0	137	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	136	2	#line 136 "D:\NXT Programok\Helper.nxc"
+0	136	2	#line 136 "D:\NXT Programok\Helper.nxc"
+0	137	2		set __signed_stack_001main, 0
+0	136	5	#line 136 "D:\NXT Programok\Helper.nxc"
+0	136	5	#line 136 "D:\NXT Programok\Helper.nxc"
+0	137	5		set __signed_stack_002main, 56
+0	136	8	#line 136 "D:\NXT Programok\Helper.nxc"
+0	136	8	#line 136 "D:\NXT Programok\Helper.nxc"
+0	137	8		strcat __strbufmain, __constStr0021
+0	137	12	#line 137 "D:\NXT Programok\Helper.nxc"
+0	138	12		acquire __TextOutMutex
+0	137	13	#line 137 "D:\NXT Programok\Helper.nxc"
+0	138	13		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	137	15	#line 137 "D:\NXT Programok\Helper.nxc"
+0	138	15		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	137	17	#line 137 "D:\NXT Programok\Helper.nxc"
+0	138	17		set __TextOutArgs.Options, 0
+0	137	20	#line 137 "D:\NXT Programok\Helper.nxc"
+0	138	20		mov __TextOutArgs.Text, __strbufmain
+0	137	22	#line 137 "D:\NXT Programok\Helper.nxc"
+0	138	22		syscall 13, __TextOutArgs
+0	137	25	#line 137 "D:\NXT Programok\Helper.nxc"
+0	138	25		mov __D0main, __TextOutArgs.Result
+0	137	27	#line 137 "D:\NXT Programok\Helper.nxc"
+0	138	27		release __TextOutMutex
+0	137	28	#line 137 "D:\NXT Programok\Helper.nxc"
+0	137	28	#line 137 "D:\NXT Programok\Helper.nxc"
+0	138	28		set __signed_stack_001main, 0
+0	137	31	#line 137 "D:\NXT Programok\Helper.nxc"
+0	137	31	#line 137 "D:\NXT Programok\Helper.nxc"
+0	138	31		set __signed_stack_002main, 48
+0	137	34	#line 137 "D:\NXT Programok\Helper.nxc"
+0	137	34	#line 137 "D:\NXT Programok\Helper.nxc"
+0	138	34		mov __ArrHelper__main_244_0, __constStr0017
+0	137	36	#line 137 "D:\NXT Programok\Helper.nxc"
+0	138	36		mov __D0main, power
+0	137	38	#line 137 "D:\NXT Programok\Helper.nxc"
+0	138	38		numtostr __strretvalmain, __D0main
+0	137	41	#line 137 "D:\NXT Programok\Helper.nxc"
+0	138	41		mov __ArrHelper__main_244_1, __strretvalmain
+0	137	43	#line 137 "D:\NXT Programok\Helper.nxc"
+0	138	43		strcat __strbufmain, __constStr0018
+0	137	47	#line 137 "D:\NXT Programok\Helper.nxc"
+0	138	47		mov __ArrHelper__main_244_2, __strbufmain
+0	137	49	#line 137 "D:\NXT Programok\Helper.nxc"
+0	138	49		strcat __strbufmain, __ArrHelper__main_244_1, __ArrHelper__main_244_2
+0	137	54	#line 137 "D:\NXT Programok\Helper.nxc"
+0	138	54		mov __ArrHelper__main_244_1, __strbufmain
+0	137	56	#line 137 "D:\NXT Programok\Helper.nxc"
+0	138	56		strcat __strbufmain, __ArrHelper__main_244_0, __ArrHelper__main_244_1
+0	138	61	#line 138 "D:\NXT Programok\Helper.nxc"
+0	139	61		acquire __TextOutMutex
+0	138	62	#line 138 "D:\NXT Programok\Helper.nxc"
+0	139	62		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	138	64	#line 138 "D:\NXT Programok\Helper.nxc"
+0	139	64		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	138	66	#line 138 "D:\NXT Programok\Helper.nxc"
+0	139	66		set __TextOutArgs.Options, 0
+0	138	69	#line 138 "D:\NXT Programok\Helper.nxc"
+0	139	69		mov __TextOutArgs.Text, __strbufmain
+0	138	71	#line 138 "D:\NXT Programok\Helper.nxc"
+0	139	71		syscall 13, __TextOutArgs
+0	138	74	#line 138 "D:\NXT Programok\Helper.nxc"
+0	139	74		mov __D0main, __TextOutArgs.Result
+0	138	76	#line 138 "D:\NXT Programok\Helper.nxc"
+0	139	76		release __TextOutMutex
+0	138	77	#line 138 "D:\NXT Programok\Helper.nxc"
+0	138	77	#line 138 "D:\NXT Programok\Helper.nxc"
+0	139	77		set __signed_stack_001main, 0
+0	138	80	#line 138 "D:\NXT Programok\Helper.nxc"
+0	138	80	#line 138 "D:\NXT Programok\Helper.nxc"
+0	139	80		set __signed_stack_002main, 40
+0	138	83	#line 138 "D:\NXT Programok\Helper.nxc"
+0	138	83	#line 138 "D:\NXT Programok\Helper.nxc"
+0	139	83		strcat __strbufmain, __constStr0022
+0	139	87	#line 139 "D:\NXT Programok\Helper.nxc"
+0	140	87		acquire __TextOutMutex
+0	139	88	#line 139 "D:\NXT Programok\Helper.nxc"
+0	140	88		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	139	90	#line 139 "D:\NXT Programok\Helper.nxc"
+0	140	90		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	139	92	#line 139 "D:\NXT Programok\Helper.nxc"
+0	140	92		set __TextOutArgs.Options, 0
+0	139	95	#line 139 "D:\NXT Programok\Helper.nxc"
+0	140	95		mov __TextOutArgs.Text, __strbufmain
+0	139	97	#line 139 "D:\NXT Programok\Helper.nxc"
+0	140	97		syscall 13, __TextOutArgs
+0	139	100	#line 139 "D:\NXT Programok\Helper.nxc"
+0	140	100		mov __D0main, __TextOutArgs.Result
+0	139	102	#line 139 "D:\NXT Programok\Helper.nxc"
+0	140	102		release __TextOutMutex
+0	139	103	#line 139 "D:\NXT Programok\Helper.nxc"
+0	139	103	#line 139 "D:\NXT Programok\Helper.nxc"
+0	140	103		set __signed_stack_001main, 0
+0	139	106	#line 139 "D:\NXT Programok\Helper.nxc"
+0	139	106	#line 139 "D:\NXT Programok\Helper.nxc"
+0	140	106		set __signed_stack_002main, 32
+0	139	109	#line 139 "D:\NXT Programok\Helper.nxc"
+0	139	109	#line 139 "D:\NXT Programok\Helper.nxc"
+0	140	109		strcat __strbufmain, __constStr0023
+0	140	113	#line 140 "D:\NXT Programok\Helper.nxc"
+0	141	113		acquire __TextOutMutex
+0	140	114	#line 140 "D:\NXT Programok\Helper.nxc"
+0	141	114		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	140	116	#line 140 "D:\NXT Programok\Helper.nxc"
+0	141	116		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	140	118	#line 140 "D:\NXT Programok\Helper.nxc"
+0	141	118		set __TextOutArgs.Options, 0
+0	140	121	#line 140 "D:\NXT Programok\Helper.nxc"
+0	141	121		mov __TextOutArgs.Text, __strbufmain
+0	140	123	#line 140 "D:\NXT Programok\Helper.nxc"
+0	141	123		syscall 13, __TextOutArgs
+0	140	126	#line 140 "D:\NXT Programok\Helper.nxc"
+0	141	126		mov __D0main, __TextOutArgs.Result
+0	140	128	#line 140 "D:\NXT Programok\Helper.nxc"
+0	141	128		release __TextOutMutex
+0	140	129	#line 140 "D:\NXT Programok\Helper.nxc"
+0	140	129	#line 140 "D:\NXT Programok\Helper.nxc"
+0	141	129		set __signed_stack_001main, 15
+0	140	132	#line 140 "D:\NXT Programok\Helper.nxc"
+0	140	132	#line 140 "D:\NXT Programok\Helper.nxc"
+0	141	132		set __signed_stack_002main, 16
+0	140	135	#line 140 "D:\NXT Programok\Helper.nxc"
+0	140	135	#line 140 "D:\NXT Programok\Helper.nxc"
+0	141	135		strcat __strbufmain, __constStr0024
+0	141	139	#line 141 "D:\NXT Programok\Helper.nxc"
+0	142	139		acquire __TextOutMutex
+0	141	140	#line 141 "D:\NXT Programok\Helper.nxc"
+0	142	140		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	141	142	#line 141 "D:\NXT Programok\Helper.nxc"
+0	142	142		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	141	144	#line 141 "D:\NXT Programok\Helper.nxc"
+0	142	144		set __TextOutArgs.Options, 0
+0	141	147	#line 141 "D:\NXT Programok\Helper.nxc"
+0	142	147		mov __TextOutArgs.Text, __strbufmain
+0	141	149	#line 141 "D:\NXT Programok\Helper.nxc"
+0	142	149		syscall 13, __TextOutArgs
+0	141	152	#line 141 "D:\NXT Programok\Helper.nxc"
+0	142	152		mov __D0main, __TextOutArgs.Result
+0	141	154	#line 141 "D:\NXT Programok\Helper.nxc"
+0	142	154		release __TextOutMutex
+0	141	155	#line 141 "D:\NXT Programok\Helper.nxc"
+0	141	155	#line 141 "D:\NXT Programok\Helper.nxc"
+0	142	155		set __signed_stack_001main, 40
+0	141	158	#line 141 "D:\NXT Programok\Helper.nxc"
+0	141	158	#line 141 "D:\NXT Programok\Helper.nxc"
+0	142	158		set __signed_stack_002main, 0
+0	141	161	#line 141 "D:\NXT Programok\Helper.nxc"
+0	141	161	#line 141 "D:\NXT Programok\Helper.nxc"
+0	142	161		strcat __strbufmain, __constStr0025
+0	143	165	#line 143 "D:\NXT Programok\Helper.nxc"
+0	144	165		acquire __TextOutMutex
+0	143	166	#line 143 "D:\NXT Programok\Helper.nxc"
+0	144	166		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	143	168	#line 143 "D:\NXT Programok\Helper.nxc"
+0	144	168		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	143	170	#line 143 "D:\NXT Programok\Helper.nxc"
+0	144	170		set __TextOutArgs.Options, 0
+0	143	173	#line 143 "D:\NXT Programok\Helper.nxc"
+0	144	173		mov __TextOutArgs.Text, __strbufmain
+0	143	175	#line 143 "D:\NXT Programok\Helper.nxc"
+0	144	175		syscall 13, __TextOutArgs
+0	143	178	#line 143 "D:\NXT Programok\Helper.nxc"
+0	144	178		mov __D0main, __TextOutArgs.Result
+0	143	180	#line 143 "D:\NXT Programok\Helper.nxc"
+0	144	180		release __TextOutMutex
+0	143	181	#line 143 "D:\NXT Programok\Helper.nxc"
+0	144	181	#line 144 "D:\NXT Programok\Helper.nxc"
+0	145	181		subcall __QuitSet_Spawner, __QuitSet_Spawner_return
+0	144	183	#line 144 "D:\NXT Programok\Helper.nxc"
+0	145	183	#line 145 "D:\NXT Programok\Helper.nxc"
+0	146	183		subcall __SetPowerMinus_Spawner, __SetPowerMinus_Spawner_return
+0	145	185	#line 145 "D:\NXT Programok\Helper.nxc"
+0	146	185	#line 146 "D:\NXT Programok\Helper.nxc"
+0	147	185		subcall __SetPowerPlus_Spawner, __SetPowerPlus_Spawner_return
+0	146	187	#line 146 "D:\NXT Programok\Helper.nxc"
+0	146	187	#line 146 "D:\NXT Programok\Helper.nxc"
+0	147	187		mov __unsigned_stack_001main, seted
+0	146	189	#line 146 "D:\NXT Programok\Helper.nxc"
+0	146	189	#line 146 "D:\NXT Programok\Helper.nxc"
+0	147	189		set __D0main, 1
+0	146	192	#line 146 "D:\NXT Programok\Helper.nxc"
+0	147	192		cmp 4, __zfmain, __unsigned_stack_001main, __D0main
+0	146	196	#line 146 "D:\NXT Programok\Helper.nxc"
+0	146	196	#line 146 "D:\NXT Programok\Helper.nxc"
+0	147	196		not __D0main, __zfmain
+0	147	199	#line 147 "D:\NXT Programok\Helper.nxc"
+0	148	199		tst 5, __zfmain, __D0main
+0	147	202	#line 147 "D:\NXT Programok\Helper.nxc"
+0	148	202		brtst 4, __NXC_Label_847, __zfmain
+0	147	205	#line 147 "D:\NXT Programok\Helper.nxc"
+0	147	205	#line 147 "D:\NXT Programok\Helper.nxc"
+0	148	205		jmp __NXC_Label_846
+0	147	207	#line 147 "D:\NXT Programok\Helper.nxc"
+0	147	207	#line 147 "D:\NXT Programok\Helper.nxc"
+0	148	207		set __ClearLine_7qG2_line_7qG2_000_inline_main, 0
+0	147	210	#line 147 "D:\NXT Programok\Helper.nxc"
+0	6076	210	#line 6076 "NXCDefs.h"
+0	6077	210	#pragma macro 7
+0	6077	210		acquire __TextOutMutex
+0	6077	211		mov __TextOutArgs.Location.X, __constVal0
+0	6077	213		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_main
+0	6077	215		mov __TextOutArgs.Options, __constVal0
+0	6077	217		mov __TextOutArgs.Text, __BlankLine
+0	6077	219		syscall 13, __TextOutArgs
+0	6077	222		release __TextOutMutex
+0	6461	223	#line 6461 "NXCDefs.h"
+0	6076	223	#line 6076 "NXCDefs.h"
+0	148	223	#line 148 "D:\NXT Programok\Helper.nxc"
+0	148	223	#line 148 "D:\NXT Programok\Helper.nxc"
+0	149	223		set __signed_stack_001main, 35
+0	148	226	#line 148 "D:\NXT Programok\Helper.nxc"
+0	148	226	#line 148 "D:\NXT Programok\Helper.nxc"
+0	149	226		set __signed_stack_002main, 0
+0	148	229	#line 148 "D:\NXT Programok\Helper.nxc"
+0	148	229	#line 148 "D:\NXT Programok\Helper.nxc"
+0	149	229		strcat __strbufmain, __constStr0026
+0	149	233	#line 149 "D:\NXT Programok\Helper.nxc"
+0	150	233		acquire __TextOutMutex
+0	149	234	#line 149 "D:\NXT Programok\Helper.nxc"
+0	150	234		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	149	236	#line 149 "D:\NXT Programok\Helper.nxc"
+0	150	236		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	149	238	#line 149 "D:\NXT Programok\Helper.nxc"
+0	150	238		set __TextOutArgs.Options, 0
+0	149	241	#line 149 "D:\NXT Programok\Helper.nxc"
+0	150	241		mov __TextOutArgs.Text, __strbufmain
+0	149	243	#line 149 "D:\NXT Programok\Helper.nxc"
+0	150	243		syscall 13, __TextOutArgs
+0	149	246	#line 149 "D:\NXT Programok\Helper.nxc"
+0	150	246		mov __D0main, __TextOutArgs.Result
+0	149	248	#line 149 "D:\NXT Programok\Helper.nxc"
+0	150	248		release __TextOutMutex
+0	149	249	#line 149 "D:\NXT Programok\Helper.nxc"
+0	149	249	#line 149 "D:\NXT Programok\Helper.nxc"
+0	150	249		set __Wait_7qG2_ms_7qG2_000_inline_main, 300
+0	149	252	#line 149 "D:\NXT Programok\Helper.nxc"
+0	7921	252	#line 7921 "NXCDefs.h"
+0	7922	252		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	255	#line 7921 "NXCDefs.h"
+0	150	255	#line 150 "D:\NXT Programok\Helper.nxc"
+0	6069	255	#line 6069 "NXCDefs.h"
+0	6070	255	#pragma macro 6
+0	6070	255		acquire __PointOutMutex
+0	6070	256		mov __PointOutArgs.Location.X, __constVal200
+0	6070	258		mov __PointOutArgs.Location.Y, __constVal200
+0	6070	260		mov __PointOutArgs.Options, __constVal1
+0	6070	262		syscall 14, __PointOutArgs
+0	6070	265		release __PointOutMutex
+0	6510	266	#line 6510 "NXCDefs.h"
+0	6069	266	#line 6069 "NXCDefs.h"
+0	151	266	#line 151 "D:\NXT Programok\Helper.nxc"
+0	151	266	#line 151 "D:\NXT Programok\Helper.nxc"
+0	152	266		set __signed_stack_001main, 0
+0	151	269	#line 151 "D:\NXT Programok\Helper.nxc"
+0	151	269	#line 151 "D:\NXT Programok\Helper.nxc"
+0	152	269		set __signed_stack_002main, 56
+0	151	272	#line 151 "D:\NXT Programok\Helper.nxc"
+0	151	272	#line 151 "D:\NXT Programok\Helper.nxc"
+0	152	272		mov __ArrHelper__main_244_0, __constStr0027
+0	151	274	#line 151 "D:\NXT Programok\Helper.nxc"
+0	152	274		mov __D0main, power
+0	151	276	#line 151 "D:\NXT Programok\Helper.nxc"
+0	152	276		numtostr __strretvalmain, __D0main
+0	151	279	#line 151 "D:\NXT Programok\Helper.nxc"
+0	152	279		mov __ArrHelper__main_244_1, __strretvalmain
+0	151	281	#line 151 "D:\NXT Programok\Helper.nxc"
+0	152	281		strcat __strbufmain, __constStr0018
+0	151	285	#line 151 "D:\NXT Programok\Helper.nxc"
+0	152	285		mov __ArrHelper__main_244_2, __strbufmain
+0	151	287	#line 151 "D:\NXT Programok\Helper.nxc"
+0	152	287		strcat __strbufmain, __ArrHelper__main_244_1, __ArrHelper__main_244_2
+0	151	292	#line 151 "D:\NXT Programok\Helper.nxc"
+0	152	292		mov __ArrHelper__main_244_1, __strbufmain
+0	151	294	#line 151 "D:\NXT Programok\Helper.nxc"
+0	152	294		strcat __strbufmain, __ArrHelper__main_244_0, __ArrHelper__main_244_1
+0	152	299	#line 152 "D:\NXT Programok\Helper.nxc"
+0	153	299		acquire __TextOutMutex
+0	152	300	#line 152 "D:\NXT Programok\Helper.nxc"
+0	153	300		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	152	302	#line 152 "D:\NXT Programok\Helper.nxc"
+0	153	302		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	152	304	#line 152 "D:\NXT Programok\Helper.nxc"
+0	153	304		set __TextOutArgs.Options, 0
+0	152	307	#line 152 "D:\NXT Programok\Helper.nxc"
+0	153	307		mov __TextOutArgs.Text, __strbufmain
+0	152	309	#line 152 "D:\NXT Programok\Helper.nxc"
+0	153	309		syscall 13, __TextOutArgs
+0	152	312	#line 152 "D:\NXT Programok\Helper.nxc"
+0	153	312		mov __D0main, __TextOutArgs.Result
+0	152	314	#line 152 "D:\NXT Programok\Helper.nxc"
+0	153	314		release __TextOutMutex
+0	152	315	#line 152 "D:\NXT Programok\Helper.nxc"
+0	152	315	#line 152 "D:\NXT Programok\Helper.nxc"
+0	153	315		set __signed_stack_001main, 0
+0	152	318	#line 152 "D:\NXT Programok\Helper.nxc"
+0	152	318	#line 152 "D:\NXT Programok\Helper.nxc"
+0	153	318		set __signed_stack_002main, 40
+0	152	321	#line 152 "D:\NXT Programok\Helper.nxc"
+0	152	321	#line 152 "D:\NXT Programok\Helper.nxc"
+0	153	321		strcat __strbufmain, __constStr0011
+0	153	325	#line 153 "D:\NXT Programok\Helper.nxc"
+0	154	325		acquire __TextOutMutex
+0	153	326	#line 153 "D:\NXT Programok\Helper.nxc"
+0	154	326		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	153	328	#line 153 "D:\NXT Programok\Helper.nxc"
+0	154	328		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	153	330	#line 153 "D:\NXT Programok\Helper.nxc"
+0	154	330		set __TextOutArgs.Options, 0
+0	153	333	#line 153 "D:\NXT Programok\Helper.nxc"
+0	154	333		mov __TextOutArgs.Text, __strbufmain
+0	153	335	#line 153 "D:\NXT Programok\Helper.nxc"
+0	154	335		syscall 13, __TextOutArgs
+0	153	338	#line 153 "D:\NXT Programok\Helper.nxc"
+0	154	338		mov __D0main, __TextOutArgs.Result
+0	153	340	#line 153 "D:\NXT Programok\Helper.nxc"
+0	154	340		release __TextOutMutex
+0	153	341	#line 153 "D:\NXT Programok\Helper.nxc"
+0	153	341	#line 153 "D:\NXT Programok\Helper.nxc"
+0	154	341		set __signed_stack_001main, 0
+0	153	344	#line 153 "D:\NXT Programok\Helper.nxc"
+0	153	344	#line 153 "D:\NXT Programok\Helper.nxc"
+0	154	344		set __signed_stack_002main, 48
+0	153	347	#line 153 "D:\NXT Programok\Helper.nxc"
+0	153	347	#line 153 "D:\NXT Programok\Helper.nxc"
+0	154	347		strcat __strbufmain, __constStr0010
+0	154	351	#line 154 "D:\NXT Programok\Helper.nxc"
+0	155	351		acquire __TextOutMutex
+0	154	352	#line 154 "D:\NXT Programok\Helper.nxc"
+0	155	352		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	154	354	#line 154 "D:\NXT Programok\Helper.nxc"
+0	155	354		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	154	356	#line 154 "D:\NXT Programok\Helper.nxc"
+0	155	356		set __TextOutArgs.Options, 0
+0	154	359	#line 154 "D:\NXT Programok\Helper.nxc"
+0	155	359		mov __TextOutArgs.Text, __strbufmain
+0	154	361	#line 154 "D:\NXT Programok\Helper.nxc"
+0	155	361		syscall 13, __TextOutArgs
+0	154	364	#line 154 "D:\NXT Programok\Helper.nxc"
+0	155	364		mov __D0main, __TextOutArgs.Result
+0	154	366	#line 154 "D:\NXT Programok\Helper.nxc"
+0	155	366		release __TextOutMutex
+0	154	367	#line 154 "D:\NXT Programok\Helper.nxc"
+0	154	367	#line 154 "D:\NXT Programok\Helper.nxc"
+0	155	367		set __signed_stack_001main, 0
+0	154	370	#line 154 "D:\NXT Programok\Helper.nxc"
+0	154	370	#line 154 "D:\NXT Programok\Helper.nxc"
+0	155	370		set __signed_stack_002main, 16
+0	154	373	#line 154 "D:\NXT Programok\Helper.nxc"
+0	154	373	#line 154 "D:\NXT Programok\Helper.nxc"
+0	155	373		strcat __strbufmain, __constStr0028
+0	155	377	#line 155 "D:\NXT Programok\Helper.nxc"
+0	156	377		acquire __TextOutMutex
+0	155	378	#line 155 "D:\NXT Programok\Helper.nxc"
+0	156	378		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	155	380	#line 155 "D:\NXT Programok\Helper.nxc"
+0	156	380		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	155	382	#line 155 "D:\NXT Programok\Helper.nxc"
+0	156	382		set __TextOutArgs.Options, 0
+0	155	385	#line 155 "D:\NXT Programok\Helper.nxc"
+0	156	385		mov __TextOutArgs.Text, __strbufmain
+0	155	387	#line 155 "D:\NXT Programok\Helper.nxc"
+0	156	387		syscall 13, __TextOutArgs
+0	155	390	#line 155 "D:\NXT Programok\Helper.nxc"
+0	156	390		mov __D0main, __TextOutArgs.Result
+0	155	392	#line 155 "D:\NXT Programok\Helper.nxc"
+0	156	392		release __TextOutMutex
+0	155	393	#line 155 "D:\NXT Programok\Helper.nxc"
+0	155	393	#line 155 "D:\NXT Programok\Helper.nxc"
+0	156	393		set __signed_stack_001main, 13
+0	155	396	#line 155 "D:\NXT Programok\Helper.nxc"
+0	155	396	#line 155 "D:\NXT Programok\Helper.nxc"
+0	156	396		set __signed_stack_002main, 8
+0	155	399	#line 155 "D:\NXT Programok\Helper.nxc"
+0	155	399	#line 155 "D:\NXT Programok\Helper.nxc"
+0	156	399		strcat __strbufmain, __constStr0029
+0	156	403	#line 156 "D:\NXT Programok\Helper.nxc"
+0	157	403		acquire __TextOutMutex
+0	156	404	#line 156 "D:\NXT Programok\Helper.nxc"
+0	157	404		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	156	406	#line 156 "D:\NXT Programok\Helper.nxc"
+0	157	406		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	156	408	#line 156 "D:\NXT Programok\Helper.nxc"
+0	157	408		set __TextOutArgs.Options, 0
+0	156	411	#line 156 "D:\NXT Programok\Helper.nxc"
+0	157	411		mov __TextOutArgs.Text, __strbufmain
+0	156	413	#line 156 "D:\NXT Programok\Helper.nxc"
+0	157	413		syscall 13, __TextOutArgs
+0	156	416	#line 156 "D:\NXT Programok\Helper.nxc"
+0	157	416		mov __D0main, __TextOutArgs.Result
+0	156	418	#line 156 "D:\NXT Programok\Helper.nxc"
+0	157	418		release __TextOutMutex
+0	156	419	#line 156 "D:\NXT Programok\Helper.nxc"
+0	156	419	#line 156 "D:\NXT Programok\Helper.nxc"
+0	157	419		set __signed_stack_001main, 39
+0	156	422	#line 156 "D:\NXT Programok\Helper.nxc"
+0	156	422	#line 156 "D:\NXT Programok\Helper.nxc"
+0	157	422		set __signed_stack_002main, 0
+0	156	425	#line 156 "D:\NXT Programok\Helper.nxc"
+0	156	425	#line 156 "D:\NXT Programok\Helper.nxc"
+0	157	425		strcat __strbufmain, __constStr0030
+0	157	429	#line 157 "D:\NXT Programok\Helper.nxc"
+0	158	429		acquire __TextOutMutex
+0	157	430	#line 157 "D:\NXT Programok\Helper.nxc"
+0	158	430		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	157	432	#line 157 "D:\NXT Programok\Helper.nxc"
+0	158	432		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	157	434	#line 157 "D:\NXT Programok\Helper.nxc"
+0	158	434		set __TextOutArgs.Options, 0
+0	157	437	#line 157 "D:\NXT Programok\Helper.nxc"
+0	158	437		mov __TextOutArgs.Text, __strbufmain
+0	157	439	#line 157 "D:\NXT Programok\Helper.nxc"
+0	158	439		syscall 13, __TextOutArgs
+0	157	442	#line 157 "D:\NXT Programok\Helper.nxc"
+0	158	442		mov __D0main, __TextOutArgs.Result
+0	157	444	#line 157 "D:\NXT Programok\Helper.nxc"
+0	158	444		release __TextOutMutex
+0	157	445	#line 157 "D:\NXT Programok\Helper.nxc"
+0	158	445	#line 158 "D:\NXT Programok\Helper.nxc"
+0	159	445	#pragma macro 7
+0	159	445		setout __OUT_AB, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6718	468	#line 6718 "D:\NXT Programok\Helper.nxc"
+0	158	468	#line 158 "D:\NXT Programok\Helper.nxc"
+0	159	468	#line 159 "D:\NXT Programok\Helper.nxc"
+0	160	468		subcall __MotorA_Spawner, __MotorA_Spawner_return
+0	159	470	#line 159 "D:\NXT Programok\Helper.nxc"
+0	160	470	#line 160 "D:\NXT Programok\Helper.nxc"
+0	161	470		subcall __MotorB_Spawner, __MotorB_Spawner_return
+0	160	472	#line 160 "D:\NXT Programok\Helper.nxc"
+0	161	472	#line 161 "D:\NXT Programok\Helper.nxc"
+0	162	472		subcall __MotorTurn_Spawner, __MotorTurn_Spawner_return
+0	161	474	#line 161 "D:\NXT Programok\Helper.nxc"
+0	162	474	#line 162 "D:\NXT Programok\Helper.nxc"
+0	163	474		subcall __MotorBreak_Spawner, __MotorBreak_Spawner_return
+0	162	476	#line 162 "D:\NXT Programok\Helper.nxc"
+0	163	476	#line 163 "D:\NXT Programok\Helper.nxc"
+0	164	476		subcall __MotorPosition_Spawner, __MotorPosition_Spawner_return
+0	163	478	#line 163 "D:\NXT Programok\Helper.nxc"
+0	164	478	#line 164 "D:\NXT Programok\Helper.nxc"
+0	165	478		subcall __Battery_Spawner, __Battery_Spawner_return
+0	164	480	#line 164 "D:\NXT Programok\Helper.nxc"
+0	164	480	#line 164 "D:\NXT Programok\Helper.nxc"
+0	165	480		set __D0main, 1
+0	165	483	#line 165 "D:\NXT Programok\Helper.nxc"
+0	166	483		tst 5, __zfmain, __D0main
+0	165	486	#line 165 "D:\NXT Programok\Helper.nxc"
+0	166	486		brtst 4, __NXC_Label_887, __zfmain
+0	165	489	#line 165 "D:\NXT Programok\Helper.nxc"
+0	165	489	#line 165 "D:\NXT Programok\Helper.nxc"
+0	166	489		jmp __NXC_Label_886
+0	165	491	#line 165 "D:\NXT Programok\Helper.nxc"
+0	166	491		exit -1, -1
+1	4885	0		setin __constVal1, __ResetSensorPort, 5
+1	4887	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+1	4888	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+1	4889	11		subret ____ResetSensorSubroutine_return
+2	7	0	#line 7 "D:\NXT Programok\Helper.nxc"
+2	8	0		set __D0MotorA, 1
+2	8	3	#line 8 "D:\NXT Programok\Helper.nxc"
+2	9	3		tst 5, __zfMotorA, __D0MotorA
+2	8	6	#line 8 "D:\NXT Programok\Helper.nxc"
+2	9	6		brtst 4, __NXC_Label_490, __zfMotorA
+2	8	9	#line 8 "D:\NXT Programok\Helper.nxc"
+2	9	9		set __signed_stack_001MotorA, 2
+2	8	12	#line 8 "D:\NXT Programok\Helper.nxc"
+2	8	12	#line 8 "D:\NXT Programok\Helper.nxc"
+2	9	12		set __D0MotorA, 1
+2	8	15	#line 8 "D:\NXT Programok\Helper.nxc"
+2	9	15		acquire __RBtnMutex
+2	8	16	#line 8 "D:\NXT Programok\Helper.nxc"
+2	9	16		mov __RBtnArgs.Index, __signed_stack_001MotorA
+2	8	18	#line 8 "D:\NXT Programok\Helper.nxc"
+2	9	18		mov __RBtnArgs.Reset, __D0MotorA
+2	8	20	#line 8 "D:\NXT Programok\Helper.nxc"
+2	9	20		syscall 20, __RBtnArgs
+2	8	23	#line 8 "D:\NXT Programok\Helper.nxc"
+2	9	23		mov __D0MotorA, __RBtnArgs.Pressed
+2	8	25	#line 8 "D:\NXT Programok\Helper.nxc"
+2	9	25		release __RBtnMutex
+2	8	26	#line 8 "D:\NXT Programok\Helper.nxc"
+2	9	26		mov __signed_stack_001MotorA, __D0MotorA
+2	8	28	#line 8 "D:\NXT Programok\Helper.nxc"
+2	9	28		set __D0MotorA, 1
+2	8	31	#line 8 "D:\NXT Programok\Helper.nxc"
+2	9	31		cmp 4, __zfMotorA, __signed_stack_001MotorA, __D0MotorA
+2	8	35	#line 8 "D:\NXT Programok\Helper.nxc"
+2	8	35	#line 8 "D:\NXT Programok\Helper.nxc"
+2	9	35		not __D0MotorA, __zfMotorA
+2	9	38	#line 9 "D:\NXT Programok\Helper.nxc"
+2	10	38		tst 5, __zfMotorA, __D0MotorA
+2	9	41	#line 9 "D:\NXT Programok\Helper.nxc"
+2	10	41		brtst 4, __NXC_Label_494, __zfMotorA
+2	9	44	#line 9 "D:\NXT Programok\Helper.nxc"
+2	9	44	#line 9 "D:\NXT Programok\Helper.nxc"
+2	10	44		jmp __NXC_Label_493
+2	9	46	#line 9 "D:\NXT Programok\Helper.nxc"
+2	9	46	#line 9 "D:\NXT Programok\Helper.nxc"
+2	10	46		mov __unsigned_stack_001MotorA, turn
+2	9	48	#line 9 "D:\NXT Programok\Helper.nxc"
+2	9	48	#line 9 "D:\NXT Programok\Helper.nxc"
+2	10	48		set __D0MotorA, 0
+2	9	51	#line 9 "D:\NXT Programok\Helper.nxc"
+2	10	51		cmp 4, __zfMotorA, __unsigned_stack_001MotorA, __D0MotorA
+2	9	55	#line 9 "D:\NXT Programok\Helper.nxc"
+2	10	55		mov __D0MotorA, __zfMotorA
+2	9	57	#line 9 "D:\NXT Programok\Helper.nxc"
+2	10	57		brtst 4, __NXC_Label_505, __zfMotorA
+2	9	60	#line 9 "D:\NXT Programok\Helper.nxc"
+2	10	60		mov __D0MotorA, power
+2	9	62	#line 9 "D:\NXT Programok\Helper.nxc"
+2	10	62	#pragma macro 7
+2	10	62		setout __constVal0, 2, __D0MotorA, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+2	4436	85	#line 4436 "D:\NXT Programok\Helper.nxc"
+2	9	85	#line 9 "D:\NXT Programok\Helper.nxc"
+2	10	85	#line 10 "D:\NXT Programok\Helper.nxc"
+2	11	85		jmp __NXC_Label_508
+2	10	87	#line 10 "D:\NXT Programok\Helper.nxc"
+2	11	87		mov __D0MotorA, power
+2	10	89	#line 10 "D:\NXT Programok\Helper.nxc"
+2	11	89	#pragma macro 10
+2	11	89		acquire __OnRevMutex
+2	11	90		neg __OnRev_Tmp, __D0MotorA
+2	11	93		setout __constVal0, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+2	11	116		release __OnRevMutex
+2	4446	117	#line 4446 "D:\NXT Programok\Helper.nxc"
+2	10	117	#line 10 "D:\NXT Programok\Helper.nxc"
+2	11	117	#line 11 "D:\NXT Programok\Helper.nxc"
+2	11	117	#line 11 "D:\NXT Programok\Helper.nxc"
+2	12	117		set __signed_stack_001MotorA, 2
+2	11	120	#line 11 "D:\NXT Programok\Helper.nxc"
+2	11	120	#line 11 "D:\NXT Programok\Helper.nxc"
+2	12	120		set __D0MotorA, 1
+2	11	123	#line 11 "D:\NXT Programok\Helper.nxc"
+2	12	123		acquire __RBtnMutex
+2	11	124	#line 11 "D:\NXT Programok\Helper.nxc"
+2	12	124		mov __RBtnArgs.Index, __signed_stack_001MotorA
+2	11	126	#line 11 "D:\NXT Programok\Helper.nxc"
+2	12	126		mov __RBtnArgs.Reset, __D0MotorA
+2	11	128	#line 11 "D:\NXT Programok\Helper.nxc"
+2	12	128		syscall 20, __RBtnArgs
+2	11	131	#line 11 "D:\NXT Programok\Helper.nxc"
+2	12	131		mov __D0MotorA, __RBtnArgs.Pressed
+2	11	133	#line 11 "D:\NXT Programok\Helper.nxc"
+2	12	133		release __RBtnMutex
+2	11	134	#line 11 "D:\NXT Programok\Helper.nxc"
+2	12	134		mov __signed_stack_001MotorA, __D0MotorA
+2	11	136	#line 11 "D:\NXT Programok\Helper.nxc"
+2	12	136		set __D0MotorA, 0
+2	11	139	#line 11 "D:\NXT Programok\Helper.nxc"
+2	12	139		cmp 4, __zfMotorA, __signed_stack_001MotorA, __D0MotorA
+2	11	143	#line 11 "D:\NXT Programok\Helper.nxc"
+2	11	143	#line 11 "D:\NXT Programok\Helper.nxc"
+2	12	143		not __D0MotorA, __zfMotorA
+2	12	146	#line 12 "D:\NXT Programok\Helper.nxc"
+2	13	146		tst 5, __zfMotorA, __D0MotorA
+2	12	149	#line 12 "D:\NXT Programok\Helper.nxc"
+2	13	149		brtst 4, __NXC_Label_512, __zfMotorA
+2	12	152	#line 12 "D:\NXT Programok\Helper.nxc"
+2	12	152	#line 12 "D:\NXT Programok\Helper.nxc"
+2	13	152		jmp __NXC_Label_511
+2	12	154	#line 12 "D:\NXT Programok\Helper.nxc"
+2	13	154	#line 13 "D:\NXT Programok\Helper.nxc"
+2	14	154	#pragma macro 7
+2	14	154		setout __constVal0, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+2	4497	177	#line 4497 "D:\NXT Programok\Helper.nxc"
+2	13	177	#line 13 "D:\NXT Programok\Helper.nxc"
+2	13	177	#line 13 "D:\NXT Programok\Helper.nxc"
+2	14	177		mov __unsigned_stack_001MotorA, fek
+2	13	179	#line 13 "D:\NXT Programok\Helper.nxc"
+2	13	179	#line 13 "D:\NXT Programok\Helper.nxc"
+2	14	179		set __D0MotorA, 0
+2	13	182	#line 13 "D:\NXT Programok\Helper.nxc"
+2	14	182		cmp 4, __zfMotorA, __unsigned_stack_001MotorA, __D0MotorA
+2	13	186	#line 13 "D:\NXT Programok\Helper.nxc"
+2	14	186		mov __D0MotorA, __zfMotorA
+2	13	188	#line 13 "D:\NXT Programok\Helper.nxc"
+2	14	188		brtst 4, __NXC_Label_523, __zfMotorA
+2	13	191	#line 13 "D:\NXT Programok\Helper.nxc"
+2	14	191	#pragma macro 7
+2	14	191		setout __constVal0, 2, __constVal0, 1, __constVal2, 8, __constVal0, 6, __constVal0, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+2	4514	214	#line 4514 "D:\NXT Programok\Helper.nxc"
+2	13	214	#line 13 "D:\NXT Programok\Helper.nxc"
+2	16	214	#line 16 "D:\NXT Programok\Helper.nxc"
+2	17	214	#line 17 "D:\NXT Programok\Helper.nxc"
+2	18	214		jmp __NXC_Label_489
+2	17	216	#line 17 "D:\NXT Programok\Helper.nxc"
+2	18	216		exit -1, -1
+3	20	0	#line 20 "D:\NXT Programok\Helper.nxc"
+3	21	0		set __D0MotorB, 1
+3	21	3	#line 21 "D:\NXT Programok\Helper.nxc"
+3	22	3		tst 5, __zfMotorB, __D0MotorB
+3	21	6	#line 21 "D:\NXT Programok\Helper.nxc"
+3	22	6		brtst 4, __NXC_Label_525, __zfMotorB
+3	21	9	#line 21 "D:\NXT Programok\Helper.nxc"
+3	22	9		set __signed_stack_001MotorB, 1
+3	21	12	#line 21 "D:\NXT Programok\Helper.nxc"
+3	21	12	#line 21 "D:\NXT Programok\Helper.nxc"
+3	22	12		set __D0MotorB, 1
+3	21	15	#line 21 "D:\NXT Programok\Helper.nxc"
+3	22	15		acquire __RBtnMutex
+3	21	16	#line 21 "D:\NXT Programok\Helper.nxc"
+3	22	16		mov __RBtnArgs.Index, __signed_stack_001MotorB
+3	21	18	#line 21 "D:\NXT Programok\Helper.nxc"
+3	22	18		mov __RBtnArgs.Reset, __D0MotorB
+3	21	20	#line 21 "D:\NXT Programok\Helper.nxc"
+3	22	20		syscall 20, __RBtnArgs
+3	21	23	#line 21 "D:\NXT Programok\Helper.nxc"
+3	22	23		mov __D0MotorB, __RBtnArgs.Pressed
+3	21	25	#line 21 "D:\NXT Programok\Helper.nxc"
+3	22	25		release __RBtnMutex
+3	21	26	#line 21 "D:\NXT Programok\Helper.nxc"
+3	22	26		mov __signed_stack_001MotorB, __D0MotorB
+3	21	28	#line 21 "D:\NXT Programok\Helper.nxc"
+3	22	28		set __D0MotorB, 1
+3	21	31	#line 21 "D:\NXT Programok\Helper.nxc"
+3	22	31		cmp 4, __zfMotorB, __signed_stack_001MotorB, __D0MotorB
+3	21	35	#line 21 "D:\NXT Programok\Helper.nxc"
+3	21	35	#line 21 "D:\NXT Programok\Helper.nxc"
+3	22	35		not __D0MotorB, __zfMotorB
+3	22	38	#line 22 "D:\NXT Programok\Helper.nxc"
+3	23	38		tst 5, __zfMotorB, __D0MotorB
+3	22	41	#line 22 "D:\NXT Programok\Helper.nxc"
+3	23	41		brtst 4, __NXC_Label_529, __zfMotorB
+3	22	44	#line 22 "D:\NXT Programok\Helper.nxc"
+3	22	44	#line 22 "D:\NXT Programok\Helper.nxc"
+3	23	44		jmp __NXC_Label_528
+3	22	46	#line 22 "D:\NXT Programok\Helper.nxc"
+3	22	46	#line 22 "D:\NXT Programok\Helper.nxc"
+3	23	46		mov __unsigned_stack_001MotorB, turn
+3	22	48	#line 22 "D:\NXT Programok\Helper.nxc"
+3	22	48	#line 22 "D:\NXT Programok\Helper.nxc"
+3	23	48		set __D0MotorB, 0
+3	22	51	#line 22 "D:\NXT Programok\Helper.nxc"
+3	23	51		cmp 4, __zfMotorB, __unsigned_stack_001MotorB, __D0MotorB
+3	22	55	#line 22 "D:\NXT Programok\Helper.nxc"
+3	23	55		mov __D0MotorB, __zfMotorB
+3	22	57	#line 22 "D:\NXT Programok\Helper.nxc"
+3	23	57		brtst 4, __NXC_Label_540, __zfMotorB
+3	22	60	#line 22 "D:\NXT Programok\Helper.nxc"
+3	23	60		mov __D0MotorB, power
+3	22	62	#line 22 "D:\NXT Programok\Helper.nxc"
+3	23	62	#pragma macro 7
+3	23	62		setout __constVal1, 2, __D0MotorB, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+3	4599	85	#line 4599 "D:\NXT Programok\Helper.nxc"
+3	22	85	#line 22 "D:\NXT Programok\Helper.nxc"
+3	23	85	#line 23 "D:\NXT Programok\Helper.nxc"
+3	24	85		jmp __NXC_Label_543
+3	23	87	#line 23 "D:\NXT Programok\Helper.nxc"
+3	24	87		mov __D0MotorB, power
+3	23	89	#line 23 "D:\NXT Programok\Helper.nxc"
+3	24	89	#pragma macro 10
+3	24	89		acquire __OnRevMutex
+3	24	90		neg __OnRev_Tmp, __D0MotorB
+3	24	93		setout __constVal1, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+3	24	116		release __OnRevMutex
+3	4609	117	#line 4609 "D:\NXT Programok\Helper.nxc"
+3	23	117	#line 23 "D:\NXT Programok\Helper.nxc"
+3	25	117	#line 25 "D:\NXT Programok\Helper.nxc"
+3	25	117	#line 25 "D:\NXT Programok\Helper.nxc"
+3	26	117		set __signed_stack_001MotorB, 1
+3	25	120	#line 25 "D:\NXT Programok\Helper.nxc"
+3	25	120	#line 25 "D:\NXT Programok\Helper.nxc"
+3	26	120		set __D0MotorB, 1
+3	25	123	#line 25 "D:\NXT Programok\Helper.nxc"
+3	26	123		acquire __RBtnMutex
+3	25	124	#line 25 "D:\NXT Programok\Helper.nxc"
+3	26	124		mov __RBtnArgs.Index, __signed_stack_001MotorB
+3	25	126	#line 25 "D:\NXT Programok\Helper.nxc"
+3	26	126		mov __RBtnArgs.Reset, __D0MotorB
+3	25	128	#line 25 "D:\NXT Programok\Helper.nxc"
+3	26	128		syscall 20, __RBtnArgs
+3	25	131	#line 25 "D:\NXT Programok\Helper.nxc"
+3	26	131		mov __D0MotorB, __RBtnArgs.Pressed
+3	25	133	#line 25 "D:\NXT Programok\Helper.nxc"
+3	26	133		release __RBtnMutex
+3	25	134	#line 25 "D:\NXT Programok\Helper.nxc"
+3	26	134		mov __signed_stack_001MotorB, __D0MotorB
+3	25	136	#line 25 "D:\NXT Programok\Helper.nxc"
+3	26	136		set __D0MotorB, 0
+3	25	139	#line 25 "D:\NXT Programok\Helper.nxc"
+3	26	139		cmp 4, __zfMotorB, __signed_stack_001MotorB, __D0MotorB
+3	25	143	#line 25 "D:\NXT Programok\Helper.nxc"
+3	25	143	#line 25 "D:\NXT Programok\Helper.nxc"
+3	26	143		not __D0MotorB, __zfMotorB
+3	26	146	#line 26 "D:\NXT Programok\Helper.nxc"
+3	27	146		tst 5, __zfMotorB, __D0MotorB
+3	26	149	#line 26 "D:\NXT Programok\Helper.nxc"
+3	27	149		brtst 4, __NXC_Label_547, __zfMotorB
+3	26	152	#line 26 "D:\NXT Programok\Helper.nxc"
+3	26	152	#line 26 "D:\NXT Programok\Helper.nxc"
+3	27	152		jmp __NXC_Label_546
+3	26	154	#line 26 "D:\NXT Programok\Helper.nxc"
+3	27	154	#line 27 "D:\NXT Programok\Helper.nxc"
+3	28	154	#pragma macro 7
+3	28	154		setout __constVal1, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+3	4660	177	#line 4660 "D:\NXT Programok\Helper.nxc"
+3	27	177	#line 27 "D:\NXT Programok\Helper.nxc"
+3	27	177	#line 27 "D:\NXT Programok\Helper.nxc"
+3	28	177		mov __unsigned_stack_001MotorB, fek
+3	27	179	#line 27 "D:\NXT Programok\Helper.nxc"
+3	27	179	#line 27 "D:\NXT Programok\Helper.nxc"
+3	28	179		set __D0MotorB, 0
+3	27	182	#line 27 "D:\NXT Programok\Helper.nxc"
+3	28	182		cmp 4, __zfMotorB, __unsigned_stack_001MotorB, __D0MotorB
+3	27	186	#line 27 "D:\NXT Programok\Helper.nxc"
+3	28	186		mov __D0MotorB, __zfMotorB
+3	27	188	#line 27 "D:\NXT Programok\Helper.nxc"
+3	28	188		brtst 4, __NXC_Label_558, __zfMotorB
+3	27	191	#line 27 "D:\NXT Programok\Helper.nxc"
+3	28	191	#pragma macro 7
+3	28	191		setout __constVal1, 2, __constVal0, 1, __constVal2, 8, __constVal0, 6, __constVal0, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+3	4677	214	#line 4677 "D:\NXT Programok\Helper.nxc"
+3	27	214	#line 27 "D:\NXT Programok\Helper.nxc"
+3	29	214	#line 29 "D:\NXT Programok\Helper.nxc"
+3	30	214	#line 30 "D:\NXT Programok\Helper.nxc"
+3	31	214		jmp __NXC_Label_524
+3	30	216	#line 30 "D:\NXT Programok\Helper.nxc"
+3	31	216		exit -1, -1
+4	33	0	#line 33 "D:\NXT Programok\Helper.nxc"
+4	34	0		set __D0MotorTurn, 1
+4	34	3	#line 34 "D:\NXT Programok\Helper.nxc"
+4	35	3		tst 5, __zfMotorTurn, __D0MotorTurn
+4	34	6	#line 34 "D:\NXT Programok\Helper.nxc"
+4	35	6		brtst 4, __NXC_Label_560, __zfMotorTurn
+4	34	9	#line 34 "D:\NXT Programok\Helper.nxc"
+4	35	9		set __signed_stack_001MotorTurn, 3
+4	34	12	#line 34 "D:\NXT Programok\Helper.nxc"
+4	34	12	#line 34 "D:\NXT Programok\Helper.nxc"
+4	35	12		set __D0MotorTurn, 1
+4	34	15	#line 34 "D:\NXT Programok\Helper.nxc"
+4	35	15		acquire __RBtnMutex
+4	34	16	#line 34 "D:\NXT Programok\Helper.nxc"
+4	35	16		mov __RBtnArgs.Index, __signed_stack_001MotorTurn
+4	34	18	#line 34 "D:\NXT Programok\Helper.nxc"
+4	35	18		mov __RBtnArgs.Reset, __D0MotorTurn
+4	34	20	#line 34 "D:\NXT Programok\Helper.nxc"
+4	35	20		syscall 20, __RBtnArgs
+4	34	23	#line 34 "D:\NXT Programok\Helper.nxc"
+4	35	23		mov __D0MotorTurn, __RBtnArgs.Pressed
+4	34	25	#line 34 "D:\NXT Programok\Helper.nxc"
+4	35	25		release __RBtnMutex
+4	34	26	#line 34 "D:\NXT Programok\Helper.nxc"
+4	35	26		mov __signed_stack_001MotorTurn, __D0MotorTurn
+4	34	28	#line 34 "D:\NXT Programok\Helper.nxc"
+4	35	28		set __D0MotorTurn, 1
+4	34	31	#line 34 "D:\NXT Programok\Helper.nxc"
+4	35	31		cmp 4, __zfMotorTurn, __signed_stack_001MotorTurn, __D0MotorTurn
+4	34	35	#line 34 "D:\NXT Programok\Helper.nxc"
+4	34	35	#line 34 "D:\NXT Programok\Helper.nxc"
+4	35	35		not __D0MotorTurn, __zfMotorTurn
+4	35	38	#line 35 "D:\NXT Programok\Helper.nxc"
+4	36	38		tst 5, __zfMotorTurn, __D0MotorTurn
+4	35	41	#line 35 "D:\NXT Programok\Helper.nxc"
+4	36	41		brtst 4, __NXC_Label_564, __zfMotorTurn
+4	35	44	#line 35 "D:\NXT Programok\Helper.nxc"
+4	35	44	#line 35 "D:\NXT Programok\Helper.nxc"
+4	36	44		jmp __NXC_Label_563
+4	35	46	#line 35 "D:\NXT Programok\Helper.nxc"
+4	35	46	#line 35 "D:\NXT Programok\Helper.nxc"
+4	36	46		mov __unsigned_stack_001MotorTurn, turn
+4	35	48	#line 35 "D:\NXT Programok\Helper.nxc"
+4	35	48	#line 35 "D:\NXT Programok\Helper.nxc"
+4	36	48		set __D0MotorTurn, 0
+4	35	51	#line 35 "D:\NXT Programok\Helper.nxc"
+4	36	51		cmp 4, __zfMotorTurn, __unsigned_stack_001MotorTurn, __D0MotorTurn
+4	35	55	#line 35 "D:\NXT Programok\Helper.nxc"
+4	36	55		mov __D0MotorTurn, __zfMotorTurn
+4	35	57	#line 35 "D:\NXT Programok\Helper.nxc"
+4	36	57		brtst 4, __NXC_Label_575, __zfMotorTurn
+4	36	60	#line 36 "D:\NXT Programok\Helper.nxc"
+4	37	60		set turn, 1
+4	36	63	#line 36 "D:\NXT Programok\Helper.nxc"
+4	36	63	#line 36 "D:\NXT Programok\Helper.nxc"
+4	36	63	#line 36 "D:\NXT Programok\Helper.nxc"
+4	37	63		set __ClearLine_7qG2_line_7qG2_000_inline_MotorTurn, 48
+4	36	66	#line 36 "D:\NXT Programok\Helper.nxc"
+4	6076	66	#line 6076 "NXCDefs.h"
+4	6077	66	#pragma macro 7
+4	6077	66		acquire __TextOutMutex
+4	6077	67		mov __TextOutArgs.Location.X, __constVal0
+4	6077	69		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_MotorTurn
+4	6077	71		mov __TextOutArgs.Options, __constVal0
+4	6077	73		mov __TextOutArgs.Text, __BlankLine
+4	6077	75		syscall 13, __TextOutArgs
+4	6077	78		release __TextOutMutex
+4	4775	79	#line 4775 "NXCDefs.h"
+4	6076	79	#line 6076 "NXCDefs.h"
+4	37	79	#line 37 "D:\NXT Programok\Helper.nxc"
+4	37	79	#line 37 "D:\NXT Programok\Helper.nxc"
+4	38	79		set __signed_stack_001MotorTurn, 0
+4	37	82	#line 37 "D:\NXT Programok\Helper.nxc"
+4	37	82	#line 37 "D:\NXT Programok\Helper.nxc"
+4	38	82		set __signed_stack_002MotorTurn, 48
+4	37	85	#line 37 "D:\NXT Programok\Helper.nxc"
+4	37	85	#line 37 "D:\NXT Programok\Helper.nxc"
+4	38	85		strcat __strbufMotorTurn, __constStr0009
+4	38	89	#line 38 "D:\NXT Programok\Helper.nxc"
+4	39	89		acquire __TextOutMutex
+4	38	90	#line 38 "D:\NXT Programok\Helper.nxc"
+4	39	90		mov __TextOutArgs.Location.X, __signed_stack_001MotorTurn
+4	38	92	#line 38 "D:\NXT Programok\Helper.nxc"
+4	39	92		mov __TextOutArgs.Location.Y, __signed_stack_002MotorTurn
+4	38	94	#line 38 "D:\NXT Programok\Helper.nxc"
+4	39	94		set __TextOutArgs.Options, 0
+4	38	97	#line 38 "D:\NXT Programok\Helper.nxc"
+4	39	97		mov __TextOutArgs.Text, __strbufMotorTurn
+4	38	99	#line 38 "D:\NXT Programok\Helper.nxc"
+4	39	99		syscall 13, __TextOutArgs
+4	38	102	#line 38 "D:\NXT Programok\Helper.nxc"
+4	39	102		mov __D0MotorTurn, __TextOutArgs.Result
+4	38	104	#line 38 "D:\NXT Programok\Helper.nxc"
+4	39	104		release __TextOutMutex
+4	38	105	#line 38 "D:\NXT Programok\Helper.nxc"
+4	39	105	#line 39 "D:\NXT Programok\Helper.nxc"
+4	40	105		jmp __NXC_Label_584
+4	40	107	#line 40 "D:\NXT Programok\Helper.nxc"
+4	41	107		set turn, 0
+4	40	110	#line 40 "D:\NXT Programok\Helper.nxc"
+4	40	110	#line 40 "D:\NXT Programok\Helper.nxc"
+4	40	110	#line 40 "D:\NXT Programok\Helper.nxc"
+4	41	110		set __ClearLine_7qG2_line_7qG2_000_inline_MotorTurn, 48
+4	40	113	#line 40 "D:\NXT Programok\Helper.nxc"
+4	6076	113	#line 6076 "NXCDefs.h"
+4	6077	113	#pragma macro 7
+4	6077	113		acquire __TextOutMutex
+4	6077	114		mov __TextOutArgs.Location.X, __constVal0
+4	6077	116		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_MotorTurn
+4	6077	118		mov __TextOutArgs.Options, __constVal0
+4	6077	120		mov __TextOutArgs.Text, __BlankLine
+4	6077	122		syscall 13, __TextOutArgs
+4	6077	125		release __TextOutMutex
+4	4826	126	#line 4826 "NXCDefs.h"
+4	6076	126	#line 6076 "NXCDefs.h"
+4	41	126	#line 41 "D:\NXT Programok\Helper.nxc"
+4	41	126	#line 41 "D:\NXT Programok\Helper.nxc"
+4	42	126		set __signed_stack_001MotorTurn, 0
+4	41	129	#line 41 "D:\NXT Programok\Helper.nxc"
+4	41	129	#line 41 "D:\NXT Programok\Helper.nxc"
+4	42	129		set __signed_stack_002MotorTurn, 48
+4	41	132	#line 41 "D:\NXT Programok\Helper.nxc"
+4	41	132	#line 41 "D:\NXT Programok\Helper.nxc"
+4	42	132		strcat __strbufMotorTurn, __constStr0010
+4	41	136	#line 41 "D:\NXT Programok\Helper.nxc"
+4	42	136		acquire __TextOutMutex
+4	41	137	#line 41 "D:\NXT Programok\Helper.nxc"
+4	42	137		mov __TextOutArgs.Location.X, __signed_stack_001MotorTurn
+4	41	139	#line 41 "D:\NXT Programok\Helper.nxc"
+4	42	139		mov __TextOutArgs.Location.Y, __signed_stack_002MotorTurn
+4	41	141	#line 41 "D:\NXT Programok\Helper.nxc"
+4	42	141		set __TextOutArgs.Options, 0
+4	41	144	#line 41 "D:\NXT Programok\Helper.nxc"
+4	42	144		mov __TextOutArgs.Text, __strbufMotorTurn
+4	41	146	#line 41 "D:\NXT Programok\Helper.nxc"
+4	42	146		syscall 13, __TextOutArgs
+4	41	149	#line 41 "D:\NXT Programok\Helper.nxc"
+4	42	149		mov __D0MotorTurn, __TextOutArgs.Result
+4	41	151	#line 41 "D:\NXT Programok\Helper.nxc"
+4	42	151		release __TextOutMutex
+4	41	152	#line 41 "D:\NXT Programok\Helper.nxc"
+4	42	152	#line 42 "D:\NXT Programok\Helper.nxc"
+4	42	152	#line 42 "D:\NXT Programok\Helper.nxc"
+4	43	152		set __signed_stack_001MotorTurn, 3
+4	42	155	#line 42 "D:\NXT Programok\Helper.nxc"
+4	42	155	#line 42 "D:\NXT Programok\Helper.nxc"
+4	43	155		set __D0MotorTurn, 1
+4	42	158	#line 42 "D:\NXT Programok\Helper.nxc"
+4	43	158		acquire __RBtnMutex
+4	42	159	#line 42 "D:\NXT Programok\Helper.nxc"
+4	43	159		mov __RBtnArgs.Index, __signed_stack_001MotorTurn
+4	42	161	#line 42 "D:\NXT Programok\Helper.nxc"
+4	43	161		mov __RBtnArgs.Reset, __D0MotorTurn
+4	42	163	#line 42 "D:\NXT Programok\Helper.nxc"
+4	43	163		syscall 20, __RBtnArgs
+4	42	166	#line 42 "D:\NXT Programok\Helper.nxc"
+4	43	166		mov __D0MotorTurn, __RBtnArgs.Pressed
+4	42	168	#line 42 "D:\NXT Programok\Helper.nxc"
+4	43	168		release __RBtnMutex
+4	42	169	#line 42 "D:\NXT Programok\Helper.nxc"
+4	43	169		mov __signed_stack_001MotorTurn, __D0MotorTurn
+4	42	171	#line 42 "D:\NXT Programok\Helper.nxc"
+4	43	171		set __D0MotorTurn, 0
+4	42	174	#line 42 "D:\NXT Programok\Helper.nxc"
+4	43	174		cmp 4, __zfMotorTurn, __signed_stack_001MotorTurn, __D0MotorTurn
+4	42	178	#line 42 "D:\NXT Programok\Helper.nxc"
+4	42	178	#line 42 "D:\NXT Programok\Helper.nxc"
+4	43	178		not __D0MotorTurn, __zfMotorTurn
+4	44	181	#line 44 "D:\NXT Programok\Helper.nxc"
+4	45	181		tst 5, __zfMotorTurn, __D0MotorTurn
+4	44	184	#line 44 "D:\NXT Programok\Helper.nxc"
+4	45	184		brtst 4, __NXC_Label_594, __zfMotorTurn
+4	44	187	#line 44 "D:\NXT Programok\Helper.nxc"
+4	44	187	#line 44 "D:\NXT Programok\Helper.nxc"
+4	45	187		jmp __NXC_Label_593
+4	44	189	#line 44 "D:\NXT Programok\Helper.nxc"
+4	46	189	#line 46 "D:\NXT Programok\Helper.nxc"
+4	47	189		jmp __NXC_Label_559
+4	46	191	#line 46 "D:\NXT Programok\Helper.nxc"
+4	47	191		exit -1, -1
+5	49	0	#line 49 "D:\NXT Programok\Helper.nxc"
+5	50	0		set __D0MotorBreak, 1
+5	50	3	#line 50 "D:\NXT Programok\Helper.nxc"
+5	51	3		tst 5, __zfMotorBreak, __D0MotorBreak
+5	50	6	#line 50 "D:\NXT Programok\Helper.nxc"
+5	51	6		brtst 4, __NXC_Label_604, __zfMotorBreak
+5	50	9	#line 50 "D:\NXT Programok\Helper.nxc"
+5	51	9		set __SetSensor_7qG2_port_7qG2_000_inline_MotorBreak, 0
+5	50	12	#line 50 "D:\NXT Programok\Helper.nxc"
+5	50	12	#line 50 "D:\NXT Programok\Helper.nxc"
+5	3707	12	#line 3707 "NXCDefs.h"
+5	3708	12		setin __constVal1, __SetSensor_7qG2_port_7qG2_000_inline_MotorBreak, 0
+5	3709	16		setin __constVal32, __SetSensor_7qG2_port_7qG2_000_inline_MotorBreak, 1
+5	3710	20	#pragma macro 4
+5	3710	20		acquire __ResetSensorMutex
+5	3710	21		mov __ResetSensorPort, __SetSensor_7qG2_port_7qG2_000_inline_MotorBreak
+5	3710	23		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+5	3710	25		release __ResetSensorMutex
+5	4943	26	#line 4943 "NXCDefs.h"
+5	3711	26	#line 3711 "NXCDefs.h"
+5	51	26	#line 51 "D:\NXT Programok\Helper.nxc"
+5	51	26	#line 51 "D:\NXT Programok\Helper.nxc"
+5	52	26		getin __signed_stack_001MotorBreak, __constVal0, 4
+5	51	30	#line 51 "D:\NXT Programok\Helper.nxc"
+5	51	30	#line 51 "D:\NXT Programok\Helper.nxc"
+5	52	30		set __D0MotorBreak, 1
+5	51	33	#line 51 "D:\NXT Programok\Helper.nxc"
+5	52	33		cmp 4, __zfMotorBreak, __signed_stack_001MotorBreak, __D0MotorBreak
+5	51	37	#line 51 "D:\NXT Programok\Helper.nxc"
+5	51	37	#line 51 "D:\NXT Programok\Helper.nxc"
+5	52	37		not __D0MotorBreak, __zfMotorBreak
+5	52	40	#line 52 "D:\NXT Programok\Helper.nxc"
+5	53	40		tst 5, __zfMotorBreak, __D0MotorBreak
+5	52	43	#line 52 "D:\NXT Programok\Helper.nxc"
+5	53	43		brtst 4, __NXC_Label_610, __zfMotorBreak
+5	52	46	#line 52 "D:\NXT Programok\Helper.nxc"
+5	52	46	#line 52 "D:\NXT Programok\Helper.nxc"
+5	53	46		jmp __NXC_Label_609
+5	52	48	#line 52 "D:\NXT Programok\Helper.nxc"
+5	52	48	#line 52 "D:\NXT Programok\Helper.nxc"
+5	53	48		mov __unsigned_stack_001MotorBreak, fek
+5	52	50	#line 52 "D:\NXT Programok\Helper.nxc"
+5	52	50	#line 52 "D:\NXT Programok\Helper.nxc"
+5	53	50		set __D0MotorBreak, 0
+5	52	53	#line 52 "D:\NXT Programok\Helper.nxc"
+5	53	53		cmp 4, __zfMotorBreak, __unsigned_stack_001MotorBreak, __D0MotorBreak
+5	52	57	#line 52 "D:\NXT Programok\Helper.nxc"
+5	53	57		mov __D0MotorBreak, __zfMotorBreak
+5	52	59	#line 52 "D:\NXT Programok\Helper.nxc"
+5	53	59		brtst 4, __NXC_Label_617, __zfMotorBreak
+5	53	62	#line 53 "D:\NXT Programok\Helper.nxc"
+5	54	62		set fek, 1
+5	53	65	#line 53 "D:\NXT Programok\Helper.nxc"
+5	53	65	#line 53 "D:\NXT Programok\Helper.nxc"
+5	54	65	#line 54 "D:\NXT Programok\Helper.nxc"
+5	55	65	#pragma macro 7
+5	55	65		setout __OUT_AB, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+5	4994	88	#line 4994 "D:\NXT Programok\Helper.nxc"
+5	54	88	#line 54 "D:\NXT Programok\Helper.nxc"
+5	54	88	#line 54 "D:\NXT Programok\Helper.nxc"
+5	55	88		set __ClearLine_7qG2_line_7qG2_000_inline_MotorBreak, 40
+5	54	91	#line 54 "D:\NXT Programok\Helper.nxc"
+5	6076	91	#line 6076 "NXCDefs.h"
+5	6077	91	#pragma macro 7
+5	6077	91		acquire __TextOutMutex
+5	6077	92		mov __TextOutArgs.Location.X, __constVal0
+5	6077	94		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_MotorBreak
+5	6077	96		mov __TextOutArgs.Options, __constVal0
+5	6077	98		mov __TextOutArgs.Text, __BlankLine
+5	6077	100		syscall 13, __TextOutArgs
+5	6077	103		release __TextOutMutex
+5	5007	104	#line 5007 "NXCDefs.h"
+5	6076	104	#line 6076 "NXCDefs.h"
+5	55	104	#line 55 "D:\NXT Programok\Helper.nxc"
+5	55	104	#line 55 "D:\NXT Programok\Helper.nxc"
+5	56	104		set __signed_stack_001MotorBreak, 0
+5	55	107	#line 55 "D:\NXT Programok\Helper.nxc"
+5	55	107	#line 55 "D:\NXT Programok\Helper.nxc"
+5	56	107		set __signed_stack_002MotorBreak, 40
+5	55	110	#line 55 "D:\NXT Programok\Helper.nxc"
+5	55	110	#line 55 "D:\NXT Programok\Helper.nxc"
+5	56	110		strcat __strbufMotorBreak, __constStr0011
+5	56	114	#line 56 "D:\NXT Programok\Helper.nxc"
+5	57	114		acquire __TextOutMutex
+5	56	115	#line 56 "D:\NXT Programok\Helper.nxc"
+5	57	115		mov __TextOutArgs.Location.X, __signed_stack_001MotorBreak
+5	56	117	#line 56 "D:\NXT Programok\Helper.nxc"
+5	57	117		mov __TextOutArgs.Location.Y, __signed_stack_002MotorBreak
+5	56	119	#line 56 "D:\NXT Programok\Helper.nxc"
+5	57	119		set __TextOutArgs.Options, 0
+5	56	122	#line 56 "D:\NXT Programok\Helper.nxc"
+5	57	122		mov __TextOutArgs.Text, __strbufMotorBreak
+5	56	124	#line 56 "D:\NXT Programok\Helper.nxc"
+5	57	124		syscall 13, __TextOutArgs
+5	56	127	#line 56 "D:\NXT Programok\Helper.nxc"
+5	57	127		mov __D0MotorBreak, __TextOutArgs.Result
+5	56	129	#line 56 "D:\NXT Programok\Helper.nxc"
+5	57	129		release __TextOutMutex
+5	56	130	#line 56 "D:\NXT Programok\Helper.nxc"
+5	57	130	#line 57 "D:\NXT Programok\Helper.nxc"
+5	58	130		jmp __NXC_Label_626
+5	58	132	#line 58 "D:\NXT Programok\Helper.nxc"
+5	59	132		set fek, 0
+5	58	135	#line 58 "D:\NXT Programok\Helper.nxc"
+5	58	135	#line 58 "D:\NXT Programok\Helper.nxc"
+5	59	135	#line 59 "D:\NXT Programok\Helper.nxc"
+5	60	135	#pragma macro 7
+5	60	135		setout __OUT_AB, 2, __constVal0, 1, __constVal2, 8, __constVal0, 6, __constVal0, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+5	5052	158	#line 5052 "D:\NXT Programok\Helper.nxc"
+5	59	158	#line 59 "D:\NXT Programok\Helper.nxc"
+5	59	158	#line 59 "D:\NXT Programok\Helper.nxc"
+5	60	158		set __ClearLine_7qG2_line_7qG2_000_inline_MotorBreak, 40
+5	59	161	#line 59 "D:\NXT Programok\Helper.nxc"
+5	6076	161	#line 6076 "NXCDefs.h"
+5	6077	161	#pragma macro 7
+5	6077	161		acquire __TextOutMutex
+5	6077	162		mov __TextOutArgs.Location.X, __constVal0
+5	6077	164		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_MotorBreak
+5	6077	166		mov __TextOutArgs.Options, __constVal0
+5	6077	168		mov __TextOutArgs.Text, __BlankLine
+5	6077	170		syscall 13, __TextOutArgs
+5	6077	173		release __TextOutMutex
+5	5061	174	#line 5061 "NXCDefs.h"
+5	6076	174	#line 6076 "NXCDefs.h"
+5	60	174	#line 60 "D:\NXT Programok\Helper.nxc"
+5	60	174	#line 60 "D:\NXT Programok\Helper.nxc"
+5	61	174		set __signed_stack_001MotorBreak, 0
+5	60	177	#line 60 "D:\NXT Programok\Helper.nxc"
+5	60	177	#line 60 "D:\NXT Programok\Helper.nxc"
+5	61	177		set __signed_stack_002MotorBreak, 40
+5	60	180	#line 60 "D:\NXT Programok\Helper.nxc"
+5	60	180	#line 60 "D:\NXT Programok\Helper.nxc"
+5	61	180		strcat __strbufMotorBreak, __constStr0012
+5	60	184	#line 60 "D:\NXT Programok\Helper.nxc"
+5	61	184		acquire __TextOutMutex
+5	60	185	#line 60 "D:\NXT Programok\Helper.nxc"
+5	61	185		mov __TextOutArgs.Location.X, __signed_stack_001MotorBreak
+5	60	187	#line 60 "D:\NXT Programok\Helper.nxc"
+5	61	187		mov __TextOutArgs.Location.Y, __signed_stack_002MotorBreak
+5	60	189	#line 60 "D:\NXT Programok\Helper.nxc"
+5	61	189		set __TextOutArgs.Options, 0
+5	60	192	#line 60 "D:\NXT Programok\Helper.nxc"
+5	61	192		mov __TextOutArgs.Text, __strbufMotorBreak
+5	60	194	#line 60 "D:\NXT Programok\Helper.nxc"
+5	61	194		syscall 13, __TextOutArgs
+5	60	197	#line 60 "D:\NXT Programok\Helper.nxc"
+5	61	197		mov __D0MotorBreak, __TextOutArgs.Result
+5	60	199	#line 60 "D:\NXT Programok\Helper.nxc"
+5	61	199		release __TextOutMutex
+5	60	200	#line 60 "D:\NXT Programok\Helper.nxc"
+5	61	200	#line 61 "D:\NXT Programok\Helper.nxc"
+5	61	200	#line 61 "D:\NXT Programok\Helper.nxc"
+5	62	200		getin __signed_stack_001MotorBreak, __constVal0, 4
+5	61	204	#line 61 "D:\NXT Programok\Helper.nxc"
+5	61	204	#line 61 "D:\NXT Programok\Helper.nxc"
+5	62	204		set __D0MotorBreak, 0
+5	61	207	#line 61 "D:\NXT Programok\Helper.nxc"
+5	62	207		cmp 4, __zfMotorBreak, __signed_stack_001MotorBreak, __D0MotorBreak
+5	61	211	#line 61 "D:\NXT Programok\Helper.nxc"
+5	61	211	#line 61 "D:\NXT Programok\Helper.nxc"
+5	62	211		not __D0MotorBreak, __zfMotorBreak
+5	62	214	#line 62 "D:\NXT Programok\Helper.nxc"
+5	63	214		tst 5, __zfMotorBreak, __D0MotorBreak
+5	62	217	#line 62 "D:\NXT Programok\Helper.nxc"
+5	63	217		brtst 4, __NXC_Label_636, __zfMotorBreak
+5	62	220	#line 62 "D:\NXT Programok\Helper.nxc"
+5	62	220	#line 62 "D:\NXT Programok\Helper.nxc"
+5	63	220		jmp __NXC_Label_635
+5	62	222	#line 62 "D:\NXT Programok\Helper.nxc"
+5	64	222	#line 64 "D:\NXT Programok\Helper.nxc"
+5	65	222		jmp __NXC_Label_603
+5	64	224	#line 64 "D:\NXT Programok\Helper.nxc"
+5	65	224		exit -1, -1
+6	66	0	#line 66 "D:\NXT Programok\Helper.nxc"
+6	67	0		set __MotorPosition_7qG2_AP_7qG2_000, 1
+6	66	3	#line 66 "D:\NXT Programok\Helper.nxc"
+6	67	3	#line 67 "D:\NXT Programok\Helper.nxc"
+6	68	3		set __MotorPosition_7qG2_BP_7qG2_000, 1
+6	67	6	#line 67 "D:\NXT Programok\Helper.nxc"
+6	69	6	#line 69 "D:\NXT Programok\Helper.nxc"
+6	70	6		set __D0MotorPosition, 1
+6	70	9	#line 70 "D:\NXT Programok\Helper.nxc"
+6	71	9		tst 5, __zfMotorPosition, __D0MotorPosition
+6	70	12	#line 70 "D:\NXT Programok\Helper.nxc"
+6	71	12		brtst 4, __NXC_Label_646, __zfMotorPosition
+6	70	15	#line 70 "D:\NXT Programok\Helper.nxc"
+6	71	15		mov __signed_stack_001MotorPosition, __MotorPosition_7qG2_AP_7qG2_000
+6	70	17	#line 70 "D:\NXT Programok\Helper.nxc"
+6	70	17	#line 70 "D:\NXT Programok\Helper.nxc"
+6	71	17		getout __D0MotorPosition, __constVal0, 14
+6	70	21	#line 70 "D:\NXT Programok\Helper.nxc"
+6	71	21		cmp 5, __zfMotorPosition, __signed_stack_001MotorPosition, __D0MotorPosition
+6	70	25	#line 70 "D:\NXT Programok\Helper.nxc"
+6	71	25		mov __D0MotorPosition, __zfMotorPosition
+6	70	27	#line 70 "D:\NXT Programok\Helper.nxc"
+6	71	27		brtst 5, __NXC_Label_649, __zfMotorPosition
+6	70	30	#line 70 "D:\NXT Programok\Helper.nxc"
+6	71	30		mov __signed_stack_001MotorPosition, __D0MotorPosition
+6	70	32	#line 70 "D:\NXT Programok\Helper.nxc"
+6	71	32		mov __signed_stack_002MotorPosition, __MotorPosition_7qG2_BP_7qG2_000
+6	70	34	#line 70 "D:\NXT Programok\Helper.nxc"
+6	70	34	#line 70 "D:\NXT Programok\Helper.nxc"
+6	71	34		getout __D0MotorPosition, __constVal1, 14
+6	70	38	#line 70 "D:\NXT Programok\Helper.nxc"
+6	71	38		cmp 5, __zfMotorPosition, __signed_stack_002MotorPosition, __D0MotorPosition
+6	70	42	#line 70 "D:\NXT Programok\Helper.nxc"
+6	70	42	#line 70 "D:\NXT Programok\Helper.nxc"
+6	71	42		or __D0MotorPosition, __signed_stack_001MotorPosition, __zfMotorPosition
+6	71	46	#line 71 "D:\NXT Programok\Helper.nxc"
+6	72	46		tst 5, __zfMotorPosition, __D0MotorPosition
+6	71	49	#line 71 "D:\NXT Programok\Helper.nxc"
+6	72	49		brtst 4, __NXC_Label_652, __zfMotorPosition
+6	72	52	#line 72 "D:\NXT Programok\Helper.nxc"
+6	73	52		getout __MotorPosition_7qG2_AP_7qG2_000, __constVal0, 14
+6	72	56	#line 72 "D:\NXT Programok\Helper.nxc"
+6	72	56	#line 72 "D:\NXT Programok\Helper.nxc"
+6	73	56	#line 73 "D:\NXT Programok\Helper.nxc"
+6	74	56		getout __MotorPosition_7qG2_BP_7qG2_000, __constVal1, 14
+6	73	60	#line 73 "D:\NXT Programok\Helper.nxc"
+6	73	60	#line 73 "D:\NXT Programok\Helper.nxc"
+6	73	60	#line 73 "D:\NXT Programok\Helper.nxc"
+6	73	60	#line 73 "D:\NXT Programok\Helper.nxc"
+6	74	60	#line 74 "D:\NXT Programok\Helper.nxc"
+6	74	60	#line 74 "D:\NXT Programok\Helper.nxc"
+6	75	60		div __MotorPosition_7qG2_AT_7qG2_000, __MotorPosition_7qG2_AP_7qG2_000, __constVal360
+6	74	64	#line 74 "D:\NXT Programok\Helper.nxc"
+6	74	64	#line 74 "D:\NXT Programok\Helper.nxc"
+6	74	64	#line 74 "D:\NXT Programok\Helper.nxc"
+6	74	64	#line 74 "D:\NXT Programok\Helper.nxc"
+6	75	64	#line 75 "D:\NXT Programok\Helper.nxc"
+6	75	64	#line 75 "D:\NXT Programok\Helper.nxc"
+6	76	64		div __MotorPosition_7qG2_BT_7qG2_000, __MotorPosition_7qG2_BP_7qG2_000, __constVal360
+6	75	68	#line 75 "D:\NXT Programok\Helper.nxc"
+6	75	68	#line 75 "D:\NXT Programok\Helper.nxc"
+6	75	68	#line 75 "D:\NXT Programok\Helper.nxc"
+6	76	68		set __ClearLine_7qG2_line_7qG2_000_inline_MotorPosition, 32
+6	75	71	#line 75 "D:\NXT Programok\Helper.nxc"
+6	6076	71	#line 6076 "NXCDefs.h"
+6	6077	71	#pragma macro 7
+6	6077	71		acquire __TextOutMutex
+6	6077	72		mov __TextOutArgs.Location.X, __constVal0
+6	6077	74		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_MotorPosition
+6	6077	76		mov __TextOutArgs.Options, __constVal0
+6	6077	78		mov __TextOutArgs.Text, __BlankLine
+6	6077	80		syscall 13, __TextOutArgs
+6	6077	83		release __TextOutMutex
+6	5251	84	#line 5251 "NXCDefs.h"
+6	6076	84	#line 6076 "NXCDefs.h"
+6	76	84	#line 76 "D:\NXT Programok\Helper.nxc"
+6	76	84	#line 76 "D:\NXT Programok\Helper.nxc"
+6	77	84		set __ClearLine_7qG2_line_7qG2_000_inline_MotorPosition, 24
+6	76	87	#line 76 "D:\NXT Programok\Helper.nxc"
+6	6076	87	#line 6076 "NXCDefs.h"
+6	6077	87	#pragma macro 7
+6	6077	87		acquire __TextOutMutex
+6	6077	88		mov __TextOutArgs.Location.X, __constVal0
+6	6077	90		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_MotorPosition
+6	6077	92		mov __TextOutArgs.Options, __constVal0
+6	6077	94		mov __TextOutArgs.Text, __BlankLine
+6	6077	96		syscall 13, __TextOutArgs
+6	6077	99		release __TextOutMutex
+6	5261	100	#line 5261 "NXCDefs.h"
+6	6076	100	#line 6076 "NXCDefs.h"
+6	77	100	#line 77 "D:\NXT Programok\Helper.nxc"
+6	77	100	#line 77 "D:\NXT Programok\Helper.nxc"
+6	78	100		set __signed_stack_001MotorPosition, 0
+6	77	103	#line 77 "D:\NXT Programok\Helper.nxc"
+6	77	103	#line 77 "D:\NXT Programok\Helper.nxc"
+6	78	103		set __signed_stack_002MotorPosition, 32
+6	77	106	#line 77 "D:\NXT Programok\Helper.nxc"
+6	77	106	#line 77 "D:\NXT Programok\Helper.nxc"
+6	78	106		mov __ArrHelper__MotorPosition_244_0, __constStr0013
+6	77	108	#line 77 "D:\NXT Programok\Helper.nxc"
+6	78	108		mov __D0MotorPosition, __MotorPosition_7qG2_AP_7qG2_000
+6	77	110	#line 77 "D:\NXT Programok\Helper.nxc"
+6	78	110		numtostr __strretvalMotorPosition, __D0MotorPosition
+6	77	113	#line 77 "D:\NXT Programok\Helper.nxc"
+6	78	113		mov __ArrHelper__MotorPosition_244_1, __strretvalMotorPosition
+6	77	115	#line 77 "D:\NXT Programok\Helper.nxc"
+6	78	115		strcat __strbufMotorPosition, __constStr0014
+6	77	119	#line 77 "D:\NXT Programok\Helper.nxc"
+6	78	119		mov __ArrHelper__MotorPosition_244_2, __strbufMotorPosition
+6	77	121	#line 77 "D:\NXT Programok\Helper.nxc"
+6	78	121		strcat __strbufMotorPosition, __ArrHelper__MotorPosition_244_1, __ArrHelper__MotorPosition_244_2
+6	77	126	#line 77 "D:\NXT Programok\Helper.nxc"
+6	78	126		mov __ArrHelper__MotorPosition_244_1, __strbufMotorPosition
+6	77	128	#line 77 "D:\NXT Programok\Helper.nxc"
+6	78	128		strcat __strbufMotorPosition, __ArrHelper__MotorPosition_244_0, __ArrHelper__MotorPosition_244_1
+6	78	133	#line 78 "D:\NXT Programok\Helper.nxc"
+6	79	133		acquire __TextOutMutex
+6	78	134	#line 78 "D:\NXT Programok\Helper.nxc"
+6	79	134		mov __TextOutArgs.Location.X, __signed_stack_001MotorPosition
+6	78	136	#line 78 "D:\NXT Programok\Helper.nxc"
+6	79	136		mov __TextOutArgs.Location.Y, __signed_stack_002MotorPosition
+6	78	138	#line 78 "D:\NXT Programok\Helper.nxc"
+6	79	138		set __TextOutArgs.Options, 0
+6	78	141	#line 78 "D:\NXT Programok\Helper.nxc"
+6	79	141		mov __TextOutArgs.Text, __strbufMotorPosition
+6	78	143	#line 78 "D:\NXT Programok\Helper.nxc"
+6	79	143		syscall 13, __TextOutArgs
+6	78	146	#line 78 "D:\NXT Programok\Helper.nxc"
+6	79	146		mov __D0MotorPosition, __TextOutArgs.Result
+6	78	148	#line 78 "D:\NXT Programok\Helper.nxc"
+6	79	148		release __TextOutMutex
+6	78	149	#line 78 "D:\NXT Programok\Helper.nxc"
+6	78	149	#line 78 "D:\NXT Programok\Helper.nxc"
+6	79	149		set __signed_stack_001MotorPosition, 0
+6	78	152	#line 78 "D:\NXT Programok\Helper.nxc"
+6	78	152	#line 78 "D:\NXT Programok\Helper.nxc"
+6	79	152		set __signed_stack_002MotorPosition, 24
+6	78	155	#line 78 "D:\NXT Programok\Helper.nxc"
+6	78	155	#line 78 "D:\NXT Programok\Helper.nxc"
+6	79	155		mov __ArrHelper__MotorPosition_244_0, __constStr0015
+6	78	157	#line 78 "D:\NXT Programok\Helper.nxc"
+6	79	157		mov __D0MotorPosition, __MotorPosition_7qG2_BP_7qG2_000
+6	78	159	#line 78 "D:\NXT Programok\Helper.nxc"
+6	79	159		numtostr __strretvalMotorPosition, __D0MotorPosition
+6	78	162	#line 78 "D:\NXT Programok\Helper.nxc"
+6	79	162		mov __ArrHelper__MotorPosition_244_1, __strretvalMotorPosition
+6	78	164	#line 78 "D:\NXT Programok\Helper.nxc"
+6	79	164		strcat __strbufMotorPosition, __constStr0014
+6	78	168	#line 78 "D:\NXT Programok\Helper.nxc"
+6	79	168		mov __ArrHelper__MotorPosition_244_2, __strbufMotorPosition
+6	78	170	#line 78 "D:\NXT Programok\Helper.nxc"
+6	79	170		strcat __strbufMotorPosition, __ArrHelper__MotorPosition_244_1, __ArrHelper__MotorPosition_244_2
+6	78	175	#line 78 "D:\NXT Programok\Helper.nxc"
+6	79	175		mov __ArrHelper__MotorPosition_244_1, __strbufMotorPosition
+6	78	177	#line 78 "D:\NXT Programok\Helper.nxc"
+6	79	177		strcat __strbufMotorPosition, __ArrHelper__MotorPosition_244_0, __ArrHelper__MotorPosition_244_1
+6	79	182	#line 79 "D:\NXT Programok\Helper.nxc"
+6	80	182		acquire __TextOutMutex
+6	79	183	#line 79 "D:\NXT Programok\Helper.nxc"
+6	80	183		mov __TextOutArgs.Location.X, __signed_stack_001MotorPosition
+6	79	185	#line 79 "D:\NXT Programok\Helper.nxc"
+6	80	185		mov __TextOutArgs.Location.Y, __signed_stack_002MotorPosition
+6	79	187	#line 79 "D:\NXT Programok\Helper.nxc"
+6	80	187		set __TextOutArgs.Options, 0
+6	79	190	#line 79 "D:\NXT Programok\Helper.nxc"
+6	80	190		mov __TextOutArgs.Text, __strbufMotorPosition
+6	79	192	#line 79 "D:\NXT Programok\Helper.nxc"
+6	80	192		syscall 13, __TextOutArgs
+6	79	195	#line 79 "D:\NXT Programok\Helper.nxc"
+6	80	195		mov __D0MotorPosition, __TextOutArgs.Result
+6	79	197	#line 79 "D:\NXT Programok\Helper.nxc"
+6	80	197		release __TextOutMutex
+6	79	198	#line 79 "D:\NXT Programok\Helper.nxc"
+6	79	198	#line 79 "D:\NXT Programok\Helper.nxc"
+6	80	198		set __signed_stack_001MotorPosition, 60
+6	79	201	#line 79 "D:\NXT Programok\Helper.nxc"
+6	79	201	#line 79 "D:\NXT Programok\Helper.nxc"
+6	80	201		set __signed_stack_002MotorPosition, 32
+6	79	204	#line 79 "D:\NXT Programok\Helper.nxc"
+6	79	204	#line 79 "D:\NXT Programok\Helper.nxc"
+6	80	204		mov __ArrHelper__MotorPosition_244_0, __constStr0016
+6	79	206	#line 79 "D:\NXT Programok\Helper.nxc"
+6	80	206		mov __D0MotorPosition, __MotorPosition_7qG2_AT_7qG2_000
+6	79	208	#line 79 "D:\NXT Programok\Helper.nxc"
+6	80	208		numtostr __strretvalMotorPosition, __D0MotorPosition
+6	79	211	#line 79 "D:\NXT Programok\Helper.nxc"
+6	80	211		mov __ArrHelper__MotorPosition_244_1, __strretvalMotorPosition
+6	79	213	#line 79 "D:\NXT Programok\Helper.nxc"
+6	80	213		strcat __strbufMotorPosition, __constStr0014
+6	79	217	#line 79 "D:\NXT Programok\Helper.nxc"
+6	80	217		mov __ArrHelper__MotorPosition_244_2, __strbufMotorPosition
+6	79	219	#line 79 "D:\NXT Programok\Helper.nxc"
+6	80	219		strcat __strbufMotorPosition, __ArrHelper__MotorPosition_244_1, __ArrHelper__MotorPosition_244_2
+6	79	224	#line 79 "D:\NXT Programok\Helper.nxc"
+6	80	224		mov __ArrHelper__MotorPosition_244_1, __strbufMotorPosition
+6	79	226	#line 79 "D:\NXT Programok\Helper.nxc"
+6	80	226		strcat __strbufMotorPosition, __ArrHelper__MotorPosition_244_0, __ArrHelper__MotorPosition_244_1
+6	80	231	#line 80 "D:\NXT Programok\Helper.nxc"
+6	81	231		acquire __TextOutMutex
+6	80	232	#line 80 "D:\NXT Programok\Helper.nxc"
+6	81	232		mov __TextOutArgs.Location.X, __signed_stack_001MotorPosition
+6	80	234	#line 80 "D:\NXT Programok\Helper.nxc"
+6	81	234		mov __TextOutArgs.Location.Y, __signed_stack_002MotorPosition
+6	80	236	#line 80 "D:\NXT Programok\Helper.nxc"
+6	81	236		set __TextOutArgs.Options, 0
+6	80	239	#line 80 "D:\NXT Programok\Helper.nxc"
+6	81	239		mov __TextOutArgs.Text, __strbufMotorPosition
+6	80	241	#line 80 "D:\NXT Programok\Helper.nxc"
+6	81	241		syscall 13, __TextOutArgs
+6	80	244	#line 80 "D:\NXT Programok\Helper.nxc"
+6	81	244		mov __D0MotorPosition, __TextOutArgs.Result
+6	80	246	#line 80 "D:\NXT Programok\Helper.nxc"
+6	81	246		release __TextOutMutex
+6	80	247	#line 80 "D:\NXT Programok\Helper.nxc"
+6	80	247	#line 80 "D:\NXT Programok\Helper.nxc"
+6	81	247		set __signed_stack_001MotorPosition, 60
+6	80	250	#line 80 "D:\NXT Programok\Helper.nxc"
+6	80	250	#line 80 "D:\NXT Programok\Helper.nxc"
+6	81	250		set __signed_stack_002MotorPosition, 24
+6	80	253	#line 80 "D:\NXT Programok\Helper.nxc"
+6	80	253	#line 80 "D:\NXT Programok\Helper.nxc"
+6	81	253		mov __ArrHelper__MotorPosition_244_0, __constStr0016
+6	80	255	#line 80 "D:\NXT Programok\Helper.nxc"
+6	81	255		mov __D0MotorPosition, __MotorPosition_7qG2_BT_7qG2_000
+6	80	257	#line 80 "D:\NXT Programok\Helper.nxc"
+6	81	257		numtostr __strretvalMotorPosition, __D0MotorPosition
+6	80	260	#line 80 "D:\NXT Programok\Helper.nxc"
+6	81	260		mov __ArrHelper__MotorPosition_244_1, __strretvalMotorPosition
+6	80	262	#line 80 "D:\NXT Programok\Helper.nxc"
+6	81	262		strcat __strbufMotorPosition, __constStr0014
+6	80	266	#line 80 "D:\NXT Programok\Helper.nxc"
+6	81	266		mov __ArrHelper__MotorPosition_244_2, __strbufMotorPosition
+6	80	268	#line 80 "D:\NXT Programok\Helper.nxc"
+6	81	268		strcat __strbufMotorPosition, __ArrHelper__MotorPosition_244_1, __ArrHelper__MotorPosition_244_2
+6	80	273	#line 80 "D:\NXT Programok\Helper.nxc"
+6	81	273		mov __ArrHelper__MotorPosition_244_1, __strbufMotorPosition
+6	80	275	#line 80 "D:\NXT Programok\Helper.nxc"
+6	81	275		strcat __strbufMotorPosition, __ArrHelper__MotorPosition_244_0, __ArrHelper__MotorPosition_244_1
+6	80	280	#line 80 "D:\NXT Programok\Helper.nxc"
+6	81	280		acquire __TextOutMutex
+6	80	281	#line 80 "D:\NXT Programok\Helper.nxc"
+6	81	281		mov __TextOutArgs.Location.X, __signed_stack_001MotorPosition
+6	80	283	#line 80 "D:\NXT Programok\Helper.nxc"
+6	81	283		mov __TextOutArgs.Location.Y, __signed_stack_002MotorPosition
+6	80	285	#line 80 "D:\NXT Programok\Helper.nxc"
+6	81	285		set __TextOutArgs.Options, 0
+6	80	288	#line 80 "D:\NXT Programok\Helper.nxc"
+6	81	288		mov __TextOutArgs.Text, __strbufMotorPosition
+6	80	290	#line 80 "D:\NXT Programok\Helper.nxc"
+6	81	290		syscall 13, __TextOutArgs
+6	80	293	#line 80 "D:\NXT Programok\Helper.nxc"
+6	81	293		mov __D0MotorPosition, __TextOutArgs.Result
+6	80	295	#line 80 "D:\NXT Programok\Helper.nxc"
+6	81	295		release __TextOutMutex
+6	80	296	#line 80 "D:\NXT Programok\Helper.nxc"
+6	81	296	#line 81 "D:\NXT Programok\Helper.nxc"
+6	81	296	#line 81 "D:\NXT Programok\Helper.nxc"
+6	82	296		set __Wait_7qG2_ms_7qG2_000_inline_MotorPosition, 100
+6	81	299	#line 81 "D:\NXT Programok\Helper.nxc"
+6	7921	299	#line 7921 "NXCDefs.h"
+6	7922	299		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_MotorPosition
+6	7921	302	#line 7921 "NXCDefs.h"
+6	82	302	#line 82 "D:\NXT Programok\Helper.nxc"
+6	85	302	#line 85 "D:\NXT Programok\Helper.nxc"
+6	86	302		jmp __NXC_Label_645
+6	85	304	#line 85 "D:\NXT Programok\Helper.nxc"
+6	86	304		exit -1, -1
+7	88	0	#line 88 "D:\NXT Programok\Helper.nxc"
+7	89	0		set __D0SetPowerPlus, 1
+7	90	3	#line 90 "D:\NXT Programok\Helper.nxc"
+7	91	3		tst 5, __zfSetPowerPlus, __D0SetPowerPlus
+7	90	6	#line 90 "D:\NXT Programok\Helper.nxc"
+7	91	6		brtst 4, __NXC_Label_692, __zfSetPowerPlus
+7	90	9	#line 90 "D:\NXT Programok\Helper.nxc"
+7	91	9		set __signed_stack_001SetPowerPlus, 1
+7	90	12	#line 90 "D:\NXT Programok\Helper.nxc"
+7	90	12	#line 90 "D:\NXT Programok\Helper.nxc"
+7	91	12		set __D0SetPowerPlus, 1
+7	90	15	#line 90 "D:\NXT Programok\Helper.nxc"
+7	91	15		acquire __RBtnMutex
+7	90	16	#line 90 "D:\NXT Programok\Helper.nxc"
+7	91	16		mov __RBtnArgs.Index, __signed_stack_001SetPowerPlus
+7	90	18	#line 90 "D:\NXT Programok\Helper.nxc"
+7	91	18		mov __RBtnArgs.Reset, __D0SetPowerPlus
+7	90	20	#line 90 "D:\NXT Programok\Helper.nxc"
+7	91	20		syscall 20, __RBtnArgs
+7	90	23	#line 90 "D:\NXT Programok\Helper.nxc"
+7	91	23		mov __D0SetPowerPlus, __RBtnArgs.Pressed
+7	90	25	#line 90 "D:\NXT Programok\Helper.nxc"
+7	91	25		release __RBtnMutex
+7	90	26	#line 90 "D:\NXT Programok\Helper.nxc"
+7	91	26		mov __signed_stack_001SetPowerPlus, __D0SetPowerPlus
+7	90	28	#line 90 "D:\NXT Programok\Helper.nxc"
+7	91	28		set __D0SetPowerPlus, 1
+7	90	31	#line 90 "D:\NXT Programok\Helper.nxc"
+7	91	31		cmp 4, __zfSetPowerPlus, __signed_stack_001SetPowerPlus, __D0SetPowerPlus
+7	90	35	#line 90 "D:\NXT Programok\Helper.nxc"
+7	91	35		mov __D0SetPowerPlus, __zfSetPowerPlus
+7	90	37	#line 90 "D:\NXT Programok\Helper.nxc"
+7	91	37		brtst 5, __NXC_Label_699, __zfSetPowerPlus
+7	90	40	#line 90 "D:\NXT Programok\Helper.nxc"
+7	91	40		mov __signed_stack_001SetPowerPlus, __D0SetPowerPlus
+7	90	42	#line 90 "D:\NXT Programok\Helper.nxc"
+7	91	42		mov __unsigned_stack_002SetPowerPlus, seted
+7	90	44	#line 90 "D:\NXT Programok\Helper.nxc"
+7	90	44	#line 90 "D:\NXT Programok\Helper.nxc"
+7	91	44		set __D0SetPowerPlus, 1
+7	90	47	#line 90 "D:\NXT Programok\Helper.nxc"
+7	91	47		cmp 4, __zfSetPowerPlus, __unsigned_stack_002SetPowerPlus, __D0SetPowerPlus
+7	90	51	#line 90 "D:\NXT Programok\Helper.nxc"
+7	90	51	#line 90 "D:\NXT Programok\Helper.nxc"
+7	91	51		or __D0SetPowerPlus, __signed_stack_001SetPowerPlus, __zfSetPowerPlus
+7	90	55	#line 90 "D:\NXT Programok\Helper.nxc"
+7	91	55		not __D0SetPowerPlus, __D0SetPowerPlus
+7	91	58	#line 91 "D:\NXT Programok\Helper.nxc"
+7	92	58		tst 5, __zfSetPowerPlus, __D0SetPowerPlus
+7	91	61	#line 91 "D:\NXT Programok\Helper.nxc"
+7	92	61		brtst 4, __NXC_Label_696, __zfSetPowerPlus
+7	91	64	#line 91 "D:\NXT Programok\Helper.nxc"
+7	91	64	#line 91 "D:\NXT Programok\Helper.nxc"
+7	92	64		jmp __NXC_Label_695
+7	91	66	#line 91 "D:\NXT Programok\Helper.nxc"
+7	91	66	#line 91 "D:\NXT Programok\Helper.nxc"
+7	92	66		mov __unsigned_stack_001SetPowerPlus, seted
+7	91	68	#line 91 "D:\NXT Programok\Helper.nxc"
+7	91	68	#line 91 "D:\NXT Programok\Helper.nxc"
+7	92	68		set __D0SetPowerPlus, 1
+7	91	71	#line 91 "D:\NXT Programok\Helper.nxc"
+7	92	71		cmp 4, __zfSetPowerPlus, __unsigned_stack_001SetPowerPlus, __D0SetPowerPlus
+7	91	75	#line 91 "D:\NXT Programok\Helper.nxc"
+7	92	75		mov __D0SetPowerPlus, __zfSetPowerPlus
+7	91	77	#line 91 "D:\NXT Programok\Helper.nxc"
+7	92	77		brtst 4, __NXC_Label_708, __zfSetPowerPlus
+7	91	80	#line 91 "D:\NXT Programok\Helper.nxc"
+7	92	80		jmp __NXC_Label_692
+7	91	82	#line 91 "D:\NXT Programok\Helper.nxc"
+7	92	82	#line 92 "D:\NXT Programok\Helper.nxc"
+7	93	82		jmp __NXC_Label_709
+7	92	84	#line 92 "D:\NXT Programok\Helper.nxc"
+7	92	84	#line 92 "D:\NXT Programok\Helper.nxc"
+7	92	84	#line 92 "D:\NXT Programok\Helper.nxc"
+7	92	84	#line 92 "D:\NXT Programok\Helper.nxc"
+7	93	84		sub __signed_stack_001SetPowerPlus, power, __constVal10
+7	92	88	#line 92 "D:\NXT Programok\Helper.nxc"
+7	92	88	#line 92 "D:\NXT Programok\Helper.nxc"
+7	93	88		set __D0SetPowerPlus, 10
+7	92	91	#line 92 "D:\NXT Programok\Helper.nxc"
+7	93	91		cmp 3, __zfSetPowerPlus, __signed_stack_001SetPowerPlus, __D0SetPowerPlus
+7	92	95	#line 92 "D:\NXT Programok\Helper.nxc"
+7	93	95		mov __D0SetPowerPlus, __zfSetPowerPlus
+7	92	97	#line 92 "D:\NXT Programok\Helper.nxc"
+7	93	97		brtst 4, __NXC_Label_712, __zfSetPowerPlus
+7	92	100	#line 92 "D:\NXT Programok\Helper.nxc"
+7	92	100	#line 92 "D:\NXT Programok\Helper.nxc"
+7	92	100	#line 92 "D:\NXT Programok\Helper.nxc"
+7	92	100	#line 92 "D:\NXT Programok\Helper.nxc"
+7	93	100		add power, power, __constVal10
+7	92	104	#line 92 "D:\NXT Programok\Helper.nxc"
+7	92	104	#line 92 "D:\NXT Programok\Helper.nxc"
+7	93	104	#line 93 "D:\NXT Programok\Helper.nxc"
+7	93	104	#line 93 "D:\NXT Programok\Helper.nxc"
+7	93	104	#line 93 "D:\NXT Programok\Helper.nxc"
+7	94	104		set __signed_stack_001SetPowerPlus, 1
+7	93	107	#line 93 "D:\NXT Programok\Helper.nxc"
+7	93	107	#line 93 "D:\NXT Programok\Helper.nxc"
+7	94	107		set __D0SetPowerPlus, 1
+7	93	110	#line 93 "D:\NXT Programok\Helper.nxc"
+7	94	110		acquire __RBtnMutex
+7	93	111	#line 93 "D:\NXT Programok\Helper.nxc"
+7	94	111		mov __RBtnArgs.Index, __signed_stack_001SetPowerPlus
+7	93	113	#line 93 "D:\NXT Programok\Helper.nxc"
+7	94	113		mov __RBtnArgs.Reset, __D0SetPowerPlus
+7	93	115	#line 93 "D:\NXT Programok\Helper.nxc"
+7	94	115		syscall 20, __RBtnArgs
+7	93	118	#line 93 "D:\NXT Programok\Helper.nxc"
+7	94	118		mov __D0SetPowerPlus, __RBtnArgs.Pressed
+7	93	120	#line 93 "D:\NXT Programok\Helper.nxc"
+7	94	120		release __RBtnMutex
+7	93	121	#line 93 "D:\NXT Programok\Helper.nxc"
+7	94	121		mov __signed_stack_001SetPowerPlus, __D0SetPowerPlus
+7	93	123	#line 93 "D:\NXT Programok\Helper.nxc"
+7	94	123		set __D0SetPowerPlus, 0
+7	93	126	#line 93 "D:\NXT Programok\Helper.nxc"
+7	94	126		cmp 4, __zfSetPowerPlus, __signed_stack_001SetPowerPlus, __D0SetPowerPlus
+7	93	130	#line 93 "D:\NXT Programok\Helper.nxc"
+7	93	130	#line 93 "D:\NXT Programok\Helper.nxc"
+7	94	130		not __D0SetPowerPlus, __zfSetPowerPlus
+7	94	133	#line 94 "D:\NXT Programok\Helper.nxc"
+7	95	133		tst 5, __zfSetPowerPlus, __D0SetPowerPlus
+7	94	136	#line 94 "D:\NXT Programok\Helper.nxc"
+7	95	136		brtst 4, __NXC_Label_716, __zfSetPowerPlus
+7	94	139	#line 94 "D:\NXT Programok\Helper.nxc"
+7	94	139	#line 94 "D:\NXT Programok\Helper.nxc"
+7	95	139		jmp __NXC_Label_715
+7	94	141	#line 94 "D:\NXT Programok\Helper.nxc"
+7	94	141	#line 94 "D:\NXT Programok\Helper.nxc"
+7	95	141		set __ClearLine_7qG2_line_7qG2_000_inline_SetPowerPlus, 48
+7	94	144	#line 94 "D:\NXT Programok\Helper.nxc"
+7	6076	144	#line 6076 "NXCDefs.h"
+7	6077	144	#pragma macro 7
+7	6077	144		acquire __TextOutMutex
+7	6077	145		mov __TextOutArgs.Location.X, __constVal0
+7	6077	147		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_SetPowerPlus
+7	6077	149		mov __TextOutArgs.Options, __constVal0
+7	6077	151		mov __TextOutArgs.Text, __BlankLine
+7	6077	153		syscall 13, __TextOutArgs
+7	6077	156		release __TextOutMutex
+7	5669	157	#line 5669 "NXCDefs.h"
+7	6076	157	#line 6076 "NXCDefs.h"
+7	95	157	#line 95 "D:\NXT Programok\Helper.nxc"
+7	95	157	#line 95 "D:\NXT Programok\Helper.nxc"
+7	96	157		set __signed_stack_001SetPowerPlus, 0
+7	95	160	#line 95 "D:\NXT Programok\Helper.nxc"
+7	95	160	#line 95 "D:\NXT Programok\Helper.nxc"
+7	96	160		set __signed_stack_002SetPowerPlus, 48
+7	95	163	#line 95 "D:\NXT Programok\Helper.nxc"
+7	95	163	#line 95 "D:\NXT Programok\Helper.nxc"
+7	96	163		mov __ArrHelper__SetPowerPlus_244_0, __constStr0017
+7	95	165	#line 95 "D:\NXT Programok\Helper.nxc"
+7	96	165		mov __D0SetPowerPlus, power
+7	95	167	#line 95 "D:\NXT Programok\Helper.nxc"
+7	96	167		numtostr __strretvalSetPowerPlus, __D0SetPowerPlus
+7	95	170	#line 95 "D:\NXT Programok\Helper.nxc"
+7	96	170		mov __ArrHelper__SetPowerPlus_244_1, __strretvalSetPowerPlus
+7	95	172	#line 95 "D:\NXT Programok\Helper.nxc"
+7	96	172		strcat __strbufSetPowerPlus, __constStr0018
+7	95	176	#line 95 "D:\NXT Programok\Helper.nxc"
+7	96	176		mov __ArrHelper__SetPowerPlus_244_2, __strbufSetPowerPlus
+7	95	178	#line 95 "D:\NXT Programok\Helper.nxc"
+7	96	178		strcat __strbufSetPowerPlus, __ArrHelper__SetPowerPlus_244_1, __ArrHelper__SetPowerPlus_244_2
+7	95	183	#line 95 "D:\NXT Programok\Helper.nxc"
+7	96	183		mov __ArrHelper__SetPowerPlus_244_1, __strbufSetPowerPlus
+7	95	185	#line 95 "D:\NXT Programok\Helper.nxc"
+7	96	185		strcat __strbufSetPowerPlus, __ArrHelper__SetPowerPlus_244_0, __ArrHelper__SetPowerPlus_244_1
+7	96	190	#line 96 "D:\NXT Programok\Helper.nxc"
+7	97	190		acquire __TextOutMutex
+7	96	191	#line 96 "D:\NXT Programok\Helper.nxc"
+7	97	191		mov __TextOutArgs.Location.X, __signed_stack_001SetPowerPlus
+7	96	193	#line 96 "D:\NXT Programok\Helper.nxc"
+7	97	193		mov __TextOutArgs.Location.Y, __signed_stack_002SetPowerPlus
+7	96	195	#line 96 "D:\NXT Programok\Helper.nxc"
+7	97	195		set __TextOutArgs.Options, 0
+7	96	198	#line 96 "D:\NXT Programok\Helper.nxc"
+7	97	198		mov __TextOutArgs.Text, __strbufSetPowerPlus
+7	96	200	#line 96 "D:\NXT Programok\Helper.nxc"
+7	97	200		syscall 13, __TextOutArgs
+7	96	203	#line 96 "D:\NXT Programok\Helper.nxc"
+7	97	203		mov __D0SetPowerPlus, __TextOutArgs.Result
+7	96	205	#line 96 "D:\NXT Programok\Helper.nxc"
+7	97	205		release __TextOutMutex
+7	96	206	#line 96 "D:\NXT Programok\Helper.nxc"
+7	98	206	#line 98 "D:\NXT Programok\Helper.nxc"
+7	99	206		jmp __NXC_Label_691
+7	98	208	#line 98 "D:\NXT Programok\Helper.nxc"
+7	99	208		exit -1, -1
+8	102	0	#line 102 "D:\NXT Programok\Helper.nxc"
+8	103	0		set __D0SetPowerMinus, 1
+8	104	3	#line 104 "D:\NXT Programok\Helper.nxc"
+8	105	3		tst 5, __zfSetPowerMinus, __D0SetPowerMinus
+8	104	6	#line 104 "D:\NXT Programok\Helper.nxc"
+8	105	6		brtst 4, __NXC_Label_734, __zfSetPowerMinus
+8	104	9	#line 104 "D:\NXT Programok\Helper.nxc"
+8	105	9		set __signed_stack_001SetPowerMinus, 2
+8	104	12	#line 104 "D:\NXT Programok\Helper.nxc"
+8	104	12	#line 104 "D:\NXT Programok\Helper.nxc"
+8	105	12		set __D0SetPowerMinus, 1
+8	104	15	#line 104 "D:\NXT Programok\Helper.nxc"
+8	105	15		acquire __RBtnMutex
+8	104	16	#line 104 "D:\NXT Programok\Helper.nxc"
+8	105	16		mov __RBtnArgs.Index, __signed_stack_001SetPowerMinus
+8	104	18	#line 104 "D:\NXT Programok\Helper.nxc"
+8	105	18		mov __RBtnArgs.Reset, __D0SetPowerMinus
+8	104	20	#line 104 "D:\NXT Programok\Helper.nxc"
+8	105	20		syscall 20, __RBtnArgs
+8	104	23	#line 104 "D:\NXT Programok\Helper.nxc"
+8	105	23		mov __D0SetPowerMinus, __RBtnArgs.Pressed
+8	104	25	#line 104 "D:\NXT Programok\Helper.nxc"
+8	105	25		release __RBtnMutex
+8	104	26	#line 104 "D:\NXT Programok\Helper.nxc"
+8	105	26		mov __signed_stack_001SetPowerMinus, __D0SetPowerMinus
+8	104	28	#line 104 "D:\NXT Programok\Helper.nxc"
+8	105	28		set __D0SetPowerMinus, 1
+8	104	31	#line 104 "D:\NXT Programok\Helper.nxc"
+8	105	31		cmp 4, __zfSetPowerMinus, __signed_stack_001SetPowerMinus, __D0SetPowerMinus
+8	104	35	#line 104 "D:\NXT Programok\Helper.nxc"
+8	105	35		mov __D0SetPowerMinus, __zfSetPowerMinus
+8	104	37	#line 104 "D:\NXT Programok\Helper.nxc"
+8	105	37		brtst 5, __NXC_Label_741, __zfSetPowerMinus
+8	104	40	#line 104 "D:\NXT Programok\Helper.nxc"
+8	105	40		mov __signed_stack_001SetPowerMinus, __D0SetPowerMinus
+8	104	42	#line 104 "D:\NXT Programok\Helper.nxc"
+8	105	42		mov __unsigned_stack_002SetPowerMinus, seted
+8	104	44	#line 104 "D:\NXT Programok\Helper.nxc"
+8	104	44	#line 104 "D:\NXT Programok\Helper.nxc"
+8	105	44		set __D0SetPowerMinus, 1
+8	104	47	#line 104 "D:\NXT Programok\Helper.nxc"
+8	105	47		cmp 4, __zfSetPowerMinus, __unsigned_stack_002SetPowerMinus, __D0SetPowerMinus
+8	104	51	#line 104 "D:\NXT Programok\Helper.nxc"
+8	104	51	#line 104 "D:\NXT Programok\Helper.nxc"
+8	105	51		or __D0SetPowerMinus, __signed_stack_001SetPowerMinus, __zfSetPowerMinus
+8	104	55	#line 104 "D:\NXT Programok\Helper.nxc"
+8	105	55		not __D0SetPowerMinus, __D0SetPowerMinus
+8	105	58	#line 105 "D:\NXT Programok\Helper.nxc"
+8	106	58		tst 5, __zfSetPowerMinus, __D0SetPowerMinus
+8	105	61	#line 105 "D:\NXT Programok\Helper.nxc"
+8	106	61		brtst 4, __NXC_Label_738, __zfSetPowerMinus
+8	105	64	#line 105 "D:\NXT Programok\Helper.nxc"
+8	105	64	#line 105 "D:\NXT Programok\Helper.nxc"
+8	106	64		jmp __NXC_Label_737
+8	105	66	#line 105 "D:\NXT Programok\Helper.nxc"
+8	105	66	#line 105 "D:\NXT Programok\Helper.nxc"
+8	106	66		mov __unsigned_stack_001SetPowerMinus, seted
+8	105	68	#line 105 "D:\NXT Programok\Helper.nxc"
+8	105	68	#line 105 "D:\NXT Programok\Helper.nxc"
+8	106	68		set __D0SetPowerMinus, 1
+8	105	71	#line 105 "D:\NXT Programok\Helper.nxc"
+8	106	71		cmp 4, __zfSetPowerMinus, __unsigned_stack_001SetPowerMinus, __D0SetPowerMinus
+8	105	75	#line 105 "D:\NXT Programok\Helper.nxc"
+8	106	75		mov __D0SetPowerMinus, __zfSetPowerMinus
+8	105	77	#line 105 "D:\NXT Programok\Helper.nxc"
+8	106	77		brtst 4, __NXC_Label_750, __zfSetPowerMinus
+8	105	80	#line 105 "D:\NXT Programok\Helper.nxc"
+8	106	80		jmp __NXC_Label_734
+8	105	82	#line 105 "D:\NXT Programok\Helper.nxc"
+8	106	82	#line 106 "D:\NXT Programok\Helper.nxc"
+8	107	82		jmp __NXC_Label_751
+8	106	84	#line 106 "D:\NXT Programok\Helper.nxc"
+8	106	84	#line 106 "D:\NXT Programok\Helper.nxc"
+8	106	84	#line 106 "D:\NXT Programok\Helper.nxc"
+8	106	84	#line 106 "D:\NXT Programok\Helper.nxc"
+8	107	84		sub __signed_stack_001SetPowerMinus, power, __constVal10
+8	106	88	#line 106 "D:\NXT Programok\Helper.nxc"
+8	106	88	#line 106 "D:\NXT Programok\Helper.nxc"
+8	107	88		set __D0SetPowerMinus, 10
+8	106	91	#line 106 "D:\NXT Programok\Helper.nxc"
+8	107	91		cmp 3, __zfSetPowerMinus, __signed_stack_001SetPowerMinus, __D0SetPowerMinus
+8	106	95	#line 106 "D:\NXT Programok\Helper.nxc"
+8	107	95		mov __D0SetPowerMinus, __zfSetPowerMinus
+8	106	97	#line 106 "D:\NXT Programok\Helper.nxc"
+8	107	97		brtst 4, __NXC_Label_754, __zfSetPowerMinus
+8	106	100	#line 106 "D:\NXT Programok\Helper.nxc"
+8	106	100	#line 106 "D:\NXT Programok\Helper.nxc"
+8	106	100	#line 106 "D:\NXT Programok\Helper.nxc"
+8	106	100	#line 106 "D:\NXT Programok\Helper.nxc"
+8	107	100		sub power, power, __constVal10
+8	106	104	#line 106 "D:\NXT Programok\Helper.nxc"
+8	106	104	#line 106 "D:\NXT Programok\Helper.nxc"
+8	107	104	#line 107 "D:\NXT Programok\Helper.nxc"
+8	107	104	#line 107 "D:\NXT Programok\Helper.nxc"
+8	107	104	#line 107 "D:\NXT Programok\Helper.nxc"
+8	108	104		set __signed_stack_001SetPowerMinus, 2
+8	107	107	#line 107 "D:\NXT Programok\Helper.nxc"
+8	107	107	#line 107 "D:\NXT Programok\Helper.nxc"
+8	108	107		set __D0SetPowerMinus, 1
+8	107	110	#line 107 "D:\NXT Programok\Helper.nxc"
+8	108	110		acquire __RBtnMutex
+8	107	111	#line 107 "D:\NXT Programok\Helper.nxc"
+8	108	111		mov __RBtnArgs.Index, __signed_stack_001SetPowerMinus
+8	107	113	#line 107 "D:\NXT Programok\Helper.nxc"
+8	108	113		mov __RBtnArgs.Reset, __D0SetPowerMinus
+8	107	115	#line 107 "D:\NXT Programok\Helper.nxc"
+8	108	115		syscall 20, __RBtnArgs
+8	107	118	#line 107 "D:\NXT Programok\Helper.nxc"
+8	108	118		mov __D0SetPowerMinus, __RBtnArgs.Pressed
+8	107	120	#line 107 "D:\NXT Programok\Helper.nxc"
+8	108	120		release __RBtnMutex
+8	107	121	#line 107 "D:\NXT Programok\Helper.nxc"
+8	108	121		mov __signed_stack_001SetPowerMinus, __D0SetPowerMinus
+8	107	123	#line 107 "D:\NXT Programok\Helper.nxc"
+8	108	123		set __D0SetPowerMinus, 0
+8	107	126	#line 107 "D:\NXT Programok\Helper.nxc"
+8	108	126		cmp 4, __zfSetPowerMinus, __signed_stack_001SetPowerMinus, __D0SetPowerMinus
+8	107	130	#line 107 "D:\NXT Programok\Helper.nxc"
+8	107	130	#line 107 "D:\NXT Programok\Helper.nxc"
+8	108	130		not __D0SetPowerMinus, __zfSetPowerMinus
+8	108	133	#line 108 "D:\NXT Programok\Helper.nxc"
+8	109	133		tst 5, __zfSetPowerMinus, __D0SetPowerMinus
+8	108	136	#line 108 "D:\NXT Programok\Helper.nxc"
+8	109	136		brtst 4, __NXC_Label_758, __zfSetPowerMinus
+8	108	139	#line 108 "D:\NXT Programok\Helper.nxc"
+8	108	139	#line 108 "D:\NXT Programok\Helper.nxc"
+8	109	139		jmp __NXC_Label_757
+8	108	141	#line 108 "D:\NXT Programok\Helper.nxc"
+8	108	141	#line 108 "D:\NXT Programok\Helper.nxc"
+8	109	141		set __ClearLine_7qG2_line_7qG2_000_inline_SetPowerMinus, 48
+8	108	144	#line 108 "D:\NXT Programok\Helper.nxc"
+8	6076	144	#line 6076 "NXCDefs.h"
+8	6077	144	#pragma macro 7
+8	6077	144		acquire __TextOutMutex
+8	6077	145		mov __TextOutArgs.Location.X, __constVal0
+8	6077	147		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_SetPowerMinus
+8	6077	149		mov __TextOutArgs.Options, __constVal0
+8	6077	151		mov __TextOutArgs.Text, __BlankLine
+8	6077	153		syscall 13, __TextOutArgs
+8	6077	156		release __TextOutMutex
+8	5914	157	#line 5914 "NXCDefs.h"
+8	6076	157	#line 6076 "NXCDefs.h"
+8	109	157	#line 109 "D:\NXT Programok\Helper.nxc"
+8	109	157	#line 109 "D:\NXT Programok\Helper.nxc"
+8	110	157		set __signed_stack_001SetPowerMinus, 0
+8	109	160	#line 109 "D:\NXT Programok\Helper.nxc"
+8	109	160	#line 109 "D:\NXT Programok\Helper.nxc"
+8	110	160		set __signed_stack_002SetPowerMinus, 48
+8	109	163	#line 109 "D:\NXT Programok\Helper.nxc"
+8	109	163	#line 109 "D:\NXT Programok\Helper.nxc"
+8	110	163		mov __ArrHelper__SetPowerMinus_244_0, __constStr0017
+8	109	165	#line 109 "D:\NXT Programok\Helper.nxc"
+8	110	165		mov __D0SetPowerMinus, power
+8	109	167	#line 109 "D:\NXT Programok\Helper.nxc"
+8	110	167		numtostr __strretvalSetPowerMinus, __D0SetPowerMinus
+8	109	170	#line 109 "D:\NXT Programok\Helper.nxc"
+8	110	170		mov __ArrHelper__SetPowerMinus_244_1, __strretvalSetPowerMinus
+8	109	172	#line 109 "D:\NXT Programok\Helper.nxc"
+8	110	172		strcat __strbufSetPowerMinus, __constStr0018
+8	109	176	#line 109 "D:\NXT Programok\Helper.nxc"
+8	110	176		mov __ArrHelper__SetPowerMinus_244_2, __strbufSetPowerMinus
+8	109	178	#line 109 "D:\NXT Programok\Helper.nxc"
+8	110	178		strcat __strbufSetPowerMinus, __ArrHelper__SetPowerMinus_244_1, __ArrHelper__SetPowerMinus_244_2
+8	109	183	#line 109 "D:\NXT Programok\Helper.nxc"
+8	110	183		mov __ArrHelper__SetPowerMinus_244_1, __strbufSetPowerMinus
+8	109	185	#line 109 "D:\NXT Programok\Helper.nxc"
+8	110	185		strcat __strbufSetPowerMinus, __ArrHelper__SetPowerMinus_244_0, __ArrHelper__SetPowerMinus_244_1
+8	110	190	#line 110 "D:\NXT Programok\Helper.nxc"
+8	111	190		acquire __TextOutMutex
+8	110	191	#line 110 "D:\NXT Programok\Helper.nxc"
+8	111	191		mov __TextOutArgs.Location.X, __signed_stack_001SetPowerMinus
+8	110	193	#line 110 "D:\NXT Programok\Helper.nxc"
+8	111	193		mov __TextOutArgs.Location.Y, __signed_stack_002SetPowerMinus
+8	110	195	#line 110 "D:\NXT Programok\Helper.nxc"
+8	111	195		set __TextOutArgs.Options, 0
+8	110	198	#line 110 "D:\NXT Programok\Helper.nxc"
+8	111	198		mov __TextOutArgs.Text, __strbufSetPowerMinus
+8	110	200	#line 110 "D:\NXT Programok\Helper.nxc"
+8	111	200		syscall 13, __TextOutArgs
+8	110	203	#line 110 "D:\NXT Programok\Helper.nxc"
+8	111	203		mov __D0SetPowerMinus, __TextOutArgs.Result
+8	110	205	#line 110 "D:\NXT Programok\Helper.nxc"
+8	111	205		release __TextOutMutex
+8	110	206	#line 110 "D:\NXT Programok\Helper.nxc"
+8	112	206	#line 112 "D:\NXT Programok\Helper.nxc"
+8	113	206		jmp __NXC_Label_733
+8	112	208	#line 112 "D:\NXT Programok\Helper.nxc"
+8	113	208		exit -1, -1
+9	116	0	#line 116 "D:\NXT Programok\Helper.nxc"
+9	117	0		set __D0QuitSet, 1
+9	117	3	#line 117 "D:\NXT Programok\Helper.nxc"
+9	118	3		tst 5, __zfQuitSet, __D0QuitSet
+9	117	6	#line 117 "D:\NXT Programok\Helper.nxc"
+9	118	6		brtst 4, __NXC_Label_776, __zfQuitSet
+9	117	9	#line 117 "D:\NXT Programok\Helper.nxc"
+9	118	9		set __signed_stack_001QuitSet, 3
+9	117	12	#line 117 "D:\NXT Programok\Helper.nxc"
+9	117	12	#line 117 "D:\NXT Programok\Helper.nxc"
+9	118	12		set __D0QuitSet, 1
+9	117	15	#line 117 "D:\NXT Programok\Helper.nxc"
+9	118	15		acquire __RBtnMutex
+9	117	16	#line 117 "D:\NXT Programok\Helper.nxc"
+9	118	16		mov __RBtnArgs.Index, __signed_stack_001QuitSet
+9	117	18	#line 117 "D:\NXT Programok\Helper.nxc"
+9	118	18		mov __RBtnArgs.Reset, __D0QuitSet
+9	117	20	#line 117 "D:\NXT Programok\Helper.nxc"
+9	118	20		syscall 20, __RBtnArgs
+9	117	23	#line 117 "D:\NXT Programok\Helper.nxc"
+9	118	23		mov __D0QuitSet, __RBtnArgs.Pressed
+9	117	25	#line 117 "D:\NXT Programok\Helper.nxc"
+9	118	25		release __RBtnMutex
+9	117	26	#line 117 "D:\NXT Programok\Helper.nxc"
+9	118	26		mov __signed_stack_001QuitSet, __D0QuitSet
+9	117	28	#line 117 "D:\NXT Programok\Helper.nxc"
+9	118	28		set __D0QuitSet, 1
+9	117	31	#line 117 "D:\NXT Programok\Helper.nxc"
+9	118	31		cmp 4, __zfQuitSet, __signed_stack_001QuitSet, __D0QuitSet
+9	117	35	#line 117 "D:\NXT Programok\Helper.nxc"
+9	117	35	#line 117 "D:\NXT Programok\Helper.nxc"
+9	118	35		not __D0QuitSet, __zfQuitSet
+9	118	38	#line 118 "D:\NXT Programok\Helper.nxc"
+9	119	38		tst 5, __zfQuitSet, __D0QuitSet
+9	118	41	#line 118 "D:\NXT Programok\Helper.nxc"
+9	119	41		brtst 4, __NXC_Label_780, __zfQuitSet
+9	118	44	#line 118 "D:\NXT Programok\Helper.nxc"
+9	118	44	#line 118 "D:\NXT Programok\Helper.nxc"
+9	119	44		jmp __NXC_Label_779
+9	118	46	#line 118 "D:\NXT Programok\Helper.nxc"
+9	119	46	#line 119 "D:\NXT Programok\Helper.nxc"
+9	120	46		set seted, 1
+9	119	49	#line 119 "D:\NXT Programok\Helper.nxc"
+9	119	49	#line 119 "D:\NXT Programok\Helper.nxc"
+9	119	49	#line 119 "D:\NXT Programok\Helper.nxc"
+9	120	49		set __signed_stack_001QuitSet, 3
+9	119	52	#line 119 "D:\NXT Programok\Helper.nxc"
+9	119	52	#line 119 "D:\NXT Programok\Helper.nxc"
+9	120	52		set __D0QuitSet, 1
+9	119	55	#line 119 "D:\NXT Programok\Helper.nxc"
+9	120	55		acquire __RBtnMutex
+9	119	56	#line 119 "D:\NXT Programok\Helper.nxc"
+9	120	56		mov __RBtnArgs.Index, __signed_stack_001QuitSet
+9	119	58	#line 119 "D:\NXT Programok\Helper.nxc"
+9	120	58		mov __RBtnArgs.Reset, __D0QuitSet
+9	119	60	#line 119 "D:\NXT Programok\Helper.nxc"
+9	120	60		syscall 20, __RBtnArgs
+9	119	63	#line 119 "D:\NXT Programok\Helper.nxc"
+9	120	63		mov __D0QuitSet, __RBtnArgs.Pressed
+9	119	65	#line 119 "D:\NXT Programok\Helper.nxc"
+9	120	65		release __RBtnMutex
+9	119	66	#line 119 "D:\NXT Programok\Helper.nxc"
+9	120	66		mov __signed_stack_001QuitSet, __D0QuitSet
+9	119	68	#line 119 "D:\NXT Programok\Helper.nxc"
+9	120	68		set __D0QuitSet, 0
+9	119	71	#line 119 "D:\NXT Programok\Helper.nxc"
+9	120	71		cmp 4, __zfQuitSet, __signed_stack_001QuitSet, __D0QuitSet
+9	119	75	#line 119 "D:\NXT Programok\Helper.nxc"
+9	119	75	#line 119 "D:\NXT Programok\Helper.nxc"
+9	120	75		not __D0QuitSet, __zfQuitSet
+9	120	78	#line 120 "D:\NXT Programok\Helper.nxc"
+9	121	78		tst 5, __zfQuitSet, __D0QuitSet
+9	120	81	#line 120 "D:\NXT Programok\Helper.nxc"
+9	121	81		brtst 4, __NXC_Label_792, __zfQuitSet
+9	120	84	#line 120 "D:\NXT Programok\Helper.nxc"
+9	120	84	#line 120 "D:\NXT Programok\Helper.nxc"
+9	121	84		jmp __NXC_Label_791
+9	120	86	#line 120 "D:\NXT Programok\Helper.nxc"
+9	122	86	#line 122 "D:\NXT Programok\Helper.nxc"
+9	123	86		jmp __NXC_Label_775
+9	122	88	#line 122 "D:\NXT Programok\Helper.nxc"
+9	123	88		exit -1, -1
+10	125	0	#line 125 "D:\NXT Programok\Helper.nxc"
+10	126	0		set __Battery_7qG2_batt_7qG2_000, 0
+10	125	3	#line 125 "D:\NXT Programok\Helper.nxc"
+10	126	3	#line 126 "D:\NXT Programok\Helper.nxc"
+10	127	3		set __D0Battery, 1
+10	127	6	#line 127 "D:\NXT Programok\Helper.nxc"
+10	128	6		tst 5, __zfBattery, __D0Battery
+10	127	9	#line 127 "D:\NXT Programok\Helper.nxc"
+10	128	9		brtst 4, __NXC_Label_804, __zfBattery
+10	127	12	#line 127 "D:\NXT Programok\Helper.nxc"
+10	128	12		mov __signed_stack_001Battery, __Battery_7qG2_batt_7qG2_000
+10	127	14	#line 127 "D:\NXT Programok\Helper.nxc"
+10	127	14	#line 127 "D:\NXT Programok\Helper.nxc"
+10	128	14	#pragma macro 2
+10	128	14	#pragma macro 9
+10	128	14		acquire __IOMRMutex
+10	128	15		mov __IOMRArgs.ModuleName, __constStr0019
+10	128	17		mov __IOMRArgs.Offset, __constVal4
+10	128	19		set __IOMRArgs.Count, 2
+10	128	22		syscall 32, __IOMRArgs
+10	128	25		arrtostr __IOMRUnflattenBuf, __IOMRArgs.Buffer
+10	128	28		unflatten __tmpswordBattery, __IOMRUnflattenErr, __IOMRUnflattenBuf, __tmpswordBattery
+10	128	33		release __IOMRMutex
+10	6113	34	#line 6113 "D:\NXT Programok\Helper.nxc"
+10	6114	34		mov __D0Battery, __tmpswordBattery
+10	127	36	#line 127 "D:\NXT Programok\Helper.nxc"
+10	127	36	#line 127 "D:\NXT Programok\Helper.nxc"
+10	128	36		cmp 5, __zfBattery, __signed_stack_001Battery, __D0Battery
+10	127	40	#line 127 "D:\NXT Programok\Helper.nxc"
+10	128	40		mov __D0Battery, __zfBattery
+10	128	42	#line 128 "D:\NXT Programok\Helper.nxc"
+10	129	42		brtst 4, __NXC_Label_809, __zfBattery
+10	128	45	#line 128 "D:\NXT Programok\Helper.nxc"
+10	129	45	#pragma macro 2
+10	129	45	#pragma macro 9
+10	129	45		acquire __IOMRMutex
+10	129	46		mov __IOMRArgs.ModuleName, __constStr0019
+10	129	48		mov __IOMRArgs.Offset, __constVal4
+10	129	50		set __IOMRArgs.Count, 2
+10	129	53		syscall 32, __IOMRArgs
+10	129	56		arrtostr __IOMRUnflattenBuf, __IOMRArgs.Buffer
+10	129	59		unflatten __tmpswordBattery, __IOMRUnflattenErr, __IOMRUnflattenBuf, __tmpswordBattery
+10	129	64		release __IOMRMutex
+10	6126	65	#line 6126 "D:\NXT Programok\Helper.nxc"
+10	6127	65		mov __Battery_7qG2_batt_7qG2_000, __tmpswordBattery
+10	128	67	#line 128 "D:\NXT Programok\Helper.nxc"
+10	128	67	#line 128 "D:\NXT Programok\Helper.nxc"
+10	128	67	#line 128 "D:\NXT Programok\Helper.nxc"
+10	128	67	#line 128 "D:\NXT Programok\Helper.nxc"
+10	129	67	#line 129 "D:\NXT Programok\Helper.nxc"
+10	130	67		set __signed_stack_001Battery, 62
+10	129	70	#line 129 "D:\NXT Programok\Helper.nxc"
+10	129	70	#line 129 "D:\NXT Programok\Helper.nxc"
+10	130	70		set __signed_stack_002Battery, 56
+10	129	73	#line 129 "D:\NXT Programok\Helper.nxc"
+10	129	73	#line 129 "D:\NXT Programok\Helper.nxc"
+10	130	73		mov __ArrHelper__Battery_244_0, __constStr0014
+10	129	75	#line 129 "D:\NXT Programok\Helper.nxc"
+10	130	75		mov __D0Battery, __Battery_7qG2_batt_7qG2_000
+10	129	77	#line 129 "D:\NXT Programok\Helper.nxc"
+10	130	77		numtostr __strretvalBattery, __D0Battery
+10	129	80	#line 129 "D:\NXT Programok\Helper.nxc"
+10	130	80		mov __ArrHelper__Battery_244_1, __strretvalBattery
+10	129	82	#line 129 "D:\NXT Programok\Helper.nxc"
+10	130	82		strcat __strbufBattery, __constStr0020
+10	129	86	#line 129 "D:\NXT Programok\Helper.nxc"
+10	130	86		mov __ArrHelper__Battery_244_2, __strbufBattery
+10	129	88	#line 129 "D:\NXT Programok\Helper.nxc"
+10	130	88		strcat __strbufBattery, __ArrHelper__Battery_244_1, __ArrHelper__Battery_244_2
+10	129	93	#line 129 "D:\NXT Programok\Helper.nxc"
+10	130	93		mov __ArrHelper__Battery_244_1, __strbufBattery
+10	129	95	#line 129 "D:\NXT Programok\Helper.nxc"
+10	130	95		strcat __strbufBattery, __ArrHelper__Battery_244_0, __ArrHelper__Battery_244_1
+10	129	100	#line 129 "D:\NXT Programok\Helper.nxc"
+10	130	100		acquire __TextOutMutex
+10	129	101	#line 129 "D:\NXT Programok\Helper.nxc"
+10	130	101		mov __TextOutArgs.Location.X, __signed_stack_001Battery
+10	129	103	#line 129 "D:\NXT Programok\Helper.nxc"
+10	130	103		mov __TextOutArgs.Location.Y, __signed_stack_002Battery
+10	129	105	#line 129 "D:\NXT Programok\Helper.nxc"
+10	130	105		set __TextOutArgs.Options, 0
+10	129	108	#line 129 "D:\NXT Programok\Helper.nxc"
+10	130	108		mov __TextOutArgs.Text, __strbufBattery
+10	129	110	#line 129 "D:\NXT Programok\Helper.nxc"
+10	130	110		syscall 13, __TextOutArgs
+10	129	113	#line 129 "D:\NXT Programok\Helper.nxc"
+10	130	113		mov __D0Battery, __TextOutArgs.Result
+10	129	115	#line 129 "D:\NXT Programok\Helper.nxc"
+10	130	115		release __TextOutMutex
+10	129	116	#line 129 "D:\NXT Programok\Helper.nxc"
+10	130	116	#line 130 "D:\NXT Programok\Helper.nxc"
+10	130	116	#line 130 "D:\NXT Programok\Helper.nxc"
+10	131	116		set __Wait_7qG2_ms_7qG2_000_inline_Battery, 10000
+10	130	119	#line 130 "D:\NXT Programok\Helper.nxc"
+10	7921	119	#line 7921 "NXCDefs.h"
+10	7922	119		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_Battery
+10	7921	122	#line 7921 "NXCDefs.h"
+10	131	122	#line 131 "D:\NXT Programok\Helper.nxc"
+10	134	122	#line 134 "D:\NXT Programok\Helper.nxc"
+10	135	122		jmp __NXC_Label_803
+10	134	124	#line 134 "D:\NXT Programok\Helper.nxc"
+10	135	124		exit -1, -1
+11	0	0		subret __QuitSet_Spawner_return
+12	0	0		exit 0, 1
+13	0	0		subret __SetPowerMinus_Spawner_return
+14	0	0		exit 0, 1
+15	0	0		subret __SetPowerPlus_Spawner_return
+16	0	0		exit 0, 1
+17	0	0		subret __MotorA_Spawner_return
+18	0	0		exit 0, 1
+19	0	0		subret __MotorB_Spawner_return
+20	0	0		exit 0, 1
+21	0	0		subret __MotorTurn_Spawner_return
+22	0	0		exit 0, 1
+23	0	0		subret __MotorBreak_Spawner_return
+24	0	0		exit 0, 1
+25	0	0		subret __MotorPosition_Spawner_return
+26	0	0		exit 0, 1
+27	0	0		subret __Battery_Spawner_return
+28	0	0		exit 0, 1
+29	171	0	#line 171 "D:\NXT Programok\Helper.nxc"
+29	172	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	D:\NXT Programok\Helper.nxc
+1	__ResetSensorSubroutine	494	NXTDefs.h
+2	MotorA	507	D:\NXT Programok\Helper.nxc
+3	MotorB	726	D:\NXT Programok\Helper.nxc
+4	MotorTurn	945	D:\NXT Programok\Helper.nxc
+5	MotorBreak	1139	D:\NXT Programok\Helper.nxc
+6	MotorPosition	1366	D:\NXT Programok\Helper.nxc
+7	SetPowerPlus	1673	D:\NXT Programok\Helper.nxc
+8	SetPowerMinus	1884	D:\NXT Programok\Helper.nxc
+9	QuitSet	2095	D:\NXT Programok\Helper.nxc
+10	Battery	2186	D:\NXT Programok\Helper.nxc
+11	__QuitSet_Returner	2313	D:\NXT Programok\Helper.nxc
+12	__QuitSet_Spawner	2315	D:\NXT Programok\Helper.nxc
+13	__SetPowerMinus_Returner	2318	D:\NXT Programok\Helper.nxc
+14	__SetPowerMinus_Spawner	2320	D:\NXT Programok\Helper.nxc
+15	__SetPowerPlus_Returner	2323	D:\NXT Programok\Helper.nxc
+16	__SetPowerPlus_Spawner	2325	D:\NXT Programok\Helper.nxc
+17	__MotorA_Returner	2328	D:\NXT Programok\Helper.nxc
+18	__MotorA_Spawner	2330	D:\NXT Programok\Helper.nxc
+19	__MotorB_Returner	2333	D:\NXT Programok\Helper.nxc
+20	__MotorB_Spawner	2335	D:\NXT Programok\Helper.nxc
+21	__MotorTurn_Returner	2338	D:\NXT Programok\Helper.nxc
+22	__MotorTurn_Spawner	2340	D:\NXT Programok\Helper.nxc
+23	__MotorBreak_Returner	2343	D:\NXT Programok\Helper.nxc
+24	__MotorBreak_Spawner	2345	D:\NXT Programok\Helper.nxc
+25	__MotorPosition_Returner	2348	D:\NXT Programok\Helper.nxc
+26	__MotorPosition_Spawner	2350	D:\NXT Programok\Helper.nxc
+27	__Battery_Returner	2353	D:\NXT Programok\Helper.nxc
+28	__Battery_Spawner	2355	D:\NXT Programok\Helper.nxc
+29	__initialize_global_data	2358	D:\NXT Programok\Helper.nxc
