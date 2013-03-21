@@ -13,6 +13,7 @@ namespace nxtBlueTooth
     {
         private
         SerialPort BluetoothConnection= new SerialPort();
+        SerialPort BluetoothConnection2 = new SerialPort();
         public Form1()
         {
             InitializeComponent();
@@ -55,8 +56,18 @@ namespace nxtBlueTooth
                 NxtHeader.CopyTo(NxtMessage, 0);
                 bytes.CopyTo(NxtMessage, NxtHeader.Length);
             NxtMessage[2] = (byte)(this.numericUpDownMailBoxNbr.Value - 1);
-     
+
+            Byte[] bytes2 = encoding.GetBytes(textBox5.Text);
+            byte datalength2 = Convert.ToByte(bytes2.Length + 1);
+            byte[] NxtHeader2 = { 0x00, 0x09, 0x00, datalength2 };
+            byte[] endMessage2 = { 0x00 };
+            var NxtMessage2 = new byte[NxtHeader2.Length + bytes2.Length + 1];
+            NxtHeader2.CopyTo(NxtMessage2, 0);
+            bytes2.CopyTo(NxtMessage2, NxtHeader2.Length);
+            NxtMessage2[2] = (byte)(this.numericUpDownMailBoxNbr.Value - 1);
+
             NXTSendCommandAndGetReply(NxtMessage);
+            //NXT2SendCommandAndGetReply(NxtMessage2);
         }
         
         private void WriteMailBoxInt_Click(object sender, EventArgs e)
@@ -87,19 +98,24 @@ namespace nxtBlueTooth
             
             BluetoothConnection.Write(MessageLength, 0, MessageLength.Length);
             BluetoothConnection.Write(Command, 0, Command.Length);
-            System.Threading.Thread.Sleep(100);
-            int length = BluetoothConnection.ReadByte() + 256 * BluetoothConnection.ReadByte();
-
-            // retrieve the reply data 
-            for (int i = 0; i < length; i++)
-            {
-                textBox2.Text += BluetoothConnection.ReadByte().ToString("X2") + " ";
-            } 
-            this.textBox2.Text += "RX:" + Convert.ToString(length);
-            this.textBox2.Text += Environment.NewLine;
-            this.textBox2.Select(this.textBox2.Text.Length, 0);
-            this.textBox2.ScrollToCaret();
             }
+
+        private void NXT2SendCommandAndGetReply(byte[] Command)
+        {
+
+            Byte[] MessageLength = { 0x00, 0x00 };
+
+            MessageLength[0] = (byte)Command.Length;
+            this.textBox6.Text += "TX:";
+            for (int i = 0; i < Command.Length; i++)
+                this.textBox6.Text += Command[i].ToString("X2") + " ";
+            this.textBox6.Text += Environment.NewLine;
+            this.textBox6.Select(this.textBox2.Text.Length, 0);
+            this.textBox6.ScrollToCaret();
+
+            BluetoothConnection2.Write(MessageLength, 0, MessageLength.Length);
+            BluetoothConnection2.Write(Command, 0, Command.Length);
+        }
 
         private void buttonConnect_Click(object sender, EventArgs e)
         {
@@ -119,7 +135,10 @@ namespace nxtBlueTooth
                 this.buttonConnect.Text = "Disconnect";
                 this.BluetoothConnection.PortName = this.textBox1.Text.Trim();
                 BluetoothConnection.Open();
-                BluetoothConnection.ReadTimeout = 1500;
+                //this.BluetoothConnection2.PortName = this.textBox4.Text.Trim();
+                //BluetoothConnection2.Open();
+                BluetoothConnection.DataReceived += serialPort_DataReceived;
+                BluetoothConnection2.DataReceived += serialPort2_DataReceived;
                 this.buttonGetInfo.Enabled = true;
                 this.buttonGetVersion.Enabled = true;
                 this.buttonReadMailbox.Enabled = true;
@@ -127,6 +146,52 @@ namespace nxtBlueTooth
                 this.buttonWriteMailBoxInt.Enabled = true;
             }
             this.buttonConnect.Enabled = true;
+
+        }
+
+        void serialPort_DataReceived(object s, SerialDataReceivedEventArgs e)
+        {
+            int length = BluetoothConnection.ReadByte() + 256 * BluetoothConnection.ReadByte();
+
+            // write out only the ACKs 
+            for (int i = 0; i < length; i++)
+            {
+                if (i == 5)
+                {
+                    textBox2.Text += BluetoothConnection.ReadByte().ToString("X2") + " ";
+                }
+                else
+                {
+                    BluetoothConnection.ReadByte();
+                }
+            } 
+            BluetoothConnection.DiscardInBuffer();
+            this.textBox2.Text += Environment.NewLine;
+            this.textBox2.Select(this.textBox2.Text.Length, 0);
+            this.textBox2.ScrollToCaret();
+
+        }
+
+        void serialPort2_DataReceived(object s, SerialDataReceivedEventArgs e)
+        {
+            int length = BluetoothConnection2.ReadByte() + 256 * BluetoothConnection2.ReadByte();
+
+            // write out only the ACKs
+            for (int i = 0; i < length; i++)
+            {
+                if (i == 5)
+                {
+                    textBox6.Text += BluetoothConnection2.ReadByte().ToString("X2") + " ";
+                }
+                else
+                {
+                    BluetoothConnection2.ReadByte();
+                }
+            } 
+            BluetoothConnection2.DiscardInBuffer();
+            this.textBox6.Text += Environment.NewLine;
+            this.textBox6.Select(this.textBox6.Text.Length, 0);
+            this.textBox6.ScrollToCaret();
 
         }
     }
