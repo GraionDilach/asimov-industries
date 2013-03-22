@@ -1,6 +1,6 @@
 
  //----------------------------------------------------
- //---------------- S l a v e  v1.0 -----------------------
+ //---------------- S l a v e (2)  v1.0 -----------------------
  //-----------------------------------------------------------
 
  #define BTCONN 0
@@ -216,11 +216,14 @@
                      start MotorABInverse;
                      }
                      else{
+                     RA=-1*RA;
+                     RB=-1*RB;
                      start MotorA;
                      start MotorB;
                      }
                  }
       }//if (A and B)
+      else{A_Done=true; B_Done=true;}
        //Ide kerül majd a C Port vezérlése
 
       //--------------------Drive Motor
