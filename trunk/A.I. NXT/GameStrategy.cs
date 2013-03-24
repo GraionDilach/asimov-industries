@@ -30,6 +30,19 @@ namespace A.I.NXT
             i++;
             kezdoallapot();
         }
+        public void kezdoallapot()
+        {
+            atlo = (xk * xk) + (zk * zk);
+            kh = atlo + (ykm * ykm);
+            kh = Math.Sqrt(kh);
+            for (int j = 0; j < 4; j++)
+            {
+                adatok[i, j] = kh;
+            }
+            i++;
+            különbség(i);
+
+        }
         public void goToBasket()
         {
             double x, y, z;
@@ -91,6 +104,35 @@ namespace A.I.NXT
             kh = atlo + (ykm * ykm);
             kh = Math.Sqrt(kh);
             return kh;
+        }
+        public double M3(double x, double y, double z)
+        {
+            x -= 9.6;
+            z += 7.75;
+            atlo = (x * x) + (z * z);
+            kh = atlo + (ykm * ykm);
+            kh = Math.Sqrt(kh);
+            return kh;
+        }
+        public double M4(double x, double y, double z)
+        {
+            x += 9.6;
+            z += 7.75;
+            atlo = (x * x) + (z * z);
+            kh = atlo + (ykm * ykm);
+            kh = Math.Sqrt(kh);
+            return kh;
+        }
+        public int[] Menet(double[] különb)//fordulatszám kiszámítása
+        {
+            int[] tömb = new int[4];
+            for (int i = 0; i < különb.Length; i++)
+            {
+                rész = különb[i] / menet;
+                fordulatszög = 360 * rész;
+                tömb[i] = Convert.ToInt32(fordulatszög);
+            }
+            return tömb;
         }
     }
 }
