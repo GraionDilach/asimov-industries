@@ -221,6 +221,7 @@
                      }
                  }
       }//if (A and B)
+      else{A_Done=true; B_Done=true;}
        //Ide kerül majd a C Port vezérlése
 
       //--------------------Drive Motor
