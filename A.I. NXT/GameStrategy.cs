@@ -131,7 +131,7 @@ namespace A.I.NXT
             {
                 difference[j] = buffer_calculated_cordlengths[i - a, j] - buffer_calculated_cordlengths[i - b, j];
             }
-            output_to_nxtcontrol = Revolutions_as_angle(difference);
+            Revolutions_as_angle(difference);
         }
         /// <summary>
         /// This returns the values for the NXT controls within an array.
@@ -213,7 +213,7 @@ namespace A.I.NXT
         /// <param name="difference"></param>
 
 
-        public int [] Revolutions_as_angle(double[] difference)
+        public void Revolutions_as_angle(double[] difference)
         {
             for (int i = 0; i < difference.Length; i++)
             { 
@@ -222,7 +222,7 @@ namespace A.I.NXT
                 rev_as_angle = 360 * rev_amount;
                 output_to_nxtcontrol[i] = Convert.ToInt32(rev_as_angle);
             }
-            return output_to_nxtcontrol;
+            
            
         }
     }
