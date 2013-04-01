@@ -31,23 +31,32 @@ namespace A.I.NXT
         {
             this.coordinates_balls_basket = coordinates_balls_basket;
         }
+        /// <summary>
+        /// Centers the robot and calls the initial stage function.(alap)
+        /// </summary>
+		
         public void setCoordinates()
         {
             diagonal_square = (coordinate_x * coordinate_x) + (coordinate_y * coordinate_y);
             length_of_the_cord = diagonal_square + (107 * 107);
-            length_of_the_cord = Math.Sqrt(length_of_the_cord);
+            length_of_the_cord = Math.Sqrt(length_of_the_cord);            
             for (int j = 0; j < 4; j++)
             {
                 buffer_calculated_cordlengths[i, j] = length_of_the_cord;
             }
             i++;
-            kezdoallapot();
+           initial_state();
         }
-        public void kezdoallapot()
+
+        /// <summary>
+        /// This function sets the initital state of the robot by positioning it to 40 cm high.()
+        /// </summary>
+   
+        public void initial_state()
         {
-            diagonal_square = (coordinate_x * coordinate_x) + (coordinate_y * coordinate_y);
+            diagonal_square = (coordinate_x * coordinate_x) + (coordinate_y * coordinate_y);            
             length_of_the_cord = diagonal_square + (coordinate_zz * coordinate_zz);
-            length_of_the_cord = Math.Sqrt(length_of_the_cord);
+            length_of_the_cord = Math.Sqrt(length_of_the_cord);           
             for (int j = 0; j < 4; j++)
             {
                 buffer_calculated_cordlengths[i, j] = length_of_the_cord;
@@ -56,6 +65,9 @@ namespace A.I.NXT
             Difference(i);
 
         }
+        /// <summary>
+        /// Calculates distance between the basket and initial state.(goToBasket)
+        /// </summary>
         
         public void goToBasket()
         {
@@ -74,9 +86,29 @@ namespace A.I.NXT
             i++;
             Difference(i);
         }
-        public void goToBall();
+
         /// <summary>
-        /// This function calculates difference between the previous and the current status.(Ez a fv. kiszámolja az előző állapot és a jelenlegi állapot közötti különbséget.
+        /// This function calculates the distance between the ball and the basket.(gotoball)
+        /// </summary>
+
+        public void goToBall()
+        {
+            double x, y, z;
+            x = coordinates_balls_basket[k];
+            k++;
+            y = coordinates_balls_basket[k];
+            k++;
+            z = coordinates_balls_basket[k];
+            k++;
+            buffer_calculated_cordlengths[i, 0] = M1(x, y, z);
+            buffer_calculated_cordlengths[i, 1] = M2(x, y, z);
+            buffer_calculated_cordlengths[i, 2] = M3(x, y, z);
+            buffer_calculated_cordlengths[i, 3] = M4(x, y, z);           
+            i++;
+            Difference(i);
+        }
+        /// <summary>
+        /// This function calculates difference between the previous and the current status.
         /// </summary>
         /// <param name="i"></param>
         public void Difference(int i)
@@ -99,7 +131,7 @@ namespace A.I.NXT
             {
                 difference[j] = buffer_calculated_cordlengths[i - a, j] - buffer_calculated_cordlengths[i - b, j];
             }
-            output_to_nxtcontrol = Menet(difference);
+            output_to_nxtcontrol = Revolutions_as_angle(difference);
         }
         /// <summary>
         /// This returns the values for the NXT controls within an array.
@@ -109,6 +141,13 @@ namespace A.I.NXT
         {
             return output_to_nxtcontrol;
         }
+        /// <summary>
+        /// Calculating M1 motor cord length.
+        /// </summary>
+        /// <param name="x"></param>
+        /// <param name="y"></param>
+        /// <param name="z"></param>
+        /// <returns>cord length </returns>
         public double M1(double x, double y, double z)
         {
             x -= 9.6;
@@ -118,6 +157,13 @@ namespace A.I.NXT
             length_of_the_cord = Math.Sqrt(length_of_the_cord);
             return length_of_the_cord;
         }
+        /// <summary>
+        /// Calculating M2 motor cord length.
+        /// </summary>
+        /// <param name="x"></param>
+        /// <param name="y"></param>
+        /// <param name="z"></param>
+        /// <returns>cord length </returns>
         public double M2(double x, double y, double z)
         {
             x += 9.6;
@@ -127,6 +173,14 @@ namespace A.I.NXT
             length_of_the_cord = Math.Sqrt(length_of_the_cord);
             return length_of_the_cord;
         }
+        /// <summary>
+        /// Calculating M3 motor cord length.
+        /// </summary>
+        /// <param name="x"></param>
+        /// <param name="y"></param>
+        /// <param name="z"></param>
+        /// <returns>cord length </returns>
+		
         public double M3(double x, double y, double z)
         {
             x -= 9.6;
@@ -136,6 +190,13 @@ namespace A.I.NXT
             length_of_the_cord = Math.Sqrt(length_of_the_cord);
             return length_of_the_cord;
         }
+        /// <summary>
+        /// Calculating M4 motor cord length.
+        /// </summary>
+        /// <param name="x"></param>
+        /// <param name="y"></param>
+        /// <param name="z"></param>
+        /// <returns>cord length </returns>
         public double M4(double x, double y, double z)
         {
             x += 9.6;
@@ -145,15 +206,24 @@ namespace A.I.NXT
             length_of_the_cord = Math.Sqrt(length_of_the_cord);
             return length_of_the_cord;
         }
-        public int[] Menet(double[] difference)
+
+        /// <summary>
+        ///This function converts revolutions into angle.(Revolutions_as_angle)
+        /// </summary>
+        /// <param name="difference"></param>
+
+
+        public int [] Revolutions_as_angle(double[] difference)
         {
             for (int i = 0; i < difference.Length; i++)
-            {
+            { 
+           
                 rev_amount = difference[i] / length_per_rotation;
                 rev_as_angle = 360 * rev_amount;
                 output_to_nxtcontrol[i] = Convert.ToInt32(rev_as_angle);
             }
             return output_to_nxtcontrol;
+           
         }
     }
 }
