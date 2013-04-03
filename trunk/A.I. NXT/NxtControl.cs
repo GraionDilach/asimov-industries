@@ -153,34 +153,58 @@ namespace A.I.NXT
         /// <param name="m4">Amount of turns Motor 4 shall do (in degree)</param>
         public void StartOperation(int m1, int m2, int m3, int m4)
         {
+            bool negative= false;
             int residuary;
             byte[] NXTMsg = new byte[17];
             byte[] NXT2Msg = new byte[17];
-            int i = 0;
+            int i;
             // m2 motor értékeinek feldolgozása
-            for (i = 0; i > 11; i--)
+            
+            for (i = 16; i > 11; i--)
             {
                 NXTMsg[i] = (byte)0;
             }
             NXTMsg[i] = (byte)0;
             i--;
-            for (; i > 5; i--)
+            if (m2 < 0)
             {
-                if (m2 > 0)
-                {
-                    residuary = m2 % 10;
-                    NXTMsg[i] = (byte)residuary;
-                }
-                else
-                {
-                    NXTMsg[i] = (byte)0;
-                }
-                m2 = m2 / 10;
+                negative=true;
+                m2=m2*-1;
             }
+            {
+                for (; i > 5; i--)
+                {
+                    if (m2 > 0)
+                    {
+                        residuary = m2 % 10;
+                        NXTMsg[i] = (byte)residuary;
+
+                    }
+                    else
+                    {
+                        if (negative == true)
+                        {
+                            NXTMsg[i] = (byte)'-';
+                            negative = false;
+                        }
+                        else
+                        {
+                            NXTMsg[i] = (byte)0;
+                        }
+                    }
+                    m2 = m2 / 10;
+                }
+            }
+            
             NXTMsg[i] = (byte)0;
             i--;
             // az m1 motor feldolgozása
-            for (; i > 5; i--)
+            if (m1 < 0)
+            {
+                negative = true;
+                m1 = m1 * -1;
+            }
+            for (; i >= 0; i--)
             {
                 if (m1 > 0)
                 {
@@ -189,18 +213,31 @@ namespace A.I.NXT
                 }
                 else
                 {
-                    NXTMsg[i] = (byte)0;
+                    if (negative == true)
+                    {
+                        NXTMsg[i] = (byte)'-';
+                        negative = false;
+                    }
+                    else
+                    {
+                        NXTMsg[i] = (byte)0;
+                    }
                 }
                 m1 = m1 / 10;
             }
 
             // m4 motor értékeinek feldolgozása
-            for (i = 0; i > 11; i--)
+            for (i = 16; i > 11; i--)
             {
                 NXT2Msg[i] = (byte)0;
             }
             NXT2Msg[i] = (byte)0;
             i--;
+            if (m4 < 0)
+            {
+                negative = true;
+                m4 = m4 * -1;
+            }
             for (; i > 5; i--)
             {
                 if (m4 > 0)
@@ -210,13 +247,26 @@ namespace A.I.NXT
                 }
                 else
                 {
-                    NXT2Msg[i] = (byte)0;
+                    if (negative == true)
+                    {
+                        NXT2Msg[i] = (byte)'-';
+                        negative = false;
+                    }
+                    else
+                    {
+                        NXT2Msg[i] = (byte)0;
+                    }
                 }
                 m4 = m4 / 10;
             }
             NXT2Msg[i] = (byte)0;
             i--;
             // az m3 motor feldolgozása
+            if (m3 < 0)
+            {
+                negative = true;
+                m3 = m3 * -1;
+            }
             for (; i > 5; i--)
             {
                 if (m3 > 0)
@@ -226,7 +276,15 @@ namespace A.I.NXT
                 }
                 else
                 {
-                    NXT2Msg[i] = (byte)0;
+                    if (negative == true)
+                    {
+                        NXT2Msg[i] = (byte)'-';
+                        negative = false;
+                    }
+                    else
+                    {
+                        NXT2Msg[i] = (byte)0;
+                    }
                 }
                 m3 = m3 / 10;
             }
