@@ -153,19 +153,82 @@ namespace A.I.NXT
         /// <param name="m4">Amount of turns Motor 4 shall do (in degree)</param>
         public void StartOperation(int m1, int m2, int m3, int m4)
         {
-            int[] NXT1Msgint = new int[] {m1,m2,0};
-            int[] NXT2Msgint = new int[] {m3,m4,0};
-            byte[] NXTMsg = new byte [3];
-            byte[] NXT2Msg = new byte[3];
-            for (int i = 0; i < 3; i++)
+            int residuary;
+            byte[] NXTMsg = new byte[17];
+            byte[] NXT2Msg = new byte[17];
+            int i = 0;
+            // m2 motor értékeinek feldolgozása
+            for (i = 0; i > 11; i--)
             {
-                NXTMsg[i] = (byte)NXT1Msgint[i];
+                NXTMsg[i] = (byte)0;
             }
-            for (int i = 0; i < 3; i++)
+            NXTMsg[i] = (byte)0;
+            i--;
+            for (; i > 5; i--)
             {
-                // 1x17 elem
+                if (m2 > 0)
+                {
+                    residuary = m2 % 10;
+                    NXTMsg[i] = (byte)residuary;
+                }
+                else
+                {
+                    NXTMsg[i] = (byte)0;
+                }
+                m2 = m2 / 10;
+            }
+            NXTMsg[i] = (byte)0;
+            i--;
+            // az m1 motor feldolgozása
+            for (; i > 5; i--)
+            {
+                if (m1 > 0)
+                {
+                    residuary = m1 % 10;
+                    NXTMsg[i] = (byte)residuary;
+                }
+                else
+                {
+                    NXTMsg[i] = (byte)0;
+                }
+                m1 = m1 / 10;
+            }
 
-                NXT2Msg[i] = (byte)NXT2Msgint[i];
+            // m4 motor értékeinek feldolgozása
+            for (i = 0; i > 11; i--)
+            {
+                NXT2Msg[i] = (byte)0;
+            }
+            NXT2Msg[i] = (byte)0;
+            i--;
+            for (; i > 5; i--)
+            {
+                if (m4 > 0)
+                {
+                    residuary = m4 % 10;
+                    NXT2Msg[i] = (byte)residuary;
+                }
+                else
+                {
+                    NXT2Msg[i] = (byte)0;
+                }
+                m4 = m4 / 10;
+            }
+            NXT2Msg[i] = (byte)0;
+            i--;
+            // az m3 motor feldolgozása
+            for (; i > 5; i--)
+            {
+                if (m3 > 0)
+                {
+                    residuary = m3 % 10;
+                    NXT2Msg[i] = (byte)residuary;
+                }
+                else
+                {
+                    NXT2Msg[i] = (byte)0;
+                }
+                m3 = m3 / 10;
             }
 
             SendMessage(NXTMsg, NXT2Msg);
@@ -181,13 +244,21 @@ namespace A.I.NXT
         /// it'll lift the magnet back to the tube
         /// </summary>
         /// <param name="TurnMagnetTo">The parameter for the magnet</param>
-        public void MagnetControl(bool TurnMagnetTo);
+        public void MagnetControl(bool TurnMagnetTo)
+        {
+            /// <summary>
+            /// Sends two preformatted strings to the NXT devices
+            /// </summary>
+            /// <param name="NXT1Msg">Message aimed for NXT1</param>
+            /// <param name="NXT2Msg">Message aimed for NXT2</param>
 
-        /// <summary>
-        /// Sends two preformatted strings to the NXT devices
-        /// </summary>
-        /// <param name="NXT1Msg">Message aimed for NXT1</param>
-        /// <param name="NXT2Msg">Message aimed for NXT2</param>
+            byte[] NXT1MagnetMsg = new byte[] { 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x05, 0x00 };
+            byte[] NXT2MagnetMsg = new byte[] { 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 };
+            if (TurnMagnetTo == true)
+            {
+                SendMessage(NXT1MagnetMsg, NXT2MagnetMsg);
+            }
+        }
         void SendMessage(byte[] NXT1Msg, byte[] NXT2Msg)
         {
             NXT2Ready = false;
