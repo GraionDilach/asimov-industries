@@ -181,19 +181,18 @@ namespace A.I.NXT
 
                     }
                     else
-                    {
-                        if (negative == true)
-                        {
-                            NXTMsg[i] = (byte)'-';
-                            negative = false;
-                        }
-                        else
+                                 
                         {
                             NXTMsg[i] = (byte)0;
                         }
-                    }
+                    
                     m2 = m2 / 10;
                 }
+            }
+            if (negative == true)
+            {
+                NXTMsg[6] = (byte)'-';
+                negative = false;
             }
             
             NXTMsg[i] = (byte)0;
@@ -212,19 +211,19 @@ namespace A.I.NXT
                     NXTMsg[i] = (byte)residuary;
                 }
                 else
-                {
-                    if (negative == true)
-                    {
-                        NXTMsg[i] = (byte)'-';
-                        negative = false;
-                    }
-                    else
-                    {
-                        NXTMsg[i] = (byte)0;
-                    }
+                {         
+                   
+                   NXTMsg[i] = (byte)0;
+                    
                 }
                 m1 = m1 / 10;
             }
+            if (negative == true)
+            {
+                NXTMsg[0] = (byte)'-';
+                negative = false;
+            }
+
 
             // m4 motor értékeinek feldolgozása
             for (i = 16; i > 11; i--)
@@ -259,9 +258,12 @@ namespace A.I.NXT
                 }
                 m4 = m4 / 10;
             }
-            NXT2Msg[i] = (byte)0;
-            i--;
-            // az m3 motor feldolgozása
+            if (negative == true)
+            {
+                NXT2Msg[6] = (byte)'-';
+                negative = false;
+            }
+         // az m3 motor feldolgozása
             if (m3 < 0)
             {
                 negative = true;
@@ -288,7 +290,11 @@ namespace A.I.NXT
                 }
                 m3 = m3 / 10;
             }
-
+            if (negative == true)
+            {
+                NXT2Msg[0] = (byte)'-';
+                negative = false;
+            }
             SendMessage(NXTMsg, NXT2Msg);
 
         }
