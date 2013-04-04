@@ -269,7 +269,7 @@ namespace A.I.NXT
                 negative = true;
                 m3 = m3 * -1;
             }
-            for (; i > 5; i--)
+            for (; i >=0; i--)
             {
                 if (m3 > 0)
                 {
@@ -328,16 +328,31 @@ namespace A.I.NXT
             NXT2Ready = false;
             NXTReady = false;
             Byte[] NXT1MsgLen = { 0x00, 0x00 };
-            NXT1MsgLen[0] = (byte)NXT1Msg.Length;
+            byte datalength = Convert.ToByte(NXT1Msg.Length + 1);
+            byte[] NxtHeader = { 0x00, 0x09, 0x00, datalength };
+            byte[] endMessage = { 0x00 };
+            var NXT1Message = new byte[NxtHeader.Length + NXT1Msg.Length + 1];
+            NxtHeader.CopyTo(NXT1Message, 0);
+            NXT1Msg.CopyTo(NXT1Message, NxtHeader.Length);
+            NXT1Message[2] = (byte)(0);
 
+            NXT1MsgLen[0] = (byte)NXT1Message.Length;
+
+            byte data2length = Convert.ToByte(NXT2Msg.Length + 1);
+            byte[] Nxt2Header = { 0x00, 0x09, 0x00, data2length };
+            byte[] end2Message = { 0x00 };
+            var NXT2Message = new byte[Nxt2Header.Length + NXT2Msg.Length + 1];
+            Nxt2Header.CopyTo(NXT2Message, 0);
+            NXT2Msg.CopyTo(NXT2Message, Nxt2Header.Length);
+            NXT2Message[2] = (byte)(0);
             Byte[] NXT2MsgLen = { 0x00, 0x00 };
-            NXT2MsgLen[0] = (byte)NXT2Msg.Length;
+            NXT2MsgLen[0] = (byte)NXT2Message.Length;
 
             BluetoothConnection.Write(NXT1MsgLen, 0, NXT1MsgLen.Length);
-            BluetoothConnection.Write(NXT1Msg, 0, NXT1Msg.Length);
+            BluetoothConnection.Write(NXT1Message, 0, NXT1Message.Length);
 
             BluetoothConnection2.Write(NXT2MsgLen, 0, NXT2MsgLen.Length);
-            BluetoothConnection2.Write(NXT2Msg, 0, NXT2Msg.Length);
+            BluetoothConnection2.Write(NXT2Message, 0, NXT2Message.Length);
             while ((NXTReady == false) && (NXT2Ready == false))
             {
 
