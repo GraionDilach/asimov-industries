@@ -162,9 +162,9 @@ namespace A.I.NXT
             
             for (i = 16; i > 11; i--)
             {
-                NXTMsg[i] = (byte)0;
+                NXTMsg[i] = (byte)0x30;
             }
-            NXTMsg[i] = (byte)0;
+            NXTMsg[i] = (byte)0x30;
             i--;
             if (m2 < 0)
             {
@@ -172,18 +172,18 @@ namespace A.I.NXT
                 m2=m2*-1;
             }
             {
-                for (; i > 5; i--)
-                {
+            for (; i > 5; i--)
+            {   
                     if (m2 > 0)
                     {
                         residuary = m2 % 10;
-                        NXTMsg[i] = (byte)residuary;
+                        NXTMsg[i] = (byte)(residuary + 0x30);
 
                     }
                     else
                                  
                         {
-                            NXTMsg[i] = (byte)0;
+                            NXTMsg[i] = (byte)0x30;
                         }
                     
                     m2 = m2 / 10;
@@ -194,8 +194,8 @@ namespace A.I.NXT
                 NXTMsg[6] = (byte)'-';
                 negative = false;
             }
-            
-            NXTMsg[i] = (byte)0;
+
+            NXTMsg[i] = (byte)0x30;
             i--;
             // az m1 motor feldolgozása
             if (m1 < 0)
@@ -208,12 +208,12 @@ namespace A.I.NXT
                 if (m1 > 0)
                 {
                     residuary = m1 % 10;
-                    NXTMsg[i] = (byte)residuary;
+                    NXTMsg[i] = (byte)(residuary + 0x30);
                 }
                 else
-                {         
-                   
-                   NXTMsg[i] = (byte)0;
+                {
+
+                    NXTMsg[i] = (byte)0x30;
                     
                 }
                 m1 = m1 / 10;
@@ -228,9 +228,9 @@ namespace A.I.NXT
             // m4 motor értékeinek feldolgozása
             for (i = 16; i > 11; i--)
             {
-                NXT2Msg[i] = (byte)0;
+                NXT2Msg[i] = (byte)0x30;
             }
-            NXT2Msg[i] = (byte)0;
+            NXT2Msg[i] = (byte)0x30;
             i--;
             if (m4 < 0)
             {
@@ -242,7 +242,7 @@ namespace A.I.NXT
                 if (m4 > 0)
                 {
                     residuary = m4 % 10;
-                    NXT2Msg[i] = (byte)residuary;
+                    NXT2Msg[i] = (byte)(residuary + 0x30);
                 }
                 else
                 {
@@ -253,7 +253,7 @@ namespace A.I.NXT
                     }
                     else
                     {
-                        NXT2Msg[i] = (byte)0;
+                        NXT2Msg[i] = (byte)0x30;
                     }
                 }
                 m4 = m4 / 10;
@@ -274,7 +274,7 @@ namespace A.I.NXT
                 if (m3 > 0)
                 {
                     residuary = m3 % 10;
-                    NXT2Msg[i] = (byte)residuary;
+                    NXT2Msg[i] = (byte)(residuary + 0x30);
                 }
                 else
                 {
@@ -285,7 +285,7 @@ namespace A.I.NXT
                     }
                     else
                     {
-                        NXT2Msg[i] = (byte)0;
+                        NXT2Msg[i] = (byte)0x30;
                     }
                 }
                 m3 = m3 / 10;
@@ -311,8 +311,8 @@ namespace A.I.NXT
         public void MagnetControl(bool TurnMagnetTo)
         {
 
-            byte[] NXT1MagnetMsg = new byte[] { 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x05, 0x00 };
-            byte[] NXT2MagnetMsg = new byte[] { 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 };
+            byte[] NXT1MagnetMsg = new byte[] { 0x30, 0x30, 0x30, 0x30, 0x30, 0x30, 0x30, 0x30, 0x30, 0x30, 0x30, 0x30, 0x30, 0x30, 0x37, 0x35, 0x30 };
+            byte[] NXT2MagnetMsg = new byte[] { 0x30, 0x30, 0x30, 0x30, 0x30, 0x30, 0x30, 0x30, 0x30, 0x30, 0x30, 0x30, 0x30, 0x30, 0x30, 0x30, 0x30 };
             if (TurnMagnetTo == true)
             {
                 SendMessage(NXT1MagnetMsg, NXT2MagnetMsg);
