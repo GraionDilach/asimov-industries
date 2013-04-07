@@ -310,11 +310,6 @@ namespace A.I.NXT
         /// <param name="TurnMagnetTo">The parameter for the magnet</param>
         public void MagnetControl(bool TurnMagnetTo)
         {
-            /// <summary>
-            /// Sends two preformatted strings to the NXT devices
-            /// </summary>
-            /// <param name="NXT1Msg">Message aimed for NXT1</param>
-            /// <param name="NXT2Msg">Message aimed for NXT2</param>
 
             byte[] NXT1MagnetMsg = new byte[] { 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0x05, 0x00 };
             byte[] NXT2MagnetMsg = new byte[] { 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 };
@@ -323,28 +318,33 @@ namespace A.I.NXT
                 SendMessage(NXT1MagnetMsg, NXT2MagnetMsg);
             }
         }
+
+        /// <summary>
+        /// Sends two preformatted strings to the NXT devices
+        /// </summary>
+        /// <param name="NXT1Msg">Message aimed for NXT1</param>
+        /// <param name="NXT2Msg">Message aimed for NXT2</param>
         void SendMessage(byte[] NXT1Msg, byte[] NXT2Msg)
         {
             NXT2Ready = false;
             NXTReady = false;
-            Byte[] NXT1MsgLen = { 0x00, 0x00 };
+
+            
             byte datalength = Convert.ToByte(NXT1Msg.Length + 1);
             byte[] NxtHeader = { 0x00, 0x09, 0x00, datalength };
-            byte[] endMessage = { 0x00 };
-            var NXT1Message = new byte[NxtHeader.Length + NXT1Msg.Length + 1];
+            byte[] NXT1Message = new byte[NxtHeader.Length + NXT1Msg.Length + 1];
             NxtHeader.CopyTo(NXT1Message, 0);
             NXT1Msg.CopyTo(NXT1Message, NxtHeader.Length);
-            NXT1Message[2] = (byte)(0);
 
+            Byte[] NXT1MsgLen = { 0x00, 0x00 };
             NXT1MsgLen[0] = (byte)NXT1Message.Length;
 
             byte data2length = Convert.ToByte(NXT2Msg.Length + 1);
             byte[] Nxt2Header = { 0x00, 0x09, 0x00, data2length };
-            byte[] end2Message = { 0x00 };
-            var NXT2Message = new byte[Nxt2Header.Length + NXT2Msg.Length + 1];
+            byte[] NXT2Message = new byte[Nxt2Header.Length + NXT2Msg.Length + 1];
             Nxt2Header.CopyTo(NXT2Message, 0);
             NXT2Msg.CopyTo(NXT2Message, Nxt2Header.Length);
-            NXT2Message[2] = (byte)(0);
+
             Byte[] NXT2MsgLen = { 0x00, 0x00 };
             NXT2MsgLen[0] = (byte)NXT2Message.Length;
 
@@ -353,6 +353,7 @@ namespace A.I.NXT
 
             BluetoothConnection2.Write(NXT2MsgLen, 0, NXT2MsgLen.Length);
             BluetoothConnection2.Write(NXT2Message, 0, NXT2Message.Length);
+
             while ((NXTReady == false) && (NXT2Ready == false))
             {
 
