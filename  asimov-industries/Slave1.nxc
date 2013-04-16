@@ -165,17 +165,17 @@ task LedRed()
  sub BTCheck(int conn)
  {
      if(!BluetoothStatus(conn)==NO_ERR){
-     while(true){
-     if(!BluetoothStatus(conn)==NO_ERR){
-     ClearScreen();
-     free=false;
-     SetSensorColorRed(IN_4);
-     TextOut(0,LCD_LINE1,"No Conneciton!");
-
-     Wait(0);}
-     else{free=true; start LedGreen; ClearScreen();
-     TextOut(0,LCD_LINE1,"Connect OK!"); break;}
-     }
+     while(true)
+        {
+                 if(!BluetoothStatus(conn)==NO_ERR){
+                 ClearScreen();
+                 free=false;
+                 SetSensorColorRed(IN_4);
+                 TextOut(0,LCD_LINE1,"No Connection!");
+                 Wait(100);}
+                 else{free=true; start LedGreen; ClearScreen();
+                 TextOut(0,LCD_LINE1,"Connect OK!"); break;}
+        }
      }
 
 
@@ -316,14 +316,17 @@ sub LiftUp()//--------------------------------------Lift Up--------------------
       start LedGreen;
 
 
-  while(true){
+  while(true){//------------------While
+      //set commands to zero
       RA=0;
       RB=0;
       //Message put to "in" variable
       if (ReceiveRemoteString(MAILBOX1, true, in)!=STAT_MSG_EMPTY_MAILBOX){
       //if get RemoteMessage that do command
       free=false;
+
       SendResponseNumber(MAILBOX2, getMessage); //send ACK
+      ack=endProcess; //set Ack
       start LedRed;
 
       ClearScreen();
@@ -336,6 +339,7 @@ sub LiftUp()//--------------------------------------Lift Up--------------------
       Take=StrToNum(SubStr(in, 15, 1));//Try to take up Ball
       AutoLift=StrToNum(SubStr(in, 12, 1));//Automatic lift up
 
+      //write to screen commands
       TextOut(0,LCD_LINE2,"A:"+NumToStr(RA));
       TextOut(0,LCD_LINE3,"B:"+NumToStr(RB));
       in="";
@@ -395,7 +399,7 @@ sub LiftUp()//--------------------------------------Lift Up--------------------
       //----------------Send Process Status
       SendResponseNumber(MAILBOX2, ack);
       //----------------Set Default Value
-      ack=endProcess;
+      ack=getMessage;
       free=true;
       start LedGreen;
       ClearLine(LCD_LINE4);
