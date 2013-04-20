@@ -7,6 +7,8 @@ namespace A.I.NXT
 {
     class GameStrategy
     {
+        double max_length_coordinate_x = 246.8;
+        double max_length_coordinate_y = 120.5;
         double coordinate_x = 116.9;///<coordinat_x is distance between robot and side of the field,robot is int the midst of the area
         double coordinate_y = 53.25;///<coodinate_y is distance between front of the robot and front of the field
         //double coordinate_z = 40;///<coordinate_z is height from top of the robot to base
@@ -22,9 +24,9 @@ namespace A.I.NXT
         int[] output_to_nxtcontrol = new int[4];///<amount of rotations for the next move
         double[] difference = new double[4];///<difference between current and previous status of cords
         double[] M_count = new double[] { 52, 52, 52, 52 };///<actual count of rotation
-        bool init_rev;
+        //bool init_rev;
 
-        public GameStrategy();
+        public GameStrategy() { }
         /// <summary>
         /// This function gets the coordinates of the balls and the basket.(Ez a függvény megkapja a labdák és a kosár koordinátáit.)
         /// </summary>
@@ -160,8 +162,8 @@ namespace A.I.NXT
         /// <returns>cord length </returns>
         public double M1(double x, double y, double z)
         {
-            x -= 9.6;
-            y -= 7.75;
+            x -= 6.5;
+            y -= 7;
             diagonal_square = (x * x) + (y * y);
             length_of_the_cord = diagonal_square + (coordinate_zz * coordinate_zz);
             length_of_the_cord = Math.Sqrt(length_of_the_cord);
@@ -176,8 +178,9 @@ namespace A.I.NXT
         /// <returns>cord length </returns>
         public double M2(double x, double y, double z)
         {
-            x += 9.6;
-            y -= 7.75;
+            x -= 6.5;
+            y += 7;
+            y = max_length_coordinate_y - y;
             diagonal_square = (x * x) + (y * y);
             length_of_the_cord = diagonal_square + (coordinate_zz * coordinate_zz);
             length_of_the_cord = Math.Sqrt(length_of_the_cord);
@@ -193,8 +196,9 @@ namespace A.I.NXT
 		
         public double M3(double x, double y, double z)
         {
-            x -= 9.6;
-            y += 7.75;
+            x += 6.5;
+            y -= 7;
+            x = max_length_coordinate_x - x;
             diagonal_square = (x * x) + (y * y);
             length_of_the_cord = diagonal_square + (coordinate_zz * coordinate_zz);
             length_of_the_cord = Math.Sqrt(length_of_the_cord);
@@ -209,8 +213,10 @@ namespace A.I.NXT
         /// <returns>cord length </returns>
         public double M4(double x, double y, double z)
         {
-            x += 9.6;
-            y += 7.75;
+            x += 6.5;
+            y += 7;
+            x = max_length_coordinate_x - x;
+            y = max_length_coordinate_y - y;
             diagonal_square = (x * x) + (y * y);
             length_of_the_cord = diagonal_square + (coordinate_zz * coordinate_zz);
             length_of_the_cord = Math.Sqrt(length_of_the_cord);
@@ -231,30 +237,33 @@ namespace A.I.NXT
                 //rev_amount = difference[i] / length_per_rotation;
                 //rev_as_angle = 360 * rev_amount;
                 //output_to_nxtcontrol[i] = Convert.ToInt32(rev_as_angle);
-                if (init_rev)
-                {
-                    length_per_rotation = 2.5 * Math.PI;
-                }
-                if (M_count[i] < 75 && M_count[i] > 60)
-                {
-                    length_per_rotation = (2.38 - 0.08) * Math.PI;
-                }
-                if (M_count[i] < 60 && M_count[i] > 45)
-                {
-                    length_per_rotation = (2.38 - 0.16) * Math.PI;
-                }
-                if (M_count[i] < 45 && M_count[i] > 30)
-                {
-                    length_per_rotation = (2.38 - 0.24) * Math.PI;
-                }
-                if (M_count[i] < 30 && M_count[i] > 15)
-                {
-                    length_per_rotation = (2.38 - 0.32) * Math.PI;
-                }
-                if (M_count[i] < 15 && M_count[i] > 0)
-                {
-                    length_per_rotation = (2.38 - 0.40) * Math.PI;
-                }
+                //if (init_rev)
+                //{
+                //    length_per_rotation = 2.38 * Math.PI;
+                //}
+                //if (init_rev == false)
+                //{
+                    if (M_count[i] < 75 && M_count[i] > 60)
+                    {
+                        length_per_rotation = (2.38 - 0.08) * Math.PI;
+                    }
+                    if (M_count[i] < 60 && M_count[i] > 45)
+                    {
+                        length_per_rotation = (2.38 - 0.16) * Math.PI;
+                    }
+                    if (M_count[i] < 45 && M_count[i] > 30)
+                    {
+                        length_per_rotation = (2.38 - 0.24) * Math.PI;
+                    }
+                    if (M_count[i] < 30 && M_count[i] > 15)
+                    {
+                        length_per_rotation = (2.38 - 0.32) * Math.PI;
+                    }
+                    if (M_count[i] < 15 && M_count[i] > 0)
+                    {
+                        length_per_rotation = (2.38 - 0.40) * Math.PI;
+                    }
+                //}
                 rev_amount = difference[i] / length_per_rotation;
                 if (rev_amount < 0)
                 {
@@ -267,7 +276,7 @@ namespace A.I.NXT
                 rev_as_angle = 360 * rev_amount;
                 output_to_nxtcontrol[i] = Convert.ToInt32(rev_as_angle);
             }
-            init_rev = false;
+            //init_rev = false;
            
         }
     }
