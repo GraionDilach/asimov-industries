@@ -1,6 +1,6 @@
 
  //----------------------------------------------------
- //---------------- S l a v e (1) v1.0 -----------------------
+ //---------------- S l a v e v1.3 -----------------------
  //-----------------------------------------------------------
 
  #define BTCONN 0
@@ -8,6 +8,7 @@
  #define MAILBOX2 1
  #define MAILBOX3 2
  #define MAILBOX4 3
+ #define MAILBOX5 4
 
 
 
@@ -15,31 +16,120 @@
  bool A_Done=false;
  bool B_Done=false;
  bool C_Done=false;
+ bool Calib_Done=false;
  bool Ball_OK=false;
- int A_Memory=0;
- int B_Memory=0;
- int C_Memory=0;
+ float A_Memory=0;
+ float B_Memory=0;
+ float C_Memory=0;
  int RA=0;
  int RB=0;
- int RC=0;
+ int AutoLift=0;
+ bool Take=0;
  int realTurn=0;
+ int setting=-1;
  bool free=true;
 
  //----------------------- O p t i o n s --------
- int power=70;//%
- int powerdown=50;
+
+ int powerup=100;//%
+ int powerdown=40;
+ int powerCalibUp=100;
+ int powerCalibDown=20;
  int ack=0xFF; //Message ACK
+ int getMessage=0xFF;
+ int failProcess=0xFC;
  int endProcess=0xFA; //Motor processing Done ACK
  int CheckTime=50; //Message checking intervallum
  int FlashTime=100; //Led flashing interval
  int Tolerance=10; //Tolerance for Motor position
+
+task Abort()
+{    string ab;
+     while(ReceiveRemoteString(MAILBOX5, true, ab)!=STAT_MSG_EMPTY_MAILBOX)
+     {
+        if(ab=="0xAA")
+        {
+            PowerDown();
+        }
+        Wait(1000);
+     }
+}
+task Setting()//----------------------------Setting----------------------------
+{
+
+ while(true)
+ {
+  until(ButtonPressed(BTN4,true)==1);
+  if(setting<3){setting=setting+1;}
+  else{setting=0;}
+  ClearLine(LCD_LINE1);
+  if(setting==0){
+  TextOut(0, LCD_LINE1,"PowerUp");}
+  if(setting==1){
+  TextOut(0, LCD_LINE1,"PowerDown");}
+  if(setting==2){
+  TextOut(0, LCD_LINE1,"PowerCalibUp");}
+  if(setting==3){
+  TextOut(0, LCD_LINE1,"PowerCalibDown");}
+  until(ButtonPressed(BTN4,true)==0);
+ }
+}
+task SetPowerPlus()//------------------------Set Power--------------------------
+{
+  while(true)
+ {
+
+  until(ButtonPressed(BTN2,true)==1);
+  ClearLine(LCD_LINE2);
+  if(setting==0){//PowerUp
+  if(powerup+10<=100){powerup=powerup+10;}
+  TextOut(0, LCD_LINE2,NumToStr(powerup)+"%");}
+  if(setting==1){//PowerDown
+  if(powerdown+10<=100){powerdown=powerdown+10;}
+  TextOut(0, LCD_LINE2,NumToStr(powerdown)+"%");}
+  if(setting==2){//PowerCalibUp
+  if(powerCalibUp+10<=100){powerCalibUp=powerCalibUp+10;}
+  TextOut(0, LCD_LINE2,NumToStr(powerCalibUp)+"%");}
+  if(setting==3){//PowerCalibDown
+  if(powerCalibDown+10<=100){powerCalibDown=powerCalibDown+10;}
+  TextOut(0, LCD_LINE2,NumToStr(powerCalibDown)+"%");}
+  until(ButtonPressed(BTN2,true)==0);
+
+ }
+}
+task SetPowerMinus()
+{
+
+ while(true)
+ {
+
+  until(ButtonPressed(BTN3,true)==1);
+   ClearLine(LCD_LINE2);
+  if(setting==0){//PowerUp
+  if(powerup-10>=10){powerup=powerup-10;}
+   TextOut(0, LCD_LINE2,NumToStr(powerup)+"%");}
+  if(setting==1){//PowerDown
+  if(powerdown-10>=10){powerdown=powerdown-10;}
+  TextOut(0, LCD_LINE2,NumToStr(powerdown)+"%");}
+  if(setting==2){//PowerCalibUp
+  if(powerCalibUp-10>=10){powerCalibUp=powerCalibUp-10;}
+  TextOut(0, LCD_LINE2,NumToStr(powerCalibUp)+"%");}
+  if(setting==3){//PowerCalibDown
+  if(powerCalibDown-10>=10){powerCalibDown=powerCalibDown-10;}
+  TextOut(0, LCD_LINE2,NumToStr(powerCalibDown)+"%");}
+  until(ButtonPressed(BTN3,true)==0);
+
+
+
+ }
+}
  //--------------------------------------------------CheckLamp------------------
- task LedRed()
+task LedRed()
  {
  SetSensorColorBlue(IN_4);
  Wait(FlashTime);
  SetSensorColorNone(IN_4);
- Wait(50);
+ Wait(10);
  SetSensorColorRed(IN_4);
  Wait(1000);
  SetSensorColorNone(IN_4);
@@ -63,9 +153,7 @@
     SetSensorColorNone(IN_4);
     Wait(1000);
     i=0;}
-
-}
-
+    }
  }
  task LedBlue()
  {
@@ -76,18 +164,27 @@
  //-------------------------------------Check Bluetooth Connection--------------
  sub BTCheck(int conn)
  {
-     while(!BluetoothStatus(conn)==NO_ERR){
-     TextOut(0,LCD_LINE1,"No Conneciton!");
-     Wait(2000);
-
+     if(!BluetoothStatus(conn)==NO_ERR){
+     while(true)
+        {
+                 if(!BluetoothStatus(conn)==NO_ERR){
+                 ClearScreen();
+                 free=false;
+                 SetSensorColorRed(IN_4);
+                 TextOut(0,LCD_LINE1,"No Connection!");
+                 Wait(100);}
+                 else{free=true; start LedGreen; ClearScreen();
+                 TextOut(0,LCD_LINE1,"Connect OK!"); break;}
+        }
      }
-     ClearScreen();
+
+
  }
  //---------------------------------------------Motor A&B Syncron---------------
  task MotorAB()
  {
      if (RA>0){
-     RotateMotorExPID(OUT_AB, power, RA, 0, true, true, 50, 50, 50);}
+     RotateMotorExPID(OUT_AB, powerup, RA, 0, true, true, 50, 50, 50);}
      else{
      RotateMotorExPID(OUT_AB, powerdown, RA, 0, true, true, 50, 50, 50);}
      A_Done=true;
@@ -97,10 +194,10 @@
  task MotorABInverse()
  {
  if(RA>0&&RB<0){
-  RotateMotorExPID(OUT_AB,power, RA, -100, true, true, 90, 40, 50);
+  RotateMotorExPID(OUT_AB,powerup, RA, -100, true, true, 90, 40, 50);
  }
  else{
-  RotateMotorExPID(OUT_AB,power, RA, 100, true, true, 90, 40, 50);
+  RotateMotorExPID(OUT_AB,powerup, RA, 100, true, true, 90, 40, 50);
  }
 
   A_Done=true;
@@ -110,7 +207,7 @@
  task MotorA()
  {
      if(RA>0){
-     RotateMotorPID(OUT_A, power, RA, 90, 40, 50);}
+     RotateMotorPID(OUT_A, powerup, RA, 90, 40, 50);}
      else{
      RotateMotorPID(OUT_A, powerdown, RA, 90, 40, 50);}
      A_Done=true;
@@ -119,20 +216,24 @@
  //----------------------------------------------------Motor B------------------
  task MotorB()
  {
-     if(RA>0){
-     RotateMotorPID(OUT_A, power, RB, 90, 40, 50);}
+     if(RB>0){
+     RotateMotorPID(OUT_B, powerup, RB, 90, 40, 50);}
      else{
-     RotateMotorPID(OUT_A, powerdown, RB, 90, 40, 50);}
+     RotateMotorPID(OUT_B, powerdown, RB, 90, 40, 50);}
      B_Done=true;
  }
- //-----Motor C (Magnet)------------------
- task MotorC()
+ //--------------------------------------------------(Magnet)-------------------
+ sub TakeUp()
  {
-     SetSensor(IN_1, SENSOR_TOUCH);
-
-     if(!Ball_OK){RotateMotor(OUT_C, power, RC);Off(OUT_C);}
-     if(SENSOR_1==1){Ball_OK=true;}
-
+     SetSensor(IN_3, SENSOR_TOUCH);
+     int i=0;
+     while(Ball_OK==false&&i<3){
+     RotateMotor(OUT_C, powerup, 300);Off(OUT_C);
+     Wait(100);
+     RotateMotor(OUT_C, powerup, -300);Off(OUT_C);
+     if(SENSOR_3==1){Ball_OK=true;}
+     i=i+1;}
+     if(i>2){ack=failProcess;}
      C_Done=true;
  }
  //-------------------------------------------------------------Real Position---
@@ -143,46 +244,89 @@
      ClearLine(LCD_LINE6);
      ClearLine(LCD_LINE7);
 
-     TextOut(10,LCD_LINE6,NumToStr(AP));
-     TextOut(60,LCD_LINE6,NumToStr(BP));
+     TextOut(10,LCD_LINE6,NumToStr(A_Memory));
+     TextOut(60,LCD_LINE6,NumToStr(B_Memory));
 
      TextOut(10,LCD_LINE7,NumToStr(A_Memory-AP));
      TextOut(60,LCD_LINE7,NumToStr(B_Memory-BP));
    if(Port=="A")
    {
-      TextOut(30,LCD_LINE5,"A");
+      TextOut(10,LCD_LINE5,"A");
       return AP;
    }
    else
    {
-       TextOut(70,LCD_LINE5,"B");
-
+       TextOut(60,LCD_LINE5,"B");
        return BP;
    }
+}
+
+task PositionCalibrate()//-------------------Calibrate--------------------------
+{
+ realTurn=A_Memory-MotorRealPosition("A");
+      while((realTurn<-1*Tolerance)||(realTurn>Tolerance)){
+      if(realTurn>0){
+      RotateMotorPID(OUT_A, powerCalibUp, realTurn, 90, 40, 50);}
+      else{
+       RotateMotorPID(OUT_A, powerCalibDown, realTurn, 90, 40, 50);}
+      realTurn=A_Memory-MotorRealPosition("A");
+      }
+      realTurn=B_Memory-MotorRealPosition("B");
+      while((realTurn<-1*Tolerance)||(realTurn>Tolerance)){
+      if(realTurn>0){
+      RotateMotorPID(OUT_B, powerCalibUp, realTurn, 90, 40, 50);}
+      else{
+       RotateMotorPID(OUT_B, powerCalibDown, realTurn, 90, 40, 50);}
+      realTurn=B_Memory-MotorRealPosition("B");
+      }
+      Calib_Done=true;
+}
+sub LiftUp()//--------------------------------------Lift Up--------------------
+{
+     SetSensorLowspeed(IN_2);
+
+     while(SensorUS(IN_2)<40||SensorUS(IN_2)>41)
+     {
+            if(SensorUS(IN_2)<40)
+            {
+                 OnFwdReg(OUT_AB, powerup, OUT_REGMODE_IDLE);
+                 until(SensorUS(IN_2)>40);
+                 Off(OUT_AB);
+            }//if
+            else
+            {
+                 OnRevReg(OUT_AB, powerdown, OUT_REGMODE_IDLE);
+                 until(SensorUS(IN_2)<41);
+                 Off(OUT_AB);
+            }//else
+     }//WHILE
+     AutoLift=0;
+     A_Memory=MotorRealPosition("A");
+     A_Memory=MotorRealPosition("B");
 }
  //-----------------Driving Task-----------------------------------------------
  task Drive()
  {
       string in;
-      int A=0;
-      int B=0;
-      int C=0;
+
       TextOut(0,LCD_LINE2,"Break ON!");
       TextOut(0,LCD_LINE3,"Waiting...");
       Off(OUT_AB);
-      Wait(20);
       //Recieve Commands From PC in endless cycle
       start LedGreen;
-      while(true){
-      A=0;
-      B=0;
-      C=0;
 
+
+  while(true){//------------------While
+      //set commands to zero
+      RA=0;
+      RB=0;
       //Message put to "in" variable
       if (ReceiveRemoteString(MAILBOX1, true, in)!=STAT_MSG_EMPTY_MAILBOX){
       //if get RemoteMessage that do command
       free=false;
-      SendResponseNumber(MAILBOX2, ack); //send ACK
+
+      SendResponseNumber(MAILBOX2, getMessage); //send ACK
+      ack=endProcess; //set Ack
       start LedRed;
 
       ClearScreen();
@@ -190,10 +334,12 @@
 
 
       //Separate arguments
-      RA=StrToNum(SubStr(in, 0, 5));
-      RB=StrToNum(SubStr(in, 6, 10));
-      RC=StrToNum(SubStr(in, 12, 16));
+      RA=StrToNum(SubStr(in, 0, 5));//Run A Motor
+      RB=StrToNum(SubStr(in, 6, 5));//Run B Motor
+      Take=StrToNum(SubStr(in, 15, 1));//Try to take up Ball
+      AutoLift=StrToNum(SubStr(in, 12, 1));//Automatic lift up
 
+      //write to screen commands
       TextOut(0,LCD_LINE2,"A:"+NumToStr(RA));
       TextOut(0,LCD_LINE3,"B:"+NumToStr(RB));
       in="";
@@ -201,53 +347,59 @@
       //Set Theoretical Position
       A_Memory=A_Memory+RA;
       B_Memory=B_Memory+RB;
-      C_Memory=C_Memory+RC;
 
-      //---------------------Drive Motor
+      //---------------------If Command: Move To
       if (RA!=0||RB!=0)
       {          TextOut(0,LCD_LINE4,"Status: Run!");
-                 if(RA==RB)
-                 {
-
-                     start MotorAB;
-                 }
+                 if(RA==RB){
+                     start MotorAB;}
                  else{
                      if(abs(RA)==abs(RB)){
-                     start MotorABInverse;
+                     start MotorABInverse;//Inverse move
                      }
-                     else{
+                     else{//different move
                      start MotorA;
                      start MotorB;
                      }
                  }
-      }//if (A and B)
-      else{A_Done=true; B_Done=true;}
-       //Ide kerül majd a C Port vezérlése
-
-      //--------------------Drive Motor
-
-
       //Waiting for process's end
       until(A_Done==true&&B_Done==true);
       A_Done=false;
       B_Done=false;
       ClearLine(LCD_LINE4);
       TextOut(0,LCD_LINE4,"Correction!");
-
-      //------------Check motor process
-      realTurn=MotorRealPosition("A");
-      while((A_Memory-realTurn<-1*Tolerance)||(A_Memory-realTurn>Tolerance)){
-      RotateMotorPID(OUT_A, 50, A_Memory-realTurn, 90, 40, 50);
-      realTurn=MotorRealPosition("A");
+      //------------Calibrate
+      start PositionCalibrate;
+      until(Calib_Done==true);
+      Calib_Done=false;
       }
-      realTurn=MotorRealPosition("B");
-      while((B_Memory-realTurn<-1*Tolerance)||(B_Memory-realTurn>Tolerance)){
-      RotateMotorPID(OUT_B, 50, B_Memory-realTurn, 90, 40, 50);
-      realTurn=MotorRealPosition("B");
-      }
-      //------------Check motor process
+      else{}
 
-      SendResponseNumber(MAILBOX2, endProcess);
+
+
+      //--------------------If Command: Automatic Lift Up
+      if(AutoLift==1){TextOut(0,LCD_LINE4,"Status: LiftUp!");
+      LiftUp();
+      until(AutoLift==0);Off(OUT_AB);
+      ClearLine(LCD_LINE5);
+      ClearLine(LCD_LINE6);
+      TextOut(0,LCD_LINE5,"A: "+NumToStr(A_Memory));
+      TextOut(0,LCD_LINE6,"B: "+NumToStr(B_Memory));
+      }
+
+
+
+      //--------------------If Command: Take Up Ball
+      if(Take==1){TextOut(0,LCD_LINE4,"Status: Trying!"); TakeUp();
+      Off(OUT_C);}
+      
+      
+
+
+      //----------------Send Process Status
+      SendResponseNumber(MAILBOX2, ack);
+      //----------------Set Default Value
+      ack=getMessage;
       free=true;
       start LedGreen;
       ClearLine(LCD_LINE4);
@@ -257,11 +409,12 @@
 
 
       }//if
-      else{}
-      ResetSleepTimer();
-       Wait(CheckTime);
+  else{ }
+       BTCheck(BTCONN);//Check Bluetooth Connection
+       Wait(CheckTime);//waiting
       }//while
  }
+ //---------------------------------------Send Position PC----------------------
  task PositionToPC()
  {   string options;
      if (ReceiveRemoteString(MAILBOX3, true, options)!=STAT_MSG_EMPTY_MAILBOX)
@@ -276,16 +429,20 @@
  //--------------------------Main-----------------------------------------------
  task main(){
       BTCheck(BTCONN);//Check Master Connection
-      //TextOut(0,LCD_LINE2,"Press Enter ");
-      //TextOut(0,LCD_LINE3,"to Start");
-
-      //Waiting for Press Enter
-      //until(ButtonPressed(BTN4,true)==1);
       ClearScreen();
+      //Waiting for Connection after LiftUp
       TextOut(0,LCD_LINE1,"Connection OK");
-      start Drive;
+      
 
-      //Waiting for Press Exit
+      ClearScreen();
+      //Start processes
+      start Drive;//Motor Driver
+      start SetPowerPlus;//set
+      start SetPowerMinus;
+      start Setting;
+      start Abort;
+
+      //if put button that Abort NXT
       SetSensor(IN_1, SENSOR_TOUCH);
       until(SENSOR_1==1);
       OffEx(OUT_AB,true);
