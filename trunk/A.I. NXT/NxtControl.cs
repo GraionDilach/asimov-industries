@@ -382,7 +382,7 @@ namespace A.I.NXT
                 NXT2Msg.CopyTo(NXT2Message, Nxt2Header.Length);
             }
 
-            while ((NXTReady == false) && (NXT2Ready == false))
+            while ((NXTReady == false) || (NXT2Ready == false))
             {
 
                 Thread.Sleep(250);
