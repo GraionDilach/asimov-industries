@@ -289,15 +289,9 @@ namespace A.I.NXT
                 }
                 else
                 {
-                    if (negative == true)
-                    {
-                        NXT2Msg[i] = (byte)'-';
-                        negative = false;
-                    }
-                    else
-                    {
+          
                         NXT2Msg[i] = (byte)0x30;
-                    }
+               
                 }
                 m4 = m4 / 10;
             }
@@ -323,15 +317,9 @@ namespace A.I.NXT
                 }
                 else
                 {
-                    if (negative == true)
-                    {
-                        NXT2Msg[i] = (byte)'-';
-                        negative = false;
-                    }
-                    else
-                    {
+         
                         NXT2Msg[i] = (byte)0x30;
-                    }
+         
                 }
                 m3 = m3 / 10;
             }
