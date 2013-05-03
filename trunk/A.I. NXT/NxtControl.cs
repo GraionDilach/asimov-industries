@@ -18,6 +18,7 @@ namespace A.I.NXT
         bool NXT2Ready; ///<boolean for NXT2 status, true, if ready, false, if busy
         bool NXTConnection;                ///<boolean for NXT connection, false if disconnected
         bool NXT2Connection;                ///<boolean for NXT2 connection, false if disconnected
+        bool MagnetResult;                ///<boolean for storing if the magnet could grab the ball
 
         byte[] NXTMessage;      ///<buffer where the next message for the NXT to be sent will be placed
         byte[] NXT2Message;     ///<buffer where the next message for the NXT2 to be sent will be placed
@@ -67,7 +68,7 @@ namespace A.I.NXT
             {
                 byte[] _NXTMessage;
                 Byte[] MessageLength = { 0x00, 0x00 };
-                lock (this)
+                lock (new Object())
                 {
                     if (NXTMessage.Length != 0)
                     {
@@ -99,7 +100,7 @@ namespace A.I.NXT
             {
                 byte[] _NXTMessage;
                 Byte[] MessageLength = { 0x00, 0x00 };
-                lock (this)
+                lock (new Object())
                 {
                     if (NXT2Message.Length != 0)
                     {
@@ -141,10 +142,21 @@ namespace A.I.NXT
                         //UI.NXTTextbox = "Executing command..."
                     }
 
+                    if (CurrByte == 0xFB)
+                    {
+                        lock (new Object())
+                        {
+                            MagnetResult = false;
+                            //UI.NXTTextbox = "Ready."
+                            NXTReady = true;
+                        }
+                    }
+
                     if (CurrByte == 0xFA)
                     {
-                        lock (this)
+                        lock (new Object())
                         {
+                            MagnetResult = true;
                             //UI.NXTTextbox = "Ready."
                             NXTReady = true;
                         }
@@ -175,7 +187,7 @@ namespace A.I.NXT
                     }
                     if (CurrByte == 0xFA)
                     {
-                        lock (this)
+                        lock (new Object())
                         {
                             //UI.NXT2Textbox = "Ready."
                             NXT2Ready = true;
@@ -340,16 +352,15 @@ namespace A.I.NXT
         /// with the parameter set to false,
         /// it'll lift the magnet back to the tube
         /// </summary>
+        ///<returns>True if the ball was caught, false otherwise.</returns>
         /// <param name="TurnMagnetTo">The parameter for the magnet</param>
-        public void MagnetControl(bool TurnMagnetTo)
+        public bool MagnetControl()
         {
 
-            byte[] NXT1MagnetMsg = new byte[] { 0x30, 0x30, 0x30, 0x30, 0x30, 0x30, 0x30, 0x30, 0x30, 0x30, 0x30, 0x30, 0x30, 0x30, 0x37, 0x35, 0x30 };
+            byte[] NXT1MagnetMsg = new byte[] { 0x30, 0x30, 0x30, 0x30, 0x30, 0x30, 0x30, 0x30, 0x30, 0x30, 0x30, 0x30, 0x30, 0x30, 0x30, 0x31, 0x30 };
             byte[] NXT2MagnetMsg = new byte[] { 0x30, 0x30, 0x30, 0x30, 0x30, 0x30, 0x30, 0x30, 0x30, 0x30, 0x30, 0x30, 0x30, 0x30, 0x30, 0x30, 0x30 };
-            if (TurnMagnetTo == true)
-            {
-                SendMessage(NXT1MagnetMsg, NXT2MagnetMsg);
-            }
+            SendMessage(NXT1MagnetMsg, NXT2MagnetMsg);
+            return MagnetResult;
         }
 
         /// <summary>
@@ -362,7 +373,7 @@ namespace A.I.NXT
             NXT2Ready = false;
             NXTReady = false;
 
-            lock (this)
+            lock (new Object())
             {
 
                 byte datalength = Convert.ToByte(NXT1Msg.Length + 1);
@@ -394,7 +405,7 @@ namespace A.I.NXT
         /// </summary>
         public void DisConnect()
         {
-            lock (this)
+            lock (new Object())
             {
                 NXTConnection = false;
                 NXT2Connection = false;
@@ -403,6 +414,30 @@ namespace A.I.NXT
             BluetoothConnection2.DataReceived += null;
             BluetoothConnection.Close();
             BluetoothConnection2.Close();
+        }
+
+        /// <summary>
+        /// Abort function for emergency case.
+        /// </summary>
+        void Abort()
+        {
+
+            while (NXTConnection)
+            {
+                byte[] _NXTMessage= new byte[] { 0x00, 0x09, 0x03, 0x02, 0x01, 0X00 };
+                Byte[] MessageLength = { 0x00, 0x00 };
+                lock (new Object())
+                {
+                    NXTConnection = false;
+                    NXT2Connection = false;
+                }
+                MessageLength[0] = (byte)_NXTMessage.Length;
+                BluetoothConnection.Write(MessageLength, 0, MessageLength.Length);
+                BluetoothConnection.Write(_NXTMessage, 0, _NXTMessage.Length);
+                BluetoothConnection2.Write(MessageLength, 0, MessageLength.Length);
+                BluetoothConnection2.Write(_NXTMessage, 0, _NXTMessage.Length);
+                DisConnect();
+            }
         }
 
     }
