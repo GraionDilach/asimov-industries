@@ -14,14 +14,12 @@ namespace A.I.NXT
 
     public partial class UserInterface : Form
     {
+        Thread szal;
 
 
-
-
+        double [] drawArray=new double [18];
         PictureBox[] picturbox = new PictureBox[5]; //pictureBox for balls
         double[,] cordinatsArray = new double[5, 2];
-        bool connection = false;
-        int disposepointer = 0;
         FunctionControl functionControl = new FunctionControl();
 
 
@@ -29,35 +27,33 @@ namespace A.I.NXT
         {
             InitializeComponent();
         }
-        private void UserInterface_Load(object sender, EventArgs e)
-        {
-
-
-
-
-
-
-
-        }
-
-
-
         private void Start_Button_Click(object sender, EventArgs e)
         {
 
 
+            szal = new Thread(functionControl.Start);
+            szal.Start();
 
-            functionControl.Start();
 
-
-
+          
 
             int corX = 0;
             int corY = 0;
+            for (int i = 3; i < drawArray.Length; i++)
+            {
+                int k = 0;
+                for (int j = 0; j < 2; j++)
+                {
+                    cordinatsArray[k, j] = drawArray[i];
+                    i++;
 
-       
+                }
+                i++;
+                k++;
+            }
 
-           
+
+
 
             //pictureboxes for a balls in the map
             for (int i = 0; i < 5; i++)
@@ -99,10 +95,19 @@ namespace A.I.NXT
 
         }
 
-        private void buttonConnection_Click(object sender, EventArgs e)
+      
+
+        private void Abort_Button_Click(object sender, EventArgs e)
         {
+            Application.Exit();
+            //functionControl = null;
 
+            //GC.Collect();
+            //GC.WaitForPendingFinalizers();
+        }
 
+        private void buttonConnection_Click_1(object sender, EventArgs e)
+        {
 
             if (functionControl.connection() == true)
             {
@@ -112,21 +117,6 @@ namespace A.I.NXT
                 this.gyuszkoBox2.Text = "connected";
             }
             else { this.gyuszkoBox2.Text = "can't connect"; }
-
-
-
-
-
-
-        }
-
-        private void Abort_Button_Click(object sender, EventArgs e)
-        {
-
-            functionControl = null;
-
-            GC.Collect();
-            GC.WaitForPendingFinalizers();
         }
     }
 }

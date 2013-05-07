@@ -65,13 +65,13 @@
             // 
             // buttonConnection
             // 
-            this.buttonConnection.Location = new System.Drawing.Point(254, 285);
+            this.buttonConnection.Location = new System.Drawing.Point(253, 307);
             this.buttonConnection.Name = "buttonConnection";
             this.buttonConnection.Size = new System.Drawing.Size(75, 23);
             this.buttonConnection.TabIndex = 15;
             this.buttonConnection.Text = "connection";
             this.buttonConnection.UseVisualStyleBackColor = true;
-            this.buttonConnection.Click += new System.EventHandler(this.buttonConnection_Click);
+            this.buttonConnection.Click += new System.EventHandler(this.buttonConnection_Click_1);
             // 
             // labelMap
             // 
@@ -91,7 +91,7 @@
             // 
             // gyuszkoBox1
             // 
-            this.gyuszkoBox1.Location = new System.Drawing.Point(83, 263);
+            this.gyuszkoBox1.Location = new System.Drawing.Point(82, 285);
             this.gyuszkoBox1.Name = "gyuszkoBox1";
             this.gyuszkoBox1.Size = new System.Drawing.Size(100, 20);
             this.gyuszkoBox1.TabIndex = 19;
@@ -108,10 +108,9 @@
             // 
             // Start_Button
             // 
-            this.Start_Button.Enabled = false;
-            this.Start_Button.Location = new System.Drawing.Point(254, 331);
+            this.Start_Button.Location = new System.Drawing.Point(254, 351);
             this.Start_Button.Name = "Start_Button";
-            this.Start_Button.Size = new System.Drawing.Size(74, 47);
+            this.Start_Button.Size = new System.Drawing.Size(74, 31);
             this.Start_Button.TabIndex = 10;
             this.Start_Button.Text = "Start";
             this.Start_Button.UseVisualStyleBackColor = true;
@@ -143,7 +142,6 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "UserInterface";
             this.Text = "Form1";
-            this.Load += new System.EventHandler(this.UserInterface_Load);
             ((System.ComponentModel.ISupportInitialize)(this.picConGreen)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picConRed)).EndInit();
             this.ResumeLayout(false);
