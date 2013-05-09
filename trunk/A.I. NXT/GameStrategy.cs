@@ -7,10 +7,10 @@ namespace A.I.NXT
 {
     class GameStrategy
     {
-        double max_length_coordinate_x = 246.8;
-        double max_length_coordinate_y = 120.5;
-        double coordinate_x = 116.9;///<coordinat_x is distance between robot and side of the field,robot is int the midst of the area
-        double coordinate_y = 53.25;///<coodinate_y is distance between front of the robot and front of the field
+        double max_length_coordinate_x = 228;//246.8
+        double max_length_coordinate_y = 117;//120.5
+        double coordinate_x = 107.5;//116.9///<coordinat_x is distance between robot and side of the field,robot is int the midst of the area
+        double coordinate_y = 51;//53.25///<coodinate_y is distance between front of the robot and front of the field
         //double coordinate_z = 40;///<coordinate_z is height from top of the robot to base
         double coordinate_zz = 70;///<coordinate_zz distance between top of  the robot and field(120cm)
         double diagonal_square;///<diagonal_square is sum square of coordinates_x and coordinates_y
@@ -23,7 +23,7 @@ namespace A.I.NXT
         int k = 0; int i = 0;///<pointers
         int[] output_to_nxtcontrol = new int[4];///<amount of rotations for the next move
         double[] difference = new double[4];///<difference between current and previous status of cords
-        double[] M_count = new double[] { 52, 52, 52, 52 };///<actual count of rotation
+        double[] M_count = new double[] { 31, 31, 31, 31 };///<actual count of rotation
         //bool init_rev;
 
         public GameStrategy() { }
